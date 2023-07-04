@@ -101,7 +101,7 @@ Techniques de protection contre les logiciels malveillants :
 | - E. | [ Contrôle des accès.](#balise_014) |
 | - F. | [ Sauvegarde et chiffrement des données.](#balise_015) |
 
-Le premier moyen de défense, et le plus efficace, est de ne pas être infecté.Si les logiciels antivirus ou anti-logiciels malveillants s'avèrent utiles, il existe d'autres stratégies à adopter dès aujourd'hui pour améliorer votre résilience.
+Le premier moyen de défense, et le plus efficace, est de ne pas être infecté. Si les logiciels antivirus ou anti-logiciels malveillants s'avèrent utiles, il existe d'autres stratégies à adopter dès aujourd'hui pour améliorer votre résilience.
 
 <a name="balise_010"></a>
 - A. Diminution de la surface d'attaque.
