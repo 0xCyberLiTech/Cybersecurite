@@ -171,6 +171,68 @@ Constituez une équipe dédiée de gestion des vulnérabilités. Les entreprises
 
 Utilisez des solutions de gestion des vulnérabilités pour prioriser l’application des correctifs. Toutes les solutions de gestion des vulnérabilités ne se valent pas. Lors de l’élaboration de règles d’application des correctifs, il est important de tenir compte de la solution de gestion des vulnérabilités utilisée par l’entreprise pour prendre des décisions mieux informées quant à la meilleure façon de corriger les vulnérabilités. De telles solutions doivent offrir une protection optimale contre les vulnérabilités (grâce notamment à une analyse réseau continue) et inclure des fonctionnalités de priorisation des correctifs à appliquer. Ces fonctionnalités peuvent contribuer à réduire de manière significative le délai de correction, en particulier pour les vulnérabilités critiques et prioritaires.
 
+Quels sont les outils de gestion des correctifs les plus performants ?
+Ces dernières années, de nombreuses solutions de gestion des vulnérabilités ont été renforcées et intègrent désormais un processus de gestion des correctifs. Comme il existe également des outils dédiés de gestion des correctifs, il convient de mettre en balance les avantages de l’utilisation d’outils distincts de gestion des correctifs par rapport à une solution de gestion des vulnérabilités plus générale. Dans tous les cas, la solution choisie doit permettre à l’entreprise de mettre en place un processus récurrent et régulier de surveillance des vulnérabilités et d’application des correctifs.
+
+L’utilisation d’un outil de gestion des vulnérabilités et des correctifs se traduit souvent par des économies de coûts pour l’entreprise, que ce soit directement, en raison du gain de temps et d’énergie pour l’équipe informatique, ou indirectement, du fait de la réduction du risque de compromission et des temps d’arrêt induite par la correction des systèmes et applications.
+
+Diverses solutions de gestion des vulnérabilités et des correctifs disponibles sur le marché contribuent à l’automatisation du processus d’identification et de correction des vulnérabilités. Pour trouver la solution la mieux adaptée à vos activités, il est essentiel de déterminer les besoins de votre entreprise en collaboration avec votre partenaire de cybersécurité et d’évaluer la capacité de chaque solution à les satisfaire. Les questions suivantes vous aideront à mettre en lumière les fonctionnalités effectivement offertes par les différentes solutions de gestion des vulnérabilités et des correctifs :
+
+
+
+
+
+Compatibilité :
+
+ - La solution de gestion des vulnérabilités et des correctifs est-elle compatible avec différents systèmes d’exploitation, tels que 
+   Windows et Linux, ainsi qu’avec des plateformes tierces comme Amazon Web Services ?
+ - La solution prend-elle en charge à la fois les ressources cloud et les réseaux traditionnels sur site ?
+ - La solution s’intègre-t-elle avec les outils de sécurité actuellement utilisés par l’entreprise ?
+
+Surveillance et évaluation :
+
+ - La solution de gestion des vulnérabilités et des correctifs analyse-t-elle le réseau en continu pour identifier les vulnérabilités dans 
+   l’ensemble des applications logicielles et des systèmes d’exploitation ?
+ - La solution contextualise-t-elle les exigences en matière d’application de correctifs en formulant des recommandations pour prioriser 
+   les efforts ou déterminer le degré d’urgence des principales mises à jour ?
+
+Test et déploiement :
+ - La solution est-elle en mesure de télécharger automatiquement les correctifs depuis les sites des différents éditeurs ?
+ - L’outil de gestion des vulnérabilités et des correctifs est-il doté d’une puissante fonctionnalité de test ?
+ - La solution peut-elle déployer des correctifs en urgence ? Peut-elle être configurée pour déployer automatiquement les correctifs sur
+   l’ensemble des terminaux et des endpoints ?
+
+Production de rapports.
+
+ - Le logiciel de gestion des vulnérabilités et des correctifs informe-t-il régulièrement l’équipe informatique de l’état des 
+   vulnérabilités, de l’état de chaque mise à jour de correctif, y compris des correctifs manquants, ainsi que des échecs ou erreurs de 
+   déploiement ?
+ - La solution peut-elle produire facilement un rapport de synthèse de toutes les vulnérabilités ouvertes et corrigées, ainsi que des 
+   opérations d’application de correctifs, en cas d’audit interne ou à la demande d’un organisme de réglementation ?
+ - La solution s’intègre-t-elle avec les règles d’application des correctifs de l’entreprise et signale-t-elle les violations potentielles ?
+
+Quel avenir pour la gestion des correctifs ?
+
+La migration vers le cloud expose les entreprises à de nouvelles vulnérabilités de sécurité, dont beaucoup sont exploitées activement 
+par des cybercriminels du monde entier. Il est particulièrement important d’atténuer ces menaces au vu du nombre croissant de 
+collaborateurs en télétravail et connectant leurs terminaux personnels aux réseaux de l’entreprise dans le contexte de la pandémie de 
+COVID-19.
+
+Les entreprises peuvent éprouver des difficultés à appliquer les correctifs de manière efficace et rapide en raison des conflits entre services, de l’absence de règles de gestion des correctifs et de la responsabilisation limitée. Heureusement, de nombreux éditeurs de solutions de cybersécurité développent de nouvelles solutions basées sur les risques qui permettent de relever efficacement les défis de l’identification des vulnérabilités et de l’application des correctifs. Si les outils et solutions de gestion des vulnérabilités et des correctifs sont voués à jouer un rôle déterminant dans la stratégie d’application des correctifs de l’entreprise, leur efficacité dépendra également de la mise en place de règles et de procédures sous-jacentes pour garantir que les priorités en matière d’application des correctifs sont respectées et identifier les responsables de cette activité.
+
+Selon toute vraisemblance, l’avenir de la gestion des correctifs sera :
+
+Selon toute vraisemblance, l’avenir de la gestion des correctifs sera :
+
+ - Intégré : il est probable que les solutions isolées uniquement dédiées à la recherche des vulnérabilités ou à la mise à jour des 
+   correctifs seront regroupées dans des solutions complètes
+ - Automatisé : la gestion des correctifs s’appuiera sur l’automatisation pour accélérer les tâches routinières et récurrentes tout au long 
+   du processus d’application des correctifs.
+ - Responsable : pour être efficace, une stratégie d’application des correctifs doit s’appuyer sur des règles claires et identifier les 
+   collaborateurs de l’entreprise responsables de la supervision des activités et des décisions connexes.
+ - Collaboratif : une gestion fructueuse des correctifs requiert la collaboration de la direction et des équipes informatiques et de 
+   sécurité des informations afin d’élaborer un plan d’action raisonnable et efficace.
+
 Source : https://www.crowdstrike.fr/cybersecurity-101/patch-management/
 
 <a name="balise_014"></a>
