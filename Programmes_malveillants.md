@@ -92,8 +92,8 @@ Ces virus semblent aujourd'hui bien désuets face aux logiciels malveillants mod
 
 Techniques de protection contre les logiciels malveillants :
 
-| Cat | Etapes |
-|------|------|
+| Cat  | Etapes |
+|------|--------|
 | - A. | [ Diminution de la surface d'attaque.](#balise_010) |
 | - B. | [ Sensibilisation des utilisateurs.](#balise_011) |
 | - C. | [ Détection.](#balise_012) |
