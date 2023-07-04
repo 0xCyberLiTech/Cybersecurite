@@ -1,5 +1,4 @@
 <a name="balise_00"></a>
-![Apache_logo](./images/Cybersécurité_logo.jpg)
 
 # - A. Cybersécurité sommaire
 
