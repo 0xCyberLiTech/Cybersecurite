@@ -94,7 +94,7 @@ Techniques de protection contre les logiciels malveillants :
 
 | Cat | Etapes |
 |------|------|
-| - A. | [ Diminution de la surface d'attaque.](balise_010.md) |
+| - A. | [ Diminution de la surface d'attaque.](balise_010) |
 | - B. | [ Sensibilisation des utilisateurs.](balise_011) |
 | - C. | [ Détection.](balise_012) |
 | - D. | [ Gestion des correctifs.](balise_013) |
