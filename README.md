@@ -6,7 +6,7 @@
 | Cat | Etapes |
 |------|------|
 | - A. | [Programmes malveillants ?](Programmes_malveillants.md) |
-| - B. | [Techniques de protection contre les logiciels malveillants :](#balise_02) |
+| - B. | [Techniques de protection contre les logiciels malveillants :](#Techniques_de_protection_contre_les_logiciels_malveillants.md) |
 | - C. | [.](#balise_03) |
 | - D. | [.](#balise_02) |
 | - E. | [.](#balise_03) |
