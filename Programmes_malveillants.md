@@ -144,6 +144,44 @@ En fin de compte, les entreprises peuvent utiliser l’analyse de la surface d�
 
 Les utilisateurs doivent apprendre à se méfier des pièces jointes et des liens inclus dans les e-mails, même s'ils semblent fiables. Ils doivent également apprendre comment des menaces internes peuvent causer des attaques de logiciels malveillants.
 
+Sensibiliser les utilisateurs (aussi bien internes qu’externes à l’organisme) travaillant avec des données personnelles aux risques liés aux libertés et à la vie privée des personnes, les informer des mesures prises pour traiter ces risques et des conséquences potentielles en cas de manquement. Concrètement, il peut s’agir d’organiser une séance de sensibilisation, d’envoyer régulièrement les mises à jour des procédures pertinentes pour les personnes selon leurs fonctions, de faire des rappels par messagerie électronique, etc.
+
+Documenter les procédures d’exploitation, les tenir à jour et les rendre disponibles à tous les utilisateurs concernés. Concrètement, toute action sur un traitement de données personnelles, qu’il s’agisse d’une opération d’administration ou de la simple utilisation d’une application, doit être expliquée dans un langage clair et adapté à chaque catégorie d’utilisateurs, dans des documents auxquels ces derniers peuvent se référer.
+
+Rédiger une charte informatique et lui donner une force contraignante (ex. : annexion au règlement intérieur). Cette charte devrait au moins comporter les éléments suivants :
+
+Le rappel des règles de protection des données et les sanctions encourues en cas de non respect de celles-ci.
+
+Le champ d’application de la charte, qui inclut notamment :
+
+les modalités d’intervention des équipes chargées de la gestion des ressources informatiques de l’organisme ;
+les moyens d’authentification utilisés par l’organisme et la politique de mots de passe que l’utilisateur doit respecter ;
+les règles de sécurité auxquelles les utilisateurs doivent se conformer, ce qui doit inclure notamment de :
+signaler au service informatique interne toute violation ou tentative de violation suspectée de son compte informatique, toute perte ou vol de matériel et, de manière générale, tout dysfonctionnement ;
+ne jamais confier son identifiant/mot de passe à un tiers ;
+ne pas installer, copier, modifier, détruire des logiciels et leur paramétrage sans autorisation ;
+verrouiller son ordinateur dès que l’on quitte son poste de travail ;
+ne pas accéder, tenter d’accéder, ou supprimer des informations si cela ne relève pas des tâches incombant à l’utilisateur ;
+respecter les procédures préalablement définies par l’organisme afin d’encadrer les opérations de copie de données sur des supports amovibles, notamment en obtenant l’accord préalable du supérieur hiérarchique et en respectant les règles de sécurité.
+Les modalités d’utilisation des moyens informatiques et de télécommunications mis à disposition comme :
+
+le poste de travail ;
+les équipements nomades (notamment dans le cadre du télétravail) ;
+les espaces de stockage individuel ;
+les réseaux locaux ;
+les conditions d’utilisation des dispositifs personnels ;
+l’accès à Internet ;
+la messagerie électronique ;
+la téléphonie.
+Les conditions d’administration du système d’information, et l’existence, le cas échéant, de :
+
+systèmes automatiques de filtrage ;
+systèmes automatiques de traçabilité ;
+systèmes de gestion du poste de travail.
+Les responsabilités et sanctions encourues en cas de non respect de la charte.
+
+https://www.cnil.fr/fr/securite-informatique-sensibiliser-les-utilisateurs
+
 <a name="balise_012"></a>
 ## - C. Détection.
 
