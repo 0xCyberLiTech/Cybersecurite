@@ -104,7 +104,7 @@ Techniques de protection contre les logiciels malveillants :
 | - F. | [ Sauvegarde et chiffrement des données.](#balise_015) |
 
 <a name="balise_010"></a>
-- A. Diminution de la surface d'attaque.
+## - A. Diminution de la surface d'attaque.
 
 Limitez le nombre de systèmes, d'applications et de ports exposés à Internet.
 
@@ -140,27 +140,27 @@ La gestion de la surface d’attaque des applications logicielles vise à identi
 En fin de compte, les entreprises peuvent utiliser l’analyse de la surface d’attaque pour implémenter ce que l’on appelle communément la sécurité Zero Trust au moyen de concepts clés tels que la segmentation du réseau et d’autres stratégies similaires.
 
 <a name="balise_011"></a>
-- B. Sensibilisation des utilisateurs.
+## - B. Sensibilisation des utilisateurs.
 
 Les utilisateurs doivent apprendre à se méfier des pièces jointes et des liens inclus dans les e-mails, même s'ils semblent fiables. Ils doivent également apprendre comment des menaces internes peuvent causer des attaques de logiciels malveillants.
 
 <a name="balise_012"></a>
-- C. Détection.
+## - C. Détection.
 
 Plus tôt vous détectez l'intrusion d'un logiciel malveillant, plus vite vous pouvez réparer le système infecté. N'oubliez pas que certains logiciels malveillants sont indécelables.Pensez à mettre à jour régulièrement les signatures de détection des antivirus ou des anti-logiciels malveillants, ainsi qu'à appliquer plusieurs mesures de détection adaptées.
 
 <a name="balise_013"></a>
-- D. Gestion des correctifs.
+## - D. Gestion des correctifs.
 
 Les programmes de maintenance logicielle essaient de corriger les failles de sécurité le plus tôt possible. En utilisant les dernières versions des logiciels, vous réduisez les risques d'infection par un logiciel malveillant. La gestion des correctifs consiste à s'assurer que les correctifs de sécurité sont appliqués dans les meilleurs délais à l'ensemble des systèmes de l'entreprise. Aussi, vérifiez régulièrement si des mises à jour sont disponibles et appliquez-les afin de vous prémunir contre les exploits connus.
 
 <a name="balise_014"></a>
-- E. Contrôle des accès.
+## - E. Contrôle des accès.
 
 Les commandes d'administration doivent être réservées aux applications approuvées et aux utilisateurs qui en ont réellement besoin. En cas d'attaque, le logiciel malveillant aura plus de difficultés à infecter les fonctions principales de votre système. Vérifiez fréquemment les commandes d'administration.
 
 <a name="balise_015"></a>
-- F. Sauvegarde et chiffrement des données.
+## - F. Sauvegarde et chiffrement des données.
 
 Un système de protection efficace des données peut radicalement changer la donne en cas d'attaque de logiciel malveillant. Dans le pire des cas, vous pourrez basculer vers une sauvegarde saine effectuée avant l'infection. Cela suppose d'isoler les sauvegardes pour éviter qu'elles ne soient endommagées ou écrasées. Vous pouvez aussi chiffrer les données afin de les rendre inexploitables en cas de vol. Pour cela, vous devrez peut-être combiner plusieurs stratégies selon la taille et la complexité de votre entreprise. Dans les structures de grande taille, le déploiement d'une solution de stockage logiciel dans un environnement de cloud hybride offre un large choix d'options pour la sauvegarde et le chiffrement des données.
 
