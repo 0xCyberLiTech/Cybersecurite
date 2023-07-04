@@ -90,6 +90,8 @@ Le développeur ou l'opérateur d'un logiciel malveillant a parfois pour objecti
 
 Ces virus semblent aujourd'hui bien désuets face aux logiciels malveillants modernes. Prenons l'exemple de Stuxnet. En 2010, la communauté des spécialistes de la sécurité a découvert un ver très déroutant et d'une extrême complexité, conçu pour pirater des équipements industriels bien spécifiques. De nombreux experts de la sécurité sont aujourd'hui convaincus que Stuxnet a été créé par les gouvernements américains et israéliens afin de saboter les programmes d'armement nucléaire de l'Iran (bien qu'aucun gouvernement ne l'ait jamais officiellement admis). Si l'information était avérée, ce virus constituerait une nouvelle forme de logiciel malveillant, à savoir une cyberattaque commanditée par un État.
 
+Le premier moyen de défense, et le plus efficace, est de ne pas être infecté. Si les logiciels antivirus ou anti-logiciels malveillants s'avèrent utiles, il existe d'autres stratégies à adopter dès aujourd'hui pour améliorer votre résilience.
+
 Techniques de protection contre les logiciels malveillants :
 
 | Cat  | Etapes |
@@ -101,12 +103,41 @@ Techniques de protection contre les logiciels malveillants :
 | - E. | [ Contrôle des accès.](#balise_014) |
 | - F. | [ Sauvegarde et chiffrement des données.](#balise_015) |
 
-Le premier moyen de défense, et le plus efficace, est de ne pas être infecté. Si les logiciels antivirus ou anti-logiciels malveillants s'avèrent utiles, il existe d'autres stratégies à adopter dès aujourd'hui pour améliorer votre résilience.
-
 <a name="balise_010"></a>
 - A. Diminution de la surface d'attaque.
 
 Limitez le nombre de systèmes, d'applications et de ports exposés à Internet.
+
+QU'EST-CE QUE LA SURFACE D'ATTAQUE ?
+
+Les cyberattaques se multiplient, en particulier au sein des petites et moyennes entreprises, puisque selon un rapport, 70 % des petites entreprises ont essuyé une attaque.
+
+De nombreuses petites et moyennes entreprises ne sont pas préparées à faire face à la prolifération des menaces de sécurité. En fait, 45 % de ces entreprises déclarent ne pas disposer de mesures de sécurité suffisantes pour empêcher ces cyberattaques. Cet article se penche sur une des vulnérabilités potentielles : la surface d’attaque des applications logicielles.
+
+Les petites et moyennes entreprises peuvent mapper leurs faiblesses potentielles et implémenter un programme de gestion de la surface d’attaque pour réduire leur vulnérabilité et améliorer leur cybersécurité. Au final, l’application d’un plan de gestion de la surface d’attaque protège les données sensibles des clients ainsi que d’autres ressources précieuses contre les cyberattaques.
+
+Surface d’attaque d’une application logicielle.
+
+La surface d’attaque désigne l’ensemble des expositions potentielles à des risques de sécurité au sein de l’environnement logiciel d’une entreprise. En d’autres termes, il s’agit de l’ensemble des vulnérabilités potentielles (connues et inconnues) et des contrôles au niveau des tous les composants matériels, logiciels et réseau.
+
+On distingue trois types de surfaces d’attaque de base :
+
+1 - Surface d’attaque numérique : la surface d’attaque numérique englobe l’intégralité de l’environnement réseau et logiciel d’une entreprise. Elle inclut les applications, le code, les ports ainsi que les autres points d’entrée et de sortie.
+
+2 - Surface d’attaque physique : la surface d’attaque physique d’une entreprise couvre tous les endpoints d’une entreprise : ordinateurs de bureau, ordinateurs portables, terminaux mobiles et ports USB.
+
+3 - Surface d’attaque d’ingénierie sociale : les attaques d’ingénierie sociale exploitent les vulnérabilités liées au comportement des utilisateurs. Les types d’attaques les plus courants dont sont victimes les entreprises incluent le harponnage (« spear phishing »), le pretexting et d’autres techniques de manipulation visant à amener les utilisateurs à donner accès à leurs données sensibles.
+Parmi toutes les vulnérabilités potentielles auxquelles les entreprises devraient être sensibilisées, nous examinons ici la surface d’attaque des applications logicielles, c’est-à-dire toutes les fonctions possibles d’un code au sein d’un environnement logiciel auxquelles un utilisateur non authentifié ou un logiciel malveillant peut accéder.
+
+- Identification de la surface d’attaque d’une application.
+
+Pour identifier la surface d’attaque d’une application logicielle, il convient de mapper toutes les fonctions à examiner et à tester à la recherche de vulnérabilités. Cela veut dire que tous les points d’entrée et de sortie du code source de l’application doivent être examinés. Plus la surface d’attaque d’une application logicielle est grande, plus il sera facile pour le cyberattaquant ou le logiciel malveillant d’accéder au code et de l’exécuter sur une machine cible.
+
+- Gestion de la surface d’attaque.
+
+La gestion de la surface d’attaque des applications logicielles vise à identifier les faiblesses d’un système et à réduire le nombre de vulnérabilités exploitables. L’analyse de la surface d’attaque a pour but d’exposer aux développeurs et aux experts en sécurité l’ensemble des zones de risque d’une application. La sensibilisation constitue la première étape sur la voie de l’identification de solutions pour atténuer les risques.
+
+En fin de compte, les entreprises peuvent utiliser l’analyse de la surface d’attaque pour implémenter ce que l’on appelle communément la sécurité Zero Trust au moyen de concepts clés tels que la segmentation du réseau et d’autres stratégies similaires.
 
 <a name="balise_011"></a>
 - B. Sensibilisation des utilisateurs.
