@@ -94,12 +94,12 @@ Techniques de protection contre les logiciels malveillants :
 
 | Cat | Etapes |
 |------|------|
-| - A. | [ Diminution de la surface d'attaque.](balise_010) |
-| - B. | [ Sensibilisation des utilisateurs.](balise_011) |
-| - C. | [ Détection.](balise_012) |
-| - D. | [ Gestion des correctifs.](balise_013) |
-| - E. | [ Contrôle des accès.](balise_014) |
-| - F. | [ Sauvegarde et chiffrement des données.](balise_015) |
+| - A. | [ Diminution de la surface d'attaque.](#balise_010) |
+| - B. | [ Sensibilisation des utilisateurs.](#balise_011) |
+| - C. | [ Détection.](#balise_012) |
+| - D. | [ Gestion des correctifs.](#balise_013) |
+| - E. | [ Contrôle des accès.](#balise_014) |
+| - F. | [ Sauvegarde et chiffrement des données.](#balise_015) |
 
 Le premier moyen de défense, et le plus efficace, est de ne pas être infecté. Si les logiciels antivirus ou anti-logiciels malveillants s'avèrent utiles, il existe d'autres stratégies à adopter dès aujourd'hui pour améliorer votre résilience.
 
