@@ -5,8 +5,8 @@
 
 | Cat | Etapes |
 |------|------|
-| - A. | [Programmes malveillants ?](Programmes_malveillants.md) |    https://www.crowdstrike.fr/cybersecurity-101/cyber-kill-chain/
-| - B. | [.](#balise_02) |
+| - A. | [Programmes malveillants ?](Programmes_malveillants.md) |
+| - B. | [Techniques de protection contre les logiciels malveillants :](#balise_02) |
 | - C. | [.](#balise_03) |
 | - D. | [.](#balise_02) |
 | - E. | [.](#balise_03) |
