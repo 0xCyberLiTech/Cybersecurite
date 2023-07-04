@@ -1,3 +1,4 @@
+<a name="balise_01"></a>
 # La kill chain c'est quoi ?
 
 Le principe de kill chain (chaîne de frappe) désigne dans le domaine de la sécurité des systèmes d'information une méthode de modélisation des procédés d'intrusion sur un réseau informatique1.
