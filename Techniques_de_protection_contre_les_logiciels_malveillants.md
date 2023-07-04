@@ -103,6 +103,76 @@ Plus tôt vous détectez l'intrusion d'un logiciel malveillant, plus vite vous p
 
 Les programmes de maintenance logicielle essaient de corriger les failles de sécurité le plus tôt possible. En utilisant les dernières versions des logiciels, vous réduisez les risques d'infection par un logiciel malveillant. La gestion des correctifs consiste à s'assurer que les correctifs de sécurité sont appliqués dans les meilleurs délais à l'ensemble des systèmes de l'entreprise. Aussi, vérifiez régulièrement si des mises à jour sont disponibles et appliquez-les afin de vous prémunir contre les exploits connus.
 
+QU'EST-CE QUE LA GESTION DES CORRECTIFS ?
+
+La gestion des correctifs consiste à identifier et à déployer des mises à jour logicielles, également appelées « correctifs » ou « patchs », sur différents endpoints, notamment des ordinateurs, des terminaux mobiles et des serveurs.
+
+Les correctifs sont généralement distribués par les développeurs de logiciels pour corriger des vulnérabilités de sécurité ou des problèmes techniques connus. Ils permettent également d’ajouter de nouvelles fonctionnalités et fonctions à l’application. Ces solutions à court terme sont destinées à être utilisées jusqu’à la publication de la version suivante du logiciel.
+
+Le processus de gestion des correctifs peut être pris en charge par l’équipe informatique, un outil automatisé ou une combinaison des deux. Pour être efficace, le processus de gestion des correctifs doit comprendre les étapes suivantes :
+
+- Examen des correctifs de sécurité distribués.
+
+Priorisation des correctifs à appliquer en fonction de la gravité de la vulnérabilité.
+
+Test de la compatibilité des correctifs et installation sur tous les endpoints concernés.
+
+Une stratégie précise et efficace de gestion des correctifs est indispensable pour assurer la sécurité du réseau, car ces correctifs sont conçus pour remédier à des vulnérabilités connues. Le risque associé à l’utilisation d’un logiciel obsolète sera encore plus grand si les cyberadversaires sont en mesure d’identifier et d’exploiter plus facilement les failles des systèmes.
+
+Pourquoi faut-il assurer la gestion des correctifs ?
+
+La gestion des correctifs est un élément incontournable de la stratégie de gestion des vulnérabilités d’une entreprise en vue d’assurer sa cybersécurité. Les applications logicielles et les systèmes d’exploitation non corrigés sont l’une des principales causes de compromission de la sécurité à l’heure actuelle. Un processus de gestion des correctifs rapide et précis, associé à des outils et processus de surveillance, de détection et de correction, permet de réduire le risque de tels incidents.
+
+Ces dernières années, la migration vers le cloud ainsi que la montée en puissance du télétravail et de l’utilisation de terminaux personnels au travail ont rendu l’élaboration de règles plus strictes en matière de gestion des correctifs plus indispensable que jamais. Un processus moderne de gestion des correctifs doit protéger tous les endpoints qui se connectent au réseau, quel que soit leur propriétaire ou leur emplacement.
+
+En plus de renforcer la cybersécurité, les correctifs aident les entreprises à améliorer leurs performances globales en minimisant les temps d’arrêt dus aux logiciels obsolètes ou non pris en charge. Dans certains cas, les correctifs offrent de nouveaux avantages et ajoutent des fonctionnalités qui renforcent l’efficacité opérationnelle.
+
+Il est par ailleurs important de noter que, dans bien des cas, la gestion des correctifs est rendue obligatoire par les instances sectorielles ou gouvernementales ou autres organes de réglementation. Le non-respect de cette obligation peut donner lieu à des amendes, des sanctions et autres pénalités.
+
+Problèmes courants liés à la gestion des correctifs.
+
+Il peut sembler naturel d’appliquer des correctifs pour assurer la sécurité et la protection des activités et des ressources d’une entreprise. Pourtant, le nombre de cyberattaques dues à des systèmes non corrigés ne cesse d’augmenter, ce qui signifie que de nombreuses entreprises ne disposent pas encore d’un processus efficace de gestion des correctifs permettant de déployer rapidement et efficacement les mises à jour.
+
+L’incapacité d’une entreprise à déployer des correctifs peut avoir plusieurs causes, notamment :
+
+L’absence de collaboration entre l’équipe de cybersécurité et l’équipe informatique.
+
+Les correctifs sont généralement distribués par les éditeurs de logiciels pour corriger des vulnérabilités de sécurité connues. Ils figurent donc en haut de la liste des priorités de l’équipe de sécurité informatique. En revanche, les tests et le déploiement de ces correctifs sont généralement dévolus à l’équipe informatique, qui a souvent bien d’autres priorités, de sorte que la correction des vulnérabilités est souvent reléguée au second plan. De nombreuses équipes informatiques privilégient les opérations système à la sécurité et concentrent leurs efforts sur l’amélioration à court terme de la productivité des systèmes plutôt que sur l’identification des éventuels points faibles. Compte tenu des risques croissants que font courir les systèmes mal corrigés, la collaboration entre le service informatique et l’équipe de sécurité des informations doit être renforcée afin d’élaborer une stratégie de gestion des vulnérabilités et des correctifs efficace et rapide.
+
+Des priorités mal définies.
+
+L’équipe de sécurité fournit souvent une longue liste de systèmes à corriger à l’équipe informatique, de sorte que celle-ci peut vite se retrouver submergée. Il est presque impossible pour les entreprises de corriger tous les systèmes. Une collaboration entre les deux équipes est par conséquent nécessaire pour déterminer où concentrer les ressources souvent limitées. Il convient de déterminer les logiciels et systèmes à protéger en priorité, d’évaluer régulièrement les vulnérabilités et de rechercher les mises à jour de correctifs correspondantes. Dans la mesure où les ressources varient d’une entreprise à l’autre, la stratégie d’application de correctifs doit être fonction du type de vulnérabilité, du niveau de risque et des répercussions potentielles sur les activités.
+
+Des règles informelles en matière d’application des correctifs.
+
+De nombreuses entreprises ne disposent pas de règles formelles d’application des correctifs ou de mécanismes d’application permettant de s’assurer que les mises à jour nécessaires ont été effectuées. Comme indiqué plus haut, les équipes informatiques ne disposent pas toujours du temps ou des ressources nécessaires pour appliquer les correctifs de manière régulière. En outre, l’absence de règles formelles n’encourage pas les équipes à accorder l’attention requise à cette tâche, en particulier lorsqu’elles sont également chargées du fonctionnement et de l’intégrité du réseau. Les entreprises doivent implémenter des règles claires et contraignantes en matière d’application des correctifs afin que l’équipe informatique inscrive cette tâche au nombre de ses priorités et assume ses responsabilités en la matière.
+
+En quoi consiste le processus de gestion des correctifs ?
+
+Compte tenu du rôle que joue l’application des correctifs dans la stratégie de cybersécurité globale de l’entreprise, il convient de mettre en place un processus précis et cohérent de correction des systèmes d’exploitation et des applications logicielles.
+
+Dans le même temps, il n’est pas réaliste de confier à une équipe informatique déjà surchargée des tâches aussi fastidieuses que la surveillance manuelle des vulnérabilités, les tests et le déploiement des correctifs. Pour compliquer encore les choses, la migration vers le cloud ainsi que la généralisation du télétravail et de l’utilisation de terminaux personnels au bureau obligent la plupart des entreprises à se doter de solutions automatisées de gestion des vulnérabilités et d’application des correctifs pour accélérer le processus.
+
+L’utilisation de telles solutions peut contribuer à améliorer l’efficacité du processus, à réduire les coûts et à limiter les perturbations des activités. Heureusement, de nombreux éditeurs proposent de nouvelles solutions basées sur les risques qui permettent de relever efficacement les défis de l’application des correctifs.
+
+Bonnes pratiques en matière de gestion des correctifs.
+
+Comment donc améliorer le processus de gestion des vulnérabilités et des correctifs ? Plusieurs solutions très efficaces permettent de relever les défis de la surveillance continue des vulnérabilités et du déploiement des mises à jour de correctifs. Vous trouverez ci-après quelques bonnes pratiques permettant de maintenir une ligne de défense robuste face aux cyberadversaires.
+
+Mesures à prendre.
+
+Mettez en place un cadre d’évaluation des risques. Nombreuses sont les entreprises qui n’ont pas conscience de la menace réelle et persistante que représentent les cybercriminels. Elles n’admettent pas toujours que les vulnérabilités présentes dans certains systèmes ou applications sont autant de possibilités d’exploitation. C’est la raison pour laquelle un cadre d’évaluation des risques (RAF, Risk Assessment Framework) est utile. Il permet en effet aux équipes informatiques d’identifier les vulnérabilités et les correctifs associés, ainsi que de déterminer les systèmes à corriger en priorité. Les équipes informatiques et de sécurité des informations doivent collaborer à l’élaboration d’un modèle d’évaluation des risques qui définit les règles d’application des correctifs et les accords de niveau de service afin de limiter les risques critiques ou majeurs.
+
+Les deux équipes pourront alors établir une liste des priorités qui identifie les systèmes à corriger en priorité et les risques opérationnels éventuels associés à de telles décisions.
+
+Documentez et réévaluez les règles en matière de responsabilité. Lors de l’élaboration d’un modèle de cadre d’évaluation des risques, les responsables informatiques et de sécurité doivent convenir ensemble des critères d’évaluation des vulnérabilités et de la méthode de priorisation des correctifs à appliquer. L’équipe dirigeante doit ensuite examiner et approuver ces plans, ainsi que les éventuelles exceptions, confirmant ainsi que l’entreprise accepte les risques associés. Cette hiérarchie de la gestion des vulnérabilités permet d’établir la responsabilité des équipes et de garantir l’application des correctifs aux systèmes en temps opportun. Un réexamen de ce modèle et des règles connexes aidera les équipes à se tenir informées des nouvelles vulnérabilités et solutions d’application de correctifs.
+
+Constituez une équipe dédiée de gestion des vulnérabilités. Les entreprises qui disposent de suffisamment de ressources doivent envisager de mettre en place une équipe alliant informatique et sécurité dédiée à la gestion des vulnérabilités et des correctifs. Cette équipe serait chargée de l’identification des vulnérabilités et du déploiement rapide des correctifs, au moyen du cadre d’évaluation des risques décrit plus haut. L’un des principaux avantages de cette approche est qu’elle permet aux responsables de la sécurité de produire des mesures pour évaluer l’efficacité du programme et identifier les domaines nécessitant des améliorations ou des investissements supplémentaires.
+
+Utilisez des solutions de gestion des vulnérabilités pour prioriser l’application des correctifs. Toutes les solutions de gestion des vulnérabilités ne se valent pas. Lors de l’élaboration de règles d’application des correctifs, il est important de tenir compte de la solution de gestion des vulnérabilités utilisée par l’entreprise pour prendre des décisions mieux informées quant à la meilleure façon de corriger les vulnérabilités. De telles solutions doivent offrir une protection optimale contre les vulnérabilités (grâce notamment à une analyse réseau continue) et inclure des fonctionnalités de priorisation des correctifs à appliquer. Ces fonctionnalités peuvent contribuer à réduire de manière significative le délai de correction, en particulier pour les vulnérabilités critiques et prioritaires.
+
+Source : https://www.crowdstrike.fr/cybersecurity-101/patch-management/
+
 <a name="balise_014"></a>
 ## - E. Contrôle des accès.
 
