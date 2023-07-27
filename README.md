@@ -9,4 +9,4 @@
 - 03 - [Cryptographie introduction.](CRYPTOGRAPHIE-introduction.md)
 - 04 - [Cryptographie outils.]()
 - 05 - [Antivirus nouvelle génération (EDR / IA).]()
-- 06 - [Comprendre la différence entre EDR, SIEM, SOAR et XDR.]()
+- 06 - [Comprendre la différence entre EPP, EDR, SIEM, SOAR et XDR.](Comprendre-la-différence-entre-EPP-EDR-SIEM-SOAR-et-XDR.md)
