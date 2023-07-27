@@ -1,5 +1,4 @@
-<a name="Programmes_malveillants.md"></a>
-# Programmes malveillants ?
+## Programmes malveillants ?
 
 Un logiciel malveillant (ou malware) désigne un logiciel destiné à nuire à l'utilisateur. 
 Un logiciel malveillant touche non seulement l'ordinateur ou l'appareil qu'il infecte en premier, mais potentiellement aussi tous les appareils avec lesquels celui-ci communique.
@@ -91,6 +90,3 @@ Le développeur ou l'opérateur d'un logiciel malveillant a parfois pour objecti
 Ces virus semblent aujourd'hui bien désuets face aux logiciels malveillants modernes. Prenons l'exemple de Stuxnet. En 2010, la communauté des spécialistes de la sécurité a découvert un ver très déroutant et d'une extrême complexité, conçu pour pirater des équipements industriels bien spécifiques. De nombreux experts de la sécurité sont aujourd'hui convaincus que Stuxnet a été créé par les gouvernements américains et israéliens afin de saboter les programmes d'armement nucléaire de l'Iran (bien qu'aucun gouvernement ne l'ait jamais officiellement admis). Si l'information était avérée, ce virus constituerait une nouvelle forme de logiciel malveillant, à savoir une cyberattaque commanditée par un État.
 
 Le premier moyen de défense, et le plus efficace, est de ne pas être infecté. Si les logiciels antivirus ou anti-logiciels malveillants s'avèrent utiles, il existe d'autres stratégies à adopter dès aujourd'hui pour améliorer votre résilience.
-
-
-
