@@ -1,6 +1,6 @@
 ![Debian_logo-01](./images/Cloud-et-securite.png)
 
-## CYBERSÉCURITÉ / Comprendre la différence entre EDR, SIEM, SOAR et XDR.
+## CYBERSÉCURITÉ / Comprendre la différence entre EPP, EDR, SIEM, SOAR et XDR.
 
 Le monde de la cybersécurité est rempli de jargon, d’abréviations et d’acronymes. À l’heure où les vecteurs d’attaque sophistiqués se multiplient, des terminaux aux réseaux en passant par le cloud, beaucoup d’entreprises se tournent vers une nouvelle approche pour bloquer les menaces avancées. Baptisée Extended Detection and Response, cette innovation donne lieu par la même occasion à un acronyme de plus : XDR. Bien qu’il ait suscité beaucoup d’intérêt cette année auprès des leaders du secteur et de la communauté d’analystes, l’XDR reste un concept en pleine évolution. Il existe de fait une certaine confusion autour du sujet.
 
@@ -11,6 +11,11 @@ Le monde de la cybersécurité est rempli de jargon, d’abréviations et d’ac
 l’EDR et pionnier de la technologie émergente XDR, on nous demande souvent de clarifier ces concepts et la manière dont ils peuvent améliorer les résultats des clients.
 
 Cet article a pour objectif d’apporter des réponses à certaines questions courantes autour de l’XDR et sur ce qui le diffère d’un EDR, d’un SIEM et d’un SOAR.
+
+## Qu’est-ce que l'EPP ?
+
+EPP – Endpoint Protection Plateform : Détection sur les endpoints basés sur des signatures connues
+L’EPP offre peu de plus-value par rapport à l’antivirus. Bien qu’il embarque quelques nouveautés (analyse statique et heuristique, surveillance de mémoire, vérification d’IOCs), cela reste une détection par comparaison. C’est donc une solution facilement contournable par les attaquants. De plus, certaines solutions antivirales modernes proposent les mêmes caractéristiques. L’EDR bien plus moderne offre une meilleure protection, des outils de réponse et d’investigation pour un prix similaire. Il est plus intéressant de privilégier l’utilisation d’un antivirus moderne combiné à un EDR.
 
 ## Qu’est-ce que l’EDR ?
 
