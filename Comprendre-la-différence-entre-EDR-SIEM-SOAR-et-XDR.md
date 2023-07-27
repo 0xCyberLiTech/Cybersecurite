@@ -1,4 +1,6 @@
-# Comprendre la différence entre EDR, SIEM, SOAR et XDR
+![Debian_logo-01](./images/Cloud-et-securite.png)
+
+## CYBERSÉCURITÉ / Comprendre la différence entre EDR, SIEM, SOAR et XDR.
 
 Le monde de la cybersécurité est rempli de jargon, d’abréviations et d’acronymes. À l’heure où les vecteurs d’attaque sophistiqués se multiplient, des terminaux aux réseaux en passant par le cloud, beaucoup d’entreprises se tournent vers une nouvelle approche pour bloquer les menaces avancées. Baptisée Extended Detection and Response, cette innovation donne lieu par la même occasion à un acronyme de plus : XDR. Bien qu’il ait suscité beaucoup d’intérêt cette année auprès des leaders du secteur et de la communauté d’analystes, l’XDR reste un concept en pleine évolution. Il existe de fait une certaine confusion autour du sujet.
 
