@@ -12,7 +12,7 @@
 - 06 - [Refuser les connexions.](#balise-06)
 - 07 - [Suppression de règles.](#balise-07)
 - 08 - [Vérification de l’état et des règles d’UFW.](#balise-08)
-- 09 - [Désactivation ou réinitialisation d’UFW (facultatif).](#balise-08)
+- 09 - [Désactivation ou réinitialisation d’UFW (facultatif).](#balise-09)
 
 Introduction :
 
