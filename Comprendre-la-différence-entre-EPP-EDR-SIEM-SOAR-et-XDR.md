@@ -112,4 +112,4 @@ Pyramid of pain :
 
 Niveau de complexité d’attaque détectable par chaque solution :
 
-![Debian_logo-01](./images/EPP-EDR-NDR-XDR-perimetres-de-detection.png)
+![Debian_logo-01](./images/EPP-EDR-NDR-XDR-Niveau-de-complexite-dattaque-detectable.png)
