@@ -4,10 +4,10 @@
 
 EPP / EDR / NDR / XDR… Les solutions de détection et réponse sont de plus en plus présentes sur le marché et semblent permettre de contrer toutes les attaques.
 
-Qu’en est-il vraiment ? 
-Quelle solution sera la plus appropriée à votre contexte ? 
-Quelles sont les différences entre ces outils ?
-A quelles menaces peuvent-ils répondre ?
+- Qu’en est-il vraiment ? 
+- Quelle solution sera la plus appropriée à votre contexte ? 
+- Quelles sont les différences entre ces outils ?
+- A quelles menaces peuvent-ils répondre ?
 
 Avant de commencer, un peu de vocabulaire :
 
@@ -99,3 +99,10 @@ Réduction du temps moyen de réponse (Mean Time To Respond, MTTR) favorisée pa
 Amélioration de la visibilité sur tout le parc de sécurité.
 
 De plus, grâce à l’intelligence artificielle (IA) et à l’automatisation, l’XDR permet de réduire la charge de travail manuel des analystes sécurité. Une solution XDR détecte les menaces sophistiquées de façon rapide et proactive, ce qui améliore la productivité de l’équipe SOC ou de sécurité et augmente considérablement le retour sur investissement de l’organisation.
+
+## Comparaison des solutions EPP, EDR, NDR, XDR, SIEM et SOAR.
+
+- Comparaison des périmètres de détection :
+
+Différence du périmètre de détection sur les étapes de compromissions proposées par le MITRE ATT&CK :
+
