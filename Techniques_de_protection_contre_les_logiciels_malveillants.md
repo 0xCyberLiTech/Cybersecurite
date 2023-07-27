@@ -1,6 +1,6 @@
+![Debian_logo-01](./images/cyber-securite-logo.jpg)
 
-
-# Techniques de protection contre les logiciels malveillants :
+## Techniques de protection contre les logiciels malveillants :
 
 - 01 - [ Diminution de la surface d'attaque.](#balise_010) |
 - 02 - [ Sensibilisation des utilisateurs.](#balise_011) |
