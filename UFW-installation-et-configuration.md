@@ -2,7 +2,9 @@
 
 ## CYBERSÉCURITÉ / UFW installation et configuration.
 
-[Étape 1 - Installation de UFW.](#balise-01)
+👋 Sommaire des sujets abordés :
+
+[Étape 1 — Installation de UFW.](#balise-01)
 [Étape 2 — Mise en place des politiques par défaut.](#balise-02)
 [Étape 3 — Autoriser les connexions SSH.](#balise-03)
 [Étape 4 — Activation d’UFW.](#balise-04)
@@ -10,7 +12,7 @@
 [Étape 6 — Refuser les connexions.](#balise-06)
 [Étape 7 — Suppression de règles.](#balise-07)
 [Étape 8 — Vérification de l’état et des règles d’UFW.](#balise-08)
-[Étape 9 - Désactivation ou réinitialisation d’UFW (facultatif).](#balise-08)
+[Étape 9 — Désactivation ou réinitialisation d’UFW (facultatif).](#balise-08)
 
 Introduction :
 
