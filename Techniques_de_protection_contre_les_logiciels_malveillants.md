@@ -2,12 +2,12 @@
 
 ## Techniques de protection contre les logiciels malveillants :
 
-- 01 - [ Diminution de la surface d'attaque.](#balise_010) |
-- 02 - [ Sensibilisation des utilisateurs.](#balise_011) |
-- 03 - [ Détection.](#balise_012) |
-- 04 - [ Gestion des correctifs.](#balise_013) |
-- 05 - [ Contrôle des accès.](#balise_014) |
-- 06 - [ Sauvegarde et chiffrement des données.](#balise_015) |
+- 01 - [ Diminution de la surface d'attaque.](#balise_010)
+- 02 - [ Sensibilisation des utilisateurs.](#balise_011)
+- 03 - [ Détection.](#balise_012)
+- 04 - [ Gestion des correctifs.](#balise_013)
+- 05 - [ Contrôle des accès.](#balise_014)
+- 06 - [ Sauvegarde et chiffrement des données.](#balise_015)
 
 <a name="balise_010"></a>
 ## - 01 Diminution de la surface d'attaque.
