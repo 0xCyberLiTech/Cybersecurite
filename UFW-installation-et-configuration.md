@@ -1,3 +1,7 @@
+![Debian_logo-01](./images/Cloud-et-securite.png)
+
+## CYBERSÉCURITÉ / UFW installation et configuration.
+
 Introduction :
 
 UFW, ou Uncomplicated Firewall, est une interface de gestion de pare-feu simplifiée qui masque la complexité des technologies de filtrage de paquets de niveau inférieur telles que iptables et nftables.
