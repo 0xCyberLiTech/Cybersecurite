@@ -1,4 +1,4 @@
-![Debian_logo-01](./images/cyber-securite-logo.jpg)
+![Debian_logo-01](./images/Cloud-et-securite.png)
 
 ## Programmes malveillants ?
 
