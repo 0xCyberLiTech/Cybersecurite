@@ -15,10 +15,6 @@ Il existe plusieurs méthodes pour détecter les malwares.
 
 La plus basique est l’analyse statique. On compare le hash du programme suspect ou toutes autres caractéristiques statiques du programme avec une base de données. Plus efficace, l’analyse heuristique va comparer le comportement d’un programme suspect avec une liste statique de comportements malveillants. Enfin, l’analyse comportementale utilise du machine learning pour avoir une liste de comportements malveillants qui évolue en fonction des menaces.
 
-
-
-
-
 Le monde de la cybersécurité est rempli de jargon, d’abréviations et d’acronymes. À l’heure où les vecteurs d’attaque sophistiqués se multiplient, des terminaux aux réseaux en passant par le cloud, beaucoup d’entreprises se tournent vers une nouvelle approche pour bloquer les menaces avancées. Baptisée Extended Detection and Response, cette innovation donne lieu par la même occasion à un acronyme de plus : XDR. Bien qu’il ait suscité beaucoup d’intérêt cette année auprès des leaders du secteur et de la communauté d’analystes, l’XDR reste un concept en pleine évolution. Il existe de fait une certaine confusion autour du sujet.
 
 Qu’est-ce que l’XDR ?
