@@ -106,4 +106,4 @@ De plus, grâce à l’intelligence artificielle (IA) et à l’automatisation, 
 
 Différence du périmètre de détection sur les étapes de compromissions proposées par le MITRE ATT&CK :
 
-![Debian_logo-01](./images/Cloud-et-securite.png)
+![Debian_logo-01](./images/EPP-EDR-NDR-XDR-perimetres-de-detection.png)
