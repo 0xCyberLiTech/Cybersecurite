@@ -4,15 +4,15 @@
 
 👋 Sommaire des sujets abordés :
 
-[Étape 1 — Installation de UFW.](#balise-01)
-[Étape 2 — Mise en place des politiques par défaut.](#balise-02)
-[Étape 3 — Autoriser les connexions SSH.](#balise-03)
-[Étape 4 — Activation d’UFW.](#balise-04)
-[Étape 5 — Autoriser d’autres connexions.](#balise-05)
-[Étape 6 — Refuser les connexions.](#balise-06)
-[Étape 7 — Suppression de règles.](#balise-07)
-[Étape 8 — Vérification de l’état et des règles d’UFW.](#balise-08)
-[Étape 9 — Désactivation ou réinitialisation d’UFW (facultatif).](#balise-08)
+- 01 - [Installation de UFW.](#balise-01)
+- 02 - [Mise en place des politiques par défaut.](#balise-02)
+- 03 - [Autoriser les connexions SSH.](#balise-03)
+- 04 - [Activation d’UFW.](#balise-04)
+- 05 - [Autoriser d’autres connexions.](#balise-05)
+- 06 - [Refuser les connexions.](#balise-06)
+- 07 - [Suppression de règles.](#balise-07)
+- 08 - [Vérification de l’état et des règles d’UFW.](#balise-08)
+- 09 - [Désactivation ou réinitialisation d’UFW (facultatif).](#balise-08)
 
 Introduction :
 
@@ -20,11 +20,13 @@ UFW, ou Uncomplicated Firewall, est une interface de gestion de pare-feu simplif
 
 Si vous souhaitez commencer à sécuriser votre réseau, et vous n’êtes pas sûr de l’outil à utiliser, UFW peut être le bon choix pour vous.
 
-## Étape 1 - Installation de UFW.
+<a name="balise-01"></a>
+## 01 - Installation de UFW.
 ```
 apt install ufw
 ```
-## Étape 2 — Mise en place des politiques par défaut.
+<a name="balise-02"></a>
+## 02 — Mise en place des politiques par défaut.
 
 Si vous commencez tout juste à utiliser votre pare-feu, les premières règles à définir sont vos politiques par défaut. Ces règles contrôlent la manière de traiter le trafic qui ne correspond pas explicitement à d’autres règles. Par défaut, UFW est configuré pour refuser toutes les connexions entrantes et autoriser toutes les connexions sortantes. Cela signifie que toute personne essayant d’atteindre votre serveur ne pourra pas se connecter, tandis que toute application à l’intérieur du serveur pourra atteindre le monde extérieur.
 
@@ -37,7 +39,8 @@ sudo ufw default allow outgoing
 ```
 Ces commandes définissent les valeurs par défaut pour refuser les connexions entrantes et autoriser les connexions sortantes. Ces paramètres par défaut du pare-feu peuvent suffire pour un ordinateur personnel, mais les serveurs doivent généralement répondre aux demandes entrantes d’utilisateurs extérieurs. Nous verrons cela plus loin.
 
-## Étape 3 — Autoriser les connexions SSH.
+<a name="balise-03"></a>
+## 03 — Autoriser les connexions SSH.
 
 Si nous activions notre pare-feu UFW maintenant, il refuserait toutes les connexions entrantes.
 
@@ -65,7 +68,8 @@ sudo ufw allow 2222
 ```
 Maintenant que votre pare-feu est configuré pour autoriser les connexions SSH entrantes, nous pouvons l’activer.
 
-## Étape 4 — Activation d’UFW.
+<a name="balise-04"></a>
+## 04 — Activation d’UFW.
 
 Pour activer UFW, utilisez cette commande :
 ```
@@ -83,7 +87,8 @@ Exécutez la commande sudo ufw status verbose pour connaître les règles fixée
 
 Le reste de ce tutoriel explique plus en détail comment utiliser UFW, par exemple en autorisant ou en refusant différents types de connexions.
 
-## Étape 5 — Autoriser d’autres connexions.
+<a name="balise-05"></a>
+## 05 — Autoriser d’autres connexions.
 
 À ce stade, vous devez autoriser toutes les autres connexions auxquelles votre serveur a besoin de répondre.
 
@@ -172,7 +177,8 @@ sudo ufw allow in on eth1 to any port 3306
 ```
 Cela permettrait à d’autres serveurs de votre réseau privé de se connecter à votre base de données MySQL.
 
-## Étape 6 — Refuser les connexions.
+<a name="balise-06"></a>
+## 06 — Refuser les connexions.
 
 Si vous n’avez pas modifié la politique par défaut des connexions entrantes, UFW est configuré pour refuser toutes les connexions entrantes.
 
@@ -192,7 +198,8 @@ sudo ufw deny from 203.0.113.4
 ```
 Examinons maintenant comment supprimer des règles.
 
-## Étape 7 — Suppression de règles.
+<a name="balise-07"></a>
+## 07 — Suppression de règles.
 
 Savoir comment supprimer des règles de pare-feu est tout aussi important que de savoir comment les créer.
 
@@ -239,7 +246,7 @@ sudo ufw delete allow 80
 ```
 Cette méthode supprimera les règles IPv4 et IPv6, si elles existent.
 <a name="balise-08"></a>
-## Étape 8 — Vérification de l’état et des règles d’UFW.
+## 08 — Vérification de l’état et des règles d’UFW.
 
 À tout moment, vous pouvez vérifier le statut d’UFW avec cette commande :
 ```
@@ -265,7 +272,7 @@ To                         Action      From
 Utilisez la commande status si vous souhaitez vérifier comment UFW a configuré le pare-feu.
 
 <a name="balise-09"></a>
-## Étape 9 - Désactivation ou réinitialisation d’UFW (facultatif).
+## 09 - Désactivation ou réinitialisation d’UFW (facultatif).
 
 Si vous décidez que vous ne voulez pas utiliser UFW, vous pouvez le désactiver avec cette commande :
 ```
