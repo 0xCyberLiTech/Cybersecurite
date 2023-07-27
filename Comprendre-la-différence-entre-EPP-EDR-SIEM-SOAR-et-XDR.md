@@ -102,7 +102,7 @@ De plus, grâce à l’intelligence artificielle (IA) et à l’automatisation, 
 
 ## Comparaison des solutions EPP, EDR, NDR, XDR, SIEM et SOAR.
 
-- Comparaison des périmètres de détection :
+Comparaison des périmètres de détection :
 
 Différence du périmètre de détection sur les étapes de compromissions proposées par le MITRE ATT&CK :
 
