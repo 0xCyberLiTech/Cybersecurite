@@ -1,4 +1,4 @@
-![Debian_logo-01](./images/cyber-securite-logo.jpeg)
+![Debian_logo-01](./images/cyber-securite-logo.jpg)
 
 # Cybersécurité
 
