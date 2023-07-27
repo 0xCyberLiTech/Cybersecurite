@@ -1,6 +1,6 @@
 ![Debian_logo-01](./images/cyber-securite-logo.jpg)
 
-👋 ## Programmes malveillants ?
+## Programmes malveillants ?
 
 Un logiciel malveillant (ou malware) désigne un logiciel destiné à nuire à l'utilisateur. 
 Un logiciel malveillant touche non seulement l'ordinateur ou l'appareil qu'il infecte en premier, mais potentiellement aussi tous les appareils avec lesquels celui-ci communique.
