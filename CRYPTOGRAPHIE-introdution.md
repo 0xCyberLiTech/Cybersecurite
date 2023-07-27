@@ -65,4 +65,4 @@ Pour cette dernière raison, il existe une technique combinant chiffrements « s
 
 Cette fois, une clé secrète est déterminée par une des deux parties souhaitant communiquer et celle-ci est envoyée chiffrée par un chiffrement asymétrique. Une fois connue des deux parties, celles-ci communiquent en chiffrant symétriquement leurs échanges. Cette technique est notamment appliquée lorsque vous visitez un site dont l’adresse débute par « https ».
 
-![Apache_logo](./images/Cloud-et-securite.png)
+![Apache_logo](./images/confidentialite-01.png)
