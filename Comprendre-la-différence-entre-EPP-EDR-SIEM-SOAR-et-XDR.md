@@ -107,3 +107,9 @@ Comparaison des périmètres de détection :
 Différence du périmètre de détection sur les étapes de compromissions proposées par le MITRE ATT&CK :
 
 ![Debian_logo-01](./images/EPP-EDR-NDR-XDR-perimetres-de-detection.png)
+
+Pyramid of pain :
+
+Niveau de complexité d’attaque détectable par chaque solution :
+
+![Debian_logo-01](./images/EPP-EDR-NDR-XDR-perimetres-de-detection.png)
