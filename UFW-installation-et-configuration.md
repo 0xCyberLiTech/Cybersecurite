@@ -2,17 +2,21 @@
 
 ## CYBERSÉCURITÉ / UFW installation et configuration.
 
+
+
+Étape 9 - [Désactivation ou réinitialisation d’UFW (facultatif).]()
+
 Introduction :
 
 UFW, ou Uncomplicated Firewall, est une interface de gestion de pare-feu simplifiée qui masque la complexité des technologies de filtrage de paquets de niveau inférieur telles que iptables et nftables.
 
 Si vous souhaitez commencer à sécuriser votre réseau, et vous n’êtes pas sûr de l’outil à utiliser, UFW peut être le bon choix pour vous.
 
-Étape 1 - Installation de UFW :
+## Étape 1 - Installation de UFW :
 ```
 apt install ufw
 ```
-Étape 2 — Mise en place des politiques par défaut.
+## Étape 2 — Mise en place des politiques par défaut.
 
 Si vous commencez tout juste à utiliser votre pare-feu, les premières règles à définir sont vos politiques par défaut. Ces règles contrôlent la manière de traiter le trafic qui ne correspond pas explicitement à d’autres règles. Par défaut, UFW est configuré pour refuser toutes les connexions entrantes et autoriser toutes les connexions sortantes. Cela signifie que toute personne essayant d’atteindre votre serveur ne pourra pas se connecter, tandis que toute application à l’intérieur du serveur pourra atteindre le monde extérieur.
 
@@ -25,7 +29,7 @@ sudo ufw default allow outgoing
 ```
 Ces commandes définissent les valeurs par défaut pour refuser les connexions entrantes et autoriser les connexions sortantes. Ces paramètres par défaut du pare-feu peuvent suffire pour un ordinateur personnel, mais les serveurs doivent généralement répondre aux demandes entrantes d’utilisateurs extérieurs. Nous verrons cela plus loin.
 
-Étape 3 — Autoriser les connexions SSH
+## Étape 3 — Autoriser les connexions SSH
 
 Si nous activions notre pare-feu UFW maintenant, il refuserait toutes les connexions entrantes.
 
@@ -53,7 +57,7 @@ sudo ufw allow 2222
 ```
 Maintenant que votre pare-feu est configuré pour autoriser les connexions SSH entrantes, nous pouvons l’activer.
 
-Étape 4 — Activation d’UFW.
+## Étape 4 — Activation d’UFW.
 
 Pour activer UFW, utilisez cette commande :
 ```
@@ -71,7 +75,7 @@ Exécutez la commande sudo ufw status verbose pour connaître les règles fixée
 
 Le reste de ce tutoriel explique plus en détail comment utiliser UFW, par exemple en autorisant ou en refusant différents types de connexions.
 
-Étape 5 — Autoriser d’autres connexions.
+## Étape 5 — Autoriser d’autres connexions.
 
 À ce stade, vous devez autoriser toutes les autres connexions auxquelles votre serveur a besoin de répondre.
 
@@ -160,14 +164,7 @@ sudo ufw allow in on eth1 to any port 3306
 ```
 Cela permettrait à d’autres serveurs de votre réseau privé de se connecter à votre base de données MySQL.
 
-
-
-
-
-
-
-
-Étape 6 — Refuser les connexions.
+## Étape 6 — Refuser les connexions.
 
 Si vous n’avez pas modifié la politique par défaut des connexions entrantes, UFW est configuré pour refuser toutes les connexions entrantes.
 
@@ -187,7 +184,7 @@ sudo ufw deny from 203.0.113.4
 ```
 Examinons maintenant comment supprimer des règles.
 
-Étape 7 — Suppression de règles :
+## Étape 7 — Suppression de règles :
 
 Savoir comment supprimer des règles de pare-feu est tout aussi important que de savoir comment les créer.
 
@@ -234,7 +231,7 @@ sudo ufw delete allow 80
 ```
 Cette méthode supprimera les règles IPv4 et IPv6, si elles existent.
 
-Étape 8 — Vérification de l’état et des règles d’UFW.
+## Étape 8 — Vérification de l’état et des règles d’UFW.
 
 À tout moment, vous pouvez vérifier le statut d’UFW avec cette commande :
 ```
@@ -259,7 +256,7 @@ To                         Action      From
 ```
 Utilisez la commande status si vous souhaitez vérifier comment UFW a configuré le pare-feu.
 
-Étape 9 - Désactivation ou réinitialisation d’UFW (facultatif).
+## Étape 9 - Désactivation ou réinitialisation d’UFW (facultatif).
 
 Si vous décidez que vous ne voulez pas utiliser UFW, vous pouvez le désactiver avec cette commande :
 ```
