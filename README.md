@@ -10,6 +10,6 @@
 - 04 - [Cryptographie outils.]()
 - 05 - [Proxy & Reverse Proxy]()
 - 06 - [Les 7 étapes de la cyber kill chain](Les-7-étapes-de-la-cyber-kill-chain.md)
-- 07 - [Antivirus nouvelle génération (EDR / IA).]()
+- 07 - [EDR & IA.](https://github.com/0xCyberLiTech/Cybersecurite/blob/main/EDR-et-IA.md)
 - 08 - [EPP EDR SIEM SOAR et XDR comprendre la différence entre ces acronymes.](EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md)
 - 09 - [Attaques]()
