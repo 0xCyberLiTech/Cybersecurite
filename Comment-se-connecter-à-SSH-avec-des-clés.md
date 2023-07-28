@@ -32,27 +32,29 @@ Tout ce processus se fait automatiquement après l’installation des clés.
 <a name="balise-03"></a>
 - 03 Comment créer des clés SSH ?
 
-Les clés SSH doivent être générées sur l’ordinateur duquel vous souhaitez vous connecter**. Il s’agit généralement de votre machine locale.
+** Les clés SSH doivent être générées sur l’ordinateur duquel vous souhaitez vous connecter **. 
+
+Il s’agit généralement de votre machine locale.
 
 Entrez ce qui suit dans la ligne de commande :
 ```
 ssh-keygen -t rsa
 ```
 Appuyez sur la touche Entrée pour accepter les valeurs par défaut. Vos clés seront créées à l’adresse ~/.ssh/id_rsa.pub et ~/.ssh/id_rsa.
-
-Passez dans le répertoire .ssh en tapant :
 ```
-cd ~/.ssh
+ls -l ~/.ssh/*
 ```
 Regardez les autorisations des fichiers :
 ```
-ls -l
-Output
--rw-r--r-- 1 demo demo  807 Sep  9 22:15 authorized_keys
--rw------- 1 demo demo 1679 Sep  9 23:13 id_rsa
--rw-r--r-- 1 demo demo  396 Sep  9 23:13 id_rsa.pub
+-rw------- 1 root root 2590 28 juil. 18:53 /root/.ssh/id_rsa
+-rw-r--r-- 1 root root  564 28 juil. 18:53 /root/.ssh/id_rsa.pub
 ```
-Comme vous pouvez le voir, le fichier id_rsa est lisible et accessible en écriture uniquement au propriétaire.  C’est pour cela qu’il doit être gardé secret.
+```
+cd ~/.ssh/
+```
+Comme vous pouvez le voir, le fichier id_rsa est lisible et accessible en écriture uniquement au propriétaire.
+
+C’est pour cela qu’il doit être gardé secret.
 
 Le fichier id_rsa.pub, cependant, peut être partagé et dispose de permissions appropriées pour cette activité.
 
@@ -61,12 +63,31 @@ Le fichier id_rsa.pub, cependant, peut être partagé et dispose de permissions 
 
 Si vous avez actuellement un accès par mot de passe à un serveur, vous pouvez y copier votre clé publique en émettant cette commande :
 ```
-ssh-copy-id remote_host
+ssh-copy-id -p 2234 root@192.168.50.205
 ```
 Cela permettra de démarrer une session SSH.
 
-Après que vous ayez entré votre mot de passe, il copiera votre clé publique dans le fichier des clés autorisées du serveur, ce qui vous permettra de vous connecter sans mot de passe la prochaine fois.
+Après que vous ayez entré votre mot de passe, il copiera votre clé publique dans le fichier des clés autorisées du serveur 192.168.50.205, ce qui vous permettra de vous connecter sans mot de passe la prochaine fois à celui-ci.
 
+On peut constater que sur le serveur 192.168.50.205 la clé à été déposer dans ~/.ssh/authorized_keys
+
+Effectuons un test de connexion depuis la machine hôte root@0xCLT (192.168.50.250) vers le serveur srv-linux-05 (192.168.50.205)
+```
+root@0xCLT:~/.ssh# ssh -p 2234 root@192.168.50.205
+```
+```
+root@0xCLT:~/.ssh# ssh -p 2234 root@192.168.50.205
+Linux srv-linux-05 6.1.0-10-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.37-1 (2023-07-03) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Fri Jul 28 19:27:21 2023 from 192.168.50.250
+root@srv-linux-05:~#
+```
 Options côté client :
 
 Il existe un certain nombre d’indicateurs optionnels que vous pouvez sélectionner lorsque vous vous connectez via SSH.
