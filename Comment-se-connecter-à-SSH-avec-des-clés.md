@@ -32,7 +32,7 @@ Tout ce processus se fait automatiquement après l’installation des clés.
 <a name="balise-03"></a>
 - 03 Comment créer des clés SSH ?
 
-** Les clés SSH doivent être générées sur l’ordinateur duquel vous souhaitez vous connecter **. 
+**Les clés SSH doivent être générées sur l’ordinateur duquel vous souhaitez vous connecter.** 
 
 Il s’agit généralement de votre machine locale.
 
