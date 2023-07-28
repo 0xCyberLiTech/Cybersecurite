@@ -137,3 +137,142 @@ N'oubliez pas de redémarrer le service Fail2ban pour activer vos modifications
 ```
 sudo systemctl restart fail2ban.service
 ```
+
+Exemple concernant le fichier jail.local :
+
+```
+[DEFAULT]
+# 1 jour de bannissement pour tous les plugins
+bantime = 86400
+
+
+# Protection SSH contre la force brute :
+# Créez une prison personnalisée pour vous protéger contre les attaques brute de force SSH en analysant le fichier journal SSH à la recherche de plusieurs tentatives de connexion infructueuses dans un délai spécifié.
+
+[sshd-custom]
+port = 2234
+enabled = true
+filter = sshd
+logpath = /var/log/auth.log
+bantime = 3600
+findtime = 600
+maxretry = 3
+action = iptables-multiport[name=sshd, port="ssh", protocol=tcp]
+
+
+# Authentification HTTP Nginx :
+# Configurez une prison pour vous protéger contre les attaques par brute de force ciblant l'authentification HTTP Nginx en surveillant les fichiers journaux Nginx pour les tentatives d'authentification infructueuses répétées.
+
+#[nginx-http-auth-custom]
+#enabled = true
+#filter = nginx-http-auth
+#logpath = /var/log/nginx/error.log
+#bantime = 1800
+#findtime = 300
+#maxretry = 5
+#action = iptables-multiport[name=nginx, port="http,https", protocol=tcp]
+
+
+# Authentification SMTP Postfix :
+# Configurez une prison personnalisée pour protéger votre serveur de messagerie Postfix contre les attaques par brute de force SMTP en surveillant les fichiers journaux de Postfix pour les échecs d'authentification répétés.
+
+#[postfix-smtp-auth-custom]
+#enabled = true
+#filter = postfix-auth
+#logpath = /var/log/mail.log
+#bantime = 3600
+#findtime = 600
+#maxretry = 5
+#action = iptables-multiport[name=postfix, port="smtp", protocol=tcp]
+
+
+# Authentification Dovecot IMAP/POP3 :
+# Implémentez une prison personnalisée pour sécuriser votre serveur de messagerie Dovecot contre les attaques par brute de force d'authentification IMAP et POP3 en surveillant les fichiers journaux Dovecot pour les échecs d'authentification répétés.
+
+#[dovecot-imap-pop3-auth-custom]
+#enabled = true
+#filter = dovecot-auth
+#logpath = /var/log/dovecot.log
+#bantime = 3600
+#findtime = 600
+#maxretry = 5
+#action = iptables-multiport[name=dovecot, port="imap,imaps,pop3,pop3s", protocol=tcp]
+
+
+# Protection de connexion WordPress :
+# Créez une prison personnalisée pour protéger votre site Web WordPress contre les attaques de connexion par brute de force en analysant le journal d'accès à la recherche de plusieurs tentatives de connexion infructueuses.
+
+#[wordpress-login-custom]
+#enabled = true
+#filter = wordpress-auth
+#logpath = /var/log/nginx/access.log
+#bantime = 1800
+#findtime = 300
+#maxretry = 5
+#action = iptables-multiport[name=wordpress, port="http,https", protocol=tcp]
+
+
+# Protection de l'authentification MySQL :
+# Sécurisez votre serveur MySQL contre les attaques par brute de force ciblant l'authentification MySQL en surveillant le journal des erreurs MySQL.
+
+#[mysql-auth-custom]
+#enabled = true
+#filter = mysql-auth
+#logpath = /var/log/mysql/error.log
+#bantime = 3600
+#findtime = 600
+#maxretry = 5
+#action = iptables-multiport[name=mysql, port="3306", protocol=tcp]
+
+
+# Protection de connexion FTP :
+# Configurez une prison personnalisée pour protéger votre serveur FTP des attaques de connexion par brute de force en surveillant le journal du serveur FTP.
+
+#[vsftpd-custom]
+#enabled = true
+#filter = vsftpd
+#logpath = /var/log/vsftpd.log
+#bantime = 3600
+#findtime = 600
+#maxretry = 3
+#action = iptables-multiport[name=vsftpd, port="ftp", protocol=tcp]
+
+
+# Protection de l'authentification Apache :
+# Configurez une prison personnalisée pour protéger votre serveur Apache contre les attaques par brute de force ciblant l'authentification HTTP en analysant les fichiers journaux Apache.
+
+[apache-auth-custom]
+enabled = true
+filter = apache-auth
+logpath = /var/log/apache2/error.log
+bantime = 1800
+findtime = 300
+maxretry = 5
+action = iptables-multiport[name=apache, port="http,https", protocol=tcp]
+
+
+# Protection de connexion à la messagerie Web Roundcube :
+# Implémentez une prison personnalisée pour protéger votre messagerie Web Roundcube contre les attaques par brute de force de connexion en surveillant les fichiers journaux Roundcube.
+
+#[roundcube-auth-custom]
+#enabled = true
+#filter = roundcube-auth
+#logpath = /var/log/roundcube/errors.log
+#bantime = 1800
+#findtime = 300
+#maxretry = 5
+#action = iptables-multiport[name=roundcube, port="http,https", protocol=tcp]
+
+
+# Protection du partage de fichiers Samba :
+# Créez une prison personnalisée pour protéger votre serveur de partage de fichiers Samba contre les attaques par brute de force en surveillant les fichiers journaux Samba.
+
+#[samba-custom]
+#enabled = true
+#filter = samba
+#logpath = /var/log/samba/log.*
+#bantime = 3600
+#findtime = 600
+#maxretry = 5
+#action = iptables-multiport[name=samba, port="139,445", protocol=tcp]
+```
