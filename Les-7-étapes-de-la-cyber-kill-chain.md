@@ -2,6 +2,8 @@
 
 ## CYBERSÉCURITÉ / Les 7 étapes de la cyber kill chain.
 
+Texte normal suivi d’un <span class="bg-info text-success">texte coloré en vert sur fond bleu</span> dans un paragraphe.
+
 L’exemple de l’hôpital victime d’un ransomware permet d’illustrer les 7 étapes qui composent la cyber kill chain.
 
 - 1 - **Reconnaissance** : collecte par les cybercriminels de données utiles pour servir l’attaque. Ici, des données de médecins externes à l’hôpital, qui échangent régulièrement avec l’institution.
