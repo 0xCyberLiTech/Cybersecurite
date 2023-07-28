@@ -10,24 +10,72 @@ Installez le paquet fail2ban disponible dans les dépôts Universe.
 ```
 apt-get install fail2ban
 ```
-Pour spécifier à fail2ban quels services il doit surveiller, éditez le fichier /etc/fail2ban/jail.conf 
+Configurer les services :
 
-Dans la partie jail vous trouverez des blocs du type : 
-```
-nano /etc/fail2ban/jail.conf
-```
-```
-[ssh]
+Les services se configurent dans le fichier /etc/fail2ban/jail.conf
 
+La section [DEFAULT] indique les prises de décisions par fail2ban si dans chaque service rien n'est défini
+Copier vers le presse-papierCode :
+```
+ignoreip = 127.0.0.1/8            # adresses IP ignorées par les actions de fail2ban
+bantime  = 600                    # temps de bannissement en secondes
+maxretry = 3                      # nombre d'essais au bout du quel fail2ban bannit notre intrus
+banaction = iptables              # Méthode de BAN (iptables = Que le port concerné / iptables-multiport = Tous les ports / ...)
+protocol = tcp                    # protocole par défaut des jails définies ci-dessous
+enabled = false                   # Statut par défaut des jails définies ci-dessous (par défaut tout désactivé)
+```
+Pour ignorer plusieurs IP, on les sépare par un espace. Des adresses ou réseaux peuvent être spécifiés :
+```
+ignoreip = 127.0.0.1 192.168.21.0/24 212.1.2.3
+```
+SSH
+
+Nous allons configurer fail2ban pour bannir les intrus passant par ssh.
+
+Voici un exemple de service actif, intrus banni au bout de 3 essais pour une durée de 15 minutes, juste sur le port SSH (paramètres par défaut).
+Copier vers le presse-papier :
+```
+[sshd]
+enabled  = true
+port     = ssh
+logpath = %(sshd_log)s
+backend = %(sshd_backend)s
+```
+Si on change le port de SSH par exemple 1234
+
+Copier vers le presse-papier.
+```
+[sshd]
+enabled  = true
+port     = 1234
+logpath = %(sshd_log)s
+backend = %(sshd_backend)s
+```
+On peut aussi « écraser » les valeurs par défaut (maxretry, bantime) en rappelant les options dans le service concerné
+
+Copier vers le presse-papierCode :
+```
+[sshd]
+enabled  = true
+port     = ssh
+logpath = %(sshd_log)s
+backend = %(sshd_backend)s
+maxretry = 2
+bantime  = 3600
+```
+La récidive
+
+Si le client récidive, on peut activer le filtre recidive qui poursuit le temps de ban :
+
+Copier vers le presse-papierCode BASH :
+```
+[recidive]
 enabled = true
-port    = ssh,sftp
-filter  = sshd
-logpath  = /var/log/auth.log
-maxretry = 6
+logpath  = /var/log/fail2ban.log
+banaction = %(banaction_allports)s
+bantime  = 1w
+findtime = 1d
 ```
-Il indique, par ordre, l'activation, les ports à bloquer avec les règles iptables, le nom du filtre (expression régulière) associé, le fichier de log à lire, le nombre maximal de tentatives. 
-Un certain nombre de services disposent de tels blocs de configuration, vous pouvez les activer en passant si besoin false à true. 
-
 Relancez la configuration avec 
 ```
 sudo fail2ban-client reload
@@ -36,13 +84,12 @@ Vous pouvez alors vérifier si les prisons ont été correctement lancées avec 
 ```
 sudo fail2ban-client status 
 ```
-```
-Status 
-|- Number of jail:	1 
-`- Jail list:		ssh 
-[12:33 0.00] 
-[cybernatus 2] ~ > 
-```
+Test de la configuration
+
+Sur le serveur on lance un tail -f /var/log/fail2ban.log.
+
+On tente de se connecter en SSH (dans mon exemple) plus de 2 fois et on vérifie qu'on est bien banni:
+
 Les prisons peuvent être contrôlées séparément avec les mots clés start,stop,status Par exemple :
 ```
 sudo fail2ban-client stop ssh
