@@ -69,9 +69,9 @@ Cela permettra de démarrer une session SSH.
 
 Après que vous ayez entré votre mot de passe, il copiera votre clé publique dans le fichier des clés autorisées du serveur 192.168.50.205, ce qui vous permettra de vous connecter sans mot de passe la prochaine fois à celui-ci.
 
-On peut constater que sur le serveur 192.168.50.205 la clé à été déposer dans ~/.ssh/authorized_keys
+On peut constater que sur le serveur 192.168.50.205 la clé a été déposer dans ~/.ssh/authorized_keys
 
-Effectuons un test de connexion depuis la machine hôte root@0xCLT (192.168.50.250) vers le serveur srv-linux-05 (192.168.50.205)
+Effectuons un test de connexion depuis la machine hôte root@0xCLT (192.168.50.250) vers le serveur srv-linux-05 (192.168.50.205).
 ```
 root@0xCLT:~/.ssh# ssh -p 2234 root@192.168.50.205
 ```
@@ -114,7 +114,9 @@ Désactiver l’authentification par mot de passe :
 
 Si vous avez créé des clés SSH, vous pouvez renforcer la sécurité de votre serveur en désactivant l’authentification uniquement par mot de passe. En dehors de la console, la seule façon de se connecter à votre serveur est d’utiliser la clé privée qui se couple avec la clé publique que vous avez installée sur le serveur.
 
-Avertissement : Avant de procéder à cette étape, assurez-vous que vous avez installé une clé publique pour votre serveur. Sinon, vous serez bloqué à l’extérieur !
+Avertissement : Avant de procéder à cette étape, assurez-vous que vous avez installé une clé publique pour votre serveur.
+
+Sinon, vous serez bloqué à l’extérieur !
 
 En tant que root ou utilisateur avec des privilèges sudo, ouvrez le fichier de configuration sshd :
 ```
@@ -123,9 +125,15 @@ sudo nano /etc/ssh/sshd_config
 Localisez la ligne qui indique Password Authenticationet la décommenter en supprimant le premier #. Vous pouvez alors changer sa valeur à no :
 ```
 /etc/ssh/sshd_config
-PasswordAuthentication no
 ```
-Deux autres paramètres qui ne devraient pas avoir à être modifiés (à condition que vous n’ayez pas modifié ce fichier auparavant) sont PubkeyAuthentification et ChallengeResponseAuthentification. Elles sont définies par défaut et doivent se lire comme suit :
+```
+# To disable tunneled clear text passwords, change to no here!
+PasswordAuthentication no
+#PermitEmptyPasswords no
+```
+Deux autres paramètres qui ne devraient pas avoir à être modifiés (à condition que vous n’ayez pas modifié ce fichier auparavant) sont PubkeyAuthentification et ChallengeResponseAuthentification.
+
+Elles sont définies par défaut et doivent se lire comme suit :
 ```
 nano /etc/ssh/sshd_config
 ```
@@ -133,10 +141,23 @@ nano /etc/ssh/sshd_config
 PubkeyAuthentication yes
 ChallengeResponseAuthentication no
 ```
+```
+# Authentication:
+
+LoginGraceTime 1m
+#PermitRootLogin prohibit-password
+#PermitRootLogin yes
+#StrictModes yes
+MaxAuthTries 4
+MaxSessions 2
+
+PubkeyAuthentication yes
+ChallengeResponseAuthentication no
+```
 Après avoir effectué vos modifications, enregistrez et fermez le fichier.
 
 Vous pouvez maintenant recharger le démon SSH :
 ```
-sudo systemctl reload ssh
+sudo systemctl restart ssh.service
 ```
 L’authentification par mot de passe devrait maintenant être désactivée, et votre serveur ne devrait être accessible que via l’authentification par clé SSH.
