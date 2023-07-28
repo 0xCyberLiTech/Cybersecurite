@@ -1,8 +1,19 @@
-Comment se connecter à SSH avec des clés :
+![Debian_logo-01](./images/Cloud-et-securite.png)
+
+## CYBERSÉCURITÉ / SSH comment se connecter avec des clés ?
+
+👋 Sommaire des sujets abordés :
+
+- 01 - [Comment se connecter à SSH avec des clés ?](#balise-01)
+- 02 - [Comment fonctionne l’authentification par clé ?](#balise-02)
+- 03 - [Comment créer des clés SSH ?](#balise-03)
+- 04 - [Comment transférer votre clé publique vers le serveur ?](#balise-04)
+
+- 01 Comment se connecter à SSH avec des clés ?
 
 S’il est utile de pouvoir se connecter à un système à distance à l’aide de mots de passe, il est bien plus judicieux de mettre en place une authentification par clé.
 
-Comment fonctionne l’authentification par clé ?
+- 02 Comment fonctionne l’authentification par clé ?
 
 L’authentification par clé fonctionne en créant une paire de clés : une clé privée et une clé publique.
 
@@ -16,7 +27,7 @@ L’ordinateur client renvoie alors la réponse appropriée au serveur et celui-
 
 Tout ce processus se fait automatiquement après l’installation des clés.
 
-Comment créer des clés SSH :
+- 03 Comment créer des clés SSH ?
 
 Les clés SSH doivent être générées sur l’ordinateur duquel vous souhaitez vous connecter**. Il s’agit généralement de votre machine locale.
 
@@ -42,7 +53,7 @@ Comme vous pouvez le voir, le fichier id_rsa est lisible et accessible en écrit
 
 Le fichier id_rsa.pub, cependant, peut être partagé et dispose de permissions appropriées pour cette activité.
 
-Comment transférer votre clé publique vers le serveur.
+- 04 Comment transférer votre clé publique vers le serveur.
 
 Si vous avez actuellement un accès par mot de passe à un serveur, vous pouvez y copier votre clé publique en émettant cette commande :
 ```
