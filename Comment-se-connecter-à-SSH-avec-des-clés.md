@@ -40,7 +40,9 @@ Entrez ce qui suit dans la ligne de commande :
 ```
 ssh-keygen -t rsa
 ```
-Appuyez sur la touche Entrée pour accepter les valeurs par défaut. Vos clés seront créées à l’adresse ~/.ssh/id_rsa.pub et ~/.ssh/id_rsa.
+Appuyez sur la touche Entrée pour accepter les valeurs par défaut.
+
+Vos clés seront créées à l’adresse ~/.ssh/id_rsa.pub et ~/.ssh/id_rsa.
 ```
 ls -l ~/.ssh/*
 ```
