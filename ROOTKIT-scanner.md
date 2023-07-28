@@ -4,11 +4,13 @@
 
 Introduction :
 
-Votre système ne répond pas correctement ? Vous avez l’impression qu’une personne s’est introduite dans votre ordinateur ? Alors il est possible que vous ayez un Malware ou un rootkit sur votre machine.
+Votre système ne répond pas correctement ?
+
+Vous avez l’impression qu’une personne s’est introduite dans votre ordinateur ? Alors il est possible que vous ayez un Malware ou un rootkit sur votre machine.
 
 Partons du principe où l’on a vérifié nos logs et on s’est rendu compte qu’une intrusion a eu lieu. Que faire dans ce cas ?
 
-Vous avez sûrement entendu parler des portes dérobées dans la série Mr ROBOT .
+Vous avez sûrement entendu parler des portes dérobées dans la série Mr ROBOT.
 
 Définition :
 
