@@ -1,6 +1,6 @@
 ![Debian_logo-01](./images/Cloud-et-securite.png)
 
-## CYBERSÉCURITÉ / Les 7 étapes de la cyber kill chain.
+## CYBERSÉCURITÉ / KILL CHAIN les 7 étapes de la cyber.
 
 L’exemple de l’hôpital victime d’un ransomware permet d’illustrer les 7 étapes qui composent la cyber kill chain.
 
