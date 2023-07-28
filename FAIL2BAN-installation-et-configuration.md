@@ -137,13 +137,12 @@ N'oubliez pas de redémarrer le service Fail2ban pour activer vos modifications
 ```
 sudo systemctl restart fail2ban.service
 ```
-
-Exemple concernant le fichier jail.local :
-
+Je joins un exemple concernant le fichier jail.local :
 ```
 [DEFAULT]
 # 1 jour de bannissement pour tous les plugins
 bantime = 86400
+
 
 
 # Protection SSH contre la force brute :
@@ -160,6 +159,7 @@ maxretry = 3
 action = iptables-multiport[name=sshd, port="ssh", protocol=tcp]
 
 
+
 # Authentification HTTP Nginx :
 # Configurez une prison pour vous protéger contre les attaques par brute de force ciblant l'authentification HTTP Nginx en surveillant les fichiers journaux Nginx pour les tentatives d'authentification infructueuses répétées.
 
@@ -171,6 +171,7 @@ action = iptables-multiport[name=sshd, port="ssh", protocol=tcp]
 #findtime = 300
 #maxretry = 5
 #action = iptables-multiport[name=nginx, port="http,https", protocol=tcp]
+
 
 
 # Authentification SMTP Postfix :
@@ -186,8 +187,10 @@ action = iptables-multiport[name=sshd, port="ssh", protocol=tcp]
 #action = iptables-multiport[name=postfix, port="smtp", protocol=tcp]
 
 
+
 # Authentification Dovecot IMAP/POP3 :
 # Implémentez une prison personnalisée pour sécuriser votre serveur de messagerie Dovecot contre les attaques par brute de force d'authentification IMAP et POP3 en surveillant les fichiers journaux Dovecot pour les échecs d'authentification répétés.
+
 
 #[dovecot-imap-pop3-auth-custom]
 #enabled = true
@@ -197,6 +200,7 @@ action = iptables-multiport[name=sshd, port="ssh", protocol=tcp]
 #findtime = 600
 #maxretry = 5
 #action = iptables-multiport[name=dovecot, port="imap,imaps,pop3,pop3s", protocol=tcp]
+
 
 
 # Protection de connexion WordPress :
@@ -212,6 +216,7 @@ action = iptables-multiport[name=sshd, port="ssh", protocol=tcp]
 #action = iptables-multiport[name=wordpress, port="http,https", protocol=tcp]
 
 
+
 # Protection de l'authentification MySQL :
 # Sécurisez votre serveur MySQL contre les attaques par brute de force ciblant l'authentification MySQL en surveillant le journal des erreurs MySQL.
 
@@ -223,6 +228,7 @@ action = iptables-multiport[name=sshd, port="ssh", protocol=tcp]
 #findtime = 600
 #maxretry = 5
 #action = iptables-multiport[name=mysql, port="3306", protocol=tcp]
+
 
 
 # Protection de connexion FTP :
@@ -238,6 +244,7 @@ action = iptables-multiport[name=sshd, port="ssh", protocol=tcp]
 #action = iptables-multiport[name=vsftpd, port="ftp", protocol=tcp]
 
 
+
 # Protection de l'authentification Apache :
 # Configurez une prison personnalisée pour protéger votre serveur Apache contre les attaques par brute de force ciblant l'authentification HTTP en analysant les fichiers journaux Apache.
 
@@ -249,6 +256,7 @@ bantime = 1800
 findtime = 300
 maxretry = 5
 action = iptables-multiport[name=apache, port="http,https", protocol=tcp]
+
 
 
 # Protection de connexion à la messagerie Web Roundcube :
@@ -264,6 +272,7 @@ action = iptables-multiport[name=apache, port="http,https", protocol=tcp]
 #action = iptables-multiport[name=roundcube, port="http,https", protocol=tcp]
 
 
+
 # Protection du partage de fichiers Samba :
 # Créez une prison personnalisée pour protéger votre serveur de partage de fichiers Samba contre les attaques par brute de force en surveillant les fichiers journaux Samba.
 
@@ -275,4 +284,145 @@ action = iptables-multiport[name=apache, port="http,https", protocol=tcp]
 #findtime = 600
 #maxretry = 5
 #action = iptables-multiport[name=samba, port="139,445", protocol=tcp]
+
+
+
+# Protection de connexion Joomla :
+# Configurez une prison personnalisée pour protéger votre site Web Joomla contre les attaques par brute de force de connexion en analysant le journal d'accès pour les tentatives de connexion infructueuses.
+
+#[joomla-login-custom]
+#enabled = true
+#filter = joomla-auth
+#logpath = /var/log/nginx/access.log
+#bantime = 1800
+#findtime = 300
+#maxretry = 5
+#action = iptables-multiport[name=joomla, port="http,https", protocol=tcp]
+
+
+
+# Protection de connexion Drupal :
+# Créez une prison personnalisée pour sécuriser votre site Web Drupal contre les attaques brutede force de connexion en surveillant le journal d'accès pour plusieurs tentatives de connexion infructueuses.
+
+#[drupal-login-custom]
+#enabled = true
+#filter = drupal-auth
+#logpath = /var/log/nginx/access.log
+#bantime = 1800
+#findtime = 300
+#maxretry = 5
+#action = iptables-multiport[name=drupal, port="http,https", protocol=tcp]
+
+
+
+# Protection de connexion Moodle :
+# Implémentez une prison personnalisée pour protéger votre plate-forme d'apprentissage en ligne Moodle contre les attaques par brute de force de connexion en analysant le journal d'accès pour les tentatives de connexion infructueuses répétées.
+
+#[moodle-login-custom]
+#enabled = true
+#filter = moodle-auth
+#logpath = /var/log/nginx/access.log
+#bantime = 1800
+#findtime = 300
+#maxretry = 5
+#action = iptables-multiport[name=moodle, port="http,https", protocol=tcp]
+
+
+
+# Protection de connexion Nextcloud :
+# Configurez une prison personnalisée pour protéger votre instance Nextcloud contre les attaques par brute de force de connexion en surveillant le fichier journal Nextcloud pour plusieurs tentatives de connexion infructueuses.
+
+#[nextcloud-login-custom]
+#enabled = true
+#filter = nextcloud-auth
+#logpath = /var/nextcloud/data/nextcloud.log
+#bantime = 3600
+#findtime = 600
+#maxretry = 5
+#action = iptables-multiport[name=nextcloud, port="http,https", protocol=tcp]
+
+
+
+# Protection de connexion ProFTPD :
+# Configurez une prison personnalisée pour sécuriser votre serveur ProFTPD contre les attaques de connexion par brute de force en analysant le fichier journal ProFTPD pour les tentatives de connexion infructueuses répétées.
+
+#[proftpd-custom]
+#enabled = true
+#filter = proftpd
+#logpath = /var/log/proftpd/proftpd.log
+#bantime = 3600
+#findtime = 600
+#maxretry = 3
+#action = iptables-multiport[name=proftpd, port="ftp", protocol=tcp]
+
+
+
+# Protection d'authentification OpenVPN :
+# Créez une prison personnalisée pour protéger votre serveur OpenVPN contre les attaques par brute de d'authentification en surveillant les fichiers journaux OpenVPN.
+
+#[openvpn-auth-custom]
+#enabled = true
+#filter = openvpn
+#logpath = /var/log/openvpn.log
+#bantime = 3600
+#findtime = 600
+#maxretry = 3
+#action = iptables-multiport[name=openvpn, port="1194", protocol=udp]
+
+
+
+# Protection d'authentification SMTP Exim :
+# Configurez une prison personnalisée pour protéger votre serveur de messagerie Exim contre les attaques par brute de force d'authentification SMTP en analysant les fichiers journaux Exim.
+
+#[exim-smtp-auth-custom]
+#enabled = true
+#filter = exim-auth
+#logpath = /var/log/exim/main.log
+#bantime = 3600
+#findtime = 600
+#maxretry = 5
+#action = iptables-multiport[name=exim, port="smtp", protocol=tcp]
+
+
+
+# Protection de connexion au panneau Plesk :
+# Implémentez une prison personnalisée pour sécuriser votre panneau Plesk contre les attaques par brute de force de connexion en surveillant les fichiers journaux de Plesk pour plusieurs tentatives de connexion infructueuses.
+
+#[plesk-panel-login-custom]
+#enabled = true
+#filter = plesk-panel-auth
+#logpath = /var/log/plesk/panel.log
+#bantime = 1800
+#findtime = 300
+#maxretry = 5
+#action = iptables-multiport[name=plesk, port="http,https", protocol=tcp]
+
+
+
+# Protection de connexion cPanel :
+# Configurez une prison personnalisée pour protéger votre serveur cPanel contre les attaques par brute de force de connexion en analysant les fichiers journaux cPanel pour les tentatives de connexion infructueuses répétées.
+
+#[cpanel-login-custom]
+#enabled = true
+#filter = cpanel-auth
+#logpath = /var/log/cpanel/login_log
+#bantime = 1800
+#findtime = 300
+#maxretry = 5
+#action = iptables-multiport[name=cpanel, port="2082,2083,2086,2087", protocol=tcp]
+
+
+
+# Protection de connexion Webmin :
+# Créez une prison personnalisée pour sécuriser votre serveur Webmin contre les attaques par brute de force de connexion en surveillant les fichiers journaux Webmin pour plusieurs tentatives de connexion infructueuses.
+
+#[webmin-login-custom]
+#enabled = true
+#filter = webmin-auth
+#logpath = /var/log/webmin/miniserv.log
+#bantime = 1800
+#findtime = 300
+#maxretry = 5
+#action = iptables-multiport[name=webmin, port="10000", protocol=tcp]
+
 ```
