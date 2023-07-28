@@ -4,7 +4,7 @@
 
 👋 Sommaire des sujets abordés :
 
-- 01 - [Comment se connecter à SSH avec des clés ?](#balise-01)
+- 01 - [SSH comment se connecter avec des clés ?](#balise-01)
 - 02 - [Comment fonctionne l’authentification par clé ?](#balise-02)
 - 03 - [Comment créer des clés SSH ?](#balise-03)
 - 04 - [Comment transférer votre clé publique vers le serveur ?](#balise-04)
