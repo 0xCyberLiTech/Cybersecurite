@@ -1,6 +1,6 @@
 ![Debian_logo-01](./images/Cloud-et-securite.png)
 
-## CYBERSÉCURITÉ / Comprendre la différence entre EPP, EDR, SIEM, SOAR et XDR.
+## CYBERSÉCURITÉ / EPP EDR SIEM SOAR et XDR comprendre la différence entre ces acronymes.
 
 EPP / EDR / NDR / XDR… Les solutions de détection et réponse sont de plus en plus présentes sur le marché et semblent permettre de contrer toutes les attaques.
 
