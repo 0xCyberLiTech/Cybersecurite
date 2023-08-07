@@ -1,6 +1,6 @@
 ![Debian_logo-01](./images/Cloud-et-securite.png)
 
-## Logiciels malveillants techniques de protection :
+## CYBERSÉCURITÉ / Logiciels malveillants techniques de protection :
 
 - 01 - [ Diminution de la surface d'attaque.](#balise_010)
 - 02 - [ Sensibilisation des utilisateurs.](#balise_011)
