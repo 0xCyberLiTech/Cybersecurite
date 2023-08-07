@@ -37,3 +37,29 @@ Les logs sont classés selon plusieurs thématiques :
 |  local7 | utilisé pour les messages du boot |
 |  * | désigne tous les éléments  |
 |  none | ne désigne aucun élément |
+
+Les logs sont également classés par log level :
+|  Log level  | Signification |
+|-----|-----|
+| Emerg | urgence, système inutilisable |
+| Alert | intervention immédiate nécessaire |
+| Crit | erreur système critique |
+| Err | erreur de fonctionnement |
+| Warning | avertissement |
+| Notice | évènement normaux devant être signalés |
+| Info | pour information |
+| Debug | message de déboguage |
+
+Installez et configurez un serveur rsyslog.
+
+Dans notre cas de figure, la société NeedSec utilise également des machines sous Linux.
+
+Pour créer notre infrastructure, nous allons configurer notre serveur rsyslog sur une machine Ubuntu.
+
+La remontée de logs se fera depuis n’importe quel système Linux.
+
+Votre infrastructure ressemblera à la suivante :
+
+![RSyslog-01.png](./images/RSyslog-01.png)
+
+
