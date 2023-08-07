@@ -154,12 +154,22 @@ Vous pouvez consulter vos interfaces réseau avant de continuer.
 
 Pour ce faire, utilisez cette commande :
 ```
-ip addr
-Output Excerpt
-2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state
-. . .
-3: eth1: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default
-. . .
+ip -c addr
+```
+```
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute
+       valid_lft forever preferred_lft forever
+
+2: enp86s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 58:47:fa:72:14:92 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.50.250/24 brd 192.168.50.255 scope global enp86s0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::5a47:cnf5:f572:1412/64 scope link
+       valid_lft forever preferred_lft forever
 ```
 Le résultat mis en évidence indique les noms d’interface réseau.
 
