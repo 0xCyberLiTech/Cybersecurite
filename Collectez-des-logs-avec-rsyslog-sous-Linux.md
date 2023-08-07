@@ -1,6 +1,6 @@
 ![Apache_logo](./images/Cloud-et-securite.png)
 
-## Collectez des logs avec rsyslog sous Linux.
+## CCYBERSÉCURITÉ / Collectez des logs avec rsyslog sous Linux.
 
 Pour gérer et exploiter vos logs Linux, nous utiliserons un serveur rsyslog.
 
