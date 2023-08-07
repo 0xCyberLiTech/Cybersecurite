@@ -63,3 +63,4 @@ Votre infrastructure ressemblera à la suivante :
 ![RSyslog-01.png](./images/RSyslog-01.png)
 
 
+Source : https://openclassrooms.com/fr/courses/1750566-optimisez-la-securite-informatique-grace-au-monitoring/7144797-collectez-des-logs-avec-rsyslog-sous-linux
