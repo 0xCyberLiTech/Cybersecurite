@@ -26,8 +26,14 @@ Dans ce cours, nous nous concentrerons sur Rsyslog. Il fonctionne sur le modèle
 
 Les logs sont classés selon plusieurs thématiques :
 
-|   |  |
+| Thématique  |  Définition |
 |---    |--   |
-|    |   |
-|    |   |
-|    |   |
+|  auth  | utilisé pour des évènements concernant la sécurité ou l'authentification à travers des applications d'accès (type SSH) |
+|  authpriv | utilisé pour les messages relatifs au contrôle d'accès |
+|  daemon  | utilisé par les différents processus systèmes et d'application |
+|  kern  | utilisé pour les messages concernant le kernel |
+|  mail | utilisé pour les évènements des services mail |
+|  user  | par défaut quand aucun n'est spécifié |
+|  local7 | utilisé pour les messages du boot |
+|  * | désigne tous les éléments  |
+|  none | ne désigne aucun élément |
