@@ -8,6 +8,8 @@ Quand vos logs vous sont remontés, ils contiennent beaucoup d’informations su
 
 Le protocole syslog est utilisé pour l'envoi et la réception de logs dans un format particulier, à partir de divers systèmes. Les messages incluent les horodatages, les messages d'événements, la criticité, les adresses IP, les diagnostics, etc., mais de façon digeste.
 
+![RSyslog-00.png](./images/RSyslog-00.png)
+
 Le protocole syslog a été conçu pour surveiller les périphériques réseaux et systèmes afin d'envoyer des messages de notification en cas de dysfonctionnement.
 
 Il peut vous envoyer aussi des alertes pour les événements prénotifiés, et surveiller les activités suspectes via les différents journaux de monitoring.
