@@ -28,16 +28,55 @@ apt install ufw
 <a name="balise-02"></a>
 ## 02 — Mise en place des politiques par défaut.
 
-Si vous commencez tout juste à utiliser votre pare-feu, les premières règles à définir sont vos politiques par défaut. Ces règles contrôlent la manière de traiter le trafic qui ne correspond pas explicitement à d’autres règles. Par défaut, UFW est configuré pour refuser toutes les connexions entrantes et autoriser toutes les connexions sortantes. Cela signifie que toute personne essayant d’atteindre votre serveur ne pourra pas se connecter, tandis que toute application à l’intérieur du serveur pourra atteindre le monde extérieur.
+Si vous commencez tout juste à utiliser votre pare-feu, les premières règles à définir sont vos politiques par défaut.
 
-Remettons vos règles UFW à leur valeur par défaut afin que nous puissions être sûrs que vous pourrez suivre ce tutoriel. Pour définir les valeurs par défaut utilisées par UFW, utilisez ces commandes :
+Ces règles contrôlent la manière de traiter le trafic qui ne correspond pas explicitement à d’autres règles.
+
+Par défaut, UFW est configuré pour refuser toutes les connexions entrantes et autoriser toutes les connexions sortantes.
+
+Cela signifie que toute personne essayant d’atteindre votre serveur ne pourra pas se connecter, tandis que toute application à l’intérieur du serveur pourra atteindre le monde extérieur.
+
+Remettons vos règles UFW à leur valeur par défaut afin que nous puissions être sûrs que vous pourrez suivre ce tutoriel.
+
+Pour définir les valeurs par défaut utilisées par UFW, utilisez ces commandes :
+
+## Gestion des règles par défaut
+
+- Autoriser le trafic entrant suivant les règles par défaut :
+```
+sudo ufw default allow
+```
+- Refuser le trafic entrant suivant les règles par défaut :
+```
+sudo ufw default deny
+```
+- Autoriser le trafic sortant suivant les règles par défaut :
+```
+sudo ufw default allow outgoing
+```
+- Refuser le trafic sortant suivant les règles par défaut :
+```
+sudo ufw default deny outgoing
+```
+S'assurer d'avoir appliquer ces deux règles :
 ```
 sudo ufw default deny incoming
 ```
 ```
-sudo ufw default allow outgoing
+sudo ufw default deny outgoing
 ```
 Ces commandes définissent les valeurs par défaut pour refuser les connexions entrantes et autoriser les connexions sortantes. Ces paramètres par défaut du pare-feu peuvent suffire pour un ordinateur personnel, mais les serveurs doivent généralement répondre aux demandes entrantes d’utilisateurs extérieurs. Nous verrons cela plus loin.
+
+## Activer/désactiver la journalisation.
+
+Activer la journalisation :
+```
+sudo ufw logging on
+```
+Désactiver la journalisation :
+```
+sudo ufw logging off
+```
 
 <a name="balise-03"></a>
 ## 03 — Autoriser les connexions SSH.
