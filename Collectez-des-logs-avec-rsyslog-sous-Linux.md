@@ -28,7 +28,7 @@ Les logs sont classés selon plusieurs thématiques :
 
 ```
 |   Emoji   |   Nom |
-|---    |:-:     |
+|------- |------ |
 |   &#x1F600;   |   GRINNING FACE   |
 |   &#x1F602;   |   FACE WITH TEARS OF JOY  |
 |   &#x1F923;   |   ROLLING ON THE FLOOR LAUGHING   |
