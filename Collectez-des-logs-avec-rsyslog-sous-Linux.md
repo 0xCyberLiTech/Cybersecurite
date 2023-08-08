@@ -68,5 +68,79 @@ Votre infrastructure ressemblera à la suivante :
 
 ![RSyslog-01.png](./images/RSyslog-01.png)
 
+Tout d’abord, installons rsyslog :
+```
+sudo apt install rsyslog
+```
+Pour configurer notre serveur, il suffit d’éditer le fichier /etc/rsyslog.conf et de décommenter les lignes suivantes pour activer la collecte de logs sur le port UDP 514, qui est le port par défaut :
+```
+# provides UDP syslog reception
+module(load="imudp")
+input(type="imudp" port="514")
+```
+Ensuite, redémarrez le service rsyslog avec la commande suivante :
+```
+systemctl restart rsyslog.service
+```
+Votre serveur est à présent configuré et prêt à recevoir des logs d’une machine distante !
+
+Configurez une machine pour l’envoi de logs :
+
+Mais pour recevoir des logs, il faut qu’ils soient envoyés.
+
+Nous allons maintenant configurer notre client Linux pour envoyer ses logs à notre serveur de centralisation.
+
+Pour ce faire, éditez le fichier par défaut  ( /etc/rsyslog.d/50-default.conf ).
+
+Pour notre exemple, nous allons ajouter la ligne suivante :
+```
+auth,authpriv.*                 @192.168.1.38:514
+```
+Ici, nous voulons enregistrer les logs d’authentification (auth, authpriv) et les transmettre à la machine 192.168.1.38, qui est notre serveur.
+
+Le “@” précise l’adresse IP de destination.
+
+Notez qu’il faut un @ pour UDP et deux @ pour TCP.
+
+Enfin, redémarrez le service.
+
+Interprétez et analysez les logs remontés.
+
+Pour vérifier la remontée de logs, nous allons simuler la tentative de plusieurs connexions sur notre machine cliente sur le port 22 (SSH), en nous connectant avec un mot de passe erroné.
+
+Il suffit ensuite d’afficher les logs d’authentification sur notre serveur.
+
+On voit ici les tentatives de connexion :
+
+```
+$tail -f /var/log/auth.log
+Nov  1 16:45:50 OCserv sudo: pam_unix(sudo:session): 
+session closed for user root
+Nov  1 16:47:16 OCserv sshd[10862]: Received disconnect from 
+192.168.1.3 port 51728:11: disconnected by user
+Nov  1 16:47:16 OCserv sshd[10862]: Disconnected from user 
+toto 192.168.1.3 port 51728
+Nov  1 16:47:16 OCserv systemd-logind[1029]: Removed session 
+1.
+Nov  1 16:47:16 OCserv sshd[9294]: pam_unix(sshd:session): 
+session closed for user toto
+Nov  1 16:47:18 OCserv sshd[22374]: pam_unix(sshd:auth): 
+authentication failure; logname= uid=0 euid=0 tty=ssh 
+ruser= rhost=192.168.1.3  user=toto
+```
+Notons les première et dernière tentatives de connexion, où vous pouvez voir des tentatives de connexion avec l'utilisateur root depuis l'adresse IP 192.168.1.3, puis une connexion réussie avec l'utilisateur Toto.
+
+Saviez-vous qu’il existe un client rsyslog pour Windows ? Il peut être intéressant à utiliser pour centraliser vos logs sur rsyslog. Pour en savoir plus sur l'utilisation, vous pouvez visiter la documentation qui lui est dédiée sur le site de rsyslog.
+
+
+
+
+
+
+
+
+
+
+
 
 Source : https://openclassrooms.com/fr/courses/1750566-optimisez-la-securite-informatique-grace-au-monitoring/7144797-collectez-des-logs-avec-rsyslog-sous-linux
