@@ -23,7 +23,7 @@ Si vous souhaitez commencer à sécuriser votre réseau, et vous n’êtes pas s
 <a name="balise-01"></a>
 ## 01 - Installation de UFW.
 ```
-apt install ufw
+sudo apt install ufw
 ```
 <a name="balise-02"></a>
 ## 02 — Mise en place des politiques par défaut.
@@ -42,11 +42,11 @@ Pour définir les valeurs par défaut utilisées par UFW, utilisez ces commandes
 
 Nous définissons que toutes les connexions entrantes sont bloquées.
 ```
-ufw default deny incoming
+sudo ufw default deny incoming
 ```
 Nous définissons que toutes les connexions sortantes sont autorisées.
 ```
-ufw default allow outgoing
+sudo ufw default allow outgoing
 ```
 ## Activer/désactiver la journalisation.
 
