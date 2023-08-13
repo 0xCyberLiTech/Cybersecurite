@@ -311,6 +311,24 @@ ufw limit in on enp86s0 from 192.168.50.118 to 192.168.50.250 port 9443 proto tc
 ufw allow from 172.17.0.0/16 to 192.168.50.0/24 proto tcp
 ufw allow from 172.18.0.0/16 to 192.168.50.0/24 proto tcp
 ```
+Autre exemple, apporter un commentaire à une ACL
+```
+ufw allow from 172.17.0.0/16 to 192.168.50.0/24 proto tcp comment 'Autorise 6 connexions sur 30 secondes au lansubnet docker 172.17.0.0'
+```
+List des ACLs en services :
+```
+ufw status numbered
+```
+```
+     To                         Action      From
+     --                         ------      ----
+[ 1] 192.168.50.250 2234/tcp on enp86s0 LIMIT IN    192.168.50.118
+[ 2] 192.168.50.250 80/tcp on enp86s0 LIMIT IN    192.168.50.118
+[ 3] 192.168.50.250 443/tcp on enp86s0 LIMIT IN    192.168.50.118
+[ 4] 192.168.50.250 10050/tcp on enp86s0 LIMIT IN    192.168.0.0/16
+[ 5] 192.168.50.250 9443/tcp on enp86s0 LIMIT IN    192.168.50.118
+[ 6] 192.168.50.0/24/tcp        ALLOW IN    172.17.0.0/16/tcp          # Autorise 6 connexions sur 30 secondes au lansubnet docker 172.17.0.0
+```
 <a name="balise-09"></a>
 ## 09 - Désactivation ou réinitialisation d’UFW (facultatif).
 
