@@ -300,6 +300,17 @@ To                         Action      From
 ```
 Utilisez la commande status si vous souhaitez vérifier comment UFW a configuré le pare-feu.
 
+Exemples de règles :
+```
+ufw limit in on enp86s0 from 192.168.50.118 to 192.168.50.250 port 2234 proto tcp
+ufw limit in on enp86s0 from 192.168.50.118 to 192.168.50.250 port 80 proto tcp
+ufw limit in on enp86s0 from 192.168.50.118 to 192.168.50.250 port 443 proto tcp
+ufw limit in on enp86s0 from 192.168.0.0/16 to 192.168.50.250 port 10050 proto tcp
+ufw limit in on enp86s0 from 192.168.50.118 to 192.168.50.250 port 9443 proto tcp
+# ACLs Docker Lansubnets
+ufw allow from 172.17.0.0/16 to 192.168.50.0/24 proto tcp
+ufw allow from 172.18.0.0/16 to 192.168.50.0/24 proto tcp
+```
 <a name="balise-09"></a>
 ## 09 - Désactivation ou réinitialisation d’UFW (facultatif).
 
