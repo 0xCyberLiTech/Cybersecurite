@@ -12,7 +12,8 @@
 - 06 - [Refuser les connexions.](#balise-06)
 - 07 - [Suppression de règles.](#balise-07)
 - 08 - [Vérification de l’état et des règles d’UFW.](#balise-08)
-- 09 - [Désactivation ou réinitialisation d’UFW (facultatif).](#balise-09)
+- 09 - [Exemple concret, mis en application concernant l'application Zabbix.](#balise-09)
+- 10 - [Désactivation ou réinitialisation d’UFW (facultatif).](#balise-10)
 
 Introduction :
 
@@ -298,6 +299,7 @@ To                         Action      From
 --                         ------      ----
 22/tcp                     ALLOW IN    Anywhere
 ```
+<a name="balise-09"></a>
 Exemple concret, mis en application concernant l'application Zabbix :
 
 Voici un exemple de règles à mettre en service.
@@ -358,7 +360,7 @@ Celles-ci sont mises en service afin d'assurer la communication entre la brique 
 ufw allow from 172.17.0.0/16 to 192.168.50.0/24 proto tcp
 ufw allow from 172.18.0.0/16 to 192.168.50.0/24 proto tcp
 ```
-<a name="balise-09"></a>
+<a name="balise-10"></a>
 ## 09 - Désactivation ou réinitialisation d’UFW (facultatif).
 
 Si vous décidez que vous ne voulez pas utiliser UFW, vous pouvez le désactiver avec cette commande :
