@@ -300,7 +300,7 @@ To                         Action      From
 ```
 Exemple concret, mis en application concernant l'application Zabbix :
 
-Voici un exemple de règles à mettre en service concernant notre serveur Zabbix.
+Voici un exemple de règles à mettre en service.
 
 Ouvrir le port SSH approprié en entrée, afin d'avoir la main sur votre serveur Zabbix.
 
