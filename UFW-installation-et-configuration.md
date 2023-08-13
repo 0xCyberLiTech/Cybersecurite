@@ -40,33 +40,14 @@ Remettons vos règles UFW à leur valeur par défaut afin que nous puissions êt
 
 Pour définir les valeurs par défaut utilisées par UFW, utilisez ces commandes :
 
-## Gestion des règles par défaut
-
-- Autoriser le trafic entrant suivant les règles par défaut :
+Nous définissons que toutes les connexions entrantes sont bloquées.
 ```
-sudo ufw default allow
+ufw default deny incoming
 ```
-- Refuser le trafic entrant suivant les règles par défaut :
+Nous définissons que toutes les connexions sortantes sont autorisées.
 ```
-sudo ufw default deny
+ufw default allow outgoing
 ```
-- Autoriser le trafic sortant suivant les règles par défaut :
-```
-sudo ufw default allow outgoing
-```
-- Refuser le trafic sortant suivant les règles par défaut :
-```
-sudo ufw default deny outgoing
-```
-S'assurer d'avoir appliquer ces deux règles :
-```
-sudo ufw default deny incoming
-```
-```
-sudo ufw default deny outgoing
-```
-Ces commandes définissent les valeurs par défaut pour refuser les connexions entrantes et autoriser les connexions sortantes. Ces paramètres par défaut du pare-feu peuvent suffire pour un ordinateur personnel, mais les serveurs doivent généralement répondre aux demandes entrantes d’utilisateurs extérieurs. Nous verrons cela plus loin.
-
 ## Activer/désactiver la journalisation.
 
 Activer la journalisation :
@@ -77,7 +58,6 @@ Désactiver la journalisation :
 ```
 sudo ufw logging off
 ```
-
 <a name="balise-03"></a>
 ## 03 — Autoriser les connexions SSH.
 
