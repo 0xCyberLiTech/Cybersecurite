@@ -300,39 +300,29 @@ To                         Action      From
 22/tcp                     ALLOW IN    Anywhere
 ```
 <a name="balise-09"></a>
-## 09 - Exemple concret, mis en application concernant l'application Zabbix :
+## 09 - Exemple concret, mis en application concernant l'application Zabbix installée en dur et Grafana déployé sous la forme d'un container (Docker) sur la même machine Zabbix server.
 
 Ouvrir le port SSH approprié en entrée, afin d'avoir la main sur votre serveur Zabbix à distance.
 
 Dans cet exemple, je n'autorise que la machine distante 192.168.50.118 à pouvoir accéder en SSH sur le serveur Zabbix au travers du port 2277 en TCP en entrée.
 ```
-ufw limit in on enp86s0 from 192.168.50.118 to 192.168.50.250 port 2277 proto tcp
+ufw limit in on enp86s0 from 192.168.50.118 to 192.168.50.250 port 2277 proto tcp comment '2277 SSH'
 ```
 La variable 'limit' correspond à n'autoriser que 6 tentatives de connexion en 30 secondes sur notre règle. 
 
 Cela permet de renfocer un peu plus la sécurité.
-```
-ufw allow in on enp86s0 from 192.168.50.118 to 192.168.50.250 port 2277 proto tcp
-```
+
 Ouvrir le port 80 sur le serveur Zabbix ainsi que le port 443 en entrée.
 ```
-ufw limit in on enp86s0 from 192.168.50.118 to 192.168.50.250 port 80 proto tcp
-```
-Ou,
-```
-ufw allow in on enp86s0 from 192.168.50.118 to 192.168.50.250 port 80 proto tcp
+ufw allow in on enp86s0 from 192.168.50.118 to 192.168.50.250 port 80 proto tcp comment '80 Apache2'
 ```
 ```
-ufw limit in on enp86s0 from 192.168.50.118 to 192.168.50.250 port 443 proto tcp
+ufw allow in on enp86s0 from 192.168.50.118 to 192.168.50.250 port 443 proto tcp comment '443 Apache2'
 ```
-Ou,
-```
-ufw allow in on enp86s0 from 192.168.50.118 to 192.168.50.250 port 443 proto tcp
-```
-- Il faut autoriser le LANSUBNET 192.168.0.0/16 à communiquer vers le serveur Zabbix (192.168.50.250) à travers le port 10050 en TCP, mode passif.
-- Il faut autoriser le LANSUBNET 192.168.0.0/16 à communiquer vers le serveur Zabbix (192.168.50.250) à travers le port 10051 en TCP, mode actif.
+- Il faut autoriser le LANSUBNET 192.168.0.0/16 à communiquer vers le serveur Zabbix (192.168.50.250) à travers le port 10050 en TCP, pour le mode passif.
+- Il faut autoriser le LANSUBNET 192.168.0.0/16 à communiquer vers le serveur Zabbix (192.168.50.250) à travers le port 10051 en TCP, pour le mode actif.
 
-Ces ports doivent être ouverts en entrée sur le serveur Zabbix, afin de recueillir les communications en provenance des agent Zabbix des hôtes distants, mode passif ou actif.
+Ces ports doivent être ouverts en entrée sur le serveur Zabbix, afin de recueillir les communications en provenance des agent Zabbix des hôtes distants, que ce soit en mode passif ou en mode actif.
 ```
 ufw allow in on enp86s0 from 192.168.0.0/16 to 192.168.50.250 port 10050 proto tcp comment '1050 agent Zabbix - For Passive checks'
 ```
@@ -354,14 +344,14 @@ ufw status numbered
 ```
 Autre exemple : d'autres règles de ce type peuvent également être mises en place.
 
-Dans cet exemple, nous avons installé Docker sur notre serveur Zabbix.
+Dans cet exemple, nous avons installé Docker sur notre serveur Zabbix et également déployé Grafana sous la forme d'un container.
 
-De nouvelles règles seront mises en service afin d'assurer la communication entre docker et votre réseau local.
+De nouvelles règles seront mises en service afin d'assurer la communication entre docker, Grafana et votre réseau local.
 ```
-ufw allow from 172.17.0.0/16 to 192.168.50.0/24 proto tcp
+ufw allow from 172.17.0.0/16 to 192.168.50.0/24 proto tcp comment 'LANSUBNET 172.17.0.0 Docker'
 ```
 ```
-ufw allow from 172.18.0.0/16 to 192.168.50.0/24 proto tcp
+ufw allow from 172.18.0.0/16 to 192.168.50.0/24 proto tcp comment 'LANSUBNET 172.18.0.0 Docker'
 ```
 Permettre l'accès depuis la machine hôte au portail Portainer.
 ```
@@ -374,7 +364,7 @@ ufw status numbered
 ```
      To                         Action      From
      --                         ------      ----
-[ 1] 192.168.50.250 2277/tcp on enp86s0 ALLOW IN    192.168.50.118             # 2277 SSH
+[ 1] 192.168.50.250 2277/tcp on enp86s0 LIMIT IN    192.168.50.118             # 2277 SSH
 [ 2] 192.168.50.250 80/tcp on enp86s0 ALLOW IN    192.168.50.118             # 80 Apache2
 [ 3] 192.168.50.250 443/tcp on enp86s0 ALLOW IN    192.168.50.118             # 443 Apache2
 [ 4] 192.168.50.250 10050/tcp on enp86s0 ALLOW IN    192.168.0.0/16             # 1050 agent Zabbix - For Passive checks
@@ -383,6 +373,12 @@ ufw status numbered
 [ 7] 192.168.50.0/24/tcp        ALLOW IN    172.18.0.0/16/tcp          # LANSUBNET 172.18.0.0 Docker
 [ 8] 192.168.50.250 10051/tcp on enp86s0 ALLOW IN    192.168.0.0/16             # 1051 agent Zabbix - For Active checks
 ```
+
+
+
+
+
+
 <a name="balise-10"></a>
 ## 10 - Désactivation ou réinitialisation d’UFW (facultatif).
 
