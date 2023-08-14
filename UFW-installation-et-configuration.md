@@ -342,9 +342,10 @@ ufw status numbered
 [ 4] 192.168.50.250 10050/tcp on enp86s0 ALLOW IN    192.168.0.0/16             # 1050 agent Zabbix - For Passive checks
 [ 5] 192.168.50.250 10051/tcp on enp86s0 ALLOW IN    192.168.0.0/16             # 1051 agent Zabbix - For Active checks
 ```
-Autre exemple : d'autres règles de ce type peuvent également être mises en place.
+Porsuivons :
 
-Dans cet exemple, nous avons installé Docker sur notre serveur Zabbix et également déployé Grafana sous la forme d'un container.
+Dans cet exemple, nous avons installé Docker sur notre serveur Zabbix et également déployé Grafana sous la forme d'un container sur celui-ci.
+Zabbix est installé en du sur notre serveur Zabbix.
 
 De nouvelles règles seront mises en service afin d'assurer la communication entre docker, Grafana et votre réseau local.
 ```
