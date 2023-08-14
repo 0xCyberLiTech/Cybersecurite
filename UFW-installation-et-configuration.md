@@ -12,7 +12,7 @@
 - 06 - [Refuser les connexions.](#balise-06)
 - 07 - [Suppression de règles.](#balise-07)
 - 08 - [Vérification de l’état et des règles d’UFW.](#balise-08)
-- 09 - [Exemple concret, mis en application concernant l'application Zabbix.](#balise-09)
+- 09 - [Exemple concret, mis en oeuvre concernant l'application Zabbix installée en dur et Grafana déployé sous la forme d'un container (Docker) sur la même machine Zabbix server.](#balise-09)
 - 10 - [Désactivation ou réinitialisation d’UFW (facultatif).](#balise-10)
 
 Introduction :
@@ -300,7 +300,7 @@ To                         Action      From
 22/tcp                     ALLOW IN    Anywhere
 ```
 <a name="balise-09"></a>
-## 09 - Exemple concret, mis en application concernant l'application Zabbix installée en dur et Grafana déployé sous la forme d'un container (Docker) sur la même machine Zabbix server.
+## 09 - Exemple concret, mis en oeuvre concernant l'application Zabbix installée en dur et Grafana déployé sous la forme d'un container (Docker) sur la même machine Zabbix server.
 
 Ouvrir le port SSH approprié en entrée, afin d'avoir la main sur votre serveur Zabbix à distance.
 
