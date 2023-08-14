@@ -358,6 +358,8 @@ Autre exemple : d'autres règles de ce type peuvent également être mises en pl
 Celles-ci sont mises en service afin d'assurer la communication entre docker et votre réseau local.
 ```
 ufw allow from 172.17.0.0/16 to 192.168.50.0/24 proto tcp
+```
+```
 ufw allow from 172.18.0.0/16 to 192.168.50.0/24 proto tcp
 ```
 <a name="balise-10"></a>
