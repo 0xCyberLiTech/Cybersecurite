@@ -71,7 +71,7 @@ volumes:
 ```
 Avec un InfluxDB et Grafana groupés
 ```
-docker-compose -f docker-compose.standalone.yml up
+docker compose -f docker-compose.standalone.yml up
 ```
 Avec un InfluxDB externe :
 
@@ -84,11 +84,11 @@ Avec un InfluxDB externe :
 - Remarque : Vous pouvez utiliser le nom de domaine complet du réseau Docker si vous placez le service dans le même réseau Docker que votre instance InfluxDB. INFLUX_HOST sera un afflux si le nom de votre service est l’afflux.
 
 ```
-docker-compose up -d
+docker compose up -d
 ```
 Tester le serveur TCP :
 ```
-docker-compose -f docker-compose.standalone.yml up
+docker compose -f docker-compose.standalone.yml up
 ```
 
 - 1) docker-compose -f docker-compose.standalone.yml up
