@@ -18,15 +18,15 @@ Conditions préalables :
 ## Commencer :
 Créer le sous dossier ~/containers/Geohash_ssh/.
 ```
-mkdir -p ~/containers/Geohash_ssh/
+mkdir -p ~/Containers/Geohash_ssh/
 ```
 Créer le fichier ~/containers/Geohash_ssh/docker-compose.standalone.yml.
 ```
-touch ~/containers/Geohash_ssh/docker-compose.standalone.yml
+touch ~/Containers/Geohash_ssh/docker-compose.standalone.yml
 ```
 Editer le fichier ~/containers/Geohash_ssh/docker-compose.standalone.yml
 ```
-nano ~/containers/Geohash_ssh/docker-compose.standalone.yml
+nano ~/Containers/Geohash_ssh/docker-compose.standalone.yml
 ```
 Copier le code ci-dessous dans le fichier 'docker-compose.standalone.yml'qui est vide.
 ```
