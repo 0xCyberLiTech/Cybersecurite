@@ -6,7 +6,7 @@
 
   En quoi consiste-t-il et comment l'utiliser ?
 
-  Un proxy inverse fait apparaître différents serveurs et services comme s'ils étaient une seule unité.
+  Un proxy reverse fait apparaître différents serveurs et services comme s'ils étaient une seule unité.
 
   Il vous permet de masquer la présence de plusieurs serveurs distincts derrière le même nom.
 
