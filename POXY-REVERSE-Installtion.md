@@ -15,6 +15,7 @@ Installation du paquet Apache2 :
 apt-get install apache2
 ```
 Afin de bénéficier du mode reverse sur Apache2, il faut activer les module : proxy et proxy_http.
+
 Pour activer ces 2 modules saisissez la commande :
 ```
 a2enmod proxy proxy_http
