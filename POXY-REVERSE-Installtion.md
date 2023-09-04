@@ -24,23 +24,34 @@ Pour que l’activation de ces modules soient pris en compte redémarrer le serv
 ```
 systemctl restart apache2.service
 ```
-Créer un fichier de configuration Apache :
+Créer un fichier de configuration Apache (VirtualHosts) :
 ```
 nano /etc/apache2/conf-available/votre-conf.conf
 ```
 ```
 <VirtualHost *:80>
-    ServerName votre-domaine.fr
-    ServerAdmin postmaster@domaine.fr
+    ServerName votre-domaine.local
+    ServerAdmin postmaster@domaine.local
  
     ProxyPass / http://127.0.0.1/
     ProxyPassReverse / http://127.0.0.1/
     ProxyRequests Off
 </VirtualHost>
 ```
-- ServerName correspond à votre domaine.
-- ProxyPass et ProxyPassReverse correspondent au serveur de destination.
-- ProxyRequests est en off pour des raison de sécurité.
+Autre exemple un serveur d'impression CUPS derrière un proxy reverse :
+```
+<VirtualHost *:80>
+    ServerName cups.domaine.local
+    ServerAdmin postmaster@domaine.local
+ 
+    ProxyPass / http://127.0.0.1:631/
+    ProxyPassReverse / http://127.0.0.1:631/
+    ProxyRequests Off
+</VirtualHost>
+```
+- ServerName : correspond à votre domaine.
+- ProxyPass et ProxyPassReverse : correspondent au serveur de destination.
+- ProxyRequests : est en off pour des raison de sécurité.
 
 Activer la configuration :
 ```
