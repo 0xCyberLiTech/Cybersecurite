@@ -33,6 +33,11 @@
 
 - 03 - Définition du PROXY TRANSPARENT.
 
+  Un serveur proxy transparent est celui qui offre le moins de confidentialité. Avec une connexion à un proxy transparent, l'adresse IP de 
+  l'utilisateur est transmise au site web cible.
+
+  Le seul avantage d'un proxy transparent est qu'il met le contenu en cache et accélère les performances.
+
 👋 Sommaire des sujets traités :
 
 - 01 - [Sujet abordé - PROXY REVERSE installation. ](https://github.com/0xCyberLiTech/Cybersecurite/blob/main/POXY-REVERSE-Installtion.md)
