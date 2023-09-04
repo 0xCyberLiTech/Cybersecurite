@@ -1,4 +1,4 @@
-PROXY-REVERSE-MANDATAIRE-TRANSPARENT.md![Debian_logo-01](./images/Cloud-et-securite.png)
+![Debian_logo-01](./images/Cloud-et-securite.png)
 
 ## CYBERSÉCURITÉ / PROXY REVERSE, PROXY MANDATAIRE & PROXY TRANSPARENT.
 
