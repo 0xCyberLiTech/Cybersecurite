@@ -63,6 +63,8 @@ systemctl restart apache2.service
 ````
 Recommandations :
 
-Je vous recommande de sécuriser ce serveur à l’aide d’un firewall sur vos deux machines, comme UFW qui est facile à prendre en mains ou Iptables. Sur votre machine qui sert de serveur Web, vous pouvez autoriser uniquement le serveur reverse proxy à se connecter à l’aide du port 80 ou 443 (ports part défaut) et n’oubliez pas de garder le port SSH (port 22 par défaut) ouvert si vous l’utilisez. Vous pouvez également utiliser l’outil CrowdSec afin de limiter les tentatives de cyberattaques si votre site web est exposé sur internet.
+Je vous recommande de sécuriser ce serveur à l’aide d’un firewall sur vos deux machines, comme UFW qui est facile à prendre en mains ou Iptables.
 
-Je vous recommande aussi d’utiliser faill2ban pour limiter les attaques de force brute sur vos serveurs web Apache2.
+Sur votre machine qui sert de serveur Web, vous pouvez autoriser uniquement le serveur reverse proxy à se connecter à l’aide du port 80 ou 443 (ports part défaut) et n’oubliez pas de garder le port SSH ouvert si vous l’utilisez. Vous pouvez également utiliser l’outil CrowdSec afin de limiter les tentatives de cyberattaques si votre site web est exposé sur internet.
+
+Je vous recommande aussi d’utiliser faill2ban pour limiter les attaques brute de force sur vos serveurs web Apache2.
