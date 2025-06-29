@@ -97,5 +97,5 @@ Pour analyser les fichiers suspects :
 ---
 
 <p align="center">
-  🛡️ Par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> – Pour une meilleure compréhension des cyberattaques
+  🔒 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour une cybersécurité accessible à tous.
 </p>
