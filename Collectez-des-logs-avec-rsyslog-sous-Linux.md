@@ -14,12 +14,6 @@
 
 ### 🔧 Travail en cours... Merci de revenir plus tard !
 
----
-
-<p align="center">
-  🔒 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour une cybersécurité accessible à tous.
-</p>
-
 ## CYBERSÉCURITÉ / Collectez des logs avec rsyslog sous Linux.
 
 Pour gérer et exploiter vos logs Linux, nous utiliserons un serveur rsyslog.
@@ -152,15 +146,11 @@ Notons les première et dernière tentatives de connexion, où vous pouvez voir 
 
 Saviez-vous qu’il existe un client rsyslog pour Windows ? Il peut être intéressant à utiliser pour centraliser vos logs sur rsyslog. Pour en savoir plus sur l'utilisation, vous pouvez visiter la documentation qui lui est dédiée sur le site de rsyslog.
 
-
-
-
-
-
-
-
-
-
-
-
 Source : https://openclassrooms.com/fr/courses/1750566-optimisez-la-securite-informatique-grace-au-monitoring/7144797-collectez-des-logs-avec-rsyslog-sous-linux
+
+---
+
+<p align="center">
+  🔒 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour une cybersécurité accessible à tous.
+</p>
+
