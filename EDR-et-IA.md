@@ -100,5 +100,5 @@ En déployant un **agent EDR** sur chaque poste :
 ---
 
 <p align="center">
-  🔒 Rédigé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> – Pour une cybersécurité de nouvelle génération.
+  🔒 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour une cybersécurité accessible à tous.
 </p>
