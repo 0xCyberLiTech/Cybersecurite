@@ -1,49 +1,104 @@
-![Debian_logo-01](./images/Cloud-et-securite.png)
+<p align="center">
+  <img src="./images/Cloud-et-securite.png" alt="EDR & IA" width="300">
+</p>
 
-## CYBERSÉCURITÉ / EDR & IA.
+<h1 align="center">🤖 CYBERSÉCURITÉ / EDR & IA</h1>
 
-Approche comportementale & IA : 
+<p align="center">
+  L’approche comportementale propulsée par l’intelligence artificielle pour contrer les menaces modernes.
+</p>
 
-l’EDR passe à l’attaque.
+---
 
-L’explosion des techniques malveillantes destabilise nos protections historiques, les outils Endpoint Detection & Response (EDR) viennent combler certaines lacunes.
+## 📋 Sommaire
 
-Ces logiciels de sécurité protégent les terminaux reliés au système d’information (SI), nous vous expliquons en quoi ils diffèrent de vos antivirus classiques.
+- [01 – Pourquoi l’EDR ?](#01--pourquoi-ledr-)
+- [02 – EDR vs Antivirus traditionnel](#02--edr-vs-antivirus-traditionnel)
+- [03 – Analyse comportementale & IA](#03--analyse-comportementale--ia)
+- [04 – Fonctionnalités clés de l’EDR](#04--fonctionnalités-clés-de-ledr)
+- [05 – Visibilité et réactivité renforcées](#05--visibilité-et-réactivité-renforcées)
+- [🔗 Source](#-source)
 
-Corréler et détecter les comportements suspects.
+---
 
-Le recours massif au télétravail engendre un risque cyber évident. 
+## 🛡️ 01 – Pourquoi l’EDR ?
 
-En 2020 l’ANSSI nous alertait sur les signalements de ransomwares qui dépassaient les 255 %.
+Avec l’explosion des attaques avancées, les outils traditionnels deviennent insuffisants.
 
-Une partie de ces attaques rend une partie nos antivirus classiques obsolètes car ils ne détectent que des signatures connues.
+> En 2020, l’ANSSI a signalé une hausse de **255 %** des attaques par ransomware.
 
-Ils examinent des fichiers pour y débusquer les malwares alors qu’une partie se cache désormais dans le script ou directement en mémoire.
+Les EDR (**Endpoint Detection & Response**) comblent les failles laissées par les antivirus classiques :
 
-Que pouvez-vous donc faire pour vous adapter à cette menace polymorphe en perpétuelle évolution ?
+- Détection des comportements suspects
+- Analyse post-incident
+- Réaction automatisée face aux menaces
 
-Les fortes capacités de détection des EDR procèdent à une analyse comportementale du endpoint.
+---
 
-Ses moteurs d’analyse scannent l’activité des postes de travail, des serveurs et des mobiles ou tablettes les rendant plus puissants et efficaces pour détecter les menaces changeantes ou encore inconnues.
+## 🆚 02 – EDR vs Antivirus traditionnel
 
-« Contrairement aux antivirus, les solutions EDR permettent aussi de nous guider dans la phase de résolution puisqu’elles disposent de fonctions de réaction en cas d’incident : 
+| Antivirus classique | EDR moderne |
+|---------------------|-------------|
+| Basé sur les **signatures connues** | Analyse **comportementale** |
+| Inspection des **fichiers** | Surveillance **en temps réel** des endpoints |
+| Réaction limitée | **Actions automatiques** (isolation, blocage, etc.) |
+| Détection faible des menaces en mémoire ou sans fichier | Capacité à détecter des attaques avancées, inconnues ou évolutives |
 
-- isolation de poste,
-- blocage,
-- arrêt d’un processus. »
+> 🧬 Les attaques **polymorphes** ou sans fichiers passent souvent sous le radar des antivirus standards.
 
-L’EDR propose des fonctionnalités avancées d’investigation, ce qui en fait un outil très apprécié des équipes SOC.
+---
 
-D’une détection centrée sur l’équipement à une détection centrée sur l’attaque.
+## 🧠 03 – Analyse comportementale & IA
 
-L’EDR agit donc en complément de l’antivirus classique avec son approche comportementale et l’utilisation d’intelligence artificielle pour détecter des menaces inconnues ou fortement évolutives comme les ransomwares.
+Les moteurs d’un EDR analysent :
 
-Cette technologie offre également à une meilleure visibilité sur la sécurité informatique.
+- 📱 Activité des **postes de travail**
+- 🖥️ Comportement des **serveurs**
+- 📲 Utilisation des **mobiles et tablettes**
 
-Il suffit d’installer l’agent sur chaque endpoint de façon automatique ou grâce à un outil de déploiement pour qu’il alimente le SOC et les analystes cyber.
+Grâce à l’**intelligence artificielle**, les EDR :
 
-Vous disposez ainsi d’informations capitales sur les agissements de l’attaquant.
+- Détectent des **ransomwares évolutifs**
+- Réagissent aux **menaces en mémoire**
+- Identifient des comportements suspects sans dépendre des signatures
 
-La rapidité de réponse et de déploiement de l’EDR renforce votre capacité de réaction afin de limiter l’impact d’une attaque en cours.
+---
 
-De nombreuses offensives Emotet ont ainsi pu être bloquées fin 2020, avant que le virus ne déclenche un cryptolocker qui aurait pu faire encore plus de dégâts.
+## 🔧 04 – Fonctionnalités clés de l’EDR
+
+Les EDR ne se contentent pas de détecter : ils **réagissent**.
+
+Fonctions courantes :
+
+- 🚫 Isolation de poste infecté
+- ⛔ Blocage de processus
+- 🛑 Arrêt de services malveillants
+- 🔍 Investigation post-incident
+
+> Ces capacités font de l’EDR un **outil indispensable** pour les équipes SOC (Security Operations Center).
+
+---
+
+## 🚀 05 – Visibilité et réactivité renforcées
+
+En déployant un **agent EDR** sur chaque poste :
+
+- Le **SOC** est alimenté automatiquement
+- Vous obtenez une **vue d’ensemble** des attaques en cours
+- L’équipe peut intervenir **en temps réel**
+
+> Exemple : les attaques **Emotet** ont pu être neutralisées **avant le déclenchement** du cryptolocker.
+
+✅ L’EDR agit **vite**, **intelligemment** et **automatiquement** pour minimiser l’impact d’une attaque.
+
+---
+
+## 🔗 Source
+
+> Document inspiré de l’approche de détection avancée et IA en cybersécurité – EDR 2020–2024.
+
+---
+
+<p align="center">
+  🔒 Rédigé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> – Pour une cybersécurité de nouvelle génération.
+</p>
