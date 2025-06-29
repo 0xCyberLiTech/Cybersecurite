@@ -5,7 +5,7 @@
 <h1 align="center">🛡️ CYBERSÉCURITÉ : La cryptographie et ces outils</h1>
 
 <p align="center">
-  Introduction, exploitation des outils en crypthographie.
+  Sécurisez vos données avec la cryptographie - Maîtrisez les bases de la cryptographie.
 </p>
 
 ---
