@@ -1,4 +1,14 @@
-![Apache_logo](./images/Cloud-et-securite.png)
+---
+
+# 🚧 **Page en cours de développement** 🚧
+
+### 🔧 Travail en cours... Merci de revenir plus tard !
+
+---
+
+<p align="center">
+  🔒 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour une cybersécurité accessible à tous.
+</p>
 
 ## CYBERSÉCURITÉ / Collectez des logs avec rsyslog sous Linux.
 
