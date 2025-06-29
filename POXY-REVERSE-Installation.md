@@ -12,7 +12,7 @@
 
 ## 💡 Qu'est-ce qu'un proxy ?
 
-Un **Un proxy**
+Un **proxy**
 
 - 
 - 
@@ -20,7 +20,7 @@ Un **Un proxy**
 
 ## 💡 Qu'est-ce qu'un reverse-proxy ?
 
-Un **Un reverse-proxy**
+Un **reverse-proxy**
 
 - 
 - 
