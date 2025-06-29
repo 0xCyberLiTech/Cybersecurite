@@ -122,5 +122,5 @@ Avec l’IA et l’automatisation, l’XDR réduit aussi la charge de travail de
 ---
 
 <p align="center">
-  Rédigé avec ❤️ par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> – Pour une cybersécurité éclairée.
+  🔒 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour une cybersécurité accessible à tous.
 </p>
