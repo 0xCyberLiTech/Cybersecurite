@@ -2,10 +2,10 @@
   <img src="./images/Cloud-et-securite.png" alt="Cloud et Sécurité" width="300">
 </p>
 
-<h1 align="center">🛡️ CYBERSÉCURITÉ : Programmes Malveillants</h1>
+<h1 align="center">🛡️ CYBERSÉCURITÉ : POXY-REVERSE</h1>
 
 <p align="center">
-  Introduction aux logiciels malveillants : types, modes de propagation, et méthodes de protection.
+  Introduction aux proxy-reverse : types, modes, et méthodes de protection.
 </p>
 
 ---
