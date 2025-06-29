@@ -2,10 +2,10 @@
   <img src="./images/Cloud-et-securite.png" alt="Cloud et Sécurité" width="300">
 </p>
 
-<h1 align="center">🛡️ CYBERSÉCURITÉ – CROWNDSEC</h1>
+<h1 align="center">🛡️ CYBERSÉCURITÉ – FAIL2BAN</h1>
 
 <p align="center">
-  Bloquer les comportements malveillants sur les serveurs et infrastructures réseau..
+   Fail2ban est un outil open source de protection contre les attaques par force brute.
 </p>
 
 ---
