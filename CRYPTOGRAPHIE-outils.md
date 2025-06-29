@@ -10,10 +10,9 @@
 
 ---
 
-<p align="center">
-  <h1>🚧 <strong>Page en cours de développement</strong> 🚧</h1>
-  <h3>🔧 Travail en cours... Merci de revenir plus tard !</h3>
-</p>
+# 🚧 **Page en cours de développement** 🚧
+
+### 🔧 Travail en cours... Merci de revenir plus tard !
 
 ---
 
