@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="./images/Cloud-et-securite.png" alt="Cloud et Sécurité" width="300">
+</p>
+
+<h1 align="center">🛡️ CYBERSÉCURITÉ – RSYSLOG</h1>
+
+<p align="center">
+  Outil de gestion et de centralisation des logs sous Linux et Unix.
+</p>
+
 ---
 
 # 🚧 **Page en cours de développement** 🚧
