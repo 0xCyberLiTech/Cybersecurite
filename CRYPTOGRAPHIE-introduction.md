@@ -116,5 +116,5 @@ Le **chiffrement hybride** combine les deux approches :
 ---
 
 <p align="center">
-  🔐 Par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> – Partage de savoirs en cybersécurité
+  🔒 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour une cybersécurité accessible à tous.
 </p>
