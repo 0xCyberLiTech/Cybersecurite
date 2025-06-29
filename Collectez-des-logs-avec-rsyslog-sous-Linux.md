@@ -14,6 +14,8 @@
 
 ### 🔧 Travail en cours... Merci de revenir plus tard !
 
+---
+
 ## CYBERSÉCURITÉ / Collectez des logs avec rsyslog sous Linux.
 
 Pour gérer et exploiter vos logs Linux, nous utiliserons un serveur rsyslog.
