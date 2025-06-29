@@ -2,7 +2,7 @@
   <img src="./images/Cloud-et-securite.png" alt="Cloud et Sécurité" width="300">
 </p>
 
-<h1 align="center">🛡️ CYBERSÉCURITÉ : Cryptographie outils</h1>
+<h1 align="center">🛡️ CYBERSÉCURITÉ : La cryptographie et ces outils</h1>
 
 <p align="center">
   Introduction, exploitation des outils en crypthographie.
