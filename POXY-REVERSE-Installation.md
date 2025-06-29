@@ -2,10 +2,10 @@
   <img src="./images/Cloud-et-securite.png" alt="Cloud et Sécurité" width="300">
 </p>
 
-<h1 align="center">🛡️ CYBERSÉCURITÉ : POXY-REVERSE</h1>
+<h1 align="center">🛡️ CYBERSÉCURITÉ : POXY & REVERSE-PROXY</h1>
 
 <p align="center">
-  Introduction aux proxy-reverse : types, modes, et méthodes de protection.
+  Introduction aux proxy & proxy-reverse : types, modes, et méthodes de protection.
 </p>
 
 ---
@@ -25,12 +25,6 @@ Un **Un reverse-proxy**
 - 
 - 
 -
-
----
-
-# 🚧 **Page en cours de développement** 🚧
-
-### 🔧 Travail en cours... Merci de revenir plus tard !
 
 ---
 
