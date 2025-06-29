@@ -52,7 +52,7 @@ La cryptographie permet de garantir la **confidentialité**, l’**intégrité**
 
 ## 📚 Pour aller plus loin
 
-[Consulter un guide complet sur la cryptographie](https://www.istonsoft.fr/introduction-cryptographie/)
+[Consulter un guide complet sur la cryptographie](https://github.com/0xcyberlitech/)
 
 ---
 
