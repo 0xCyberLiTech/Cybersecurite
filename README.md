@@ -4,22 +4,15 @@ Bienvenue sur le dépôt **Cybersecurité** de 0xCyberLiTech !
 
 ## 📚 Sommaire des sujets abordés
 
-01 - Programmes malveillants  
-02 - Logiciels malveillants : techniques de protection  
-03 - Introduction à la cryptographie  
-04 - Outils de cryptographie  
-05 - Proxy & Reverse Proxy  
-06 - Kill Chain : les 7 étapes de la cyberattaque  
-07 - EDR & Intelligence Artificielle  
-08 - EPP, EDR, SIEM, SOAR, XDR : comprendre les différences  
-09 - Attaques courantes  
-10 - Sécurisation SSH  
-11 - Rootkits & scanners  
-12 - UFW, Fail2Ban, Tarpit  
-13 - Collecte de logs avec rsyslog  
-14 - CrowndSec, Geohash SSH, Proxy mandataire transparent
-
----
+- 01 - [Programmes malveillants ?](PROGRAMMES-MALVEILLANTS.md)
+- 02 - [Logiciels malveillants techniques de protection.](LOGICIELS-MALVEILLANTS-techniques_de_protection.md)
+- 03 - [Cryptographie introduction.](CRYPTOGRAPHIE-introduction.md)
+- 04 - [Cryptographie outils.]()
+- 05 - [Proxy & Reverse Proxy](POXY-REVERSE-Installtion.md)
+- 06 - [KILL-CHAIN les 7 étapes de la cyber.](KILL-CHAIN-les-7-étapes-de-la-cyber.md)
+- 07 - [EDR & IA.](https://github.com/0xCyberLiTech/Cybersecurite/blob/main/EDR-et-IA.md)
+- 08 - [EPP EDR SIEM SOAR et XDR comprendre la différence entre ces acronymes.](EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md)
+- 09 - [Attaques]()
 
 🔐 Ce dépôt regroupe des tutoriels, des guides pratiques et des ressources pour renforcer vos compétences en cybersécurité.
 
