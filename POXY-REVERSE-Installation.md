@@ -5,7 +5,7 @@
 <h1 align="center">🛡️ CYBERSÉCURITÉ : POXY & REVERSE-PROXY</h1>
 
 <p align="center">
-  Introduction aux proxy & proxy-reverse : types, modes, et méthodes de protection.
+  Introduction aux proxy & reverse-proxy : types, modes, et méthodes de protection.
 </p>
 
 ---
