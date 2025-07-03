@@ -1,11 +1,12 @@
 <p align="center">
-  <img src="./images/Cloud-et-securite.png" alt="Cloud et Sécurité" width="300">
+  <img src="https://avatars.githubusercontent.com/u/167217017?s=400&u=d983b9423c4eb8cdb9bfe8b14f505be5c894d6bc&v=4" width="150" />
 </p>
 
-<h1 align="center">🛡️ CYBERSÉCURITÉ : La cryptographie et ces outils</h1>
+<h1 align="center">🌐 CYBERSÉCURITÉ</h1>
 
 <p align="center">
-  Sécurisez vos données avec la cryptographie - Maîtrisez les bases de la cryptographie.
+  Un dépôt pédagogique autour des fondamentaux de la cybersécurité.<br>
+  📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension
 </p>
 
 ---
