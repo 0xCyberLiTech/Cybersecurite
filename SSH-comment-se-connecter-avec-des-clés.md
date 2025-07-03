@@ -163,3 +163,18 @@ Vous pouvez maintenant recharger le démon SSH :
 sudo systemctl restart ssh.service
 ```
 L’authentification par mot de passe devrait maintenant être désactivée, et votre serveur ne devrait être accessible que via l’authentification par clé SSH.
+
+---
+
+## 🌐 À propos de moi
+
+- 💡 Passionné par Debian GNU/Linux depuis plusieurs années
+- 🎓 Autodidacte, avec un fort esprit de transmission
+- 🔐 Intéressé par la cybersécurité, les solutions open source et la performance système
+- 🧪 Toujours partant pour tester une nouvelle stack technique
+
+---
+
+<p align="center">
+  🔒 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour des tutoriels accessible à tous.
+</p>
