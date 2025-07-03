@@ -394,3 +394,19 @@ Cela désactivera l’UFW et supprimera toutes les règles qui ont été défini
 Gardez à l’esprit que les règles par défaut ne retrouveront pas leurs paramètres d’origine, si vous les avez modifiées à un moment quelconque.
 
 Cela devrait vous permettre de repartir à zéro avec UFW.
+
+---
+
+## 🌐 À propos de moi
+
+- 💡 Passionné par Debian GNU/Linux depuis plusieurs années
+- 🎓 Autodidacte, avec un fort esprit de transmission
+- 🔐 Intéressé par la cybersécurité, les solutions open source et la performance système
+- 🧪 Toujours partant pour tester une nouvelle stack technique
+
+---
+
+<p align="center">
+  🔒 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour des tutoriels accessible à tous.
+</p>
+
