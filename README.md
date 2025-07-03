@@ -35,24 +35,15 @@ Ce dépôt a pour vocation de centraliser un ensemble de notions clés en cybers
 
 ---
 
-## 🤝 Contribuer
+## 🌐 À propos de moi
 
-Les contributions sont les bienvenues !  
-Pour proposer une amélioration ou un nouveau sujet :
-
-1. Fork le dépôt
-2. Crée une branche dédiée (`feature/mon-sujet`)
-3. Fait une *pull request*
-
----
-
-## 📄 Licence
-
-Ce dépôt est distribué sous la licence **MIT**.  
-Voir le fichier [LICENSE](LICENSE) pour plus d’informations.
+- 💡 Passionné par Debian GNU/Linux depuis plusieurs années
+- 🎓 Autodidacte, avec un fort esprit de transmission
+- 🔐 Intéressé par la cybersécurité, les solutions open source et la performance système
+- 🧪 Toujours partant pour tester une nouvelle stack technique
 
 ---
 
 <p align="center">
-  🔒 CyberSécurité par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Made with 💻
+  🔒 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour des tutoriels accessible à tous.
 </p>
