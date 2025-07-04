@@ -21,11 +21,10 @@
 - 06 - [Proxy, installation.](PROXY-installation.md)
 - 07 - [Reverse-proxy, introduction.](REVERSE-PROXY-introduction.md)
 - 08 - [Reverse-proxy, installation.](REVERSE-PROXY-installation.md)
-- 09 - [Proxy & Reverse Proxy](POXY-REVERSE-Installation.md)
-- 10 - [KILL-CHAIN : les 7 étapes de la cyberattaque](KILL-CHAIN-les-7-étapes-de-la-cyber.md)
-- 11 - [EDR & Intelligence Artificielle](https://github.com/0xCyberLiTech/Cybersecurite/blob/main/EDR-et-IA.md)
-- 12 - [EPP, EDR, SIEM, SOAR et XDR : comprendre les différences](EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md)
-- 13 - [Attaques](Attaques.md)
+- 09 - [KILL-CHAIN : les 7 étapes de la cyberattaque](KILL-CHAIN-les-7-étapes-de-la-cyber.md)
+- 10 - [EDR & Intelligence Artificielle](https://github.com/0xCyberLiTech/Cybersecurite/blob/main/EDR-et-IA.md)
+- 11 - [EPP, EDR, SIEM, SOAR et XDR : comprendre les différences](EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md)
+- 12 - [Attaques](Attaques.md)
 
 ---
 
