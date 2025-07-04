@@ -11,7 +11,7 @@
 </p>
 
 ---
-
+<h2 align="left">💡</h2>
 <h3 align="left">👋 Sommaire :</h3>
 
 - [01 – Qu’est-ce que la Cyber Kill Chain ?](#01--quest-ce-que-la-cyber-kill-chain-)
