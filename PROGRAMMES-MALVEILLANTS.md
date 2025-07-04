@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">🌐 CYBERSÉCURITÉ - LOGICIEL MALVEILLANT</h1>
-<h1 align="center"> INTRODUCTION</h1>
+<h2 align="center"> INTRODUCTION</h2>
 
 <p align="center">
   Un dépôt pédagogique autour des fondamentaux de la cybersécurité.<br>
