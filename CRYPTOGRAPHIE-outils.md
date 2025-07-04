@@ -12,11 +12,6 @@
 
 ---
 
-<h1 align="center"> 🚧 **Page en cours de développement** 🚧</h1>
-<h3 align="center"> 🔧 Travail en cours... Merci de revenir plus tard !</h3>
-
----
-
 ## 💡 1. Environnements de test / laboratoires
 Ces outils permettent de créer un environnement sécurisé pour expérimenter avec des malwares ou faire des tests d’intrusion sans danger pour les machines réelles.
 
