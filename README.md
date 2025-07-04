@@ -13,8 +13,8 @@
 
 ## 📚 Sommaire des sujets abordés
 
-- 01 - [Programmes malveillants ?](PROGRAMMES-MALVEILLANTS.md)
-- 02 - [Logiciels malveillants : techniques de protection](LOGICIELS-MALVEILLANTS-techniques_de_protection.md)
+- 01 - [Logiciels malveillants, introduction.](PROGRAMMES-MALVEILLANTS.md)
+- 02 - [Logiciels malveillants, techniques de protection.](LOGICIELS-MALVEILLANTS-techniques_de_protection.md)
 - 03 - [Cryptographie : introduction](CRYPTOGRAPHIE-introduction.md)
 - 04 - [Cryptographie : outils](CRYPTOGRAPHIE-outils.md)
 - 05 - [Proxy & Reverse Proxy](POXY-REVERSE-Installation.md)
