@@ -18,7 +18,8 @@
 
 ---
 
-## 💡 
+<h3 align="center">💡</h3>
+<h3 align="left">👋 </h3>
 
 - 
 - 
