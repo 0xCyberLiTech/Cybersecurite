@@ -3,6 +3,7 @@
 </p>
 
 <h1 align="center">🌐 CYBERSÉCURITÉ 🌐</h1>
+<h2 align="center"> EPP, EDR, NDR, XDR</h2>
 
 <p align="center">
   Un dépôt pédagogique autour des fondamentaux de la cybersécurité.<br>
