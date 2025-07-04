@@ -11,8 +11,8 @@
 </p>
 
 ---
-<h3 align="left">💡Installation et configuration d'un firewall UFW.</h3>
-<h2 align="left">👋 Sommaire :</h2>
+<h2 align="left">💡Installation et configuration d'un firewall UFW.</h2>
+<h3 align="left">👋 Sommaire :</h3>
 
 - 01 - [Installation de UFW.](#balise-01)
 - 02 - [Mise en place des politiques par défaut.](#balise-02)
