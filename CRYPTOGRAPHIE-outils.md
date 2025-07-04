@@ -17,7 +17,7 @@
 
 ---
 
-🔍 1. Environnements de test / laboratoires
+## 💡 1. Environnements de test / laboratoires
 Ces outils permettent de créer un environnement sécurisé pour expérimenter avec des malwares ou faire des tests d’intrusion sans danger pour les machines réelles.
 
 Metasploitable : Machine virtuelle volontairement vulnérable pour s’exercer avec Metasploit.
