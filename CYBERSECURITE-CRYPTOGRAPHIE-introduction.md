@@ -149,8 +149,6 @@ Un domaine de recherche actuel et crucial est la **cryptographie post-quantique*
 
 En résumé, la cryptographie est la pierre angulaire de notre sécurité numérique. Comprendre ses principes, ses types (symétrique, asymétrique, fonctions de hachage) et leurs applications est essentiel pour quiconque étudie l'informatique ou la cybersécurité à l'université. Elle est partout, protégeant nos communications, nos transactions bancaires et l'intégrité de nos données.
 
-Avez-vous des questions sur un aspect particulier ou souhaitez-vous explorer des applications spécifiques de la cryptographie ?
-
 ---
 
 ## 🌐 À propos de moi
