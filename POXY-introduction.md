@@ -101,14 +101,6 @@ Dans un cadre éducatif, il protège les élèves et assure un usage responsable
 
 ---
 
-## 📎 Ressources complémentaires
-
-- Schéma illustré (à ajouter)
-- Fiche résumé PDF
-- Simulation via Packet Tracer ou équivalent
-
----
-
 ## 🌐 À propos de moi
 
 - 💡 Passionné par Debian GNU/Linux depuis plusieurs années
