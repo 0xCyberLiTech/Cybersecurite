@@ -67,3 +67,18 @@ Le monde de la cybersécurité est rempli d'acronymes. Voici une liste des terme
 ---
 
 Cette liste vous offre une bonne base pour comprendre le jargon de la cybersécurité. N'oubliez pas que ce domaine évolue vite, donc de nouveaux acronymes apparaissent régulièrement !
+
+---
+
+## 🌐 À propos de moi
+
+- 💡 Passionné par Debian GNU/Linux depuis plusieurs années
+- 🎓 Autodidacte, avec un fort esprit de transmission
+- 🔐 Intéressé par la cybersécurité, les solutions open source et la performance système
+- 🧪 Toujours partant pour tester une nouvelle stack technique
+
+---
+
+<p align="center">
+  🔒 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour des tutoriels accessible à tous.
+</p>
