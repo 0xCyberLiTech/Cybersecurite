@@ -12,7 +12,7 @@
 
 ---
 
-# Introduction à la cryptographie appliquée (Public professionnel)
+## 💡 1. Introduction à la cryptographie appliquée (Public professionnel)
 
 ## Objectifs de la formation
 
