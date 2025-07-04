@@ -15,8 +15,8 @@
 
 - 01 - [Logiciels malveillants, introduction.](PROGRAMMES-MALVEILLANTS.md)
 - 02 - [Logiciels malveillants, techniques de protection.](LOGICIELS-MALVEILLANTS-techniques_de_protection.md)
-- 03 - [Cryptographie : introduction](CRYPTOGRAPHIE-introduction.md)
-- 04 - [Cryptographie : outils](CRYPTOGRAPHIE-outils.md)
+- 03 - [Cryptographie, introduction.](CRYPTOGRAPHIE-introduction.md)
+- 04 - [Cryptographie, outils.](CRYPTOGRAPHIE-outils.md)
 - 05 - [Proxy & Reverse Proxy](POXY-REVERSE-Installation.md)
 - 06 - [KILL-CHAIN : les 7 étapes de la cyberattaque](KILL-CHAIN-les-7-étapes-de-la-cyber.md)
 - 07 - [EDR & Intelligence Artificielle](https://github.com/0xCyberLiTech/Cybersecurite/blob/main/EDR-et-IA.md)
