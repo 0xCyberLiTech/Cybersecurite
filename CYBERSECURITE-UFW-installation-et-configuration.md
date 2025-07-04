@@ -11,7 +11,7 @@
 </p>
 
 ---
-<h3 align="center">💡Installation et configuration d'un firewall UFW.</h3>
+<h3 align="left">💡Installation et configuration d'un firewall UFW.</h3>
 <h3 align="left">👋 Sommaire :</h3>
 
 - 01 - [Installation de UFW.](#balise-01)
