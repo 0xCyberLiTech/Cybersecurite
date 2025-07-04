@@ -70,14 +70,12 @@ Ces quatre acronymes sont au cœur de la cybersécurité moderne et représenten
 **Fonctionnalités clés :**
 
 * **Collecte de données étendue :** Intègre la télémétrie et les alertes provenant de :
-  
     * **Endpoints (EPP/EDR)**
     * **Réseau (NDR)**
     * **Cloud (charges de travail, applications cloud, identités)**
     * **Email**
     * **Identités (annuaires, systèmes d'authentification)**
     * **Applications (SaaS, logicielles)**
-
 * **Corrélation et contextualisation avancées :** Utilise l'IA et le Machine Learning pour analyser toutes ces données hétérogènes, identifier les liens entre les événements et créer un tableau complet de l'attaque. Cela réduit le bruit (faux positifs) et met en évidence les menaces réelles.
 * **Visibilité unifiée :** Fournit un tableau de bord centralisé ("single pane of glass") pour gérer et visualiser toutes les alertes et les incidents de sécurité.
 * **Automatisation de la réponse :** Permet des actions de réponse automatisées sur diverses couches (isoler un terminal, bloquer une IP sur un pare-feu, révoquer des accès utilisateur, etc.).
