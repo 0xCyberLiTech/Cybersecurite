@@ -13,9 +13,8 @@
 
 ---
 
-## 💡 Définition :
-
-👋 Qu’est-ce que la cybersécurité ?
+<h3 align="left">💡 Définition :</h3>
+<h3 align="left">👋 Qu’est-ce que la cybersécurité ?</h3>
 
 La cybersécurité est l’ensemble des pratiques, des technologies et des processus qui ont pour but de protéger les systèmes informatiques, les réseaux et les données contre les attaques malveillantes, les intrusions, les pertes de données et les accès non autorisés.
 
