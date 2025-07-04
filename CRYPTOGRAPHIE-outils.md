@@ -17,47 +17,59 @@
 
 ---
 
-# 🔐 Introduction à la cryptographie et ces outils.
+🔍 1. Environnements de test / laboratoires
+Ces outils permettent de créer un environnement sécurisé pour expérimenter avec des malwares ou faire des tests d’intrusion sans danger pour les machines réelles.
 
-## Concepts fondamentaux
+Metasploitable : Machine virtuelle volontairement vulnérable pour s’exercer avec Metasploit.
 
-La cryptographie permet de garantir la **confidentialité**, l’**intégrité**, l’**authenticité** et la **non-répudiation** des informations. Voici les principaux outils :
+DVWA (Damn Vulnerable Web App) : Application web volontairement vulnérable pour apprendre les attaques web (XSS, SQLi, etc.).
 
-### 🔑 Chiffrement symétrique
+Hack The Box / TryHackMe : Plateformes en ligne avec des laboratoires virtuels pour s’exercer en sécurité offensive/défensive.
 
-> Une seule clé est utilisée pour chiffrer et déchiffrer les données.
+Flare VM : Machine Windows préconfigurée pour l’analyse de malware.
 
-- **AES (Advanced Encryption Standard)**
-- **DES (Data Encryption Standard)**
+🧰 2. Frameworks de tests d’intrusion (pentest)
+Utilisés pour simuler des attaques et enseigner la défense contre celles-ci.
 
-### 🛡️ Chiffrement asymétrique
+Metasploit Framework : Permet de créer et de lancer des exploits. Très utilisé pour l’enseignement du pentesting.
 
-> Utilise une paire de clés : une publique pour chiffrer, une privée pour déchiffrer.
+Cobalt Strike (version piratée = Cobalt Strike Beacon) : Très utilisé par les attaquants, mais aussi dans les labos de Red Teaming.
 
-- **RSA**
-- **ECC (Elliptic Curve Cryptography)**
+Empire : Framework PowerShell pour attaques post-exploitation.
 
-### 🧮 Fonctions de hachage
+🧬 3. Générateurs de malwares pédagogiques
+Permettent de créer des virus/chevaux de Troie à des fins d’étude.
 
-> Transforment un message en une empreinte unique.
+TheFatRat : Générateur de backdoors (utilisé pour la formation en pentest).
 
-- **SHA-256**
-- **SHA-3**
-- **MD5** (obsolète pour la sécurité)
+MSFvenom : Générateur de payloads intégré à Metasploit.
 
-## 🧰 Outils pour expérimenter
+Veil-Framework : Génère des payloads qui contournent les antivirus.
 
-- **Cryptool** : logiciel éducatif pour tester des algorithmes de chiffrement.
-- **OpenSSL** : outil en ligne de commande pour le chiffrement et la gestion des certificats.
-- **GPG (GNU Privacy Guard)** : chiffrement et signature de fichiers et e-mails.
+⚠️ Ces outils peuvent être détectés comme dangereux par les antivirus même s’ils sont utilisés à des fins pédagogiques.
 
-## 📚 Pour aller plus loin
+🔍 4. Outils d’analyse de malware
+Utilisés pour analyser le comportement d’un logiciel malveillant.
 
-[Consulter un guide complet sur la cryptographie](https://github.com/0xcyberlitech/)
+Wireshark : Pour capturer et analyser le trafic réseau généré par un malware.
 
----
+Procmon et Process Explorer (Sysinternals) : Observation du comportement des processus Windows.
 
-Prêt à tester un petit exercice de chiffrement comme le **code César** ou à jouer avec une clé RSA ? 😄
+Ghidra / IDA Free : Désassembleurs pour analyser le code binaire de malwares.
+
+Cuckoo Sandbox : Environnement automatisé d’analyse de malware.
+
+📚 5. Projets open-source éducatifs
+Malware Unicorn - Reverse Engineering 101 : Formation très populaire sur l’analyse de malware.
+
+Zero2Automated : Cours en ligne sur l’analyse avancée de malwares.
+
+⚖️ Légalité et précautions
+Utilise toujours ces outils dans un environnement isolé (VM, sandbox).
+
+Leur usage doit être autorisé (jamais sur un réseau de production réel).
+
+À manipuler avec précaution pour ne pas violer de lois ou règles de sécurité.
 
 ---
 
