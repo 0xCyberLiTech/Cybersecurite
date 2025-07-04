@@ -14,8 +14,6 @@
 
 <h3 align="left">👋 Sommaire :</h3>
 
-## 📋 
-
 - [01 – Qu’est-ce que la Cyber Kill Chain ?](#01--quest-ce-que-la-cyber-kill-chain-)
 - [02 – Les 7 étapes de la Cyber Kill Chain](#02--les-7-étapes-de-la-cyber-kill-chain)
 - [03 – Étude de cas : ransomware dans un hôpital](#03--étude-de-cas--ransomware-dans-un-hôpital)
