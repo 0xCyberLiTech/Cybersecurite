@@ -12,7 +12,8 @@
 
 ---
 
-## 📋 Sommaire
+<h3 align="center">💡EDR & l'intelligence artificielle.</h3>
+<h3 align="left">👋 Sommaire :</h3>
 
 - [01 – Pourquoi l’EDR ?](#01--pourquoi-ledr-)
 - [02 – EDR vs Antivirus traditionnel](#02--edr-vs-antivirus-traditionnel)
