@@ -11,8 +11,8 @@
 </p>
 
 ---
-
-<h3 align="center">💡Qu'est-ce qu'un logiciel malveillant ?</h3>
+<h2 align="left">💡</h2>
+<h3 align="Left">👋 Qu'est-ce qu'un logiciel malveillant ?</h3>
 
 Un **logiciel malveillant** (ou *malware*) est un programme conçu pour nuire à l’utilisateur ou à son système. Il peut :
 
