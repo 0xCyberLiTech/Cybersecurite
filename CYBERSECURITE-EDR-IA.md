@@ -3,6 +3,7 @@
 </p>
 
 <h1 align="center">🌐 CYBERSÉCURITÉ</h1>
+<h2 align="center"> EDR, IA</h2>
 
 <p align="center">
   Un dépôt pédagogique autour des fondamentaux de la cybersécurité.<br>
