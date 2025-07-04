@@ -10,6 +10,8 @@
   📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension
 </p>
 
+---
+
 ## 💡 Introduction au concept de Proxy - Objectif pédagogique
 
 > Comprendre ce qu’est un proxy, à quoi il sert, comment il fonctionne, et dans quels contextes il est utilisé (notamment en milieu éducatif).
