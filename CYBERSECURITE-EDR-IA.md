@@ -12,7 +12,7 @@
 
 ---
 
-<h2 align="center">💡L'intelligence artificielle.</h2>
+<h2 align="left">💡L'intelligence artificielle.</h2>
 <h3 align="left">👋 Sommaire :</h3>
 
 - [01 – Pourquoi l’EDR ?](#01--pourquoi-ledr-)
