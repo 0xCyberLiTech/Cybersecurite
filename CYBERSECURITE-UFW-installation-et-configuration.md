@@ -11,10 +11,8 @@
 </p>
 
 ---
-
-## 💡 CYBERSÉCURITÉ / UFW installation et configuration.
-
-👋 Sommaire des sujets abordés :
+<h2 align="center">💡 CYBERSÉCURITÉ / UFW installation et configuration.</h2>
+<h2 align="center">👋 Sommaire des sujets abordés :</h2>
 
 - 01 - [Installation de UFW.](#balise-01)
 - 02 - [Mise en place des politiques par défaut.](#balise-02)
