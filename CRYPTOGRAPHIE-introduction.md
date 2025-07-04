@@ -12,108 +12,75 @@
 
 ---
 
-## 📋 Sommaire
+# Introduction à la cryptographie appliquée (Public professionnel)
 
-- [01 – Définition de la cryptographie](#01--définition-de-la-cryptographie)
-- [02 – Intégrité : le hachage](#02--intégrité--le-hachage)
-- [03 – Hachage à clé et stockage sécurisé](#03--hachage-à-clé-et-stockage-sécurisé)
-- [04 – Authenticité : la signature numérique](#04--authenticité--la-signature-numérique)
-- [05 – Confidentialité : le chiffrement](#05--confidentialité--le-chiffrement)
-- [06 – Le chiffrement hybride](#06--le-chiffrement-hybride)
-- [🔗 Source](#-source)
+## Objectifs de la formation
 
----
+Dans un monde ultra-connecté, la cryptographie est une **brique essentielle de la sécurité des systèmes d’information**. Que ce soit pour protéger les communications, garantir la confidentialité des données personnelles, ou sécuriser les transactions, elle s’intègre à tous les niveaux des infrastructures numériques.
 
-## 🔎 01 – Définition de la cryptographie
-
-La **cryptographie** est une branche de la cryptologie visant à protéger les messages par des procédés mathématiques :
-
-- 🔐 **Confidentialité**
-- ✅ **Authenticité**
-- 📦 **Intégrité**
-
-Elle se distingue de la **stéganographie**, qui masque un message au lieu de le rendre illisible.
-
-> 💡 La cryptographie existe depuis l’Antiquité. Les systèmes modernes comme la cryptographie asymétrique sont apparus à la fin du XXe siècle.
+### 🎯 Objectifs :
+- Comprendre les **mécanismes cryptographiques** utilisés dans les solutions logicielles et réseaux ;
+- Savoir **évaluer les risques et les failles** liés à une mauvaise utilisation ou implémentation de la cryptographie ;
+- Acquérir des **réflexes opérationnels** pour intégrer la cryptographie dans une démarche de sécurité informatique globale.
 
 ---
 
-## 🧱 02 – Intégrité : le hachage
+## 📌 Modules de formation
 
-Le **hachage** permet de garantir qu’un message n’a pas été modifié :
-
-- Fonction unidirectionnelle
-- Produit une **empreinte unique**
-- Permet de vérifier l’intégrité de :
-  - Fichiers
-  - Répertoires
-  - Données téléchargées
-
-### 🔍 Exemple :
-> `SHA256(hello.txt)` → `a9f0e61a…`
+### 1. Fondamentaux et terminologie
+- Différences entre chiffrement, codage, hachage, encodage.
+- Notions de secret, clé, vecteur d’initialisation (IV), nonce, etc.
+- Objectifs de sécurité : **CIA** (Confidentiality, Integrity, Availability), + Authenticité.
 
 ---
 
-## 🔑 03 – Hachage à clé et stockage sécurisé
-
-Le **hachage à clé** combine une clé secrète avec la fonction de hachage :
-
-- L’empreinte dépend de la **clé utilisée**
-- Deux clés différentes → empreintes différentes
-- Utilisé pour :
-  - ✅ Stockage sécurisé des **mots de passe**
-  - ✅ Détection de **modifications non autorisées**
+### 2. Cryptographie symétrique
+- Exemples : chiffrement de disque (BitLocker, VeraCrypt), VPN (IPSec).
+- Risques associés aux clés partagées.
+- Mise en œuvre sécurisée (stockage, rotation, génération).
 
 ---
 
-## ✍️ 04 – Authenticité : la signature numérique
-
-La **signature numérique** permet de prouver l’origine d’un message et son intégrité :
-
-- Alice utilise sa **clé privée** pour signer
-- Bob vérifie avec la **clé publique** d’Alice
-
-### ✉️ Pourquoi signer ?
-- Prouver que vous êtes l’auteur d’un message
-- Garantir qu’il n’a **pas été modifié**
+### 3. Cryptographie asymétrique
+- Utilisation concrète : certificats SSL, authentification forte, chiffrement d’emails.
+- Gestion de certificats, PKI, autorités de certification (CA).
+- Problèmes de configuration courants (certificats expirés, algorithmes faibles).
 
 ---
 
-## 🕵️‍♂️ 05 – Confidentialité : le chiffrement
-
-Le **chiffrement** transforme un message en une version illisible sans la bonne clé :
-
-### 📦 Chiffrement symétrique :
-- Une **seule clé** partagée
-- Très **rapide**
-- Nécessite un **canal sécurisé**
-
-### 🔐 Chiffrement asymétrique :
-- Utilise une **paire de clés** : publique/privée
-- Permet de chiffrer sans partager de secret
-- Plus **lent**
+### 4. Fonctions de hachage et intégrité
+- Usage dans les mots de passe (bcrypt, Argon2), vérification de fichiers, logs.
+- Risques liés aux collisions (MD5, SHA-1) – exemple d’attaque de collision sur PDF.
+- Chaînage de hachages (blockchain, journaux d’événements sécurisés).
 
 ---
 
-## ♻️ 06 – Le chiffrement hybride
-
-Le **chiffrement hybride** combine les deux approches :
-
-1. 🔑 Une **clé secrète** est générée
-2. Elle est chiffrée avec la **clé publique**
-3. Les échanges utilisent ensuite un **chiffrement symétrique**
-
-💡 Exemple d’usage : **HTTPS** (navigation web sécurisée)
-
-<p align="center">
-  <img src="./images/confidentialite-01.png" alt="Confidentialité numérique" width="400">
-</p>
+### 5. Signatures numériques
+- Documents signés, emails signés (S/MIME), code signé (Microsoft Authenticode).
+- Processus de vérification : validation de la chaîne de confiance.
+- Limites : vol de clé privée, piratage de PKI, révocation.
 
 ---
 
-## 🔗 Source
+### 6. Protocoles et scénarios d’usage
+- Protocole HTTPS, TLS 1.2 vs TLS 1.3 : sécurité, performance, évolutions.
+- Chiffrement de bout en bout (E2EE) – cas de WhatsApp, Signal.
+- Scénarios d’intégration de la cryptographie dans l’entreprise.
 
-> [CNIL – Comprendre les grands principes de la cryptologie et du chiffrement](https://www.cnil.fr/fr/comprendre-les-grands-principes-de-la-cryptologie-et-du-chiffrement)
+---
+
+### 7. Bonnes pratiques et erreurs à éviter
+- Ne jamais “inventer” sa propre crypto.
+- Utiliser des bibliothèques reconnues (libsodium, OpenSSL).
+- Gérer les clés avec précaution : stockage, durée de vie, suppression.
+
+---
+
+## 🛠️ Résultats attendus
+
+- Pouvoir **analyser une architecture cryptographique** ;
+- Identifier les **risques opérationnels** liés aux implémentations ;
+- Savoir **prescrire des choix technologiques adaptés** en fonction du contexte.
 
 ---
 
