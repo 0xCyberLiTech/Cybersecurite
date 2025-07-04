@@ -12,7 +12,7 @@
 
 ---
 
-<h3 align="center">💡 1. Environnements de test / laboratoires.</h3>
+<h3 align="left">💡 1. Environnements de test / laboratoires.</h3>
 
 Ces outils permettent de créer un environnement sécurisé pour expérimenter avec des malwares ou faire des tests d’intrusion sans danger pour les machines réelles.
 
@@ -24,7 +24,7 @@ Hack The Box / TryHackMe : Plateformes en ligne avec des laboratoires virtuels p
 
 Flare VM : Machine Windows préconfigurée pour l’analyse de malware.
 
-<h3 align="center">💡 2. Frameworks de tests d’intrusion (pentest).</h3>
+<h3 align="left">💡 2. Frameworks de tests d’intrusion (pentest).</h3>
 
 Utilisés pour simuler des attaques et enseigner la défense contre celles-ci.
 
@@ -34,7 +34,7 @@ Cobalt Strike (version piratée = Cobalt Strike Beacon) : Très utilisé par les
 
 Empire : Framework PowerShell pour attaques post-exploitation.
 
-<h3 align="center">💡 3. Générateurs de malwares pédagogiques.</h3>
+<h3 align="left">💡 3. Générateurs de malwares pédagogiques.</h3>
 
 Permettent de créer des virus/chevaux de Troie à des fins d’étude.
 
@@ -46,7 +46,7 @@ Veil-Framework : Génère des payloads qui contournent les antivirus.
 
 ⚠️ Ces outils peuvent être détectés comme dangereux par les antivirus même s’ils sont utilisés à des fins pédagogiques.
 
-<h3 align="center">💡 4. Outils d’analyse de malware.</h3>
+<h3 align="left">💡 4. Outils d’analyse de malware.</h3>
 
 Utilisés pour analyser le comportement d’un logiciel malveillant.
 
@@ -58,7 +58,7 @@ Ghidra / IDA Free : Désassembleurs pour analyser le code binaire de malwares.
 
 Cuckoo Sandbox : Environnement automatisé d’analyse de malware.
 
-<h3 align="center">💡 5. Projets open-source éducatifs.</h3>
+<h3 align="left">💡 5. Projets open-source éducatifs.</h3>
 
 Malware Unicorn - Reverse Engineering 101 : Formation très populaire sur l’analyse de malware.
 
