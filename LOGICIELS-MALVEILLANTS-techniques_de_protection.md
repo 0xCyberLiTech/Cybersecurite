@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">🌐 CYBERSÉCURITÉ - LOGICIEL MALVEILLANT TECHNIQUE</h1>
-<h2 align="center">🌐 TECHNIQUE DE PROTECTION</h1>
+<h2 align="center"> TECHNIQUE DE PROTECTION</h1>
 <p align="center">
   Un dépôt pédagogique autour des fondamentaux de la cybersécurité.<br>
   📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension
