@@ -13,15 +13,15 @@
 
 ## 📋 Sommaire
 
-- [01 – Diminuer la surface d’attaque](#01--diminuer-la-surface-dattaque)
-- [02 – Sensibilisation des utilisateurs](#02--sensibilisation-des-utilisateurs)
-- [03 – Détection des intrusions](#03--détection-des-intrusions)
-- [04 – Gestion des correctifs](#04--gestion-des-correctifs)
-- [05 – Contrôle des accès](#05--contrôle-des-accès)
-- [06 – Sauvegarde & chiffrement](#06--sauvegarde--chiffrement)
+- [01 – Diminuer la surface d’attaque](#balise_01)
+- [02 – Sensibilisation des utilisateurs](#balise_02)
+- [03 – Détection des intrusions](#balise_03)
+- [04 – Gestion des correctifs](#balise_04)
+- [05 – Contrôle des accès](#balise_05)
+- [06 – Sauvegarde & chiffrement](#balise_06)
 
 ---
-
+<a name="balise_01"></a>
 ## 🛡️ 01 – Diminuer la surface d’attaque
 
 **But** : Réduire au maximum les vecteurs d’attaque potentiels.
@@ -34,7 +34,7 @@
 - Implémenter la **segmentation**, le modèle **Zero Trust**, etc.
 
 ---
-
+<a name="balise_02"></a>
 ## 📣 02 – Sensibilisation des utilisateurs
 
 **But** : Éduquer pour éviter les erreurs humaines.
@@ -49,7 +49,7 @@
 📌 Ressource : [CNIL – Sensibiliser les utilisateurs](https://www.cnil.fr/fr/securite-informatique-sensibiliser-les-utilisateurs)
 
 ---
-
+<a name="balise_03"></a>
 ## 🔍 03 – Détection des intrusions
 
 **But** : Réagir vite aux compromissions.
@@ -59,7 +59,7 @@
 - Attention : certains malwares restent furtifs.
 
 ---
-
+<a name="balise_04"></a>
 ## 🔧 04 – Gestion des correctifs
 
 **But** : Éliminer les failles exploitées par les malwares.
@@ -76,7 +76,7 @@
 📌 Source : [CrowdStrike – Patch Management](https://www.crowdstrike.fr/cybersecurity-101/patch-management/)
 
 ---
-
+<a name="balise_05"></a>
 ## 🔐 05 – Contrôle des accès
 
 **But** : Restreindre les privilèges.
@@ -86,7 +86,7 @@
 - Application stricte du **principe du moindre privilège**.
 
 ---
-
+<a name="balise_06"></a>
 ## 💾 06 – Sauvegarde & chiffrement
 
 **But** : Préparer une récupération en cas d’incident.
