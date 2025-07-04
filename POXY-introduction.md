@@ -10,14 +10,13 @@
   📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension
 </p>
 
----
 <p align="center">
+---
   # 🚧 **Page en cours de développement** 🚧
 
   ### 🔧 Travail en cours... Merci de revenir plus tard !
-</p>
 ---
-
+</p>
 ## 💡 Introduction.
 
 Un **proxy**
