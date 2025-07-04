@@ -18,7 +18,7 @@
 - 02 - [Logiciels malveillants, techniques de protection.](CYBERSECURITE-LOGICIELS-MALVEILLANTS-techniques_de_protection.md)
 - 03 - [Cryptographie, introduction.](CYBERSECURITE-CRYPTOGRAPHIE-introduction.md)
 - 04 - [Cryptographie, outils.](CYBERSECURITE-CRYPTOGRAPHIE-outils.md)
-- 05 - [Proxy, introduction.](CYBERSECURITE-POXY-introduction.md)
+- 05 - [Proxy, introduction.](CYBERSECURITE-PROXY-introduction.md)
 - 06 - [Proxy, installation.](CYBERSECURITE-PROXY-installation.md)
 - 07 - [Reverse-proxy, introduction.](CYBERSECURITE-REVERSE-PROXY-introduction.md)
 - 08 - [Reverse-proxy, installation.](CYBERSECURITE-REVERSE-PROXY-installation.md)
