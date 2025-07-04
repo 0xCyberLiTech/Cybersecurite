@@ -34,7 +34,8 @@ Cobalt Strike (version piratée = Cobalt Strike Beacon) : Très utilisé par les
 
 Empire : Framework PowerShell pour attaques post-exploitation.
 
-## 💡 3. Générateurs de malwares pédagogiques
+<h3 align="center">💡 3. Générateurs de malwares pédagogiques.</h3>
+
 Permettent de créer des virus/chevaux de Troie à des fins d’étude.
 
 TheFatRat : Générateur de backdoors (utilisé pour la formation en pentest).
@@ -45,7 +46,8 @@ Veil-Framework : Génère des payloads qui contournent les antivirus.
 
 ⚠️ Ces outils peuvent être détectés comme dangereux par les antivirus même s’ils sont utilisés à des fins pédagogiques.
 
-## 💡 4. Outils d’analyse de malware
+<h3 align="center">💡 4. Outils d’analyse de malware.</h3>
+
 Utilisés pour analyser le comportement d’un logiciel malveillant.
 
 Wireshark : Pour capturer et analyser le trafic réseau généré par un malware.
@@ -56,7 +58,8 @@ Ghidra / IDA Free : Désassembleurs pour analyser le code binaire de malwares.
 
 Cuckoo Sandbox : Environnement automatisé d’analyse de malware.
 
-## 💡 5. Projets open-source éducatifs
+<h3 align="center">💡 5. Projets open-source éducatifs.</h3>
+
 Malware Unicorn - Reverse Engineering 101 : Formation très populaire sur l’analyse de malware.
 
 Zero2Automated : Cours en ligne sur l’analyse avancée de malwares.
