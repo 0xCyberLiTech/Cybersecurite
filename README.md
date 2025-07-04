@@ -25,7 +25,7 @@
 - 10 - [Reverse-proxy, installation.](CYBERSECURITE-REVERSE-PROXY-installation.md)
 - 11 - [KILL-CHAIN, les 7 étapes de la cyberattaque](CYBERSECURITE-KILL-CHAIN.md)
 - 12 - [EDR](CYBERSECURITE-EDR.md)
-- 13 - [EPP, EDR, SIEM, SOAR et XDR : comprendre les différences](CYBERSECURITE-EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md)
+- 13 - [EPP, EDR, SIEM, SOAR et XDR](CYBERSECURITE-EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md)
 
 ---
 
