@@ -106,10 +106,6 @@ En conclusion, la Cyber Kill Chain est un modèle simple mais puissant qui démy
 
 ---
 
-N'hésitez pas si vous avez d'autres questions ou si vous souhaitez explorer un autre aspect de la cybersécurité !
-
----
-
 ## 🌐 À propos de moi
 
 - 💡 Passionné par Debian GNU/Linux depuis plusieurs années
