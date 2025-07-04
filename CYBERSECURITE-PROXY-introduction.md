@@ -12,7 +12,7 @@
 
 ---
 
-<h3 align="center">💡Introduction au concept de Proxy.</h3>
+<h2 align="left">💡Introduction au concept de Proxy.</h2>
 <h3 align="left">👋 Objectif pédagogique.</h3>
 
 > Comprendre ce qu’est un proxy, à quoi il sert, comment il fonctionne, et dans quels contextes il est utilisé (notamment en milieu éducatif).
