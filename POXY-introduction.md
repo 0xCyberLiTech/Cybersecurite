@@ -18,7 +18,7 @@
 
 ---
 
-## 💡 Qu'est-ce qu'un proxy ?
+## 💡 Introduction.
 
 Un **proxy**
 
