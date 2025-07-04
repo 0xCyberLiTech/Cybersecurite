@@ -12,7 +12,7 @@
 
 ---
 <h2 align="left">💡</h2>
-<h3 align="left">👋 Introduction à la cryptographie - Objectifs.</h3>
+<h3 align="left">👋 Introduction à la cryptographie.</h3>
 
 Dans un monde ultra-connecté, la cryptographie est une **brique essentielle de la sécurité des systèmes d’information**. Que ce soit pour protéger les communications, garantir la confidentialité des données personnelles, ou sécuriser les transactions, elle s’intègre à tous les niveaux des infrastructures numériques.
 
