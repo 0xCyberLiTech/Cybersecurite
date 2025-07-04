@@ -23,7 +23,7 @@
 - 07 - [Reverse-proxy, introduction.](CYBERSECURITE-REVERSE-PROXY-introduction.md)
 - 08 - [Reverse-proxy, installation.](CYBERSECURITE-REVERSE-PROXY-installation.md)
 - 09 - [KILL-CHAIN, les 7 étapes de la cyberattaque](CYBERSECURITE-KILL-CHAIN.md)
-- 10 - [EDR & Intelligence Artificielle](CYBERSECURITE-EDR-IA.md)
+- 10 - [EDR](CYBERSECURITE-EDR.md)
 - 11 - [EPP, EDR, SIEM, SOAR et XDR : comprendre les différences]()
 - 12 - [Attaques]()
 
