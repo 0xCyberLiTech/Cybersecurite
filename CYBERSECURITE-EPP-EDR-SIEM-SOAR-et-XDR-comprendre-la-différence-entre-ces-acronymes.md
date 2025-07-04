@@ -10,10 +10,10 @@
 </p>
 
 ---
+<h3 align="left">👋 EPP / EDR / NDR / XDR</h3>
 
-### Introduction
 
-EPP / EDR / NDR / XDR… Les solutions de détection et réponse se multiplient sur le marché et semblent promettre de contrer toutes les attaques.  
+Les solutions de détection et réponse se multiplient sur le marché et semblent promettre de contrer toutes les attaques.  
 Mais alors :
 
 - Qu’en est-il vraiment ?  
