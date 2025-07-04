@@ -12,9 +12,8 @@
 
 ---
 
-<h1 align="center"># 🚧 **Page en cours de développement** 🚧</h1>
-
-<h3 align="center">### 🔧 Travail en cours... Merci de revenir plus tard !</h3>
+<h1 align="center"> 🚧 **Page en cours de développement** 🚧</h1>
+<h3 align="center"> 🔧 Travail en cours... Merci de revenir plus tard !</h3>
 
 ---
 
