@@ -12,7 +12,8 @@
 
 ---
 
-## 💡 1. Environnements de test / laboratoires
+<h3 align="center">💡 1. Environnements de test / laboratoires.</h3>
+
 Ces outils permettent de créer un environnement sécurisé pour expérimenter avec des malwares ou faire des tests d’intrusion sans danger pour les machines réelles.
 
 Metasploitable : Machine virtuelle volontairement vulnérable pour s’exercer avec Metasploit.
@@ -23,7 +24,8 @@ Hack The Box / TryHackMe : Plateformes en ligne avec des laboratoires virtuels p
 
 Flare VM : Machine Windows préconfigurée pour l’analyse de malware.
 
-## 💡 2. Frameworks de tests d’intrusion (pentest)
+<h3 align="center">💡 2. Frameworks de tests d’intrusion (pentest).</h3>
+
 Utilisés pour simuler des attaques et enseigner la défense contre celles-ci.
 
 Metasploit Framework : Permet de créer et de lancer des exploits. Très utilisé pour l’enseignement du pentesting.
