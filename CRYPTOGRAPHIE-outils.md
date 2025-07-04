@@ -28,7 +28,7 @@ Hack The Box / TryHackMe : Plateformes en ligne avec des laboratoires virtuels p
 
 Flare VM : Machine Windows préconfigurée pour l’analyse de malware.
 
-🧰 2. Frameworks de tests d’intrusion (pentest)
+## 💡 2. Frameworks de tests d’intrusion (pentest)
 Utilisés pour simuler des attaques et enseigner la défense contre celles-ci.
 
 Metasploit Framework : Permet de créer et de lancer des exploits. Très utilisé pour l’enseignement du pentesting.
@@ -37,7 +37,7 @@ Cobalt Strike (version piratée = Cobalt Strike Beacon) : Très utilisé par les
 
 Empire : Framework PowerShell pour attaques post-exploitation.
 
-🧬 3. Générateurs de malwares pédagogiques
+## 💡 3. Générateurs de malwares pédagogiques
 Permettent de créer des virus/chevaux de Troie à des fins d’étude.
 
 TheFatRat : Générateur de backdoors (utilisé pour la formation en pentest).
@@ -48,7 +48,7 @@ Veil-Framework : Génère des payloads qui contournent les antivirus.
 
 ⚠️ Ces outils peuvent être détectés comme dangereux par les antivirus même s’ils sont utilisés à des fins pédagogiques.
 
-🔍 4. Outils d’analyse de malware
+## 💡 4. Outils d’analyse de malware
 Utilisés pour analyser le comportement d’un logiciel malveillant.
 
 Wireshark : Pour capturer et analyser le trafic réseau généré par un malware.
@@ -59,7 +59,7 @@ Ghidra / IDA Free : Désassembleurs pour analyser le code binaire de malwares.
 
 Cuckoo Sandbox : Environnement automatisé d’analyse de malware.
 
-📚 5. Projets open-source éducatifs
+## 💡 5. Projets open-source éducatifs
 Malware Unicorn - Reverse Engineering 101 : Formation très populaire sur l’analyse de malware.
 
 Zero2Automated : Cours en ligne sur l’analyse avancée de malwares.
