@@ -17,10 +17,14 @@
 - 02 - [Logiciels malveillants, techniques de protection.](LOGICIELS-MALVEILLANTS-techniques_de_protection.md)
 - 03 - [Cryptographie, introduction.](CRYPTOGRAPHIE-introduction.md)
 - 04 - [Cryptographie, outils.](CRYPTOGRAPHIE-outils.md)
-- 05 - [Proxy & Reverse Proxy](POXY-REVERSE-Installation.md)
-- 06 - [KILL-CHAIN : les 7 étapes de la cyberattaque](KILL-CHAIN-les-7-étapes-de-la-cyber.md)
-- 07 - [EDR & Intelligence Artificielle](https://github.com/0xCyberLiTech/Cybersecurite/blob/main/EDR-et-IA.md)
-- 08 - [EPP, EDR, SIEM, SOAR et XDR : comprendre les différences](EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md)
+- 05 - [Proxy, introduction.](PROXY-introduction.md)
+- 06 - [Proxy, installation.](PROXY-installation.md)
+- 07 - [Reverse-proxy, introduction.](REVERSE-PROXY-introduction.md)
+- 08 - [Reverse-proxy, installation.](REVERSE-PROXY-installation.md)
+- 09 - [Proxy & Reverse Proxy](POXY-REVERSE-Installation.md)
+- 10 - [KILL-CHAIN : les 7 étapes de la cyberattaque](KILL-CHAIN-les-7-étapes-de-la-cyber.md)
+- 11 - [EDR & Intelligence Artificielle](https://github.com/0xCyberLiTech/Cybersecurite/blob/main/EDR-et-IA.md)
+- 12 - [EPP, EDR, SIEM, SOAR et XDR : comprendre les différences](EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md)
 - 09 - [Attaques](Attaques.md)
 
 ---
