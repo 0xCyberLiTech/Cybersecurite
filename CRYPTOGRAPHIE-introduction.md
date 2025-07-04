@@ -12,9 +12,7 @@
 
 ---
 
-## 💡 1. Introduction à la cryptographie appliquée (Public professionnel)
-
-## Objectifs de la formation
+## 💡 Introduction à la cryptographie appliquée (Public professionnel) - Objectifs de la formation
 
 Dans un monde ultra-connecté, la cryptographie est une **brique essentielle de la sécurité des systèmes d’information**. Que ce soit pour protéger les communications, garantir la confidentialité des données personnelles, ou sécuriser les transactions, elle s’intègre à tous les niveaux des infrastructures numériques.
 
