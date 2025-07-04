@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">🌐 CYBERSÉCURITÉ</h1>
-<h2 align="center"> PROXY & REVERSE-PROXYy</h2>
+<h2 align="center"> PROXY & REVERSE-PROXY</h2>
 
 <p align="center">
   Un dépôt pédagogique autour des fondamentaux de la cybersécurité.<br>
