@@ -11,11 +11,11 @@
 </p>
 
 ---
+<p align="center">
+  # 🚧 **Page en cours de développement** 🚧
 
-# 🚧 **Page en cours de développement** 🚧
-
-### 🔧 Travail en cours... Merci de revenir plus tard !
-
+  ### 🔧 Travail en cours... Merci de revenir plus tard !
+</p>
 ---
 
 ## 💡 Introduction.
