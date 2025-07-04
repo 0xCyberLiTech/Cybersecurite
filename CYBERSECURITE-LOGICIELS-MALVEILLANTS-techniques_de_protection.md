@@ -11,7 +11,7 @@
 
 ---
 
-## 📋 Sommaire
+<h3 align="left">👋 Sommaire</h3>
 
 - [01 – Diminuer la surface d’attaque](#balise_01)
 - [02 – Sensibilisation des utilisateurs](#balise_02)
