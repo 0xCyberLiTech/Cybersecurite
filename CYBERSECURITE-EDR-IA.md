@@ -18,7 +18,7 @@
 Pour bien comprendre ce qu'est un EDR, il est essentiel de le situer par rapport à l'antivirus traditionnel.
 
 ---
-<h2 align="left">L'antivirus traditionnel : Le "gardien de la porte"</h2>
+<h3 align="left">L'antivirus traditionnel : Le "gardien de la porte"</h3>
 
 Imaginez un antivirus traditionnel comme un **gardien de sécurité posté à l'entrée d'un bâtiment**. Son rôle principal est de :
 
@@ -29,7 +29,7 @@ Imaginez un antivirus traditionnel comme un **gardien de sécurité posté à l'
 **Ses limites :** L'antivirus traditionnel est excellent pour bloquer les menaces déjà identifiées et répertoriées. Cependant, il est moins efficace face aux **menaces nouvelles, inconnues (zero-day)** ou aux **attaques sophistiquées qui ne reposent pas sur des fichiers (fileless attacks)**, car il ne dispose pas de signatures pour les reconnaître. Il est réactif, agissant principalement lorsqu'une menace est déjà présente.
 
 ---
-<h2 align="left">L'EDR : Le "système de surveillance intelligent"</h2>
+<h3 align="left">L'EDR : Le "système de surveillance intelligent"</h3>
 
 L'EDR, ou **Endpoint Detection and Response**, va bien au-delà du rôle du simple gardien. Pensez-y comme un **système de surveillance intelligent et proactif déployé à l'intérieur de chaque bureau (terminal)** du bâtiment, capable de :
 
@@ -52,7 +52,7 @@ L'EDR, ou **Endpoint Detection and Response**, va bien au-delà du rôle du simp
     * **Chasse aux menaces (Threat Hunting) :** Grâce aux données historiques collectées, les analystes peuvent "chasser" proactivement les menaces qui auraient pu passer inaperçues, en recherchant des schémas d'activité spécifiques.
 
 ---
-<h2 align="left">Les avantages clés de l'EDR pour les entreprises</h2>
+<h3 align="left">Les avantages clés de l'EDR pour les entreprises</h3>
 
 * **Protection avancée contre les menaces sophistiquées :** L'EDR est conçu pour faire face aux attaques modernes, y compris les ransomwares, les attaques sans fichier, les APT (Advanced Persistent Threats) et les menaces zero-day.
 * **Visibilité accrue :** Il offre une vue complète et en temps réel de l'activité sur tous les terminaux, ce qui est essentiel pour une détection précoce.
@@ -62,7 +62,7 @@ L'EDR, ou **Endpoint Detection and Response**, va bien au-delà du rôle du simp
 * **Conformité réglementaire :** L'EDR aide les entreprises à démontrer leur conformité aux réglementations en matière de protection des données en fournissant des preuves de détection et de réponse aux incidents.
 
 ---
-<h2 align="left">EDR vs. Antivirus : Une complémentarité nécessaire</h2>
+<h3 align="left">EDR vs. Antivirus : Une complémentarité nécessaire</h3>
 
 Il est important de noter que l'EDR **ne remplace pas l'antivirus traditionnel, mais le complète et l'améliore**. L'antivirus reste la première ligne de défense pour bloquer les menaces connues, tandis que l'EDR prend le relais pour les menaces plus complexes et inconnues, offrant une profondeur de détection et de réponse inégalée.
 
