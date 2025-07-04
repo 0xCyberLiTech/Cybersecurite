@@ -12,7 +12,7 @@
 
 ---
 
-## 💡 Introduction à la cryptographie - Objectifs de la formation
+## 💡 Introduction à la cryptographie - Objectifs.
 
 Dans un monde ultra-connecté, la cryptographie est une **brique essentielle de la sécurité des systèmes d’information**. Que ce soit pour protéger les communications, garantir la confidentialité des données personnelles, ou sécuriser les transactions, elle s’intègre à tous les niveaux des infrastructures numériques.
 
