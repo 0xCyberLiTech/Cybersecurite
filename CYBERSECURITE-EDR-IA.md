@@ -12,10 +12,8 @@
 
 ---
 
-<h2 align="left">💡L'intelligence artificielle.</h2>
-<h3 align="left">👋 Sommaire :</h3>
-
-<h2 align="left">L'EDR (Endpoint Detection and Response) : L'évolution de la cybersécurité des terminaux</h2>
+<h2 align="left">💡L'EDR (Endpoint Detection and Response).</h2>
+<h3 align="left">👋L'évolution de la cybersécurité des terminaux</h3>
 
 Pour bien comprendre ce qu'est un EDR, il est essentiel de le situer par rapport à l'antivirus traditionnel.
 
