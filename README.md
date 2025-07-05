@@ -36,6 +36,44 @@ Ce dépôt a pour vocation de centraliser un ensemble de notions clés en cybers
 - 12 - [EDR](CYBERSECURITE-EDR.md)
 - 13 - [EPP, EDR, SIEM, SOAR et XDR](CYBERSECURITE-EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md)
 
+# Plan d'Apprentissage en Cybersécurité
+
+Ce document organise une série de fiches thématiques pour un apprentissage progressif de la cybersécurité.
+
+---
+
+### **I. Fondamentaux de la Cybersécurité**
+
+[* **01 - Fiche réflexe** (Synthèse globale à garder à portée de main)](CYBERSECURITE-FICHE-REFLEX.md)
+* **02 - Cybersécurité, définition** (Le point de départ indispensable)
+* **03 - Cybersécurité, acronymes** (Pour comprendre le jargon du domaine)
+
+---
+
+### **II. Les Menaces : Comprendre l'Attaque**
+
+* **04 - KILL-CHAIN : les 7 étapes de la cyberattaque** (Le cadre conceptuel de l'attaque)
+* **05 - Logiciels malveillants, introduction** (Présentation des principaux types de menaces)
+* **06 - Logiciels malveillants, techniques de protection** (Comment se défendre contre ces menaces)
+
+---
+
+### **III. Les Outils de Défense et de Contrôle**
+
+#### **A. Le Chiffrement**
+* **07 - Cryptographie, introduction** (Principes fondamentaux du chiffrement)
+* **08 - Cryptographie, outils** (Mise en pratique avec des outils concrets)
+
+#### **B. Le Contrôle des Flux Réseau**
+* **09 - Proxy, introduction** (Le rôle du proxy sortant)
+* **10 - Proxy, installation** (Mise en œuvre pratique)
+* **11 - Reverse-proxy, introduction** (Le rôle du proxy entrant)
+* **12 - Reverse-proxy, installation** (Mise en œuvre pratique)
+
+#### **C. Les Plateformes de Sécurité**
+* **13 - EPP, EDR, SIEM, SOAR et XDR** (Définitions et comparaisons des plateformes modernes de détection et de réponse)
+* **14 - EDR (Endpoint Detection and Response)** (Focus spécifique sur une solution essentielle)
+
 ---
 
 ## 🌐 À propos de moi
