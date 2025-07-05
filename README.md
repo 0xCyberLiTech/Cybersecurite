@@ -11,6 +11,16 @@
 
 ---
 
+## 🧠 Objectif
+
+Ce dépôt a pour vocation de centraliser un ensemble de notions clés en cybersécurité. Il s’adresse aux passionnés, étudiants, et professionnels souhaitant :
+
+- Mieux comprendre les menaces informatiques
+- Apprendre à sécuriser leurs environnements
+- Se familiariser avec les concepts et outils de défense
+
+---
+
 ## 📚 Sommaire des sujets abordés
 
 - 01 - [Cybersécurité définition.](CYBERSECURITE-definition.md)
@@ -26,16 +36,6 @@
 - 11 - [KILL-CHAIN, les 7 étapes de la cyberattaque](CYBERSECURITE-KILL-CHAIN.md)
 - 12 - [EDR](CYBERSECURITE-EDR.md)
 - 13 - [EPP, EDR, SIEM, SOAR et XDR](CYBERSECURITE-EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md)
-
----
-
-## 🧠 Objectif
-
-Ce dépôt a pour vocation de centraliser un ensemble de notions clés en cybersécurité. Il s’adresse aux passionnés, étudiants, et professionnels souhaitant :
-
-- Mieux comprendre les menaces informatiques
-- Apprendre à sécuriser leurs environnements
-- Se familiariser avec les concepts et outils de défense
 
 ---
 
