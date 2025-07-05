@@ -50,13 +50,13 @@ Ce document organise une série de fiches thématiques pour un apprentissage pro
 * **07 - Cryptographie, introduction** (Principes fondamentaux du chiffrement)
 * **08 - Cryptographie, outils** (Mise en pratique avec des outils concrets)
 
-#### **B. Le Contrôle des Flux Réseau**
+<h4 align="left">📚 B. Le Contrôle des Flux Réseau.</h4>
 * **09 - Proxy, introduction** (Le rôle du proxy sortant)
 * **10 - Proxy, installation** (Mise en œuvre pratique)
 * **11 - Reverse-proxy, introduction** (Le rôle du proxy entrant)
 * **12 - Reverse-proxy, installation** (Mise en œuvre pratique)
 
-#### **C. Les Plateformes de Sécurité**
+<h4 align="left">📚 C. Les Plateformes de Sécurité.</h4>
 * **13 - EPP, EDR, SIEM, SOAR et XDR** (Définitions et comparaisons des plateformes modernes de détection et de réponse)
 * **14 - EDR (Endpoint Detection and Response)** (Focus spécifique sur une solution essentielle)
 ---
