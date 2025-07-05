@@ -36,18 +36,18 @@ Voici un modèle adaptable, inspiré des recommandations de l'Agence Nationale d
 
 ---
 
-<h3 align="center"> 👋 **FICHE RÉFLEXE CYBERSÉCURITÉ : PREMIERS GESTES EN CAS D'INCIDENT**</h3>
+<h3 align="left"> 👋 **FICHE RÉFLEXE CYBERSÉCURITÉ : PREMIERS GESTES EN CAS D'INCIDENT**</h3>
 
 **ATTENTION : En cas de suspicion d'incident, gardez votre calme et suivez cette procédure. Ne prenez pas d'initiatives non coordonnées.**
 
-<h3 align="center"> 👋 1. Identification et Qualification de l'Incident.</h3>
+<h3 align="left"> 👋 1. Identification et Qualification de l'Incident.</h3>
 
 * **Quel est le problème observé ?** (Ex: Fichiers chiffrés, message de demande de rançon, site web défiguré, lenteurs extrêmes, alertes antivirus, etc.)
 * **Quand le problème a-t-il été découvert et par qui ?**
 * **Quels sont les systèmes, applications ou données impactés ?** (Serveurs, postes de travail, applications métier, etc.)
 * **L'activité de l'entreprise est-elle perturbée ? Si oui, comment ?**
 
-<h3 align="center"> 👋 2. Actions Immédiates : L'Endiguement.</h3>
+<h3 align="left"> 👋 2. Actions Immédiates : L'Endiguement.</h3>
 
 | Type d'incident suspecté          | Actions immédiates à réaliser                                                                                                                                                                                                                                                                 |
 | :-------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -56,7 +56,7 @@ Voici un modèle adaptable, inspiré des recommandations de l'Agence Nationale d
 | **Intrusion / Compromission de compte** | 1. **Changer immédiatement les mots de passe** des comptes suspectés et des comptes administrateurs.<br>2. **Déconnecter toutes les sessions actives** du compte compromis.<br>3. **Vérifier les règles de transfert d'emails** et autres modifications suspectes.<br>4. **Isoler les systèmes** sur lesquels le compte a été utilisé. |
 | **Attaque par Déni de Service (DDoS)** | 1. **Contacter immédiatement votre hébergeur ou fournisseur d'accès Internet.** Ils disposent des outils pour mitiger l'attaque à la source.<br>2. **Analyser les logs** pour identifier l'origine et le type d'attaque (si possible). |
 
-<h3 align="center"> 👋 3. Alerter : Qui Contacter ?</h3>
+<h3 align="left"> 👋 3. Alerter : Qui Contacter ?</h3>
 
 * **Responsable de la Sécurité des Systèmes d'Information (RSSI) / Équipe Informatique :**
     * **Nom :** `[Nom du contact interne]`
@@ -73,14 +73,14 @@ Voici un modèle adaptable, inspiré des recommandations de l'Agence Nationale d
     * **Forces de l'ordre (Police ou Gendarmerie) :** Pour un dépôt de plainte, indispensable pour les assurances. Contactez le `0 800 811 414` (Info Escroqueries) ou la brigade numérique de la Gendarmerie.
     * **Commission Nationale de l'Informatique et des Libertés (CNIL) :** En cas de violation de données personnelles, une notification est obligatoire dans les 72 heures.
 
-<h3 align="center"> 👋 4. Préserver les Preuves.</h3>
+<h3 align="cleft"> 👋 4. Préserver les Preuves.</h3>
 
 * **Ne pas éteindre les machines compromises** (sauf instruction contraire des experts), car cela efface des preuves cruciales en mémoire vive (RAM).
 * **Ne supprimer aucun fichier ou log.**
 * **Noter chronologiquement toutes les actions entreprises :** Qui a fait quoi, quand et pourquoi.
 * **Réaliser des copies des disques durs** des machines affectées (si vous avez les compétences et les outils).
 
-<h3 align="center"> 👋 5. Communication.</h3>
+<h3 align="left"> 👋 5. Communication.</h3>
 
 * **Interne :** Informer les collaborateurs des mesures à prendre (ex: "Ne plus utiliser telle application", "Se déconnecter du réseau").
 * **Externe :** Préparer les éléments de langage pour les clients, fournisseurs ou le public si l'incident a un impact externe. La communication doit être contrôlée et validée par la direction.
