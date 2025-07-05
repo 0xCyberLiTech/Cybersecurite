@@ -46,6 +46,7 @@ Ce document organise une série de fiches thématiques pour un apprentissage pro
 
 <h4 align="left">📚 A. Le Chiffrement.</h4>
 * - 07 - [Cryptographie, introduction (Principes fondamentaux du chiffrement)]()
+* - 06 - [Logiciels malveillants, techniques de protection (Comment se défendre contre ces menaces)]()
 * - 08 - [Cryptographie, outils (Mise en pratique avec des outils concrets)]()
 
 <h4 align="left">📚 B. Le Contrôle des Flux Réseau.</h4>
