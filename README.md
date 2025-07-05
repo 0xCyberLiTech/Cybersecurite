@@ -28,12 +28,6 @@ Ce document organise une série de fiches thématiques pour un apprentissage pro
 
 ---
 
-# Plan d'Apprentissage en Cybersécurité
-
-Ce document organise une série de fiches thématiques pour un apprentissage progressif de la cybersécurité.
-
----
-
 <h3 align="left">📚 I. Fondamentaux de la Cybersécurité.</h3>
 
 * - 01 - [Fiche réflexe (Synthèse globale à garder à portée de main)](CYBERSECURITE-FICHE-REFLEX.md)
