@@ -42,11 +42,17 @@ Ce document organise une série de fiches thématiques pour un apprentissage pro
 
 ---
 
+# Plan d'Apprentissage en Cybersécurité
+
+Ce document organise une série de fiches thématiques pour un apprentissage progressif de la cybersécurité.
+
+---
+
 ### **I. Fondamentaux de la Cybersécurité**
 
-[* **01 - Fiche réflexe** (Synthèse globale à garder à portée de main)](CYBERSECURITE-FICHE-REFLEX.md)
-* **02 - Cybersécurité, définition** (Le point de départ indispensable)
-* **03 - Cybersécurité, acronymes** (Pour comprendre le jargon du domaine)
+* **- 01 - [Fiche réflexe** (Synthèse globale à garder à portée de main)]()
+* **- 02 - [Cybersécurité, définition** (Le point de départ indispensable)]()
+* **- 03 - [Cybersécurité, acronymes** (Pour comprendre le jargon du domaine)]()
 
 ---
 
@@ -73,7 +79,6 @@ Ce document organise une série de fiches thématiques pour un apprentissage pro
 #### **C. Les Plateformes de Sécurité**
 * **13 - EPP, EDR, SIEM, SOAR et XDR** (Définitions et comparaisons des plateformes modernes de détection et de réponse)
 * **14 - EDR (Endpoint Detection and Response)** (Focus spécifique sur une solution essentielle)
-
 ---
 
 ## 🌐 À propos de moi
