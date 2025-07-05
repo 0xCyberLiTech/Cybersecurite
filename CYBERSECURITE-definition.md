@@ -5,10 +5,6 @@
 </a>
 
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/167217017?s=400&u=d983b9423c4eb8cdb9bfe8b14f505be5c894d6bc&v=4" width="130" />
-</p>
-
-<p align="center">
   <em>Un dépôt pédagogique autour des fondamentaux de la cybersécurité.</em><br>
   <b>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</b>
 </p>
