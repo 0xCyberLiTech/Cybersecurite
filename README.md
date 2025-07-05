@@ -22,20 +22,6 @@ Ce dépôt a pour vocation de centraliser un ensemble de notions clés en cybers
 
 <h2 align="left">📚 Sommaire des sujets abordés.</h2>
 
-- 01 - [Cybersécurité définition.](CYBERSECURITE-definition.md)
-- 02 - [Cybersécurité acronymes.](CYBERSECURITE-ACRONYMES.md)
-- 03 - [Logiciels malveillants, introduction.](CYBERSECURITE-LOGICIELS-MALVEILLANTS-introduction.md)
-- 04 - [Logiciels malveillants, techniques de protection.](CYBERSECURITE-LOGICIELS-MALVEILLANTS-techniques_de_protection.md)
-- 05 - [Cryptographie, introduction.](CYBERSECURITE-CRYPTOGRAPHIE-introduction.md)
-- 06 - [Cryptographie, outils.](CYBERSECURITE-CRYPTOGRAPHIE-outils.md)
-- 07 - [Proxy, introduction.](CYBERSECURITE-PROXY-introduction.md)
-- 08 - [Proxy, installation.](CYBERSECURITE-PROXY-installation.md)
-- 09 - [Reverse-proxy, introduction.](CYBERSECURITE-REVERSE-PROXY-introduction.md)
-- 10 - [Reverse-proxy, installation.](CYBERSECURITE-REVERSE-PROXY-installation.md)
-- 11 - [KILL-CHAIN, les 7 étapes de la cyberattaque](CYBERSECURITE-KILL-CHAIN.md)
-- 12 - [EDR](CYBERSECURITE-EDR.md)
-- 13 - [EPP, EDR, SIEM, SOAR et XDR](CYBERSECURITE-EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md)
-
 # Plan d'Apprentissage en Cybersécurité
 
 Ce document organise une série de fiches thématiques pour un apprentissage progressif de la cybersécurité.
@@ -48,7 +34,7 @@ Ce document organise une série de fiches thématiques pour un apprentissage pro
 
 ---
 
-### **I. Fondamentaux de la Cybersécurité**
+<h3 align="left">📚 I. Fondamentaux de la Cybersécurité.</h3>
 
 * - 01 - [Fiche réflexe (Synthèse globale à garder à portée de main)](CYBERSECURITE-FICHE-REFLEX.md)
 * - 02 - [Cybersécurité, définition (Le point de départ indispensable)](CYBERSECURITE-definition.md)
@@ -56,17 +42,17 @@ Ce document organise une série de fiches thématiques pour un apprentissage pro
 
 ---
 
-### **II. Les Menaces : Comprendre l'Attaque**
+<h3 align="left">📚 II. Les Menaces : Comprendre l'Attaque.</h3>
 
-* 04 - KILL-CHAIN : les 7 étapes de la cyberattaque** (Le cadre conceptuel de l'attaque)
-* 05 - Logiciels malveillants, introduction** (Présentation des principaux types de menaces)
-* 06 - Logiciels malveillants, techniques de protection** (Comment se défendre contre ces menaces)
+* - 04 - [KILL-CHAIN : les 7 étapes de la cyberattaque (Le cadre conceptuel de l'attaque)]()
+* - 05 - [Logiciels malveillants, introduction (Présentation des principaux types de menaces)]()
+* - 06 - [Logiciels malveillants, techniques de protection** (Comment se défendre contre ces menaces)]()
 
 ---
 
-### **III. Les Outils de Défense et de Contrôle**
+<h3 align="left">📚 III. Les Outils de Défense et de Contrôle.</h3>
 
-#### **A. Le Chiffrement**
+<h4 align="left">📚 A. Le Chiffrement.</h4>
 * **07 - Cryptographie, introduction** (Principes fondamentaux du chiffrement)
 * **08 - Cryptographie, outils** (Mise en pratique avec des outils concrets)
 
