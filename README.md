@@ -44,7 +44,7 @@ Ce document organise une série de fiches thématiques pour un apprentissage pro
 
 <h3 align="left">📚 III. Les Outils de Défense et de Contrôle.</h3>
 
-<h4 align="left">📚 A. Le Chiffrement.</h4>
+<h3 align="left">📚 A. Le Chiffrement.</h3>
 * - 07 - [Cryptographie, introduction (Principes fondamentaux du chiffrement)]()
 * - 06 - [Logiciels malveillants, techniques de protection (Comment se défendre contre ces menaces)]()
 * - 08 - [Cryptographie, outils (Mise en pratique avec des outils concrets)]()
