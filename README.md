@@ -10,7 +10,7 @@
 </p>
 
 ---
-<h2 align="center">🎯 Objectif du dépôt.</h2>
+<h2 align="left">🎯 Objectif du dépôt.</h2>
 
 Ce dépôt a pour vocation de centraliser un ensemble de notions clés en cybersécurité. Il s’adresse aux passionnés, étudiants, et professionnels souhaitant :
 
@@ -20,7 +20,7 @@ Ce dépôt a pour vocation de centraliser un ensemble de notions clés en cybers
 
 ---
 
-<h2 align="center">📚 Sommaire des sujets abordés.</h2>
+<h2 align="left">📚 Sommaire des sujets abordés.</h2>
 
 - 01 - [Cybersécurité définition.](CYBERSECURITE-definition.md)
 - 02 - [Cybersécurité acronymes.](CYBERSECURITE-ACRONYMES.md)
