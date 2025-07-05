@@ -11,7 +11,7 @@
 
 ---
 
-## 🧠 Objectif
+## 🧠 Objectif du dépôt
 
 Ce dépôt a pour vocation de centraliser un ensemble de notions clés en cybersécurité. Il s’adresse aux passionnés, étudiants, et professionnels souhaitant :
 
