@@ -20,7 +20,7 @@ Ce dépôt a pour vocation de centraliser un ensemble de notions clés en cybers
 
 ---
 
-<h2 align="left">📚 Plan d'Apprentissage en Cybersécurité.</h2>
+<h2 align="left">💡 Plan d'Apprentissage en Cybersécurité.</h2>
 
 Ce document organise une série de fiches thématiques pour un apprentissage progressif de la cybersécurité.
 
