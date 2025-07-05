@@ -7,11 +7,6 @@
 
 ---
 
-<h1 align="center"> 🚧 **Page en cours de développement** 🚧</h1>
-<h3 align="center"> 🔧 Travail en cours... Merci de revenir plus tard !</h3>
-
----
-
 <h2 align="left">💡 Fiche Réflexe en Cybersécurité.</h2>
 <h3 align="left">👋 Guide Opérationnel.</h3>
 
