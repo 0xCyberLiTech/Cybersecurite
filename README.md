@@ -19,20 +19,6 @@
 
 ---
 
-### 🧭 **Sommaire des Thématiques**
-
-<div align="center">
-
-| Catégorie | Description | Accès Rapide |
-|:---:|:---|:---:|
-| 📘 **Fondamentaux** | Définitions, concepts clés et fiches réflexes pour bien démarrer. | [<img src="https://img.shields.io/badge/LIRE-brightgreen?style=for-the-badge&logo=markdown&logoColor=white">](CYBERSECURITE-FICHE-REFLEX.md) |
-| 💥 **Les Menaces** | Comprendre le déroulement d'une attaque et les types de logiciels malveillants. | [<img src="https://img.shields.io/badge/LIRE-brightgreen?style=for-the-badge&logo=markdown&logoColor=white">](CYBERSECURITE-KILL-CHAIN.md) |
-| 🛡️ **Outils de Défense** | Chiffrement, contrôle des flux (Proxy, Reverse-Proxy) et plateformes de sécurité. | [<img src="https://img.shields.io/badge/LIRE-brightgreen?style=for-the-badge&logo=markdown&logoColor=white">](CYBERSECURITE-CRYPTOGRAPHIE-introduction.md) |
-
-</div>
-
----
-
 ### 💡 **Plan d'Apprentissage Détaillé**
 
 <h3 align="left">I. Fondamentaux de la Cybersécurité</h3>
