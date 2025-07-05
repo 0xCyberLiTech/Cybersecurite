@@ -92,3 +92,18 @@ Voici un modèle adaptable, inspiré des recommandations de l'Agence Nationale d
 -   **Diffusion :** Cette fiche doit être accessible à tous les employés, en version numérique et papier (en cas de panne du système d'information).
 -   **Sensibilisation :** L'existence et le contenu de cette fiche doivent faire l'objet de sessions de sensibilisation régulières.
 -   **Mise à jour :** Les informations, notamment les contacts, doivent être vérifiées et mises à jour au moins une fois par an.
+
+---
+
+## 🌐 À propos de moi
+
+- 💡 Passionné par Debian GNU/Linux depuis plusieurs années
+- 🎓 Autodidacte, avec un fort esprit de transmission
+- 🔐 Intéressé par la cybersécurité, les solutions open source et la performance système
+- 🧪 Toujours partant pour tester une nouvelle stack technique
+
+---
+
+<p align="center">
+  🔒 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour des tutoriels accessible à tous.
+</p>
