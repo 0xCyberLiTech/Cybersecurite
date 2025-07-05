@@ -13,6 +13,22 @@
 
 ---
 
+### 👨‍💻 **À propos de moi**
+
+> Ce dépôt constitue mon laboratoire numérique où je consigne rigoureusement mes apprentissages et expérimentations.
+> Passionné par l'écosystème Linux et la cybersécurité, je documente mon parcours et mes projets sur mon GitHub.
+> Vous y trouverez des guides pratiques sur la supervision (Zabbix, Nagios), la conteneurisation (Docker) et la sécurisation de serveurs Debian.
+> Mon objectif : partager mes connaissances de manière claire et pédagogique.
+> N'hésitez pas à y jeter un œil : https://github.com/0xcyberlitech
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=linux,debian,bash,docker,nginx,grafana,prometheus,git,vim" />
+  </a>
+</p>
+
+---
+
 ### 🎯 **Objectif de ce dépôt**
 
 > Ce dépôt a pour vocation de centraliser un ensemble de notions clés en cybersécurité. Il s’adresse aux passionnés, étudiants, et professionnels souhaitant mieux comprendre les menaces informatiques, apprendre à sécuriser leurs environnements et se familiariser avec les concepts et outils de défense.
@@ -51,15 +67,6 @@
 
 * `13` - [EPP, EDR, SIEM, SOAR et XDR (Définitions et comparaisons des plateformes)](CYBERSECURITE-EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md)
 * `14` - [EDR (Endpoint Detection and Response) (Focus spécifique)](CYBERSECURITE-EDR.md)
-
----
-
-### 👨‍💻 **À propos de moi**
-
-> * 💡 Passionné par Debian GNU/Linux depuis plusieurs années
-> * 🎓 Autodidacte, avec un fort esprit de transmission
-> * 🔐 Intéressé par la cybersécurité, les solutions open source et la performance système
-> * 🧪 Toujours partant pour tester une nouvelle stack technique
 
 ---
 
