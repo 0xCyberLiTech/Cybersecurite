@@ -1,18 +1,20 @@
+<div align="center">
+
+<a href="https://github.com/0xCyberLiTech">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=33FF33&center=true&vCenter=true&width=1000&lines=LOGICIEL+MALVEILLANT+–+MENACES+ET+DEFENSES;Comprendre+les+Malwares;Sécuriser+vos+Systèmes" alt="Typing SVG" />
+</a>
+
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/167217017?s=400&u=d983b9423c4eb8cdb9bfe8b14f505be5c894d6bc&v=4" width="150" />
+  <em>Un dépôt pédagogique autour des fondamentaux de la cybersécurité.</em><br>
+  <b>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</b>
 </p>
 
-<h1 align="center">🌐 CYBERSÉCURITÉ - LOGICIEL MALVEILLANT 🌐</h1>
-<h2 align="center"> INTRODUCTION</h2>
-
-<p align="center">
-  Un dépôt pédagogique autour des fondamentaux de la cybersécurité.<br>
-  📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension
-</p>
+</div>
 
 ---
-<h2 align="left">💡 Malware</h2>
-<h3 align="Left">👋 Qu'est-ce qu'un logiciel malveillant ?</h3>
+
+### 💡 **Malware**
+#### 👋 Qu'est-ce qu'un logiciel malveillant ?
 
 Un **logiciel malveillant** (ou *malware*) est un programme conçu pour nuire à l’utilisateur ou à son système. Il peut :
 
@@ -25,7 +27,7 @@ Une stratégie de sécurité efficace (correctifs, contrôles d’accès, sauveg
 
 ---
 
-## ⚠️ Pourquoi sont-ils si préoccupants ?
+### ⚠️ **Pourquoi sont-ils si préoccupants ?**
 
 > 💥 Imaginez : vous allumez votre ordinateur au bureau, et un écran rouge vous annonce que vos fichiers ont été chiffrés… avec un compte à rebours et une demande de rançon.
 
@@ -35,106 +37,106 @@ Mais souvent, les malwares agissent **en silence** : vol de données, surveillan
 
 ---
 
-## 🧬 Anatomie d’un malware
+### 🧬 **Anatomie d’un malware**
 
-Un logiciel malveillant repose généralement sur deux composants :
-- **Système de distribution** : comment il se propage.
+Un logiciel malveillant repose généralement sur deux composants :  
+- **Système de distribution** : comment il se propage.  
 - **Charge utile** (*payload*) : ce qu’il exécute une fois en place.
 
-### 🧭 Systèmes de distribution
+#### 🧭 Systèmes de distribution
 
-| Type                      | Description |
-|---------------------------|-------------|
-| **Cheval de Troie**       | Trompe l'utilisateur pour s'installer. |
+| Type                      | Description                                  |
+|---------------------------|----------------------------------------------|
+| **Cheval de Troie**       | Trompe l'utilisateur pour s'installer.      |
 | **Ver (worm)**            | Se duplique de façon autonome via les réseaux. |
-| **Exploit**               | Exploite une faille logicielle. |
-| **Hameçonnage (phishing)**| Trompe l'utilisateur pour obtenir des accès. |
-| **Rootkit / Bootkit**     | Accès privilégié furtif au système. |
+| **Exploit**               | Exploite une faille logicielle.              |
+| **Hameçonnage (phishing)**| Trompe l'utilisateur pour obtenir des accès.|
+| **Rootkit / Bootkit**     | Accès privilégié furtif au système.          |
 
-### 🎯 Charges utiles possibles
+#### 🎯 Charges utiles possibles
 
-| Type                          | Description |
-|-------------------------------|-------------|
-| **Logiciel publicitaire**     | Affiche des publicités non désirées. |
-| **Logiciel espion**           | Espionne les activités de l'utilisateur. |
-| **Botnet**                    | Contrôle l’appareil à distance. |
-| **Mineur de cryptomonnaie**   | Exploite les ressources CPU/GPU. |
-| **Rançongiciel (ransomware)** | Chiffre les fichiers et exige une rançon. |
-| **Sabotage**                  | Destruction de fichiers ou systèmes. |
+| Type                          | Description                                      |
+|-------------------------------|------------------------------------------------|
+| **Logiciel publicitaire**     | Affiche des publicités non désirées.            |
+| **Logiciel espion**           | Espionne les activités de l'utilisateur.        |
+| **Botnet**                    | Contrôle l’appareil à distance.                  |
+| **Mineur de cryptomonnaie**   | Exploite les ressources CPU/GPU.                 |
+| **Rançongiciel (ransomware)** | Chiffre les fichiers et exige une rançon.       |
+| **Sabotage**                  | Destruction de fichiers ou systèmes.             |
 
 ---
 
-## 🕵️ Exemples de menaces
+### 🕵️ **Exemples de menaces**
 
-### 🐴 Chevaux de Troie
+#### 🐴 Chevaux de Troie
 
 Technique classique d’**ingénierie sociale** : une application "utile" cache un malware.  
 Exemples : fausse barre d’outils, clavier emoji, clé USB piégée...
 
-### 🪱 Vers
+#### 🪱 Vers
 
 Se propagent automatiquement via réseaux ou périphériques.  
-Historiquement : disquettes, puis emails, et aujourd’hui réseaux entiers (ex: **Mirai**, **ILOVEYOU**).
+Historiquement : disquettes, emails, puis réseaux entiers (ex: **Mirai**, **ILOVEYOU**).
 
-### 💥 Exploits & CVE
+#### 💥 Exploits & CVE
 
 Un **exploit** tire parti d'une vulnérabilité connue ou inconnue (0-day) pour infiltrer un système.  
 👉 Importance de maintenir les systèmes à jour.
 
-### 🎣 Hameçonnage
+#### 🎣 Hameçonnage
 
 Email frauduleux, site cloné, SMS d'alerte fictive...  
-Le but est d’obtenir des **informations sensibles** (mots de passe, comptes bancaires...).
+But : obtenir des **informations sensibles** (mots de passe, comptes bancaires...).
 
-### 🛠️ Rootkits / Bootkits
+#### 🛠️ Rootkits / Bootkits
 
 Permettent un **contrôle total** du système sans être détectés.  
 Les bootkits agissent même au niveau du noyau de l’OS.
 
-### 📢 Publicité & Espionnage
+#### 📢 Publicité & Espionnage
 
 Les **adwares** polluent avec des pubs. Les **spywares** collectent vos données ou frappes clavier (keylogger).  
-👉 Risques pour la vie privée + performance système dégradée.
+👉 Risques pour la vie privée et dégradation des performances.
 
-### 🤖 Botnets
+#### 🤖 Botnets
 
 Contrôle d’un appareil à distance pour : DDoS, spam, minage...  
-Exemple : **Mirai** en 2016 a utilisé des objets connectés (IoT) pour une attaque massive.
+Exemple : **Mirai** (2016) a utilisé des objets connectés (IoT) pour une attaque massive.
 
-### 💸 Rançongiciels
+#### 💸 Rançongiciels
 
 Chiffrent vos fichiers, puis exigent une rançon (souvent en Bitcoin).  
-Exemples célèbres : **WannaCry**, **Petya**, **LockerGoga**...
+Exemples : **WannaCry**, **Petya**, **LockerGoga**...
 
-### 🔥 Autres menaces
+#### 🔥 Autres menaces célèbres
 
-- **Michelangelo (1992)** : efface les disques durs.
-- **ILOVEYOU (2000)** : virus par email, détruit fichiers et envoie à vos contacts.
-- **Stuxnet (2010)** : attaque complexe ciblant les centrifugeuses iraniennes — probablement d'origine étatique.
+- **Michelangelo (1992)** : efface les disques durs.  
+- **ILOVEYOU (2000)** : virus email, détruit fichiers et se propage aux contacts.  
+- **Stuxnet (2010)** : attaque sophistiquée ciblant des infrastructures critiques.
 
 ---
 
-## 🛡️ Se défendre efficacement
+### 🛡️ **Se défendre efficacement**
 
-- 🔄 **Mettez à jour** vos systèmes (correctifs de sécurité)
-- 🔐 **Contrôlez les accès**
-- 📦 **Utilisez des antivirus et EDR fiables**
-- 🧠 **Formez les utilisateurs**
-- 💾 **Sauvegardez régulièrement** (et testez vos sauvegardes)
+- 🔄 **Mettez à jour** vos systèmes régulièrement.  
+- 🔐 **Contrôlez les accès** et les droits utilisateurs.  
+- 📦 **Utilisez des antivirus et EDR fiables**.  
+- 🧠 **Formez les utilisateurs** aux risques et bonnes pratiques.  
+- 💾 **Sauvegardez régulièrement** (et testez vos restaurations).
 
 > Le meilleur antivirus reste la **vigilance humaine**.
 
 ---
 
-## 🌐 À propos de moi
+## 👤 **À propos de moi**
 
-- 💡 Passionné par Debian GNU/Linux depuis plusieurs années
-- 🎓 Autodidacte, avec un fort esprit de transmission
-- 🔐 Intéressé par la cybersécurité, les solutions open source et la performance système
+- 💡 Passionné par Debian GNU/Linux depuis plusieurs années  
+- 🎓 Autodidacte, avec un fort esprit de transmission  
+- 🔐 Intéressé par la cybersécurité, les solutions open source et la performance système  
 - 🧪 Toujours partant pour tester une nouvelle stack technique
 
 ---
 
 <p align="center">
-  🔒 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour des tutoriels accessible à tous.
+  <b>🔒 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour des tutoriels accessibles à tous. 🔒</b>
 </p>
