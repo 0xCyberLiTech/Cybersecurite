@@ -12,7 +12,8 @@
 ---
 <h2 align="left">🎯 Objectif du dépôt.</h2>
 
-Thèmes potentiellement abordés dans le dépôt 0xCyberLiTech/Cybersecurite
+Thèmes potentiellement abordés dans le dépôt 0xCyberLiTech/Cybersecurite.
+
 01 - Cybersécurité définition : Une explication de ce qu'est la cybersécurité, son importance et ses objectifs généraux.
 
 02 - Cybersécurité acronymes : Une section dédiée aux abréviations et sigles couramment utilisés dans le domaine de la cybersécurité (par exemple, VPN, MFA, DDoS, etc.).
@@ -48,8 +49,6 @@ SIEM (Security Information and Event Management) : Gestion des informations et d
 SOAR (Security Orchestration, Automation and Response) : Orchestration de la sécurité, automatisation et réponse.
 
 XDR (Extended Detection and Response) : Détection et réponse étendues.
-
-
 
 Ce dépôt a pour vocation de centraliser un ensemble de notions clés en cybersécurité. Il s’adresse aux passionnés, étudiants, et professionnels souhaitant :
 
