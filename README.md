@@ -38,7 +38,7 @@ Ce document organise une série de fiches thématiques pour un apprentissage pro
 
 * - 04 - [KILL-CHAIN : les 7 étapes de la cyberattaque (Le cadre conceptuel de l'attaque)]()
 * - 05 - [Logiciels malveillants, introduction (Présentation des principaux types de menaces)]()
-* - 06 - [Logiciels malveillants, techniques de protection** (Comment se défendre contre ces menaces)]()
+* - 06 - [Logiciels malveillants, techniques de protection (Comment se défendre contre ces menaces)]()
 
 ---
 
