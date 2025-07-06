@@ -46,6 +46,20 @@
 | 09 | UFW + Zabbix & Grafana | [🔗](#balise-09) |
 | 10 | Réinitialisation ou désactivation | [🔗](#balise-10) |
 
+| 🧩 Chapitre | 📝 Description | 🔗 Accès |
+|:--:|:--|:--:|
+| 01 | Installation de UFW | [<img src="https://img.shields.io/badge/EXPLORER-01-brightgreen?style=for-the-badge&logo=github&logoColor=white">](#balise-01) |
+| 02 | Politiques par défaut | [<img src="https://img.shields.io/badge/EXPLORER-02-brightgreen?style=for-the-badge&logo=github&logoColor=white">](#balise-02) |
+| 03 | Autoriser les connexions SSH | [<img src="https://img.shields.io/badge/EXPLORER-03-brightgreen?style=for-the-badge&logo=github&logoColor=white">](#balise-03) |
+| 04 | Activation d’UFW | [<img src="https://img.shields.io/badge/EXPLORER-04-brightgreen?style=for-the-badge&logo=github&logoColor=white">](#balise-04) |
+| 05 | Autoriser d’autres connexions | [<img src="https://img.shields.io/badge/EXPLORER-05-brightgreen?style=for-the-badge&logo=github&logoColor=white">](#balise-05) |
+| 06 | Refuser des connexions | [<img src="https://img.shields.io/badge/EXPLORER-06-brightgreen?style=for-the-badge&logo=github&logoColor=white">](#balise-06) |
+| 07 | Suppression de règles | [<img src="https://img.shields.io/badge/EXPLORER-07-brightgreen?style=for-the-badge&logo=github&logoColor=white">](#balise-07) |
+| 08 | Vérification de l’état/règles | [<img src="https://img.shields.io/badge/EXPLORER-08-brightgreen?style=for-the-badge&logo=github&logoColor=white">](#balise-08) |
+| 09 | UFW + Zabbix & Grafana | [<img src="https://img.shields.io/badge/EXPLORER-09-brightgreen?style=for-the-badge&logo=github&logoColor=white">](#balise-09) |
+| 10 | Réinitialisation ou désactivation | [<img src="https://img.shields.io/badge/EXPLORER-10-brightgreen?style=for-the-badge&logo=github&logoColor=white">](#balise-10) |
+
+
 ---
 
 ### 🔎 Introduction à UFW
