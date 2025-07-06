@@ -61,6 +61,20 @@
 | 10. Réinitialisation    | Réinitialiser ou désactiver UFW. | [<img src="https://img.shields.io/badge/EXPLORER-black?style=for-the-badge&logo=ubuntu&logoColor=white">](#balise-10) |
 
 
+
+| 🔢 **Chapitre** | 📝 **Description** | 🚀 **Accès Rapide** |
+|----------------|--------------------|---------------------|
+| 01. Installation                | Mise en place initiale de UFW.                                        | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](#balise-01) |
+| 02. Politiques par défaut      | Définir les règles par défaut (deny, allow).                          | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](#balise-02) |
+| 03. Connexions SSH             | Autoriser les connexions SSH entrantes.                               | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](#balise-03) |
+| 04. Activation                 | Activer UFW et appliquer les règles.                                  | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](#balise-04) |
+| 05. Autres connexions          | Autoriser des services supplémentaires (HTTP, etc.).                  | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](#balise-05) |
+| 06. Refus de connexions        | Bloquer certains ports ou services.                                   | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](#balise-06) |
+| 07. Suppression de règles      | Supprimer des règles existantes.                                      | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](#balise-07) |
+| 08. État & règles d’UFW        | Vérifier l’état du pare-feu et les règles appliquées.                 | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](#balise-08) |
+| 09. Zabbix & Grafana           | Supervision : Zabbix (natif), Grafana (conteneur Docker).             | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](#balise-09) |
+| 10. Réinitialisation d’UFW     | Réinitialiser ou désactiver UFW (facultatif).                         | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](#balise-10) |
+
 ---
 
 ## 🎯 Introduction à UFW (Uncomplicated Firewall)
