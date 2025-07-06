@@ -48,9 +48,20 @@
 
 ---
 
-### 🔎 Introduction à UFW
+## 🎯 Objectifs pédagogiques détaillés
 
-> **UFW** (Uncomplicated Firewall) est un outil de gestion de pare-feu simplifié conçu pour les utilisateurs Linux souhaitant sécuriser facilement leur système sans plonger dans la complexité d’iptables ou nftables.
+| 🎓 Objectif | 📚 Détail pédagogique |
+|------------|------------------------|
+| **Comprendre le rôle d’un pare-feu** | Savoir ce qu’est un pare-feu, comment il fonctionne, et pourquoi il est essentiel pour protéger un système contre les intrusions ou les connexions non sollicitées. |
+| **Découvrir UFW et son fonctionnement** | Identifier UFW comme une surcouche simplifiée d’iptables, comprendre sa logique de fonctionnement (politiques par défaut + règles spécifiques). |
+| **Apprendre à activer et désactiver le pare-feu** | Maîtriser les commandes de base (`ufw enable`, `ufw disable`) pour mettre en marche ou arrêter le filtrage réseau. |
+| **Définir les politiques de sécurité par défaut** | Apprendre à configurer les règles générales du pare-feu (par exemple : bloquer toutes les connexions entrantes par défaut avec `ufw default deny incoming`). |
+| **Ajouter des règles personnalisées** | Savoir autoriser ou bloquer certains ports ou services, comme SSH, HTTP ou une application spécifique (ex : `ufw allow 22`, `ufw deny 80`). |
+| **Lister, analyser et supprimer des règles** | Être capable de visualiser les règles actives (`ufw status`), les comprendre, et les modifier si besoin (`ufw delete NUMÉRO`). |
+| **Comprendre l’impact des règles sur la sécurité du système** | Savoir interpréter les effets concrets d’une règle (ce qui est autorisé ou bloqué) et anticiper les comportements réseau associés. |
+| **Gérer UFW en ligne de commande en toute autonomie** | Devenir capable d’utiliser UFW sans assistance, dans un contexte réel d’administration système ou de laboratoire d’apprentissage. |
+
+---
 
 💡 *Il est idéal pour sécuriser un serveur rapidement tout en gardant le contrôle sur les règles réseau.*
 
