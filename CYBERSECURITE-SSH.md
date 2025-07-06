@@ -13,7 +13,7 @@
 
 ---
 
-### 👨‍💻 **À propos de moi**
+### 👨‍💻 **À propos de moi.**
 
 > Ce dépôt constitue mon laboratoire numérique où je consigne rigoureusement mes apprentissages et expérimentations.
 > Passionné par l'écosystème Linux et la cybersécurité, je documente mon parcours et mes projets sur mon GitHub.
@@ -29,7 +29,7 @@
 
 ---
 
-### 🧭 **Sommaire**
+### 🧭 **Sommaire :**
 
 | Chapitre | Description | Accès Rapide |
 |:---:|:---|:---:|
@@ -44,7 +44,7 @@
 <a name="balise_01"></a>
 ---
 
-### 🌐 1. Introduction au protocole SSH et son importance
+### 🌐 1. Introduction au protocole SSH et son importance.
 
 #### Qu'est-ce que SSH ?
 SSH, ou **Secure Shell**, est un protocole réseau qui permet de se connecter et d'administrer une machine à distance de manière **totalement sécurisée**. Imaginez que vous donniez des ordres à un ordinateur situé à des milliers de kilomètres, comme si vous étiez assis devant.
@@ -60,7 +60,7 @@ Sur Debian, le service SSH est fourni par le paquet **OpenSSH**, la référence 
 <a name="balise_02"></a>
 ---
 
-### 🔑 2. Mettre en place l'authentification par clé SSH
+### 🔑 2. Mettre en place l'authentification par clé SSH.
 
 L'authentification par mot de passe est simple, mais fragile (mots de passe faibles, volés, etc.). L'authentification par clé est **infiniment plus robuste**.
 
@@ -68,7 +68,7 @@ L'authentification par mot de passe est simple, mais fragile (mots de passe faib
 * 🤫 **Clé privée** : Elle reste secrète, sur votre ordinateur personnel. C'est votre "moi" numérique.
 * 🚪 **Clé publique** : Vous la copiez sur les serveurs auxquels vous voulez accéder. C'est le "cadenas" que seule votre clé privée peut ouvrir.
 
-#### Étapes sur votre machine cliente (votre PC)
+#### Étapes sur votre machine cliente (votre PC).
 
 1.  **Générez votre paire de clés**.
     Ouvrez un terminal et tapez la commande suivante. `ed25519` est un algorithme moderne, rapide et très sécurisé.
@@ -94,7 +94,7 @@ L'authentification par mot de passe est simple, mais fragile (mots de passe faib
 <a name="balise_03"></a>
 ---
 
-### ⚙️ 3. Durcissement du serveur OpenSSH via `sshd_config`
+### ⚙️ 3. Durcissement du serveur OpenSSH via `sshd_config`.
 
 Maintenant que l'authentification par clé fonctionne, nous allons renforcer la sécurité de notre serveur SSH en désactivant les options les moins sûres.
 
@@ -179,7 +179,7 @@ Même avec l'authentification par mot de passe désactivée, des robots vont con
 <a name="balise_05"></a>
 ---
 
-### 🚇 5. Comprendre et utiliser les Tunnels SSH
+### 🚇 5. Comprendre et utiliser les Tunnels SSH.
 
 Un tunnel SSH est une fonctionnalité puissante qui permet de faire passer le trafic d'une autre application à travers votre connexion SSH chiffrée. C'est un véritable couteau suisse !
 
@@ -204,7 +204,7 @@ Un tunnel SSH est une fonctionnalité puissante qui permet de faire passer le tr
 <a name="balise_06"></a>
 ---
 
-### ✨ 6. Bonnes pratiques : Agent SSH et mots de passe de clé
+### ✨ 6. Bonnes pratiques : Agent SSH et mots de passe de clé.
 
 Se souvenir de la phrase de passe de sa clé, c'est bien. La taper à chaque connexion, c'est fastidieux. L'**Agent SSH** est un petit programme qui garde votre clé déverrouillée en mémoire de manière sécurisée pendant la durée de votre session.
 
@@ -224,7 +224,7 @@ Désormais, toutes vos connexions `ssh`, `scp`, `sftp` utiliseront la clé stock
 <a name="balise_07"></a>
 ---
 
-### 📚 7. Annexes et commandes utiles
+### 📚 7. Annexes et commandes utiles.
 
 * ➡️ `ssh utilisateur@serveur` : Se connecter au serveur.
 * ➡️ `ssh -p 2222 utilisateur@serveur` : Se connecter sur un port non standard.
