@@ -1,11 +1,11 @@
 <div align="center">
 
 <a href="https://github.com/0xCyberLiTech">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=33FF33&center=true&vCenter=true&width=650&lines=LES+PROXIES;Guide+d'Installation;Mise+en+Place+Simple;Configuration+Pratique" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=33FF33&center=true&vCenter=true&width=650&lines=FIREWALL+INTRODUCTION" alt="Typing SVG" />
 </a>
 
 <p align="center">
-  <em>Un dépôt pédagogique autour du proxy - installation.</em><br>
+  <em>Un dépôt pédagogique - firewall introduction.</em><br>
   <b>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</b>
 </p>
 
