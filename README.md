@@ -13,7 +13,7 @@
 
 ---
 
-### 👨‍💻 **À propos de moi**
+### 👨‍💻 **À propos de moi.**
 
 > Ce dépôt constitue mon laboratoire numérique où je consigne rigoureusement mes apprentissages et expérimentations.
 > Passionné par l'écosystème Linux et la cybersécurité, je documente mon parcours et mes projets sur mon GitHub.
@@ -29,13 +29,15 @@
 
 ---
 
-### 🎯 **Objectif de ce dépôt**
+### 🎯 **Objectif de ce dépôt.**
 
 > Ce dépôt a pour vocation de centraliser un ensemble de notions clés en cybersécurité. Il s’adresse aux passionnés, étudiants, et professionnels souhaitant mieux comprendre les menaces informatiques, apprendre à sécuriser leurs environnements et se familiariser avec les concepts et outils de défense.
 
 ---
 
 ### 💡 **Plan d'Apprentissage Détaillé**
+
+---
 
 <h3 align="left">I. Fondamentaux de la Cybersécurité</h3>
 
