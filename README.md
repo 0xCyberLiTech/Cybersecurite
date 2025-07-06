@@ -37,8 +37,6 @@
 
 ### 💡 **Plan d'Apprentissage Détaillé**
 
-# 📚 Sommaire — Cybersécurité
-
 ## I. Fondamentaux de la Cybersécurité
 
 - `01` - [Fiche réflexe (Synthèse globale à garder à portée de main)](CYBERSECURITE-FICHE-REFLEX.md)
