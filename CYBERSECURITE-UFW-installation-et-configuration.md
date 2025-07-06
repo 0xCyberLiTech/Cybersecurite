@@ -210,7 +210,7 @@ Autoriser tout le trafic sortant par défaut : Permet aux applications de votre 
 
 ```Bash
 sudo ufw default allow outgoing
----
+```
 
 Ajouter des Règles d'Autorisation (Allow)
 
@@ -218,35 +218,35 @@ Une fois les politiques par défaut établies, vous pouvez ouvrir des ports spé
 
 Par nom de service : UFW reconnaît de nombreux services courants.
 
----Bash
+```Bash
 sudo ufw allow ssh  # Port 22
----
----Bash
+```
+```Bash
 sudo ufw allow http # Port 80
----
----Bash
+```
+```Bash
 sudo ufw allow https # Port 443
----
+```
 Par numéro de port : Vous pouvez spécifier le numéro de port et éventuellement le protocole (tcp ou udp).
 
----Bash
+```Bash
 sudo ufw allow 22/tcp
----
----Bash
+```
+```Bash
 sudo ufw allow 53/udp
----
+```
 Si vous ne spécifiez pas de protocole, la règle s'appliquera aux deux (TCP et UDP).
 
 Pour une plage de ports :
 
----Bash
+```Bash
 sudo ufw allow 6000:6007/tcp
----
+```
 Pour une adresse IP spécifique : Autorisez une adresse IP à se connecter à un port donné.
 
----Bash
+```Bash
 sudo ufw allow from 192.168.1.100 to any port 22
----
+```
 
 ### 4 - Être capable de surveiller, modifier et tester la configuration du pare-feu.
 
@@ -255,19 +255,19 @@ Gérez votre pare-feu Linux sans effort avec UFW (Uncomplicated Firewall). Cet o
 Surveiller l'état du pare-feu
 Pour commencer, il est essentiel de vérifier l'état actuel de votre pare-feu. La commande de base pour cela est :
 
----Bash
+```Bash
 sudo ufw status
----
+```
 Si le pare-feu est actif, vous verrez une liste des règles en place. S'il est inactif, la sortie l'indiquera. Pour obtenir un aperçu plus détaillé, y compris l'état de la journalisation et les politiques par défaut, utilisez la commande verbose :
 
----Bash
+```Bash
 sudo ufw status verbose
----
+```
 Pour une vue numérotée des règles, ce qui est pratique pour la modification, tapez :
 
----Bash
+```Bash
 sudo ufw status numbered
----
+```
 Modifier la configuration du pare-feu.
 
 La modification des règles du pare-feu est une tâche courante pour les administrateurs système. Voici comment gérer les règles de base.
@@ -275,46 +275,46 @@ La modification des règles du pare-feu est une tâche courante pour les adminis
 Activer et désactiver le pare-feu
 Pour activer le pare-feu et faire en sorte que ses règles soient appliquées au démarrage du système, utilisez :
 
----Bash
+```Bash
 sudo ufw enable
----
+```
 Pour le désactiver, la commande est :
 
----Bash
+```Bash
 sudo ufw disable
----
+```
 Gérer les règles.
 
 Autoriser une connexion est simple. Par exemple, pour autoriser le trafic entrant sur le port 22 (SSH), vous pouvez utiliser :
 
----Bash
+```Bash
 sudo ufw allow 22
----
+```
 Vous pouvez également spécifier le protocole :
 
----Bash
+```Bash
 sudo ufw allow 22/tcp
----
+```
 Pour refuser une connexion, la syntaxe est similaire :
 
----Bash
+```Bash
 sudo ufw deny 80/tcp
----
+```
 Pour supprimer une règle existante, vous pouvez utiliser son numéro (obtenu avec sudo ufw status numbered) :
 
----Bash
+```Bash
 sudo ufw delete 1
----
+```
 Politiques par défaut.
 
 Il est recommandé de définir des politiques par défaut pour le trafic entrant et sortant. Une configuration sécurisée courante consiste à refuser tout le trafic entrant et à autoriser tout le trafic sortant :
 
----Bash
+```Bash
 sudo ufw default deny incoming
----
----Bash
+```
+```Bash
 sudo ufw default allow outgoing
----
+```
 Tester la configuration du pare-feu.
 
 Après avoir configuré vos règles, il est crucial de les tester pour vous assurer qu'elles fonctionnent comme prévu.
@@ -325,14 +325,14 @@ Vous pouvez également utiliser des outils comme nmap depuis une machine externe
 
 Par exemple, pour scanner les ports TCP de votre serveur (en remplaçant votre_adresse_ip par l'adresse IP de votre serveur) :
 
----Bash
+```Bash
 nmap -p- votre_adresse_ip
----
+```
 Enfin, la consultation des journaux du pare-feu peut vous donner des informations précieuses sur le trafic bloqué et autorisé. Pour activer la journalisation :
 
----Bash
+```Bash
 sudo ufw logging on
----
+```
 Vous pouvez ensuite consulter les journaux dans le fichier /var/log/ufw.log.
 
 ---
