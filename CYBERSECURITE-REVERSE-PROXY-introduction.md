@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/0xCyberLiTech">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=33FF33&center=true&vCenter=true&width=650&lines=FICHE+RÉFLEXE+CYBERSÉCURITÉ;Premiers+Gestes+en+Cas+d'Incident;Qualifier+•+Contenir+•+Alerter" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=33FF33&center=true&vCenter=true&width=650&lines=LES+REVERSE+PROXIES;Introduction;Comprendre+les+Bases;Optimiser+la+Sécurité" alt="Typing SVG" />
 </a>
 
 <p align="center">
