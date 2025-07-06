@@ -1,15 +1,15 @@
+<div align="center">
+
+<a href="https://github.com/0xCyberLiTech">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=33FF33&center=true&vCenter=true&width=650&lines=FICHE+RÉFLEXE+CYBERSÉCURITÉ;Premiers+Gestes+en+Cas+d'Incident;Qualifier+•+Contenir+•+Alerter" alt="Typing SVG" />
+</a>
 
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/167217017?s=400&u=d983b9423c4eb8cdb9bfe8b14f505be5c894d6bc&v=4" width="150" />
+  <em>Un dépôt pédagogique autour du reverse-proxy.</em><br>
+  <b>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</b>
 </p>
 
-<h1 align="center">🌐 CYBERSÉCURITÉ 🌐</h1>
-<h2 align="center"> REVERSE PROXY - INTRODUCTION</h2>
-
-<p align="center">
-  Un dépôt pédagogique autour des fondamentaux de la cybersécurité.<br>
-  📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension
-</p>
+</div>
 
 ---
 
