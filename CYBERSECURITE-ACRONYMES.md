@@ -79,15 +79,6 @@
 
 ---
 
-## 👤 **À propos de moi**
-
-- 💡 Passionné par **Debian GNU/Linux** depuis plusieurs années  
-- 🎓 Autodidacte, avec un fort esprit de transmission  
-- 🔐 Intéressé par la **cybersécurité**, l'open source et la performance système  
-- 🧪 Toujours curieux de tester de nouvelles stacks techniques  
-
----
-
 <p align="center">
   <b>🔒 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour des tutoriels accessibles à tous. 🔒</b>
 </p>
