@@ -29,7 +29,7 @@
 
 ---
 
-### 👨‍💻 **À propos de moi**
+### 🧭 **Sommaire des Projets**
 
 | Chapitre | Description | Accès Rapide |
 |:---:|:---|:---:|
