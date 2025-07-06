@@ -50,18 +50,18 @@
 
 ### 🧭 Sommaire interactif
 
-| 🧩 Chapitre | 📝 Description | 🔗 Accès |
-|:--:|:--|:--:|
-| 01 | Installation de UFW | [Explorer 🔗](#balise-01) |
-| 02 | Politiques par défaut | [Explorer 🔗](#balise-02) |
-| 03 | Autoriser les connexions SSH | [Explorer 🔗](#balise-03) |
-| 04 | Activation d’UFW | [Explorer 🔗](#balise-04) |
-| 05 | Autoriser d’autres connexions | [Explorer 🔗](#balise-05) |
-| 06 | Refuser des connexions | [Explorer 🔗](#balise-06) |
-| 07 | Suppression de règles | [Explorer 🔗](#balise-07) |
-| 08 | Vérification de l’état/règles | [Explorer 🔗](#balise-08) |
-| 09 | UFW + Zabbix & Grafana | [Explorer 🔗](#balise-09) |
-| 10 | Réinitialisation ou désactivation | [Explorer 🔗](#balise-10) |
+| Chapitre | Description | Accès Rapide |
+|:---:|---|:---:|
+| 01 | Installation de UFW. | [➡️](#balise-01) |
+| 02 | Mise en place des politiques par défaut. | [➡️](#balise-02) |
+| 03 | Autoriser les connexions SSH. | [➡️](#balise-03) |
+| 04 | Activation d’UFW. | [➡️](#balise-04) |
+| 05 | Autoriser d’autres connexions. | [➡️](#balise-05) |
+| 06 | Refuser les connexions. | [➡️](#balise-06) |
+| 07 | Suppression de règles. | [➡️](#balise-07) |
+| 08 | Vérification de l’état et des règles d’UFW. | [➡️](#balise-08) |
+| 09 | Zabbix (natif) et Grafana (conteneur Docker).. | [➡️](#balise-09) |
+| 10 | Désactivation ou réinitialisation d’UFW (facultatif). | [➡️](#balise-10) |
 
 ---
 
