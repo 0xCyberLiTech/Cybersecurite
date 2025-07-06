@@ -34,34 +34,6 @@
 
 ### 🧭 Sommaire interactif
 
-| Chapitre | Description | Accès Rapide |
-|:---:|---|:---:|
-| 01 | Installation de UFW. | [➡️](#balise-01) |
-| 02 | Mise en place des politiques par défaut. | [➡️](#balise-02) |
-| 03 | Autoriser les connexions SSH. | [➡️](#balise-03) |
-| 04 | Activation d’UFW. | [➡️](#balise-04) |
-| 05 | Autoriser d’autres connexions. | [➡️](#balise-05) |
-| 06 | Refuser les connexions. | [➡️](#balise-06) |
-| 07 | Suppression de règles. | [➡️](#balise-07) |
-| 08 | Vérification de l’état et des règles d’UFW. | [➡️](#balise-08) |
-| 09 | Zabbix (natif) et Grafana (conteneur Docker).. | [➡️](#balise-09) |
-| 10 | Désactivation ou réinitialisation d’UFW (facultatif). | [➡️](#balise-10) |
-
-| 🔢 **Chapitre** | 📝 **Description** | 🚀 **Accès Rapide** |
-|----------------|--------------------|---------------------|
-| 01. Installation        | Mise en place initiale de UFW. | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=ubuntu&logoColor=white">](#balise-01) |
-| 02. Politiques par défaut | Définir les règles par défaut (deny, allow). | [<img src="https://img.shields.io/badge/EXPLORER-orange?style=for-the-badge&logo=ubuntu&logoColor=white">](#balise-02) |
-| 03. Connexions SSH      | Autoriser les connexions SSH entrantes. | [<img src="https://img.shields.io/badge/EXPLORER-blue?style=for-the-badge&logo=openssh&logoColor=white">](#balise-03) |
-| 04. Activation          | Activer UFW et appliquer les règles. | [<img src="https://img.shields.io/badge/EXPLORER-green?style=for-the-badge&logo=ubuntu&logoColor=white">](#balise-04) |
-| 05. Autres connexions   | Autoriser des services supplémentaires (HTTP, etc.). | [<img src="https://img.shields.io/badge/EXPLORER-yellow?style=for-the-badge&logo=linux&logoColor=black">](#balise-05) |
-| 06. Refus de connexions | Bloquer certains ports ou services. | [<img src="https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=linux&logoColor=white">](#balise-06) |
-| 07. Suppression         | Supprimer des règles existantes. | [<img src="https://img.shields.io/badge/EXPLORER-lightgrey?style=for-the-badge&logo=gnubash&logoColor=black">](#balise-07) |
-| 08. État & règles       | Vérifier l’état du pare-feu et les règles appliquées. | [<img src="https://img.shields.io/badge/EXPLORER-cyan?style=for-the-badge&logo=linuxfoundation&logoColor=black">](#balise-08) |
-| 09. Zabbix & Grafana    | Supervision : Zabbix (natif), Grafana (Docker). | [<img src="https://img.shields.io/badge/EXPLORER-purple?style=for-the-badge&logo=grafana&logoColor=white">](#balise-09) |
-| 10. Réinitialisation    | Réinitialiser ou désactiver UFW. | [<img src="https://img.shields.io/badge/EXPLORER-black?style=for-the-badge&logo=ubuntu&logoColor=white">](#balise-10) |
-
-
-
 | 🔢 **Chapitre** | 📝 **Description** | 🚀 **Accès Rapide** |
 |----------------|--------------------|---------------------|
 | 01. Installation                | Mise en place initiale de UFW.                                        | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](#balise-01) |
