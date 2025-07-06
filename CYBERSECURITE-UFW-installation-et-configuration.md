@@ -11,6 +11,8 @@
 
 </div>
 
+---
+
 ### 👨‍💻 **À propos de moi.**
 
 > Ce dépôt constitue mon laboratoire numérique où je consigne rigoureusement mes apprentissages et expérimentations.
