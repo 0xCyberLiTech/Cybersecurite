@@ -32,18 +32,6 @@
 <h2 align="left">💡Installation et configuration d'un firewall UFW.</h2>
 <h3 align="left">👋 Sommaire :</h3>
 
-- 01 - [Installation de UFW.](#balise-01)
-- 02 - [Mise en place des politiques par défaut.](#balise-02)
-- 03 - [Autoriser les connexions SSH.](#balise-03)
-- 04 - [Activation d’UFW.](#balise-04)
-- 05 - [Autoriser d’autres connexions.](#balise-05)
-- 06 - [Refuser les connexions.](#balise-06)
-- 07 - [Suppression de règles.](#balise-07)
-- 08 - [Vérification de l’état et des règles d’UFW.](#balise-08)
-- 09 - [Exemple Zabbix installé en dur et Grafana déployé sous la forme d'un container (Docker) sur la même machine Zabbix server.](#balise-09)
-- 10 - [Désactivation ou réinitialisation d’UFW (facultatif).](#balise-10)
-
-
 | Chapitre | Description | Accès Rapide |
 |:---:|---|:---:|
 | 01 | Installation de UFW. | [➡️](#balise-01) |
@@ -54,9 +42,8 @@
 | 06 | Refuser les connexions. | [➡️](#balise-06) |
 | 07 | Suppression de règles. | [➡️](#balise-07) |
 | 08 | Vérification de l’état et des règles d’UFW. | [➡️](#balise-08) |
-| 09 | Exemple Zabbix installé en dur et Grafana déployé sous la forme d'un container (Docker) sur la même machine Zabbix server. | [➡️](#balise-09) |
+| 09 | Zabbix (natif) et Grafana (conteneur Docker).. | [➡️](#balise-09) |
 | 10 | Désactivation ou réinitialisation d’UFW (facultatif). | [➡️](#balise-10) |
-
 
 Introduction :
 
