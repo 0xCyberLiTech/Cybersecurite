@@ -5,7 +5,7 @@
 </a>
 
 <p align="center">
-  <em>Un dépôt pédagogique autour du reverse-proxy.</em><br>
+  <em>Un dépôt pédagogique autour du reverse-proxy - introduction.</em><br>
   <b>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</b>
 </p>
 
