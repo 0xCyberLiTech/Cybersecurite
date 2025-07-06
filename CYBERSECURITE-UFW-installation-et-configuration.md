@@ -29,9 +29,7 @@
 
 ---
 
-## 🔧 UFW : Installation & Configuration complète
-
-### 🧭 Sommaire interactif
+### 🧭 Sommaire :
 
 | 🔢 **Chapitre** | 📝 **Description** | 🚀 **Accès Rapide** |
 |----------------|--------------------|---------------------|
