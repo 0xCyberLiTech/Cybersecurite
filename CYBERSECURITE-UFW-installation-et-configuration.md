@@ -143,25 +143,8 @@ sudo ufw reset
 
 ---
 
-## 🧾 Footer
-
-<div align="center">
-
-🔒 Un guide libre par [0xCyberLiTech](https://github.com/0xCyberLiTech)  
-📚 Pour une cybersécurité accessible, reproductible et bien documentée.  
-📄 Ce guide est diffusé à des fins pédagogiques — partagez-le librement !
-
-<img src="https://img.shields.io/badge/CC%20BY--NC--SA-4.0-lightgrey?style=flat-square&logo=creativecommons" />
-
-</div>
-
-
----
-
 <div align="center">
   <strong>🔒 Un guide par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour une cybersécurité accessible à tous.</strong>
 </div>
 
----
-
-
+-
