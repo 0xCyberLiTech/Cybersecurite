@@ -35,20 +35,6 @@
 
 ---
 
-### 🧭 **Sommaire :**
-
-<div align="center">
-
-| Catégorie         | Description                                                                 | Accès Rapide                                                                                                                              |
-|-------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| **FIREWALL** |                      | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">]() |
-| **PROXY** |                    | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">]() |
-| **DNS** |  | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">]() |
-
-</div>
-
----
-
 ## 💡 **Plan d'Apprentissage Détaillé**
 
 ### I. Fondamentaux de la Cybersécurité
