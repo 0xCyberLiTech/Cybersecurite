@@ -1,17 +1,3 @@
-<div align="center">
-
-<a href="https://github.com/0xCyberLiTech">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=33FF33&center=true&vCenter=true&width=650&lines=ADMINISTRATION+%26+GESTION+DNS;Configurer+•+Résoudre+•+Maintenir;BIND9+•+Zonefiles+•+Records" alt="Typing SVG" />
-</a>
-
-<p align="center">
-  <em>Un dépôt pédagogique sur les DNS.</em><br>
-  <b>📊 Monitoring – 📈 Performance – ⚙️ Fiabilité</b>
-</p>
-
-</div>
-
----
 
 <p align="center">
   <img src="https://avatars.githubusercontent.com/u/167217017?s=400&u=d983b9423c4eb8cdb9bfe8b14f505be5c894d6bc&v=4" width="150" />
