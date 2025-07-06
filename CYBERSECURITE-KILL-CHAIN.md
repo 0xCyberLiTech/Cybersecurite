@@ -94,15 +94,6 @@ Rompre une seule étape peut suffire à **empêcher la réussite de l'attaque**.
 
 ---
 
-## 👤 **À propos de moi**
-
-- 💡 Passionné par **Debian GNU/Linux**
-- 🎓 Autodidacte avec esprit de transmission
-- 🔐 Intéressé par la cybersécurité, open source et performance système
-- 🧪 Toujours curieux de tester de nouvelles stacks techniques
-
----
-
 <p align="center">
   <b>🔒 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour des tutoriels accessibles à tous. 🔒</b>
 </p>
