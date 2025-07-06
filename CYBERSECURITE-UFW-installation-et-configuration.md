@@ -31,7 +31,7 @@
 
 ## 🔧 UFW : Installation et Configuration complète
 
-### 📚 Sommaire
+### 📚 Sommaire :
 
 | 🧩 Chapitre | 📝 Description | 🔗 Accès |
 |:--:|:--|:--:|
