@@ -1,16 +1,44 @@
+<div align="center">
+
+<a href="https://github.com/0xCyberLiTech">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=33FF33&center=true&vCenter=true&width=650&lines=ADMINISTRATION+%26+GESTION+DNS;Configurer+•+Résoudre+•+Maintenir;BIND9+•+Zonefiles+•+Records" alt="Typing SVG" />
+</a>
+
+<p align="center">
+  <em>Un dépôt pédagogique sur les DNS.</em><br>
+  <b>📊 Monitoring – 📈 Performance – ⚙️ Fiabilité</b>
+</p>
+
+</div>
+
+---
+
 <p align="center">
   <img src="https://avatars.githubusercontent.com/u/167217017?s=400&u=d983b9423c4eb8cdb9bfe8b14f505be5c894d6bc&v=4" width="150" />
 </p>
 
-<h1 align="center">🌐 CYBERSÉCURITÉ 🌐</h1>
-<h2 align="center">FIREWALL</h2>
+<h1 align="center">🛡️ CONFIGURATION UFW - PARE-FEU LINUX 🛡️</h1>
 
 <p align="center">
-  Un dépôt pédagogique autour des fondamentaux de la cybersécurité.<br>
-  📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=Cybersécurité+et+Pare-feu+UFW;Installation+et+Configuration+pas+à+pas;Filtrage+des+ports+et+sécurisation+des+connexions" alt="Titre dynamique UFW" />
+</p>
+
+### 👨‍💻 **À propos de moi.**
+
+> Ce dépôt constitue mon laboratoire numérique où je consigne rigoureusement mes apprentissages et expérimentations.
+> Passionné par l'écosystème Linux et la cybersécurité, je documente mon parcours et mes projets sur mon GitHub.
+> Vous y trouverez des guides pratiques sur la supervision (Zabbix, Nagios), la conteneurisation (Docker) et la sécurisation de serveurs Debian.
+> Mon objectif : partager mes connaissances de manière claire et pédagogique.
+> N'hésitez pas à y jeter un œil : https://github.com/0xcyberlitech
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=linux,debian,bash,docker,nginx,grafana,prometheus,git,vim" />
+  </a>
 </p>
 
 ---
+
 <h2 align="left">💡Installation et configuration d'un firewall UFW.</h2>
 <h3 align="left">👋 Sommaire :</h3>
 
