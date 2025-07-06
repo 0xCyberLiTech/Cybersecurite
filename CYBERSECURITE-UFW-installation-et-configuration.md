@@ -13,22 +13,6 @@
 
 ---
 
-
-<div align="center">
-
-<a href="https://github.com/0xCyberLiTech">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=33FF33&center=true&vCenter=true&width=1050&lines=Cybersécurité+et+Pare-feu+UFW;Installation+et+Configuration+pas+à+pas;Filtrage+des+ports+et+sécurisation+des+connexions" alt="Titre dynamique UFW" />
-</a>
-
-<p>
-  <em style="color:#888">Un dépôt <strong>pédagogique</strong> sur les firewalls Linux.</em><br>
-  <strong>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</strong>
-</p>
-
-</div>
-
----
-
 ## 👨‍💻 À propos de moi
 
 > 🎓 Ce dépôt constitue mon **laboratoire numérique** où je consigne rigoureusement mes apprentissages et expérimentations.  
