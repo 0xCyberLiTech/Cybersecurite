@@ -90,9 +90,9 @@ La règle la plus fondamentale est de maintenir votre système et vos logiciels 
 
 Sur les systèmes basés sur Debian/Ubuntu, vous pouvez utiliser la commande suivante pour mettre à jour votre système :
 
----Bash
+```Bash
 sudo apt update && sudo apt upgrade -y
----
+```
 
 Utilisez des mots de passe robustes et l'authentification par clé SSH
 Un mot de passe fort est une barrière essentielle. Assurez-vous d'utiliser une combinaison complexe de lettres majuscules et minuscules, de chiffres et de symboles.
@@ -107,34 +107,34 @@ Voici quelques commandes de base pour démarrer avec ufw :
 
 Installer ufw (s'il n'est pas déjà présent) :
 
----Bash
+```Bash
 sudo apt install ufw
----
+```
 
 Définir les règles par défaut (refuser tout ce qui entre, autoriser tout ce qui sort) :
 
----Bash
+```Bash
 sudo ufw default deny incoming
----
----Bash
+```
+```Bash
 sudo ufw default allow outgoing
----
+```
 Autoriser des services spécifiques (par exemple, le SSH, le web) :
 
----Bash
+```Bash
 sudo ufw allow ssh  # ou le numéro de port, ex: sudo ufw allow 22
----
----Bash
+```
+```Bash
 sudo ufw allow http # port 80
----
----Bash
+```
+```Bash
 sudo ufw allow https # port 443
----
+```
 Activer le pare-feu :
 
----Bash
+```Bash
 sudo ufw enable
----
+```
 
 Sécurisez l'accès SSH.
 
@@ -142,16 +142,16 @@ Outre l'utilisation de clés SSH, vous pouvez renforcer la sécurité de votre s
 
 Désactivant la connexion de l'utilisateur root : Il est préférable de se connecter avec un utilisateur standard, puis d'utiliser sudo pour les tâches administratives. Pour ce faire, modifiez le fichier /etc/ssh/sshd_config et changez la ligne PermitRootLogin comme suit :
 
----
+```
 PermitRootLogin no
----
+```
 Changeant le port SSH par défaut : Le port 22 est la cible de nombreuses attaques automatisées. Changer ce port pour une valeur non standard (par exemple, 2222) dans le fichier /etc/ssh/sshd_config peut réduire le "bruit" des tentatives de connexion malveillantes. N'oubliez pas d'autoriser le nouveau port dans votre pare-feu.
 
 Après toute modification du fichier sshd_config, vous devez redémarrer le service SSH pour que les changements prennent effet :
 
----Bash
+```Bash
 sudo systemctl restart sshd
----
+```
 Supprimez les logiciels inutiles.
 
 Chaque logiciel installé sur votre système représente une surface d'attaque potentielle. Désinstallez tous les services et applications dont vous n'avez pas besoin. Cela réduit les risques de failles de sécurité et allège votre système.
@@ -174,9 +174,9 @@ Avant toute configuration, il est important de vérifier l'état actuel de UFW.
 
 Vérifier le statut :
 
----Bash
+```Bash
 sudo ufw status
----
+```
 
 Si le pare-feu est inactif, la sortie indiquera Status: inactive. S'il est actif, vous verrez une liste des règles en place. Pour une vue plus détaillée, ajoutez 
 
@@ -184,17 +184,17 @@ l'argument verbose.
 
 Activer UFW :
 
----Bash
+```Bash
 sudo ufw enable
----
+```
 
 ⚠️ Attention : L'activation d'UFW sans règle d'autorisation préalable pour SSH (port 22) peut vous bloquer l'accès à votre serveur si vous êtes connecté à distance.
 
 Désactiver UFW :
 
----Bash
+```Bash
 sudo ufw disable
----
+```
 
 Gestion des Politiques par Défaut.
 
@@ -202,13 +202,13 @@ La première étape d'une configuration sécurisée est de définir les politiqu
 
 Refuser tout le trafic entrant par défaut : C'est la configuration la plus courante et la plus sûre.
 
----Bash
+```Bash
 sudo ufw default deny incoming
----
+```
 
 Autoriser tout le trafic sortant par défaut : Permet aux applications de votre serveur de contacter l'extérieur.
 
----Bash
+```Bash
 sudo ufw default allow outgoing
 ---
 
