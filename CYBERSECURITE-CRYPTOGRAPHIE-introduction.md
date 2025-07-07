@@ -4,23 +4,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=33FF33&center=true&vCenter=true&width=650&lines=CRYPTOGRAPHIE+%26+CYBERSÉCURITÉ;Chiffrement+•+Hachage+•+Authentification;Comprendre+les+bases+pour+mieux+protéger" alt="Typing SVG" />
 </a>
 
-<a href="https://github.com/0xCyberLiTech">
-  <img 
-    src="https://readme-typing-svg.herokuapp.com?
-      font=Fira+Code&
-      size=32&
-      pause=1000&
-      color=33FF33&
-      center=true&
-      vCenter=true&
-      width=650&
-      lines=CYBERSECURIT%C3%89+%26+CRYPTOGRAPHIE;
-            Fondamentaux+%26+Algorithmes;
-            Sécuriser+•+Chiffrer+•+Authentifier"
-    alt="Typing SVG" />
-</a>
-
-
 <p align="center">
   <em>Un dépôt pédagogique autour des fondamentaux de la cybersécurité.</em><br>
   <b>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</b>
