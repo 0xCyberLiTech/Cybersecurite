@@ -37,6 +37,8 @@
 
 # 🔐 Cours de Cryptographie sous Debian 12
 
+# Cours de Cryptographie sous Debian 12
+
 ## 1. 🔐 Introduction à la Cryptographie
 
 La cryptographie permet de **protéger la confidentialité, l'intégrité et l’authenticité** des données :
@@ -88,20 +90,29 @@ openssl enc -aes-256-cbc -d -in secret.txt.enc -out secret.txt
 
 ## 4. 🛡️ Hachage d’un fichier
 
-### SHA256
+### Créer un hash SHA256
 
 ```bash
-sha256sum monfichier.iso
+sha256sum fichier.txt > hash.txt
 ```
 
-### Vérification
+**Explication :** Cette commande génère un fichier `hash.txt` contenant le hachage SHA256 du fichier, suivi de son nom.
+
+### Vérifier l’intégrité
 
 ```bash
 sha256sum -c hash.txt
 ```
 
-> `hash.txt` contient une ligne comme :\
-> `abc123...  monfichier.iso`
+> `hash.txt` doit contenir une ligne comme :
+> `abc123...  fichier.txt`
+
+### Alternatives : SHA1 et SHA512
+
+```bash
+sha1sum fichier.txt
+sha512sum fichier.txt
+```
 
 ---
 
@@ -113,7 +124,9 @@ sha256sum -c hash.txt
 gpg --full-generate-key
 ```
 
-### Lister les clés
+**Explication :** Cette commande vous guide pour créer une clé (type, taille, nom, expiration, mot de passe).
+
+### Lister les clés disponibles
 
 ```bash
 gpg --list-keys
@@ -137,27 +150,35 @@ gpg --import cle_contact.pub
 gpg -e -r contact@email.com fichier.txt
 ```
 
-### Déchiffrer
+**Explication :** Crée `fichier.txt.gpg`, lisible uniquement par le détenteur de la clé privée associée.
+
+### Déchiffrer un fichier
 
 ```bash
 gpg -d fichier.txt.gpg
 ```
 
+**Remarque :** Nécessite votre clé privée et mot de passe.
+
 ---
 
 ## 6. ✍️ Signatures numériques avec GPG
 
-### Signer un fichier
+### Signer un fichier (mode texte clair)
 
 ```bash
 gpg --clearsign mon_fichier.txt
 ```
+
+**Résultat :** un fichier signé nommé `mon_fichier.txt.asc`
 
 ### Vérifier une signature
 
 ```bash
 gpg --verify mon_fichier.txt.asc
 ```
+
+**But :** S'assurer que le fichier est authentique et non modifié.
 
 ---
 
@@ -169,11 +190,17 @@ gpg --verify mon_fichier.txt.asc
 ssh-keygen -t ed25519 -C "monemail@domaine.com"
 ```
 
+**Explication :**
+- `ed25519` est un algorithme moderne, plus rapide que RSA
+- Le fichier est enregistré dans `~/.ssh/id_ed25519`
+
 ### Copier la clé publique sur un serveur
 
 ```bash
 ssh-copy-id utilisateur@ip_du_serveur
 ```
+
+**Effet :** Permet de se connecter sans mot de passe via SSH.
 
 ---
 
@@ -185,11 +212,15 @@ ssh-copy-id utilisateur@ip_du_serveur
 tar czf - mon_dossier | openssl enc -aes-256-cbc -salt -out mon_dossier.tar.gz.enc
 ```
 
+**Explication :** Le dossier est compressé et chiffré en une seule ligne.
+
 ### Déchiffrer
 
 ```bash
 openssl enc -d -aes-256-cbc -in mon_dossier.tar.gz.enc | tar xz
 ```
+
+**Résultat :** Le dossier est restauré après déchiffrement et extraction.
 
 ---
 
@@ -197,8 +228,9 @@ openssl enc -d -aes-256-cbc -in mon_dossier.tar.gz.enc | tar xz
 
 - Ne partagez jamais vos clés privées !
 - Protégez vos clés avec un mot de passe fort.
-- Utilisez des clés modernes (RSA ≥ 4096, Ed25519, etc.)
-- Sauvegardez vos clés dans un espace sécurisé.
+- Utilisez des algorithmes modernes (RSA ≥ 4096, Ed25519).
+- Faites des sauvegardes de vos clés dans des emplacements sécurisés.
+- Révoquez rapidement les clés compromises.
 
 ---
 
