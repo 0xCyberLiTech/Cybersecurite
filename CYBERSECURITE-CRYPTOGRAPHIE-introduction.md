@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/0xCyberLiTech">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=33FF33&center=true&vCenter=true&width=650&lines=CYBERSÉCURITÉ;Fondamentaux+%26+Bonnes+Pratiques;Apprendre+•+Comprendre+•+Sécuriser" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=33FF33&center=true&vCenter=true&width=650&lines=CRYPTOGRAPHIE+%26+CYBERSÉCURITÉ;Chiffrement+•+Hachage+•+Authentification;Comprendre+les+bases+pour+mieux+protéger" alt="Typing SVG" />
 </a>
 
 <a href="https://github.com/0xCyberLiTech">
