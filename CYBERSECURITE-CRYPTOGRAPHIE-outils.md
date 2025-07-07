@@ -35,12 +35,184 @@
 
 ---
 
-<h1 align="center"> 🚧 **Page en cours de développement** 🚧</h1>
-<h3 align="center"> 🔧 Travail en cours... Merci de revenir plus tard !</h3>
+# 🔐 Cours de Cryptographie sous Debian 12
+
+## 1. 🔐 Introduction à la Cryptographie
+
+La cryptographie permet de **protéger la confidentialité, l'intégrité et l’authenticité** des données :
+
+- **Confidentialité** : seules les personnes autorisées peuvent lire les données.
+- **Intégrité** : les données ne sont pas modifiées.
+- **Authenticité** : on peut vérifier l’identité de l’émetteur.
+
+### Types de cryptographie
+
+| Type        | Exemples d’outils      | Usage                           |
+| ----------- | ---------------------- | ------------------------------- |
+| Symétrique  | `openssl`, `gpg` (AES) | Chiffrer rapidement un fichier  |
+| Asymétrique | `gpg`, `ssh-keygen`    | Signature, chiffrement de mails |
+| Hachage     | `sha256sum`, `md5sum`  | Vérifier l’intégrité            |
 
 ---
 
-# 🔐 La Cryptographie par l'exemple.
+## 2. ⚙️ Installer les outils nécessaires
+
+```bash
+sudo apt update
+sudo apt install -y gnupg openssl gpg ssh
+```
+
+---
+
+## 3. 🔐 Cryptographie symétrique avec `openssl`
+
+### Exemple : Chiffrer un fichier avec AES-256
+
+```bash
+openssl enc -aes-256-cbc -salt -in secret.txt -out secret.txt.enc
+```
+
+**Explication :**
+
+- `-aes-256-cbc` : algorithme symétrique fort
+- `-salt` : ajoute du sel pour renforcer le chiffrement
+- `-in` / `-out` : fichier source et résultat
+
+### Déchiffrer :
+
+```bash
+openssl enc -aes-256-cbc -d -in secret.txt.enc -out secret.txt
+```
+
+---
+
+## 4. 🛡️ Hachage d’un fichier
+
+### SHA256
+
+```bash
+sha256sum monfichier.iso
+```
+
+### Vérification
+
+```bash
+sha256sum -c hash.txt
+```
+
+> `hash.txt` contient une ligne comme :\
+> `abc123...  monfichier.iso`
+
+---
+
+## 5. 🔐 GPG (GNU Privacy Guard)
+
+### Générer une paire de clés
+
+```bash
+gpg --full-generate-key
+```
+
+### Lister les clés
+
+```bash
+gpg --list-keys
+```
+
+### Exporter sa clé publique
+
+```bash
+gpg --armor --export votreadresse@email.com > ma_cle.pub
+```
+
+### Importer une clé publique
+
+```bash
+gpg --import cle_contact.pub
+```
+
+### Chiffrer un fichier pour un contact
+
+```bash
+gpg -e -r contact@email.com fichier.txt
+```
+
+### Déchiffrer
+
+```bash
+gpg -d fichier.txt.gpg
+```
+
+---
+
+## 6. ✍️ Signatures numériques avec GPG
+
+### Signer un fichier
+
+```bash
+gpg --clearsign mon_fichier.txt
+```
+
+### Vérifier une signature
+
+```bash
+gpg --verify mon_fichier.txt.asc
+```
+
+---
+
+## 7. 🔐 Génération de clés SSH
+
+### Créer une paire de clés
+
+```bash
+ssh-keygen -t ed25519 -C "monemail@domaine.com"
+```
+
+### Copier la clé publique sur un serveur
+
+```bash
+ssh-copy-id utilisateur@ip_du_serveur
+```
+
+---
+
+## 8. 🧪 Exemples avancés
+
+### Chiffrer un dossier avec tar + openssl
+
+```bash
+tar czf - mon_dossier | openssl enc -aes-256-cbc -salt -out mon_dossier.tar.gz.enc
+```
+
+### Déchiffrer
+
+```bash
+openssl enc -d -aes-256-cbc -in mon_dossier.tar.gz.enc | tar xz
+```
+
+---
+
+## 9. 📚 Bonnes pratiques
+
+- Ne partagez jamais vos clés privées !
+- Protégez vos clés avec un mot de passe fort.
+- Utilisez des clés modernes (RSA ≥ 4096, Ed25519, etc.)
+- Sauvegardez vos clés dans un espace sécurisé.
+
+---
+
+## 10. 📌 Résumé visuel
+
+| Action                | Commande principale              |
+| --------------------- | -------------------------------- |
+| Chiffrer (symétrique) | `openssl enc -aes-256-cbc`       |
+| Hachage               | `sha256sum`                      |
+| Clés GPG              | `gpg --full-generate-key`        |
+| Chiffrer avec GPG     | `gpg -e -r destinataire fichier` |
+| Signer avec GPG       | `gpg --clearsign fichier`        |
+| Générer une clé SSH   | `ssh-keygen -t ed25519`          |
+| Installer les outils  | `apt install gnupg openssl gpg`  |
 
 ---
 
