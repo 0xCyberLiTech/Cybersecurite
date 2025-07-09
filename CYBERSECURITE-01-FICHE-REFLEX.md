@@ -11,16 +11,37 @@
 
 </div>
 
+### 👨‍💻 **À propos de moi.**
+
+> Ce dépôt constitue mon laboratoire numérique où je consigne rigoureusement mes apprentissages et expérimentations. Passionné par l'écosystème Linux > et la cybersécurité, je
+> documente mon parcours et mes projets sur mon GitHub. Vous y trouverez des guides pratiques sur la supervision (Zabbix,
+> Nagios), la conteneurisation (Docker), la cryptographie les algorithmes de chiffrement symétrique (AES, ChaCha20) et asymétrique (RSA, ECC).  et la
+> sécurisation de serveurs Debian. Mon objectif : partager mes connaissances de manière claire et pédagogique. N'hésitez pas à y jeter un œil : https://github.com/0xcyberlitech
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=linux,debian,bash,docker,nginx,grafana,prometheus,git,vim" />
+  </a>
+</p>
+
+---
+
+### 🎯 **Objectif de ce dépôt.**
+
+> Ce dépôt a pour vocation de centraliser un ensemble de notions clés en cybersécurité. Il s’adresse aux passionnés, étudiants, et professionnels souhaitant mieux comprendre les menaces informatiques, apprendre  > à sécuriser leurs environnements et se familiariser avec les concepts et outils de défense.
+
 ---
 
 ### 💡 **Qu'est-ce qu'une Fiche Réflexe ?**
 
-> En matière de cybersécurité, la préparation est la clé de la résilience. Une "fiche réflexe" est un document opérationnel crucial qui guide toute personne au sein d'une organisation sur les premières actions à mener en cas d'incident de sécurité informatique. Conçue pour être concise et immédiatement applicable, elle permet de réagir de manière ordonnée et efficace dans une situation de stress, minimisant ainsi les impacts d'une attaque.
+> En matière de cybersécurité, la préparation est la clé de la résilience.
+> Une "fiche réflexe" est un document opérationnel crucial qui guide toute personne au sein d'une organisation sur les premières actions à mener en cas d'incident de sécurité informatique.
+> Conçue pour être concise et immédiatement applicable, elle permet de réagir de manière ordonnée et efficace dans une situation de stress, minimisant ainsi les impacts d'une attaque.
 
 ---
 
 ### 🎯 **Objectifs de la Fiche Réflexe**
->
+
 > * **Qualifier l'incident :** Confirmer rapidement la nature de l'attaque (rançongiciel, hameçonnage, etc.).
 > * **Contenir la menace (Endiguement) :** Isoler les systèmes affectés pour stopper la propagation.
 > * **Alerter les bonnes personnes :** Identifier et contacter rapidement les responsables internes et externes.
