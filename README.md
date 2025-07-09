@@ -40,11 +40,11 @@
 
 ## I. Fondamentaux de la Cybersécurité
 
-| N°   | Titre                        | Description                                          | Explorer                                                                 |
-|------|------------------------------|------------------------------------------------------|--------------------------------------------------------------------------|
-| 01   | Fiche réflexe                | Synthèse globale à garder à portée de main           | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-01-FICHE-REFLEX.md) |
-| 02   | Cybersécurité, définition    | Le point de départ indispensable                     | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-02-definition.md) |
-| 03   | Cybersécurité, acronymes     | Pour comprendre le jargon du domaine                 | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-03-ACRONYMES.md) |
+| N°   | Titre                                      | Description                                          | Explorer                                                                 |
+|------|--------------------------------------------|------------------------------------------------------|--------------------------------------------------------------------------|
+| 01   | Fiche réflexe                              | Synthèse globale à garder à portée de main           | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-01-FICHE-REFLEX.md) |
+| 02   | Cybersécurité, définition                  | Le point de départ indispensable                     | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-02-definition.md) |
+| 03   | Cybersécurité, acronymes                   | Pour comprendre le jargon du domaine                 | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-03-ACRONYMES.md) |
 
 ---
 
@@ -86,39 +86,6 @@
 |------|------------------------------|------------------------------------------------------|--------------------------------------------------------------------------|
 | 13   | EPP, EDR, SIEM, SOAR et XDR  | Définitions et comparaisons des plateformes         | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-13-EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md) |
 | 14   | EDR (Endpoint Detection...)  | Focus spécifique sur les solutions EDR              | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-14-EDR.md) |
-
-
-
-### I. Fondamentaux de la Cybersécurité
-
-- `01` - [Fiche réflexe (Synthèse globale à garder à portée de main)](CYBERSECURITE-01-FICHE-REFLEX.md)
-- `02` - [Cybersécurité, définition (Le point de départ indispensable)](CYBERSECURITE-02-definition.md)
-- `03` - [Cybersécurité, acronymes (Pour comprendre le jargon du domaine)](CYBERSECURITE-03-ACRONYMES.md)
-
-### II. Les Menaces : Comprendre l'Attaque
-
-- `04` - [KILL-CHAIN : les 7 étapes de la cyberattaque (Le cadre conceptuel de l'attaque)](CYBERSECURITE-04-KILL-CHAIN.md)
-- `05` - [Logiciels malveillants, introduction (Présentation des principaux types de menaces)](CYBERSECURITE-05-LOGICIELS-MALVEILLANTS-introduction.md)
-- `06` - [Logiciels malveillants, se protéger efficacement](CYBERSECURITE-06-LOGICIELS-MALVEILLANTS-techniques_de_protection.md)
-
-### III. Les Outils de Défense et de Contrôle
-
-#### A. Le Chiffrement
-
-- `07` - [Cryptographie, introduction (Principes fondamentaux du chiffrement)](CYBERSECURITE-07-CRYPTOGRAPHIE-introduction.md)
-- `08` - [Cryptographie, outils (Mise en pratique avec des outils concrets)](CYBERSECURITE-08-CRYPTOGRAPHIE-OUTILS-Mise-en-pratique-avec-des-outils-concrets.md)
-
-#### B. Le Contrôle des Flux Réseau
-
-- `09` - [Proxy, introduction (Le rôle du proxy sortant)](CYBERSECURITE-9-PROXY-INTRODUCTION-Le-rôle-du-proxy-sortant.md)
-- `10` - [Proxy, installation (Mise en œuvre pratique)](CYBERSECURITE-10-PROXY-INSTALLATION-Mise-en-œuvre-pratique.md)
-- `11` - [Reverse-proxy, introduction (Le rôle du proxy entrant)](CYBERSECURITE-11-REVERSE-PROXY-INTRODUCTION-Le-rôle-du-proxy-entrant.md)
-- `12` - [Reverse-proxy, installation (Mise en œuvre pratique)](CYBERSECURITE-12-REVERSE-PROXY-INSTALLATION-Mise-en-œuvre-pratique.md)
-
-#### C. Les Plateformes de Sécurité
-
-- `13` - [EPP, EDR, SIEM, SOAR et XDR (Définitions et comparaisons des plateformes)](CYBERSECURITE-13-EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md)
-- `14` - [EDR (Endpoint Detection and Response) (Focus spécifique)](CYBERSECURITE-14-EDR.md)
 
 ---
 
