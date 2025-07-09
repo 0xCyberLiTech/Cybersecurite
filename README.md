@@ -32,19 +32,17 @@
 
 ---
 
-## 💡 **Plan d'Apprentissage Détaillé**
-
-# 💡 Plan d'Apprentissage Détaillé
+# 💡 **Plan d'Apprentissage Détaillé**
 
 ---
 
 ## I. Fondamentaux de la Cybersécurité
 
-| N°   | Titre                                      | Description                                          | Explorer                                                                 |
-|------|--------------------------------------------|------------------------------------------------------|--------------------------------------------------------------------------|
-| 01   | Fiche réflexe                              | Synthèse globale à garder à portée de main           | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-01-FICHE-REFLEX.md) |
-| 02   | Cybersécurité, définition                  | Le point de départ indispensable                     | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-02-definition.md) |
-| 03   | Cybersécurité, acronymes                   | Pour comprendre le jargon du domaine                 | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-03-ACRONYMES.md) |
+| N°   | Titre                        | Description                                          | Explorer                                                                 |
+|------|------------------------------|------------------------------------------------------|--------------------------------------------------------------------------|
+| 01   | Fiche réflexe                | Synthèse globale à garder à portée de main           | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-01-FICHE-REFLEX.md) |
+| 02   | Cybersécurité, définition    | Le point de départ indispensable                     | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-02-definition.md) |
+| 03   | Cybersécurité, acronymes     | Pour comprendre le jargon du domaine                 | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-03-ACRONYMES.md) |
 
 ---
 
