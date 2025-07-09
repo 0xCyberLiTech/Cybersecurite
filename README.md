@@ -53,14 +53,14 @@
 #### A. Le Chiffrement
 
 - `07` - [Cryptographie, introduction (Principes fondamentaux du chiffrement)](CYBERSECURITE-CRYPTOGRAPHIE-introduction.md)
-- `08` - [Cryptographie, outils (Mise en pratique avec des outils concrets)](CYBERSECURITE-CRYPTOGRAPHIE-outils.md)
+- `08` - [Cryptographie, outils (Mise en pratique avec des outils concrets)]()
 
 #### B. Le Contrôle des Flux Réseau
 
-- `09` - [Proxy, introduction (Le rôle du proxy sortant)](CYBERSECURITE-PROXY-introduction.md)
-- `10` - [Proxy, installation (Mise en œuvre pratique)](CYBERSECURITE-PROXY-installation.md)
-- `11` - [Reverse-proxy, introduction (Le rôle du proxy entrant)](CYBERSECURITE-REVERSE-PROXY-introduction.md)
-- `12` - [Reverse-proxy, installation (Mise en œuvre pratique)](CYBERSECURITE-REVERSE-PROXY-installation.md)
+- `09` - [Proxy, introduction (Le rôle du proxy sortant)]()
+- `10` - [Proxy, installation (Mise en œuvre pratique)]()
+- `11` - [Reverse-proxy, introduction (Le rôle du proxy entrant)]()
+- `12` - [Reverse-proxy, installation (Mise en œuvre pratique)]()
 
 #### C. Les Plateformes de Sécurité
 
