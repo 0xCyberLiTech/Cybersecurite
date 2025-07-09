@@ -33,7 +33,7 @@
 > Ce dépôt a pour vocation de centraliser un ensemble de notions clés en cybersécurité. Il s’adresse aux passionnés, étudiants, et professionnels souhaitant mieux comprendre les menaces informatiques, apprendre  > à sécuriser leurs environnements et se familiariser avec les concepts et outils de défense.
 
 ---
-## 🛡️ 11 - **Introduction :**
+## 🛡️ 11 - **Reverse-Proxy, introduction :**
 
 Un reverse-proxy se place en façade d’un ou plusieurs serveurs applicatifs. Contrairement au proxy classique, il gère les flux entrants.
 
