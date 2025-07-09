@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/0xCyberLiTech">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=33FF33&center=true&vCenter=true&width=1000&lines=CYBER+KILL+CHAIN+–+MODÉLISER+LES+CYBERATTAQUES;Comprendre+les+phases+d'une+attaque+informatique;Détecter,+Rompre,+Réagir" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=D14A4A&center=true&vCenter=true&width=1000&lines=CYBER+KILL+CHAIN+–+MODÉLISER+LES+CYBERATTAQUES;Comprendre+les+phases+d'une+attaque+informatique;Détecter,+Rompre,+Réagir" alt="Typing SVG" />
 </a>
 
 <p align="center">
