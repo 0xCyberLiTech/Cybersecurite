@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/0xCyberLiTech/Cybersecurite/blob/main/CYBERSECURITE-06-LOGICIELS-MALVEILLANTS-techniques_de_protection.md">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=D14A4A&center=true&vCenter=true&width=900&lines=LOGICIELS+MALVEILLANTS+:+TECHNIQUES+DE+PROTECTION;Limiter+les+risques+et+renforcer+la+sécurité;Sécuriser+•+Prévenir+•+Réagir" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=D14A4A&center=true&vCenter=true&width=1100&lines=LOGICIELS+MALVEILLANTS+:+TECHNIQUES+DE+PROTECTION;Limiter+les+risques+et+renforcer+la+sécurité;Sécuriser+•+Prévenir+•+Réagir" alt="Typing SVG" />
 </a>
 
 <p align="center">
