@@ -5,7 +5,7 @@
 </a>
 
 <p align="center">
-  <em>Un dépôt pédagogique - Proxy installation.</em><br>
+  <em>Un dépôt pédagogique - Proxy installation, mise en oeuvre.</em><br>
   <b>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</b>
 </p>
 
@@ -34,7 +34,7 @@
 
 ---
 
-## 🔧 10 **Mise en oeuvre** :
+## 🔧 10 **Proxy installation, mise en oeuvre :**
 
 L’installation d’un proxy implique le déploiement d’un logiciel ou d’un équipement dédié, sa configuration réseau, et l’application des règles d’usage.
 
