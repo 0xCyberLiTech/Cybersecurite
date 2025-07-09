@@ -47,7 +47,7 @@
 | N°   | Titre                                      | Description                                          | Explorer                                                                 |
 |------|--------------------------------------------|------------------------------------------------------|--------------------------------------------------------------------------|
 | 04   | KILL-CHAIN : les 7 étapes de la cyberattaque | Le cadre conceptuel de l'attaque                     | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-04-KILL-CHAIN.md) |
-| 05   | Logiciels malveillants, introduction       | Présentation des principaux types de menaces         | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-05-LOGICIELS-MALVEILLANTS-introduction.md) |
+| 05   | Logiciels malveillants, introduction       | Types majeurs de menaces        | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-05-LOGICIELS-MALVEILLANTS-introduction.md) |
 | 06   | Logiciels malveillants, se protéger        | Techniques de protection contre les malwares         | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-06-LOGICIELS-MALVEILLANTS-techniques_de_protection.md) |
 
 ## III. Les Outils de Défense et de Contrôle
