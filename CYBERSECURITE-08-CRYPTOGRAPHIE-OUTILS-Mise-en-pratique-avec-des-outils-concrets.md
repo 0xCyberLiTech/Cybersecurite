@@ -5,7 +5,7 @@
 </a>
 
 <p align="center">
-  <em>Un dépôt pédagogique - Cryptographie outils mise en pratique.</em><br>
+  <em>Un dépôt pédagogique - Cryptographie, outils mise en pratique.</em><br>
   <b>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</b>
 </p>
 
