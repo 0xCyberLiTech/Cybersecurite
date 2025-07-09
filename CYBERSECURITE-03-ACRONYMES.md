@@ -1,7 +1,7 @@
 <div align="center">
 
-<a href="https://github.com/0xCyberLiTech">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=D14A4A&center=true&vCenter=true&width=1000&lines=ACRONYMES+EN+CYBERSÉCURITÉ;Comprendre+le+vocabulaire+essentiel" alt="Typing SVG" />
+<a href="https://github.com/0xCyberLiTech/Cybersecurite/blob/main/CYBERSECURITE-03-ACRONYMES.md">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=D14A4A&center=true&vCenter=true&width=1000&lines=ACRONYMES+EN+CYBERSÉCURITÉ;Comprendre+le+vocabulaire+clé+de+la+cybersécurité" alt="Typing SVG" />
 </a>
 
 <p align="center">
