@@ -1,7 +1,7 @@
 <div align="center">
 
-<a href="https://github.com/0xCyberLiTech/Cybersecurite/blob/main/CYBERSECURITE-9-PROXY-INTRODUCTION-Le-r%C3%B4le-du-proxy-sortant.md">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=D14A4A&center=true&vCenter=true&width=800&lines=PROXY+SORTANT+:+FILTRE+ET+ANONYMAT;Comprendre+le+r%C3%B4le+du+proxy+en+s%C3%A9curit%C3%A9" alt="Typing SVG" />
+<a href="https://github.com/0xCyberLiTech/Cybersecurite/blob/main/README.md">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=D14A4A&center=true&vCenter=true&width=800&lines=LABO+NUM%C3%89RIQUE+:+CYBERS%C3%89CURIT%C3%89+ET+LINUX;Documentation+%F0%9F%93%9D+%7C+Tests+%F0%9F%A4%93+%7C+Apprentissage+%F0%9F%93%96;Un+d%C3%A9p%C3%B4t+pour+apprendre%2C+exp%C3%A9rimenter+et+partager" alt="Typing SVG" />
 </a>
 
 <p align="center">
