@@ -4,6 +4,11 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=D14A4A&center=true&vCenter=true&width=800&lines=PROXY+SORTANT+:+FILTRE+ET+ANONYMAT;Comprendre+le+r%C3%B4le+du+proxy+en+s%C3%A9curit%C3%A9" alt="Typing SVG" />
 </a>
 
+<a href="https://github.com/0xCyberLiTech/Cybersecurite/blob/main/CYBERSECURITE-10-PROXY-INSTALLATION-Mise-en-%C5%93uvre-pratique.md">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=D14A4A&center=true&vCenter=true&width=800&lines=PROXY+SORTANT+:+MISE+EN+%C5%92UVRE+PRATIQUE;Installation+et+Configuration+d%27un+Proxy+local;Appliquer+les+bonnes+pratiques+de+s%C3%A9curit%C3%A9" alt="Typing SVG" />
+</a>
+
+
 <p align="center">
   <em>Un dépôt pédagogique - Proxy installation.</em><br>
   <b>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</b>
