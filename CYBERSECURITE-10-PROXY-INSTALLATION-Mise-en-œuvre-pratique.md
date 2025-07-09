@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/0xCyberLiTech/Cybersecurite/blob/main/CYBERSECURITE-10-PROXY-INSTALLATION-Mise-en-%C5%93uvre-pratique.md">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=D14A4A&center=true&vCenter=true&width=800&lines=PROXY+SORTANT+:+MISE+EN+%C5%92UVRE+PRATIQUE;Installation+et+Configuration+d%27un+Proxy+local;Appliquer+les+bonnes+pratiques+de+s%C3%A9curit%C3%A9" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=D14A4A&center=true&vCenter=true&width=1000&lines=PROXY+SORTANT+:+MISE+EN+ŒUVRE+PRATIQUE;Installation+et+configuration+d'un+proxy+local;Appliquer+les+bonnes+pratiques+de+sécurité" alt="Typing SVG" />
 </a>
 
 <p align="center">
