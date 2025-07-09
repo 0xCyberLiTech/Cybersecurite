@@ -5,7 +5,7 @@
 </a>
 
 <p align="center">
-  <em>Un dépôt pédagogique autour des fondamentaux de la cybersécurité.</em><br>
+  <em>Un dépôt pédagogique - Cryptographie outils mise en pratique.</em><br>
   <b>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</b>
 </p>
 
@@ -35,7 +35,7 @@
 
 ---
 
-# 🔐 Cryptographie : Résumé pédagogique
+# 🔐 Cryptographie, outils mise en pratiqu :
 
 ## 📘 Définition
 La cryptographie est une branche des mathématiques et de l'informatique qui permet de **protéger des informations** en les rendant **inaccessibles sans autorisation**. Elle garantit :
