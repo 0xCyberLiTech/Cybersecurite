@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/0xCyberLiTech/Cybersecurite/blob/main/CYBERSECURITE-12-REVERSE-PROXY-INSTALLATION-Mise-en-%C5%93uvre-pratique.md">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=D14A4A&center=true&vCenter=true&width=800&lines=REVERSE+PROXY+:+MISE+EN+%C5%92UVRE+PRATIQUE;Installer+et+configurer+un+reverse+proxy+web;S%C3%A9curisation+des+acc%C3%A8s+et+distribution+du+trafic" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=D14A4A&center=true&vCenter=true&width=950&lines=REVERSE+PROXY+:+MISE+EN+ŒUVRE+PRATIQUE;Installer+et+configurer+un+reverse+proxy+web;Sécurisation+des+accès+et+distribution+du+trafic" alt="Typing SVG" />
 </a>
 
 <p align="center">
