@@ -5,7 +5,7 @@
 </a>
 
 <p align="center">
-  <em>Un dépôt pédagogique autour des fondamentaux de la cybersécurité.</em><br>
+  <em>Un dépôt pédagogique autour de l'EDR (Endpoint Detection and Response).</em><br>
   <b>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</b>
 </p>
 
