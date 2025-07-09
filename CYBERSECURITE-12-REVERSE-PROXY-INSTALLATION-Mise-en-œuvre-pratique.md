@@ -1,11 +1,11 @@
 <div align="center">
 
-<a href="https://github.com/0xCyberLiTech/Cybersecurite/blob/main/CYBERSECURITE-11-REVERSE-PROXY-INTRODUCTION-Le-r%C3%B4le-du-proxy-entrant.md">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=D14A4A&center=true&vCenter=true&width=800&lines=REVERSE+PROXY+:+S%C3%89CURIT%C3%89+ET+R%C3%94LE+CL%C3%89;Comprendre+le+fonctionnement+du+proxy+entrant;Filtrer%2C+r%C3%A9partir+et+s%C3%A9curiser+les+acc%C3%A8s+web" alt="Typing SVG" />
+<a href="https://github.com/0xCyberLiTech/Cybersecurite/blob/main/CYBERSECURITE-12-REVERSE-PROXY-INSTALLATION-Mise-en-%C5%93uvre-pratique.md">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=D14A4A&center=true&vCenter=true&width=800&lines=REVERSE+PROXY+:+MISE+EN+%C5%92UVRE+PRATIQUE;Installer+et+configurer+un+reverse+proxy+web;S%C3%A9curisation+des+acc%C3%A8s+et+distribution+du+trafic" alt="Typing SVG" />
 </a>
 
 <p align="center">
-  <em>Un dépôt pédagogique - Reverse-Proxy, introduction.</em><br>
+  <em>Un dépôt pédagogique - Reverse-Proxy, installation.</em><br>
   <b>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</b>
 </p>
 
@@ -33,8 +33,20 @@
 > Ce dépôt a pour vocation de centraliser un ensemble de notions clés en cybersécurité. Il s’adresse aux passionnés, étudiants, et professionnels souhaitant mieux comprendre les menaces informatiques, apprendre  > à sécuriser leurs environnements et se familiariser avec les concepts et outils de défense.
 
 ---
-## 🛡️ 11 - **Introduction :**
+## 🛠️ 11 - **Reverse-Proxy, installation :**
 
+L’implémentation varie selon la taille de l’infrastructure et les besoins spécifiques (sécurité, performance, haute disponibilité).
+
+### 🛠️ Étapes typiques :
+
+- Choix d’une solution : Nginx (ultra flexible), HAProxy (très performant pour les architectures complexes).
+- Configuration des back-ends : définition des serveurs à interroger selon les URL ou les sessions.
+- Déploiement SSL : ajout de certificats pour chiffrer les échanges.
+- Surveillance et logs : suivi des performances, des erreurs, et des attaques potentielles.
+  
+### 🧠 En pratique :
+
+Sur un serveur Nginx, on peut facilement rediriger les requêtes /api vers un serveur Node.js, et les requêtes / vers un CMS hébergé ailleurs.
 
 ---
 
