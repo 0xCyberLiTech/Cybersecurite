@@ -27,6 +27,13 @@
 </p>
 
 ---
+
+### 🎯 **Objectif de ce dépôt.**
+
+> Ce dépôt a pour vocation de centraliser un ensemble de notions clés en cybersécurité. Il s’adresse aux passionnés, étudiants, et professionnels souhaitant mieux comprendre les menaces informatiques, apprendre  > à sécuriser leurs environnements et se familiariser avec les concepts et outils de défense.
+
+---
+
 <h2 align="left">💡 Une révolution pour la cyberdéfense ?</h2>
 <h3 align="left">👋 Les piliers de la détection et réponse aux cybermenaces</h3>
 
