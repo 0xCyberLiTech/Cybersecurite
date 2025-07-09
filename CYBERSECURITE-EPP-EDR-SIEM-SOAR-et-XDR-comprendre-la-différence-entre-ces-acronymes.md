@@ -1,14 +1,15 @@
+<div align="center">
+
+<a href="https://github.com/0xCyberLiTech">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=D14A4A&center=true&vCenter=true&width=650&lines=CYBERSÉCURITÉ;Fondamentaux+%26+Bonnes+Pratiques;Apprendre+•+Comprendre+•+Sécuriser" alt="Typing SVG" />
+</a>
+
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/167217017?s=400&u=d983b9423c4eb8cdb9bfe8b14f505be5c894d6bc&v=4" width="150" />
+  <em>Un dépôt pédagogique autour des fondamentaux de la cybersécurité.</em><br>
+  <b>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</b>
 </p>
 
-<h1 align="center">🌐 CYBERSÉCURITÉ 🌐</h1>
-<h2 align="center"> EPP, EDR, NDR & XDR</h2>
-
-<p align="center">
-  Un dépôt pédagogique autour des fondamentaux de la cybersécurité.<br>
-  📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension
-</p>
+</div>
 
 ---
 <h2 align="left">💡 une révolution pour la cyberdéfense ?</h2>
