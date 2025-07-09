@@ -34,7 +34,7 @@
 
 ---
 
-## 🔧 10 - Proxy, mise en oeuvre :
+## 🔧 10 **Mise en oeuvre** :
 
 L’installation d’un proxy implique le déploiement d’un logiciel ou d’un équipement dédié, sa configuration réseau, et l’application des règles d’usage.
 
