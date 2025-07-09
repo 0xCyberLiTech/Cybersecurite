@@ -40,7 +40,7 @@
 
 - `01` - [Fiche réflexe (Synthèse globale à garder à portée de main)](CYBERSECURITE-01-FICHE-REFLEX.md)
 - `02` - [Cybersécurité, définition (Le point de départ indispensable)](CYBERSECURITE-02-definition.md)
-- `03` - [Cybersécurité, acronymes (Pour comprendre le jargon du domaine)](CYBERSECURITE-ACRONYMES.md)
+- `03` - [Cybersécurité, acronymes (Pour comprendre le jargon du domaine)](CYBERSECURITE-03-ACRONYMES.md)
 
 ### II. Les Menaces : Comprendre l'Attaque
 
