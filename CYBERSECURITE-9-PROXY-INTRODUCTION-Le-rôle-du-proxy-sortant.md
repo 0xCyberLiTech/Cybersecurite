@@ -5,7 +5,7 @@
 </a>
 
 <p align="center">
-  <em>Un dépôt pédagogique - Proxy introduction.</em><br>
+  <em>Un dépôt pédagogique - Proxy introduction, le rôle du proxy sortant.</em><br>
   <b>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</b>
 </p>
 
@@ -33,7 +33,7 @@
 > Ce dépôt a pour vocation de centraliser un ensemble de notions clés en cybersécurité. Il s’adresse aux passionnés, étudiants, et professionnels souhaitant mieux comprendre les menaces informatiques, apprendre  > à sécuriser leurs environnements et se familiariser avec les concepts et outils de défense.
 
 ---
-## 🧭 09 - **Le rôle du proxy sortant**.
+## 🧭 09 - **Proxy introduction, le rôle du proxy sortant :**.
 
 Un proxy sortant agit comme un intermédiaire entre les utilisateurs internes (clients) et les services externes (internet). Il reçoit les requêtes des utilisateurs, les transmet aux serveurs externes, puis retourne les réponses.
 
