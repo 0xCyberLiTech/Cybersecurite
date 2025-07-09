@@ -53,7 +53,7 @@
 #### A. Le Chiffrement
 
 - `07` - [Cryptographie, introduction (Principes fondamentaux du chiffrement)](CYBERSECURITE-07-CRYPTOGRAPHIE-introduction.md)
-- `08` - [Cryptographie, outils (Mise en pratique avec des outils concrets)](CYBERSECURITE-CRYPTOGRAPHIE-outils.md)
+- `08` - [Cryptographie, outils (Mise en pratique avec des outils concrets)](CYBERSECURITE-08-CRYPTOGRAPHIE-OUTILS-Mise-en-pratique-avec-des-outils-concrets.md)
 
 #### B. Le Contrôle des Flux Réseau
 
