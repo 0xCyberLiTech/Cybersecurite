@@ -1,13 +1,8 @@
 <div align="center">
 
-<a href="https://github.com/0xCyberLiTech">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=D14A4A&center=true&vCenter=true&width=650&lines=CYBERSÉCURITÉ;Fondamentaux+%26+Bonnes+Pratiques;Apprendre+•+Comprendre+•+Sécuriser" alt="Typing SVG" />
-</a>
-
 <a href="https://github.com/0xCyberLiTech/Cybersecurite/blob/main/CYBERSECURITE-9-PROXY-INTRODUCTION-Le-r%C3%B4le-du-proxy-sortant.md">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=D14A4A&center=true&vCenter=true&width=700&lines=PROXYS+SORTANTS+:+FILTRE+ET+ANONYMAT;Comprendre+le+r%C3%B4le+du+proxy+en+cybers%C3%A9curit%C3%A9;Ma%C3%AEtriser+les+flux+sortants+:+Objectifs+et+Pratiques" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=D14A4A&center=true&vCenter=true&width=800&lines=PROXY+SORTANT+:+FILTRE+ET+ANONYMAT;Comprendre+le+r%C3%B4le+du+proxy+en+s%C3%A9curit%C3%A9" alt="Typing SVG" />
 </a>
-
 
 <p align="center">
   <em>Un dépôt pédagogique - Proxy introduction.</em><br>
