@@ -52,14 +52,14 @@
 
 ## III. Les Outils de Défense et de Contrôle
 
-### A. Le Chiffrement
+#### A. Le Chiffrement
 
 | N°   | Titre                        | Description                                          | Explorer                                                                 |
 |------|------------------------------|------------------------------------------------------|--------------------------------------------------------------------------|
 | 07   | Cryptographie, introduction  | Principes fondamentaux du chiffrement               | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-07-CRYPTOGRAPHIE-introduction.md) |
 | 08   | Cryptographie, outils        | Mise en pratique avec des outils concrets           | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-08-CRYPTOGRAPHIE-OUTILS-Mise-en-pratique-avec-des-outils-concrets.md) |
 
-### B. Le Contrôle des Flux Réseau
+#### B. Le Contrôle des Flux Réseau
 
 | N°   | Titre                        | Description                                          | Explorer                                                                 |
 |------|------------------------------|------------------------------------------------------|--------------------------------------------------------------------------|
@@ -68,7 +68,7 @@
 | 11   | Reverse-proxy, introduction  | Le rôle du proxy entrant                            | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-11-REVERSE-PROXY-INTRODUCTION-Le-rôle-du-proxy-entrant.md) |
 | 12   | Reverse-proxy, installation  | Mise en œuvre pratique                              | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-12-REVERSE-PROXY-INSTALLATION-Mise-en-œuvre-pratique.md) |
 
-### C. Les Plateformes de Sécurité
+#### C. Les Plateformes de Sécurité
 
 | N°   | Titre                        | Description                                          | Explorer                                                                 |
 |------|------------------------------|------------------------------------------------------|--------------------------------------------------------------------------|
