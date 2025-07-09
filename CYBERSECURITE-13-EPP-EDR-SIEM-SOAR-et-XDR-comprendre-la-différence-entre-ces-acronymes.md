@@ -1,7 +1,7 @@
 <div align="center">
 
-<a href="https://github.com/0xCyberLiTech">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=D14A4A&center=true&vCenter=true&width=650&lines=CYBERSÉCURITÉ;Fondamentaux+%26+Bonnes+Pratiques;Apprendre+•+Comprendre+•+Sécuriser" alt="Typing SVG" />
+<a href="https://github.com/0xCyberLiTech/Cybersecurite/blob/main/CYBERSECURITE-13-EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-diff%C3%A9rence-entre-ces-acronymes.md">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=D14A4A&center=true&vCenter=true&width=800&lines=CYBERSÉCURITÉ;Fondamentaux+%26+Bonnes+Pratiques;Apprendre+•+Comprendre+•+Sécuriser" alt="Typing SVG" />
 </a>
 
 <p align="center">
