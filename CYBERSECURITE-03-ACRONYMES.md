@@ -28,6 +28,12 @@
 
 ---
 
+### 🎯 **Objectif de ce dépôt.**
+
+> Ce dépôt a pour vocation de centraliser un ensemble de notions clés en cybersécurité. Il s’adresse aux passionnés, étudiants, et professionnels souhaitant mieux comprendre les menaces informatiques, apprendre  > à sécuriser leurs environnements et se familiariser avec les concepts et outils de défense.
+
+---
+
 ### 💡 **Acronymes Courants en Cybersécurité**
 
 > Le domaine de la cybersécurité est truffé d’acronymes. Ce guide vous propose une lecture claire et synthétique des sigles les plus utilisés, classés par thématique.
