@@ -34,8 +34,6 @@
 
 # 💡 **Plan d'Apprentissage Détaillé**
 
----
-
 ## I. Fondamentaux de la Cybersécurité
 
 | N°   | Titre                        | Description                                          | Explorer                                                                 |
@@ -44,8 +42,6 @@
 | 02   | Cybersécurité, définition    | Le point de départ indispensable                     | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-02-definition.md) |
 | 03   | Cybersécurité, acronymes     | Pour comprendre le jargon du domaine                 | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-03-ACRONYMES.md) |
 
----
-
 ## II. Les Menaces : Comprendre l'Attaque
 
 | N°   | Titre                                      | Description                                          | Explorer                                                                 |
@@ -53,8 +49,6 @@
 | 04   | KILL-CHAIN : les 7 étapes de la cyberattaque | Le cadre conceptuel de l'attaque                     | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-04-KILL-CHAIN.md) |
 | 05   | Logiciels malveillants, introduction       | Présentation des principaux types de menaces         | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-05-LOGICIELS-MALVEILLANTS-introduction.md) |
 | 06   | Logiciels malveillants, se protéger        | Techniques de protection contre les malwares         | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-06-LOGICIELS-MALVEILLANTS-techniques_de_protection.md) |
-
----
 
 ## III. Les Outils de Défense et de Contrôle
 
@@ -65,8 +59,6 @@
 | 07   | Cryptographie, introduction  | Principes fondamentaux du chiffrement               | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-07-CRYPTOGRAPHIE-introduction.md) |
 | 08   | Cryptographie, outils        | Mise en pratique avec des outils concrets           | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-08-CRYPTOGRAPHIE-OUTILS-Mise-en-pratique-avec-des-outils-concrets.md) |
 
----
-
 ### B. Le Contrôle des Flux Réseau
 
 | N°   | Titre                        | Description                                          | Explorer                                                                 |
@@ -75,8 +67,6 @@
 | 10   | Proxy, installation          | Mise en œuvre pratique                              | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-10-PROXY-INSTALLATION-Mise-en-œuvre-pratique.md) |
 | 11   | Reverse-proxy, introduction  | Le rôle du proxy entrant                            | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-11-REVERSE-PROXY-INTRODUCTION-Le-rôle-du-proxy-entrant.md) |
 | 12   | Reverse-proxy, installation  | Mise en œuvre pratique                              | [<img src="https://img.shields.io/badge/EXPLORER-brightgreen?style=for-the-badge&logo=github&logoColor=white">](CYBERSECURITE-12-REVERSE-PROXY-INSTALLATION-Mise-en-œuvre-pratique.md) |
-
----
 
 ### C. Les Plateformes de Sécurité
 
