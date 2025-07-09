@@ -45,10 +45,9 @@ L’installation d’un proxy implique le déploiement d’un logiciel ou d’un
 - Redirection du trafic : configuration des navigateurs ou du routeur pour que les requêtes passent par le proxy.
 - Gestion des logs : activation de la journalisation pour la traçabilité.
 
-###💡 Astuce :
+### 💡 Astuce :
 
 La configuration d’un proxy transparent (pas besoin de le spécifier dans le navigateur) facilite son intégration dans de grands réseaux.
-
 
 ---
 
