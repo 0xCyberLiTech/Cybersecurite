@@ -11,7 +11,7 @@
 
 </div>
 
-### 👨‍💻 **À propos de moi.**
+---
 
 > Ce dépôt constitue mon laboratoire numérique où je consigne rigoureusement mes apprentissages et expérimentations. Passionné par l'écosystème Linux > et la cybersécurité, je
 > documente mon parcours et mes projets sur mon GitHub. Vous y trouverez des guides pratiques sur la supervision (Zabbix,
