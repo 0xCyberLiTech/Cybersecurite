@@ -64,8 +64,8 @@
 
 #### C. Les Plateformes de Sécurité
 
-- `13` - [EPP, EDR, SIEM, SOAR et XDR (Définitions et comparaisons des plateformes)](CYBERSECURITE-EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md)
-- `14` - [EDR (Endpoint Detection and Response) (Focus spécifique)](CYBERSECURITE-EDR.md)
+- `13` - [EPP, EDR, SIEM, SOAR et XDR (Définitions et comparaisons des plateformes)](CYBERSECURITE-13-EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md)
+- `14` - [EDR (Endpoint Detection and Response) (Focus spécifique)](CYBERSECURITE-14-EDR.md)
 
 ---
 
