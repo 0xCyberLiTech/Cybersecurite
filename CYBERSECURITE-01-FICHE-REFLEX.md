@@ -71,6 +71,16 @@
 ### 📜 **FICHE RÉFLEXE CYBERSÉCURITÉ : PREMIERS GESTES EN CAS D'INCIDENT**
 > **ATTENTION : En cas de suspicion d'incident, gardez votre calme et suivez cette procédure. Ne prenez pas d'initiatives non coordonnées.**
 
+<span style="color: red; animation: clignote 1s infinite;">⚠️ Attention : Message important ! ⚠️</span>
+
+<style>
+@keyframes clignote {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+</style>
+
 <h3 id="1-identification-et-qualification-de-lincident"> 👋 1. Identification et Qualification de l'Incident</h3>
 
 * **Quel est le problème observé ?** (Ex: Fichiers chiffrés, message de demande de rançon, site web défiguré, lenteurs extrêmes, alertes antivirus, etc.)
