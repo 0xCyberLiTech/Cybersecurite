@@ -24,6 +24,8 @@
   </a>
 </p>
 
+[![Dernière version](https://img.shields.io/github/v/release/0xCyberLiTech/Cybersecurite?style=flat-square&color=blue)](https://github.com/0xCyberLiTech/Cybersecurite/releases/latest)
+
 ---
 
 ### 🎯 **Objectif de ce dépôt.**
