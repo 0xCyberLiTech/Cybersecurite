@@ -17,7 +17,7 @@
 
 ---
 
-### 👨‍💻 À propos de moi
+### 👨‍💻 **À propos de moi.**
 
 > Bienvenue dans mon **laboratoire numérique personnel** dédié à l’apprentissage et à la vulgarisation de la cybersécurité.  
 > Passionné par **Linux**, la **cryptographie** et les **systèmes sécurisés**, je partage ici mes notes, expérimentations et fiches pratiques.  
