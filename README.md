@@ -6,73 +6,96 @@
 
 <p align="center">
   <em>Un dépôt pédagogique autour des fondamentaux de la cybersécurité.</em><br>
-  <b>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</b>
+  <strong>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</strong>
 </p>
 
 [![Dernière version](https://img.shields.io/github/v/release/0xCyberLiTech/Cybersecurite?style=flat-square&color=blue)](https://github.com/0xCyberLiTech/Cybersecurite/releases/latest)
+[![Licence](https://img.shields.io/github/license/0xCyberLiTech/Cybersecurite)](LICENSE)
+[![Statut](https://img.shields.io/badge/status-en%20cours-orange)]()
 
 </div>
 
 ---
 
-> Ce dépôt constitue mon laboratoire numérique où je consigne rigoureusement mes apprentissages et expérimentations. Passionné par l'écosystème Linux > et la cybersécurité, je
-> documente mon parcours et mes projets sur mon GitHub. Vous y trouverez des guides pratiques sur la supervision (Zabbix,
-> Nagios), la conteneurisation (Docker), la cryptographie les algorithmes de chiffrement symétrique (AES, ChaCha20) et asymétrique (RSA, ECC).  et la
-> sécurisation de serveurs Debian. Mon objectif : partager mes connaissances de manière claire et pédagogique. N'hésitez pas à y jeter un œil : https://github.com/0xcyberlitech
+### 👨‍💻 À propos de moi
+
+> Bienvenue dans mon **laboratoire numérique personnel** dédié à l’apprentissage et à la vulgarisation de la cybersécurité.  
+> Passionné par **Linux**, la **cryptographie** et les **systèmes sécurisés**, je partage ici mes notes, expérimentations et fiches pratiques.  
+>  
+> 🎯 **Objectif :** proposer un contenu clair, structuré et accessible pour étudiants, curieux et professionnels de l’IT.  
+> 🔗 [Mon GitHub principal](https://github.com/0xCyberLiTech)
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=linux,debian,bash,docker,nginx,grafana,prometheus,git,vim" />
+    <img src="https://skillicons.dev/icons?i=linux,debian,bash,docker,nginx,git,vim" alt="Skills" />
   </a>
 </p>
 
 ---
 
-### 🎯 **Objectif de ce dépôt.**
+### 🎯 Objectif du dépôt
 
-> Ce dépôt a pour vocation de centraliser un ensemble de notions clés en cybersécurité. Il s’adresse aux passionnés, étudiants, et professionnels souhaitant mieux comprendre les menaces informatiques, apprendre  > à sécuriser leurs environnements et se familiariser avec les concepts et outils de défense.
-
----
-
-## 💡 **Plan d'Apprentissage Détaillé**
-
-### I. Fondamentaux de la Cybersécurité
-
-- `01` - [Fiche réflexe (Synthèse globale à garder à portée de main)](CYBERSECURITE-01-FICHE-REFLEX.md)
-- `02` - [Cybersécurité, définition (Le point de départ indispensable)](CYBERSECURITE-02-definition.md)
-- `03` - [Cybersécurité, acronymes (Pour comprendre le jargon du domaine)](CYBERSECURITE-03-ACRONYMES.md)
-
-### II. Les Menaces : Comprendre l'Attaque
-
-- `04` - [KILL-CHAIN : les 7 étapes de la cyberattaque (Le cadre conceptuel de l'attaque)](CYBERSECURITE-04-KILL-CHAIN.md)
-- `05` - [Logiciels malveillants, introduction (Présentation des principaux types de menaces)](CYBERSECURITE-05-LOGICIELS-MALVEILLANTS-introduction.md)
-- `06` - [Logiciels malveillants, se protéger efficacement](CYBERSECURITE-06-LOGICIELS-MALVEILLANTS-techniques_de_protection.md)
-
-### III. Les Outils de Défense et de Contrôle
-
-#### A. Le Chiffrement
-
-- `07` - [Cryptographie, introduction (Principes fondamentaux du chiffrement)](CYBERSECURITE-07-CRYPTOGRAPHIE-introduction.md)
-- `08` - [Cryptographie, outils (Mise en pratique avec des outils concrets)](CYBERSECURITE-08-CRYPTOGRAPHIE-OUTILS-Mise-en-pratique-avec-des-outils-concrets.md)
-
-#### B. Le Contrôle des Flux Réseau
-
-- `09` - [Proxy, introduction (Le rôle du proxy sortant)](CYBERSECURITE-9-PROXY-INTRODUCTION-Le-rôle-du-proxy-sortant.md)
-- `10` - [Proxy, installation (Mise en œuvre pratique)](CYBERSECURITE-10-PROXY-INSTALLATION-Mise-en-œuvre-pratique.md)
-- `11` - [Reverse-proxy, introduction (Le rôle du proxy entrant)](CYBERSECURITE-11-REVERSE-PROXY-INTRODUCTION-Le-rôle-du-proxy-entrant.md)
-- `12` - [Reverse-proxy, installation (Mise en œuvre pratique)](CYBERSECURITE-12-REVERSE-PROXY-INSTALLATION-Mise-en-œuvre-pratique.md)
-
-#### C. Les Plateformes de Sécurité
-
-- `13` - [EPP, EDR, SIEM, SOAR et XDR (Définitions et comparaisons des plateformes)](CYBERSECURITE-13-EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md)
-- `14` - [EDR (Endpoint Detection and Response) (Focus spécifique)](CYBERSECURITE-14-EDR.md)
+> Ce dépôt centralise les **notions fondamentales** de la cybersécurité ainsi que des **guides pratiques** sur les mécanismes de défense numérique.  
+> Il est conçu pour aider à **comprendre les menaces**, **sécuriser les environnements** et **maîtriser les outils de protection**.
 
 ---
 
-**Mise à jour :** Juillet 2025
+## 💡 Plan d'apprentissage
+
+---
+
+### 🧠 I. Fondamentaux de la cybersécurité
+
+- `01` - [Fiche réflexe (synthèse globale)](CYBERSECURITE-01-FICHE-REFLEX.md)
+- `02` - [Définition de la cybersécurité](CYBERSECURITE-02-definition.md)
+- `03` - [Acronymes clés du domaine](CYBERSECURITE-03-ACRONYMES.md)
+
+---
+
+### 💥 II. Menaces : comprendre l’attaque
+
+- `04` - [Kill Chain : les 7 étapes d'une attaque](CYBERSECURITE-04-KILL-CHAIN.md)
+- `05` - [Logiciels malveillants : introduction](CYBERSECURITE-05-LOGICIELS-MALVEILLANTS-introduction.md)
+- `06` - [Techniques de protection contre les malwares](CYBERSECURITE-06-LOGICIELS-MALVEILLANTS-techniques_de_protection.md)
+
+---
+
+### 🛡️ III. Outils de défense & contrôle
+
+#### 🔐 A. Cryptographie
+
+- `07` - [Introduction au chiffrement](CYBERSECURITE-07-CRYPTOGRAPHIE-introduction.md)
+- `08` - [Outils de cryptographie (exemples concrets)](CYBERSECURITE-08-CRYPTOGRAPHIE-OUTILS-Mise-en-pratique-avec-des-outils-concrets.md)
+
+#### 🌐 B. Contrôle réseau
+
+- `09` - [Proxy sortant : introduction](CYBERSECURITE-9-PROXY-INTRODUCTION-Le-rôle-du-proxy-sortant.md)
+- `10` - [Proxy sortant : installation](CYBERSECURITE-10-PROXY-INSTALLATION-Mise-en-œuvre-pratique.md)
+- `11` - [Reverse proxy : introduction](CYBERSECURITE-11-REVERSE-PROXY-INTRODUCTION-Le-rôle-du-proxy-entrant.md)
+- `12` - [Reverse proxy : installation](CYBERSECURITE-12-REVERSE-PROXY-INSTALLATION-Mise-en-œuvre-pratique.md)
+
+#### 🧩 C. Plateformes de sécurité
+
+- `13` - [EPP, EDR, SIEM, SOAR, XDR : comparatif](CYBERSECURITE-13-EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md)
+- `14` - [EDR (Endpoint Detection and Response)](CYBERSECURITE-14-EDR.md)
+
+---
+
+### 🔒 Sujets abordés
+
+- ✅ Définitions & concepts fondamentaux
+- ✅ Menaces numériques (kill chain, malwares)
+- ✅ Cryptographie symétrique et asymétrique
+- ✅ Réseau sécurisé (proxies, pare-feux)
+- ✅ Plateformes SIEM/EDR/XDR
+- 🚧 À venir : pentest, forensic, logs avancés...
+
+---
+
+**📅 Mise à jour :** Juillet 2025
 
 ---
 
 <p align="center">
-  <b>🔒 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour des tutoriels accessibles à tous. 🔒</b>
+  <b>🔐 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour une cybersécurité compréhensible et efficace. 🔐</b>
 </p>
