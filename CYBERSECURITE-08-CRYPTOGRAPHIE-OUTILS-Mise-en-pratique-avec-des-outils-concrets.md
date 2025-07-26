@@ -89,10 +89,7 @@ La cryptographie est une branche des mathématiques et de l'informatique qui per
 
 ---
 
-**📅 Mise à jour :** Juillet 2025
-
----
-
 <p align="center">
   <b>🔐 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour une cybersécurité compréhensible et efficace. 🔐</b>
 </p>
+
