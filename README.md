@@ -11,9 +11,9 @@
 
 [![Dernière version](https://img.shields.io/github/v/release/0xCyberLiTech/Cybersecurite?style=flat-square&color=blue)](https://github.com/0xCyberLiTech/Cybersecurite/releases/latest)
 [![Licence](https://img.shields.io/github/license/0xCyberLiTech/Cybersecurite)](LICENSE)
-[![Statut](https://img.shields.io/badge/Contributeurs-cliquez%20ici-blue)](https://github.com/0xCyberLiTech/Cybersecurite/graphs/contributors)
-
-[![Statut](https://img.shields.io/badge/status-en%20cours-orange)]()
+[![Contributeurs](https://img.shields.io/badge/Contributeurs-cliquez%20ici-blue)](https://github.com/0xCyberLiTech/Cybersecurite/graphs/contributors)
+[![Commits](https://img.shields.io/badge/Commits-historique%20complet-brightgreen)](https://github.com/0xCyberLiTech/Cybersecurite/commits/main)
+[![Trafic](https://img.shields.io/badge/Trafic-accès%20restreint-orange)](https://github.com/0xCyberLiTech/Cybersecurite/graphs/traffic)
 
 </div>
 
