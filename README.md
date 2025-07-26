@@ -9,12 +9,13 @@
   <strong>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</strong>
 </p>
 
+## 🌐 Informations liées au dépôt Cybersecurite
+
 [![🔗 Profil GitHub](https://img.shields.io/badge/Profil-GitHub-181717?logo=github&style=flat-square)](https://github.com/0xCyberLiTech)
-[![Latest Release](https://img.shields.io/github/v/release/0xCyberLiTech/0xcyberlitech?label=version)](https://github.com/0xCyberLiTech/0xcyberlitech/releases/latest)
-[![Changelog](https://img.shields.io/badge/📄%20CHANGELOG-0xcyberlitech-blue)](https://github.com/0xCyberLiTech/0xcyberlitech/blob/main/CHANGELOG.md)
+[![📦 Dernière version](https://img.shields.io/github/v/release/0xCyberLiTech/Cybersecurite?label=version&style=flat-square)](https://github.com/0xCyberLiTech/Cybersecurite/releases/latest)
+[![📄 CHANGELOG](https://img.shields.io/badge/📄%20Changelog-Cybersecurite-blue?style=flat-square)](https://github.com/0xCyberLiTech/Cybersecurite/blob/main/CHANGELOG.md)
 [![📂 Dépôts publics](https://img.shields.io/badge/Dépôts-publics-blue?style=flat-square)](https://github.com/0xCyberLiTech?tab=repositories)
 [![👥 Contributeurs](https://img.shields.io/badge/👥%20Contributeurs-cliquez%20ici-007ec6?style=flat-square)](https://github.com/0xCyberLiTech/Cybersecurite/graphs/contributors)
-[![📈 Commits](https://img.shields.io/badge/📈%20Commits-historique%20complet-28a745?style=flat-square)](https://github.com/0xCyberLiTech/Cybersecurite/commits/main)
 
 </div>
 
