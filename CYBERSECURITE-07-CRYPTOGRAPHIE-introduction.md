@@ -92,11 +92,6 @@ La cryptographie est essentielle pour garantir la **confidentialité**, **l'int�
 
 ---
 
-**📅 Mise à jour :** Juillet 2025
-
----
-
 <p align="center">
   <b>🔐 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour une cybersécurité compréhensible et efficace. 🔐</b>
 </p>
-
