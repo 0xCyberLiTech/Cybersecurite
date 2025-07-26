@@ -102,5 +102,5 @@ En somme, l'EDR est devenu un pilier essentiel de la cybersécurité moderne, pe
 ---
 
 <p align="center">
-  🔒 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour des tutoriels accessible à tous.
+  <b>🔐 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour une cybersécurité compréhensible et efficace. 🔐</b>
 </p>
