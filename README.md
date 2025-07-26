@@ -9,14 +9,11 @@
   <strong>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</strong>
 </p>
 
-## 📊 Statistiques du dépôt Cybersecurite
-
 [![📦 Dernière version](https://img.shields.io/github/v/release/0xCyberLiTech/Cybersecurite?style=flat-square&color=blue)](https://github.com/0xCyberLiTech/Cybersecurite/releases/latest)
 [![📝 Licence](https://img.shields.io/github/license/0xCyberLiTech/Cybersecurite?style=flat-square)](https://github.com/0xCyberLiTech/Cybersecurite/blob/main/LICENSE)
 [![👥 Contributeurs](https://img.shields.io/badge/👥%20Contributeurs-cliquez%20ici-007ec6?style=flat-square)](https://github.com/0xCyberLiTech/Cybersecurite/graphs/contributors)
 [![📈 Commits](https://img.shields.io/badge/📈%20Commits-historique%20complet-28a745?style=flat-square)](https://github.com/0xCyberLiTech/Cybersecurite/commits/main)
 [![📊 Trafic](https://img.shields.io/badge/📊%20Trafic-accès%20restreint-orange?style=flat-square)](https://github.com/0xCyberLiTech/Cybersecurite/graphs/traffic)
-
 
 </div>
 
