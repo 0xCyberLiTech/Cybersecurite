@@ -9,8 +9,6 @@
   <strong>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</strong>
 </p>
 
-## 🌐 Informations liées au dépôt Cybersecurite
-
 [![🔗 Profil GitHub](https://img.shields.io/badge/Profil-GitHub-181717?logo=github&style=flat-square)](https://github.com/0xCyberLiTech)
 [![📦 Dernière version](https://img.shields.io/github/v/release/0xCyberLiTech/Cybersecurite?label=version&style=flat-square)](https://github.com/0xCyberLiTech/Cybersecurite/releases/latest)
 [![📄 CHANGELOG](https://img.shields.io/badge/📄%20Changelog-Cybersecurite-blue?style=flat-square)](https://github.com/0xCyberLiTech/Cybersecurite/blob/main/CHANGELOG.md)
