@@ -58,10 +58,6 @@ Dans une entreprise, le proxy bloque les réseaux sociaux en journée tout en au
 
 ---
 
-**📅 Mise à jour :** Juillet 2025
-
----
-
 <p align="center">
   <b>🔐 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour une cybersécurité compréhensible et efficace. 🔐</b>
 </p>
