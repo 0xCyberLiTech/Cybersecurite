@@ -1,13 +1,19 @@
 <div align="center">
 
-<a href="https://github.com/0xCyberLiTech/Cybersecurite/blob/main/CYBERSECURITE-14-EDR.md">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=D14A4A&center=true&vCenter=true&width=750&lines=EDR+:+FONDAMENTAUX+%26+PRATIQUES;Détection+•+Réponse+•+Protection" alt="Typing SVG" />
-</a>
+  <a href="https://github.com/0xCyberLiTech/Cybersecurite/blob/main/CYBERSECURITE-14-EDR.md">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=D14A4A&center=true&vCenter=true&width=750&lines=EDR+:+FONDAMENTAUX+%26+PRATIQUES;Détection+•+Réponse+•+Protection" alt="Typing SVG" />
+  </a>
 
-<p align="center">
-  <em>Un dépôt pédagogique autour de l'EDR (Endpoint Detection and Response).</em><br>
-  <b>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</b>
-</p>
+  <p align="center">
+    <em>Un dépôt pédagogique autour de l'EDR (Endpoint Detection and Response).</em><br>
+    <b>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</b>
+  </p>
+
+  [![🔗 Profil GitHub](https://img.shields.io/badge/Profil-GitHub-181717?logo=github&style=flat-square)](https://github.com/0xCyberLiTech)
+  [![📦 Dernière version](https://img.shields.io/github/v/release/0xCyberLiTech/Cybersecurite?label=version&style=flat-square)](https://github.com/0xCyberLiTech/Cybersecurite/releases/latest)
+  [![📄 CHANGELOG](https://img.shields.io/badge/📄%20Changelog-Cybersecurite-blue?style=flat-square)](https://github.com/0xCyberLiTech/Cybersecurite/blob/main/CHANGELOG.md)
+  [![📂 Dépôts publics](https://img.shields.io/badge/Dépôts-publics-blue?style=flat-square)](https://github.com/0xCyberLiTech?tab=repositories)
+  [![👥 Contributeurs](https://img.shields.io/badge/👥%20Contributeurs-cliquez%20ici-007ec6?style=flat-square)](https://github.com/0xCyberLiTech/Cybersecurite/graphs/contributors)
 
 </div>
 
