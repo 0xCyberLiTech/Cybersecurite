@@ -71,7 +71,7 @@
 
 #### 🌐 B. Contrôle réseau
 
-- `09` - [Proxy sortant : introduction](CYBERSECURITE-9-PROXY-INTRODUCTION-Le-rôle-du-proxy-sortant.md)
+- `09` - [Proxy sortant : introduction](CYBERSECURITE-09-PROXY-INTRODUCTION-Le-rôle-du-proxy-sortant.md)
 - `10` - [Proxy sortant : installation](CYBERSECURITE-10-PROXY-INSTALLATION-Mise-en-œuvre-pratique.md)
 - `11` - [Reverse proxy : introduction](CYBERSECURITE-11-REVERSE-PROXY-INTRODUCTION-Le-rôle-du-proxy-entrant.md)
 - `12` - [Reverse proxy : installation](CYBERSECURITE-12-REVERSE-PROXY-INSTALLATION-Mise-en-œuvre-pratique.md)
