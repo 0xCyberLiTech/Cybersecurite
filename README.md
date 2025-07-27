@@ -1,7 +1,5 @@
 <div align="center">
 
-  ![Nagios](./images/0xCyberLiTech-01.png)
-
   <a href="https://github.com/0xCyberLiTech">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=D14A4A&center=true&vCenter=true&width=650&lines=CYBERSÉCURITÉ;Fondamentaux+%26+Bonnes+Pratiques;Apprendre+•+Comprendre+•+Sécuriser" alt="Typing SVG" />
   </a>
