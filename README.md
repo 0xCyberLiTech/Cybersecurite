@@ -38,7 +38,7 @@
 ### 🎯 Objectif du dépôt
 
 > Ce dépôt centralise les **notions fondamentales** de la cybersécurité ainsi que des **guides pratiques** sur les mécanismes de défense numérique.  
-> Il est conçu pour aider à **comprendre les menaces**, **sécuriser les environnements** et **maîtriser les outils de protection**.
+Il est conçu pour aider à **comprendre les menaces**, **sécuriser les environnements** et **maîtriser les outils de protection**.
 
 ---
 
