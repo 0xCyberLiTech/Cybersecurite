@@ -1,8 +1,10 @@
 <div align="center">
 
-  <a href="https://github.com/0xCyberLiTech/Cybersecurite/blob/main/CYBERSECURITE-9-PROXY-INTRODUCTION-Le-r%C3%B4le-du-proxy-sortant.md">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=D14A4A&center=true&vCenter=true&width=900&lines=PROXY+SORTANT+:+FILTRE+ET+ANONYMAT;Comprendre+le+rôle+du+proxy+en+sécurité" alt="Typing SVG" />
+  <br></br>
+  <a href="https://github.com/0xCyberLiTech">
+    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=50&duration=6000&pause=1000000000&color=FF0048&center=true&vCenter=true&width=1100&lines=%3ECYBERS%C3%89CURIT%C3%89_" alt="Titre dynamique CYBERSÉCURITÉ" />
   </a>
+  <br></br>
 
   <p align="center">
     <em>Un dépôt pédagogique - Proxy introduction, le rôle du proxy sortant.</em><br>
