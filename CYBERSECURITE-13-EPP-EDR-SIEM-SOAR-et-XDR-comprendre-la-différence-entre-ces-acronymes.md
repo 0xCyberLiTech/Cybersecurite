@@ -1,8 +1,10 @@
 <div align="center">
 
-  <a href="https://github.com/0xCyberLiTech/Cybersecurite/blob/main/CYBERSECURITE-13-EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-diff%C3%A9rence-entre-ces-acronymes.md">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=D14A4A&center=true&vCenter=true&width=800&lines=CYBERSÉCURITÉ;Fondamentaux+%26+Bonnes+Pratiques;Apprendre+•+Comprendre+•+Sécuriser" alt="Typing SVG" />
+  <br></br>
+  <a href="https://github.com/0xCyberLiTech">
+    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=50&duration=6000&pause=1000000000&color=FF0048&center=true&vCenter=true&width=1100&lines=%3ECYBERS%C3%89CURIT%C3%89_" alt="Titre dynamique CYBERSÉCURITÉ" />
   </a>
+  <br></br>
 
   <p align="center">
     <em>Un dépôt pédagogique - Les piliers de la détection et réponse aux cybermenaces.</em><br>
