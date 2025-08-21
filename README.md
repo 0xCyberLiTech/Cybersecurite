@@ -48,8 +48,6 @@
 
 ## 💡 Plan d'apprentissage
 
----
-
 ### 🧠 I. Fondamentaux de la cybersécurité
 
 - `01` - [Fiche réflexe (synthèse globale)](CYBERSECURITE-01-FICHE-REFLEX.md)
