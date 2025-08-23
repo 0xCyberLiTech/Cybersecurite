@@ -13,12 +13,24 @@
     <b>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</b>
   </p>
 
-  [![🌐 Portfolio](https://img.shields.io/badge/Portfolio-0xCyberLiTech-181717?logo=github&style=flat-square)](https://0xcyberlitech.github.io/)
-  [![🔗 Profil GitHub](https://img.shields.io/badge/Profil-GitHub-181717?logo=github&style=flat-square)](https://github.com/0xCyberLiTech)
-  [![📦 Dernière version](https://img.shields.io/github/v/release/0xCyberLiTech/Cybersecurite?label=version&style=flat-square)](https://github.com/0xCyberLiTech/Cybersecurite/releases/latest)
-  [![📄 CHANGELOG](https://img.shields.io/badge/📄%20Changelog-Cybersecurite-blue?style=flat-square)](https://github.com/0xCyberLiTech/Cybersecurite/blob/main/CHANGELOG.md)
-  [![📂 Dépôts publics](https://img.shields.io/badge/Dépôts-publics-blue?style=flat-square)](https://github.com/0xCyberLiTech?tab=repositories)
-  [![👥 Contributeurs](https://img.shields.io/badge/👥%20Contributeurs-cliquez%20ici-007ec6?style=flat-square)](https://github.com/0xCyberLiTech/Cybersecurite/graphs/contributors)
+
+  <p align="center">
+    <a href="https://0xcyberlitech.github.io/">
+      <img src="https://img.shields.io/badge/Portfolio-0xCyberLiTech-181717?logo=github&style=flat-square" alt="Portfolio" />
+    </a>
+    <a href="https://github.com/0xCyberLiTech">
+      <img src="https://img.shields.io/badge/Profil-GitHub-181717?logo=github&style=flat-square" alt="Profil GitHub" />
+    </a>
+    <a href="https://github.com/0xCyberLiTech/0xcyberlitech/releases/latest">
+      <img src="https://img.shields.io/github/v/release/0xCyberLiTech/0xcyberlitech?label=version" alt="Latest Release" />
+    </a>
+    <a href="https://github.com/0xCyberLiTech/0xcyberlitech/blob/main/CHANGELOG.md">
+      <img src="https://img.shields.io/badge/📄%20CHANGELOG-0xcyberlitech-blue" alt="Changelog" />
+    </a>
+    <a href="https://github.com/0xCyberLiTech?tab=repositories">
+      <img src="https://img.shields.io/badge/Dépôts-publics-blue?style=flat-square" alt="Dépôts publics" />
+    </a>
+  </p>
 
 </div>
 
@@ -28,7 +40,7 @@
 
 > Bienvenue dans mon **laboratoire numérique personnel** dédié à l’apprentissage et à la vulgarisation de la cybersécurité.  
 > Passionné par **Linux**, la **cryptographie** et les **systèmes sécurisés**, je partage ici mes notes, expérimentations et fiches pratiques.  
-> Pproposer un contenu clair, structuré et accessible pour étudiants, curieux et professionnels de l’IT.  
+Proposer un contenu clair, structuré et accessible pour étudiants, curieux et professionnels de l’IT.
 
 <p align="center">
   <a href="https://github.com/0xCyberLiTech" target="_blank" rel="noopener">
@@ -55,7 +67,6 @@ Ces quatre acronymes sont au cœur de la cybersécurité moderne et représenten
 **Rôle :** L'EPP est la **suite logicielle de sécurité de base installée sur les terminaux** (ordinateurs de bureau, ordinateurs portables, serveurs, mobiles). C'est le "garde du corps" initial de chaque appareil. Son rôle principal est la **prévention** des menaces connues et la détection des activités malveillantes les plus évidentes.
 
 **Fonctionnalités clés :**
-
 * **Antivirus/Antimalware de nouvelle génération (NGAV) :** Utilise des signatures, l'analyse heuristique et l'apprentissage automatique pour détecter et bloquer les logiciels malveillants connus et inconnus.
 * **Pare-feu personnel :** Contrôle le trafic réseau entrant et sortant du terminal.
 * **Prévention des intrusions basées sur l'hôte (HIPS) :** Surveille l'activité du système et bloque les actions suspectes.
@@ -68,7 +79,6 @@ Ces quatre acronymes sont au cœur de la cybersécurité moderne et représenten
 ---
 <h3 align="left">👋 2. EDR (Endpoint Detection and Response) : L'enquêteur et répondeur du terminal</h3>
 
-**Rôle :** L'EDR prend le relais lorsque l'EPP a potentiellement été contourné ou pour détecter des menaces plus furtives et sophistiquées. Son objectif est la **détection avancée**, l'**investigation approfondie** et la **réponse rapide** sur les terminaux. C'est l'évolution logique de l'EPP.
 
 **Fonctionnalités clés (en complément de l'EPP) :**
 
