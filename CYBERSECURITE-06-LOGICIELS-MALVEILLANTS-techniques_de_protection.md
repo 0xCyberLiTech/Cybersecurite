@@ -40,8 +40,7 @@
 
 > Bienvenue dans mon **laboratoire numérique personnel** dédié à l’apprentissage et à la vulgarisation de la cybersécurité.  
 > Passionné par **Linux**, la **cryptographie** et les **systèmes sécurisés**, je partage ici mes notes, expérimentations et fiches pratiques.  
->  
-Proposer un contenu clair, structuré et accessible pour étudiants, curieux et professionnels de l’IT.
+> Proposer un contenu clair, structuré et accessible pour étudiants, curieux et professionnels de l’IT.
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=linux,debian,bash,docker,nginx,git,vim" alt="Skills" width="300" />
