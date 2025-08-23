@@ -20,8 +20,8 @@
     <a href="https://github.com/0xCyberLiTech">
       <img src="https://img.shields.io/badge/Profil-GitHub-181717?logo=github&style=flat-square" alt="Profil GitHub" />
     </a>
-    <a href="https://github.com/0xCyberLiTech/0xcyberlitech/releases/latest">
-      <img src="https://img.shields.io/github/v/release/0xCyberLiTech/0xcyberlitech?label=version" alt="Latest Release" />
+    <a href="https://github.com/0xCyberLiTech/Cybersecurite/releases/latest">
+      <img src="https://img.shields.io/github/v/release/0xCyberLiTech/Cybersecurite?label=version" alt="Latest Release" />
     </a>
     <a href="https://github.com/0xCyberLiTech/0xcyberlitech/blob/main/CHANGELOG.md">
       <img src="https://img.shields.io/badge/📄%20CHANGELOG-0xcyberlitech-blue" alt="Changelog" />
