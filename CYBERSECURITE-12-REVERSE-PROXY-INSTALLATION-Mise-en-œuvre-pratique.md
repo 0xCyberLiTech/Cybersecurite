@@ -9,7 +9,7 @@
   <br></br>
 
   <p align="center">
-    <em>Un dépôt pédagogique - Reverse-Proxy, installation.</em><br>
+    <em>Reverse proxy : installation.</em><br>
     <b>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</b>
   </p>
 
