@@ -10,7 +10,7 @@
   <br></br>
   
   <p align="center">
-    <em>Un dépôt pédagogique autour du monde linux DEBIAN.</em><br>
+    <em>Techniques de protection contre les malwares.</em><br>
     <b>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</b>
   </p>
   
