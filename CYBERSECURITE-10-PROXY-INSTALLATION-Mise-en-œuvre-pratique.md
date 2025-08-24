@@ -9,7 +9,7 @@
   <br></br>
 
   <p align="center">
-    <em>Un dépôt pédagogique - Proxy installation, mise en oeuvre.</em><br>
+    <em>Proxy sortant : installation.</em><br>
     <b>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</b>
   </p>
 
