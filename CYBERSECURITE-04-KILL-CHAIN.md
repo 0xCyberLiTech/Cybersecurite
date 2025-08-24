@@ -43,7 +43,9 @@
 > Proposer un contenu clair, structuré et accessible pour étudiants, curieux et professionnels de l’IT.
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,debian,bash,docker,nginx,git,vim" alt="Skills" width="300" />
+  <a href="https://github.com/0xCyberLiTech" target="_blank" rel="noopener">
+    <img src="https://skillicons.dev/icons?i=linux,debian,bash,docker,nginx,git,vim,python,markdown" alt="Skills" width="420">
+  </a>
 </p>
 
 ---
