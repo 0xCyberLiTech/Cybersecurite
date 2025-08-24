@@ -9,7 +9,7 @@
   <br></br>
 
   <p align="center">
-    <em>Un dépôt pédagogique - Les piliers de la détection et réponse aux cybermenaces.</em><br>
+    <em>EPP, EDR, SIEM, SOAR, XDR : comparatif.</em><br>
     <b>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</b>
   </p>
 
