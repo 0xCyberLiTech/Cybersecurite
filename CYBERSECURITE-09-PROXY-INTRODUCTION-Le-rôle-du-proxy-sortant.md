@@ -9,7 +9,7 @@
   <br></br>
 
   <p align="center">
-    <em>Un dépôt pédagogique - Proxy introduction, le rôle du proxy sortant.</em><br>
+    <em>Proxy sortant : introduction.</em><br>
     <b>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</b>
   </p>
 
