@@ -10,7 +10,7 @@
   <br></br>
   
   <p align="center">
-    <em>Un dépôt pédagogique autour du monde linux DEBIAN.</em><br>
+    <em>Logiciels malveillants : introduction.</em><br>
     <b>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</b>
   </p>
   
