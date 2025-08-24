@@ -110,7 +110,7 @@ Ce dépôt a pour vocation de centraliser un ensemble de notions clés en cybers
 | **Intrusion** | 1. **Changez les mots de passe** des comptes concernés.<br>2. **Déconnectez toutes les sessions actives.**<br>3. **Vérifiez les règles de transfert d'emails et autres modifications suspectes.**<br>4. **Isolez les systèmes impactés.** |
 | **Déni de Service (DDoS)** | 1. **Contactez votre hébergeur ou FAI** pour mitigation.<br>2. **Analysez les logs** pour identifier l'origine. |
 
-#### 3. Alerter : Qui Contacter ?
+<h3 id="3-alerter--qui-contacter">3. Alerter : Qui Contacter ?</h3>
 
 - **Responsable Sécurité / Équipe IT** : contactez immédiatement le référent interne.
 - **Direction / Cellule de crise** : informez la direction des impacts potentiels.
