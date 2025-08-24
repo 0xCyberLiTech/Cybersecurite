@@ -9,7 +9,7 @@
   <br></br>
   
   <p align="center">
-    <em>Un dépôt pédagogique autour du monde linux DEBIAN.</em><br>
+    <em>Outils de cryptographie (exemples concrets).</em><br>
     <b>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</b>
   </p>
   
