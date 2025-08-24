@@ -94,44 +94,41 @@ Ce dépôt a pour vocation de centraliser un ensemble de notions clés en cybers
 
 > **ATTENTION : En cas de suspicion d'incident, gardez votre calme et suivez cette procédure. Ne prenez pas d'initiatives non coordonnées.**
 
-<h3 id="1-identification-et-qualification-de-lincident"> 👋 1. Identification et Qualification de l'Incident</h3>
+#### 1. Identification et Qualification de l'Incident
 
-* **Quel est le problème observé ?** (Ex: Fichiers chiffrés, message de demande de rançon, site web défiguré, lenteurs extrêmes, alertes antivirus, etc.)
-* **Quand le problème a-t-il été découvert et par qui ?**
-* **Quels sont les systèmes, applications ou données impactés ?** (Serveurs, postes de travail, applications métier, etc.)
-* **L'activité de l'entreprise est-elle perturbée ? Si oui, comment ?**
+- **Décrivez précisément le problème observé** (ex : fichiers chiffrés, message de rançon, site web défiguré, alertes antivirus, etc.).
+- **Notez la date, l'heure et la personne ayant découvert l'incident.**
+- **Listez les systèmes, applications ou données impactés** (serveurs, postes, applications métier).
+- **Évaluez l'impact sur l'activité** (service interrompu, données inaccessibles, etc.).
 
-<h3 id="2-actions-immédiates--lendiguement"> 👋 2. Actions Immédiates : L'Endiguement</h3>
+#### 2. Actions Immédiates : L'Endiguement
 
-| Type d'incident suspecté | Actions immédiates à réaliser |
-| :--- | :--- |
-| **Rançongiciel (Ransomware)** | 1. **Isoler immédiatement la ou les machines compromises :**<br>   - **Débrancher le câble réseau (Ethernet).**<br>   - **Désactiver le Wi-Fi.**<br>2. **NE PAS ÉTEINDRE** la machine. Laissez-la en l'état pour l'analyse forensique.<br>3. **NE PAS PAYER LA RANÇON.** |
-| **Hameçonnage (Phishing)** | 1. **Ne pas cliquer sur les liens, ni ouvrir les pièces jointes.**<br>2. **Ne pas répondre à l'expéditeur.**<br>3. **Signaler le message** comme "hameçonnage" dans votre client de messagerie.<br>4. Si des identifiants ont été saisis : **changer immédiatement le mot de passe** du compte concerné et de tous les autres comptes utilisant le même mot de passe.<br>5. **Alerter** l'équipe IT. |
-| **Intrusion / Compromission** | 1. **Changer immédiatement les mots de passe** des comptes suspectés et des comptes administrateurs.<br>2. **Déconnecter toutes les sessions actives** du compte compromis.<br>3. **Vérifier les règles de transfert d'emails** et autres modifications suspectes.<br>4. **Isoler les systèmes** sur lesquels le compte a été utilisé. |
-| **Déni de Service (DDoS)** | 1. **Contacter immédiatement votre hébergeur ou FAI.** Ils disposent des outils pour mitiger l'attaque.<br>2. **Analyser les logs** pour identifier l'origine et le type d'attaque (si possible). |
+| Type d'incident | Actions concrètes à réaliser |
+|-----------------|-----------------------------|
+| **Rançongiciel** | 1. **Isolez la machine compromise** : débranchez le câble réseau, désactivez le Wi-Fi.<br>2. **Ne l'éteignez pas** : laissez-la allumée pour l'analyse.<br>3. **Ne payez jamais la rançon.** |
+| **Hameçonnage** | 1. **Ne cliquez sur rien** (liens, pièces jointes).<br>2. **Ne répondez pas à l'expéditeur.**<br>3. **Signalez le message** comme phishing.<br>4. **Changez immédiatement les mots de passe** si des identifiants ont été saisis.<br>5. **Alertez l'équipe IT.** |
+| **Intrusion** | 1. **Changez les mots de passe** des comptes concernés.<br>2. **Déconnectez toutes les sessions actives.**<br>3. **Vérifiez les règles de transfert d'emails et autres modifications suspectes.**<br>4. **Isolez les systèmes impactés.** |
+| **Déni de Service (DDoS)** | 1. **Contactez votre hébergeur ou FAI** pour mitigation.<br>2. **Analysez les logs** pour identifier l'origine. |
 
-<h3 id="3-alerter--qui-contacter"> 👋 3. Alerter : Qui Contacter ?</h3>
+#### 3. Alerter : Qui Contacter ?
 
-* **Responsable de la Sécurité (RSSI) / Équipe Informatique :**
-    * **Nom :** `[Nom du contact interne]`
-    * **Téléphone :** `[Numéro de téléphone]`
-    * **Email :** `[Email du contact]`
-* **Direction / Cellule de crise :**
-    * Informer la direction de l'incident et de ses impacts potentiels.
-* **Contacts Externes (selon la gravité) :**
-    * **Cybermalveillance.gouv.fr :** Pour obtenir de l'aide et être mis en relation avec des prestataires.
-    * **Forces de l'ordre (Police/Gendarmerie) :** Pour un dépôt de plainte (`0 800 811 414` - Info Escroqueries).
-    * **CNIL :** En cas de violation de données personnelles, notification obligatoire sous 72h.
+- **Responsable Sécurité / Équipe IT** : contactez immédiatement le référent interne.
+- **Direction / Cellule de crise** : informez la direction des impacts potentiels.
+- **Contacts externes** :
+  - Cybermalveillance.gouv.fr pour assistance.
+  - Police/Gendarmerie pour dépôt de plainte.
+  - CNIL en cas de fuite de données personnelles (notification sous 72h).
 
-<h3 id="4-préserver-les-preuves"> 👋 4. Préserver les Preuves</h3>
+#### 4. Préserver les Preuves
 
-* **Ne pas éteindre les machines compromises** (sauf instruction contraire) pour préserver les preuves en mémoire vive (RAM).
-* **Ne supprimer aucun fichier ou log.**
-* **Noter chronologiquement toutes les actions entreprises :** Qui a fait quoi, quand et pourquoi.
+- **Ne pas éteindre les machines compromises** (sauf consigne contraire).
+- **Ne supprimer aucun fichier ou log.**
+- **Documentez toutes les actions** (qui, quoi, quand, pourquoi).
 
-<h3 id="5-communication"> 👋 5. Communication</h3>
+#### 5. Communication
 
-* **Interne :** Informer les collaborateurs des mesures à prendre (ex: "Ne plus utiliser telle application").
+- **Interne** : informez les collaborateurs des mesures à suivre (ex : ne plus utiliser une application compromise).
+- **Externe** : toute communication vers l’extérieur doit être validée par la direction ou le RSSI.
 * **Externe :** Préparer les éléments de langage pour les clients ou le public. La communication doit être contrôlée.
 
 ---
