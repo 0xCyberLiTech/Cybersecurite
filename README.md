@@ -32,6 +32,7 @@ Mots-clés SEO : cybersécurité, sécurité informatique, Linux, Debian, crypto
 
 ---
 
+<<<<<<< HEAD
 ## � Description
 
 Ce dépôt open source est dédié à la **cybersécurité** et à la **sécurité informatique** sous Linux Debian. Il regroupe des ressources pédagogiques, des guides pratiques, des fiches de synthèse et des tutoriels pour comprendre, analyser et renforcer la sécurité des systèmes informatiques. Vous trouverez ici des explications sur les menaces numériques, la cryptographie, la gestion des proxies, les plateformes EDR/SIEM/XDR, ainsi que des conseils pour le pentest, la forensic et la protection des réseaux.
@@ -58,6 +59,14 @@ Ce dépôt open source est dédié à la **cybersécurité** et à la **sécurit
 Bienvenue dans mon **laboratoire numérique personnel** dédié à l’apprentissage, à la vulgarisation et à la pratique de la cybersécurité. Passionné par **Linux**, la **cryptographie** et les **systèmes sécurisés**, je partage ici mes notes, expérimentations, fiches pratiques et retours d’expérience pour aider chacun à progresser dans la protection des environnements informatiques.
 
 Objectif : proposer un contenu clair, structuré et accessible pour étudiants, curieux, professionnels IT et experts en sécurité.
+=======
+### 👨‍💻 **À propos de moi**
+
+> Bienvenue sur le dépôt <strong>0xCyberLiTech</strong>, votre laboratoire numérique pour l'<strong>apprentissage</strong> et la <strong>vulgarisation</strong> de la <strong>cybersécurité</strong>, de l'<strong>administration Linux Debian</strong> et de la <strong>sécurité informatique</strong>.
+> Passionné par <strong>Linux</strong>, la <strong>cryptographie</strong>, la <strong>supervision réseau</strong> et les <strong>systèmes sécurisés</strong>, je partage ici des <strong>tutoriels</strong>, <strong>guides pratiques</strong>, <strong>fiches techniques</strong> et <strong>retours d'expérience</strong> pour renforcer vos compétences IT.
+>
+> 🎯 <strong>Objectif :</strong> Offrir un contenu structuré, accessible et optimisé pour le référencement naturel, destiné aux étudiants, professionnels, administrateurs système, experts en sécurité et curieux du monde numérique.
+>>>>>>> b893642571420511507fbd88abafbcc3e45f6416
 
 <p align="center">
   <a href="https://github.com/0xCyberLiTech" target="_blank" rel="noopener">
