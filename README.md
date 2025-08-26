@@ -7,11 +7,6 @@
   </a>
   
   <br></br>
-  
-  <p align="center">
-    <em>Un dépôt pédagogique autour du monde linux DEBIAN.</em><br>
-    <b>📘 Apprentissage – 🔐 Sécurité – 🧠 Compréhension</b>
-  </p>
 
   <h2>Laboratoire numérique pour la cybersécurité, Linux & IT</h2>
   
