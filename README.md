@@ -61,11 +61,6 @@ Ce dépôt GitHub est dédié à l’**apprentissage de la cybersécurité** et 
 
 👉 Ce projet s’adresse aux **étudiants**, **administrateurs systèmes**, **analystes SOC**, **pentesters**, **consultants en cybersécurité**, ainsi qu’aux **passionnés de Linux et de sécurité informatique**.
 
-### 🎯 Objectif du dépôt :
-
-> Ce dépôt centralise les **notions fondamentales** de la cybersécurité ainsi que des **guides pratiques** sur les mécanismes de défense numérique.  
-> Il est conçu pour aider à **comprendre les menaces**, **sécuriser les environnements** et **maîtriser les outils de protection**.
-
 ---
 
 ## 💡 Plan d'apprentissage
