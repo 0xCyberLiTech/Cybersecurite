@@ -59,8 +59,6 @@ Ce dépôt GitHub est dédié à l’**apprentissage de la cybersécurité** et 
 - 🔐 Des **ressources pédagogiques** sur les **outils de défense** : *EDR, SIEM, SOAR, XDR, proxies, etc.*
 - 🧰 Des **fiches réflexes** et **notions fondamentales** pour renforcer vos **compétences en sécurité numérique**
 
-👉 Ce projet s’adresse aux **étudiants**, **administrateurs systèmes**, **analystes SOC**, **pentesters**, **consultants en cybersécurité**, ainsi qu’aux **passionnés de Linux et de sécurité informatique**.
-
 ---
 
 ## 💡 Plan d'apprentissage
