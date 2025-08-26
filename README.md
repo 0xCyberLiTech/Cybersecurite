@@ -52,7 +52,7 @@
 
 ## 🚀 Présentation du dépôt *Cybersécurité*
 
-Ce dépôt GitHub est dédié à l’**apprentissage de la cybersécurité** et à la **vulgarisation des concepts de sécurité informatique**. Vous y trouverez :
+Ce dépôt est dédié à l’**apprentissage de la cybersécurité** et à la **vulgarisation des concepts de sécurité informatique**. Vous y trouverez :
 
 - 📘 Des **tutoriels pratiques** sur l’**administration Linux Debian**, la **cryptographie** et la **sécurisation des réseaux**
 - 🛡️ Des **guides techniques** pour comprendre les **menaces informatiques** (*malwares, kill chain, attaques réseau*)
