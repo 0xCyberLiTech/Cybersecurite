@@ -34,31 +34,28 @@
 Optimisation SEO : mots-clés cybersécurité, Linux, administration système, sécurité informatique, tutoriels, guides, expertise, formation, supervision, Docker, OpenVAS, firewall, proxy, DNS, SSH, Debian, IT, réseau, cryptographie, open source, ressources techniques, étudiants, professionnels, passionnés.
 -->
 
----
+<div align="center">
+  <img src="https://img.icons8.com/fluency/96/000000/cyber-security.png" alt="CyberSec" width="80"/>
+</div>
 
-### 👨‍💻 **À propos de moi**
-
-> Bienvenue sur le dépôt <strong>0xCyberLiTech</strong>, votre laboratoire numérique pour l'<strong>apprentissage</strong> et la <strong>vulgarisation</strong> de la <strong>cybersécurité</strong>, de l'<strong>administration Linux Debian</strong> et de la <strong>sécurité informatique</strong>.
-> Passionné par <strong>Linux</strong>, la <strong>cryptographie</strong>, la <strong>supervision réseau</strong> et les <strong>systèmes sécurisés</strong>, je partage ici des <strong>tutoriels</strong>, <strong>guides pratiques</strong>, <strong>fiches techniques</strong> et <strong>retours d'expérience</strong> pour renforcer vos compétences IT.
->
-> 🎯 <strong>Objectif :</strong> Offrir un contenu structuré, accessible et optimisé pour le référencement naturel, destiné aux étudiants, professionnels, administrateurs système, experts en sécurité et curieux du monde numérique.
-
-<p align="center">
-  <a href="https://github.com/0xCyberLiTech" target="_blank" rel="noopener">
-    <img src="https://skillicons.dev/icons?i=linux,debian,bash,docker,nginx,git,vim,python,markdown" alt="Skills" width="420">
-  </a>
-</p>
+<div align="center">
+  <p>
+    <strong>Cybersécurité</strong> <img src="https://img.icons8.com/color/24/000000/lock--v1.png"/> • <strong>Linux Debian</strong> <img src="https://img.icons8.com/color/24/000000/linux.png"/> • <strong>Sécurité informatique</strong> <img src="https://img.icons8.com/color/24/000000/shield-security.png"/>
+  </p>
+</div>
 
 ---
 
-## 🚀 Présentation du dépôt *Cybersécurité*
+## 🚀 À propos & Objectifs
 
-Ce dépôt est dédié à l’**apprentissage de la cybersécurité** et à la **vulgarisation des concepts de sécurité informatique**. Vous y trouverez :
+Ce projet propose des solutions innovantes et accessibles en cybersécurité, avec une approche centrée sur la simplicité d’utilisation et l’efficacité. Il vise à accompagner les utilisateurs dans la protection de leurs données et systèmes, tout en favorisant l’apprentissage et le partage des connaissances.
 
-- 📘 Des **tutoriels pratiques** sur l’**administration Linux Debian**, la **cryptographie** et la **sécurisation des réseaux**
-- 🛡️ Des **guides techniques** pour comprendre les **menaces informatiques** (*malwares, kill chain, attaques réseau*)
-- 🔐 Des **ressources pédagogiques** sur les **outils de défense** : *EDR, SIEM, SOAR, XDR, proxies, etc.*
-- 🧰 Des **fiches réflexes** et **notions fondamentales** pour renforcer vos **compétences en sécurité numérique**
+Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoins de :
+- 🎓 Étudiants : approfondir les connaissances
+- 👨‍💻 Professionnels IT : outils et pratiques
+- 🖥️ Administrateurs système : sécuriser l’infrastructure
+- 🛡️ Experts cybersécurité : ressources techniques
+- 🚀 Passionnés du numérique : explorer les bonnes pratiques
 
 ---
 
