@@ -50,7 +50,18 @@
 
 ---
 
-### 🎯 Objectif du dépôt
+## 🚀 Présentation du dépôt *Cybersécurité*
+
+Ce dépôt GitHub est dédié à l’**apprentissage de la cybersécurité** et à la **vulgarisation des concepts de sécurité informatique**. Vous y trouverez :
+
+- 📘 Des **tutoriels pratiques** sur l’**administration Linux Debian**, la **cryptographie** et la **sécurisation des réseaux**
+- 🛡️ Des **guides techniques** pour comprendre les **menaces informatiques** (*malwares, kill chain, attaques réseau*)
+- 🔐 Des **ressources pédagogiques** sur les **outils de défense** : *EDR, SIEM, SOAR, XDR, proxies, etc.*
+- 🧰 Des **fiches réflexes** et **notions fondamentales** pour renforcer vos **compétences en sécurité numérique**
+
+👉 Ce projet s’adresse aux **étudiants**, **administrateurs systèmes**, **analystes SOC**, **pentesters**, **consultants en cybersécurité**, ainsi qu’aux **passionnés de Linux et de sécurité informatique**.
+
+### 🎯 Objectif du dépôt :
 
 > Ce dépôt centralise les **notions fondamentales** de la cybersécurité ainsi que des **guides pratiques** sur les mécanismes de défense numérique.  
 > Il est conçu pour aider à **comprendre les menaces**, **sécuriser les environnements** et **maîtriser les outils de protection**.
