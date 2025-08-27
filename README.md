@@ -60,7 +60,6 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 ---
 
 ## 💡 Plan d'apprentissage
-
 ### 🧠 I. Fondamentaux de la cybersécurité
 
 - `01` - [Fiche réflexe (synthèse globale)](CYBERSECURITE-01-FICHE-REFLEX.md)
@@ -78,7 +77,6 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 ---
 
 ### 🛡️ III. Outils de défense & contrôle
-
 #### 🔐 A. Cryptographie
 
 - `07` - [Introduction au chiffrement](CYBERSECURITE-07-CRYPTOGRAPHIE-introduction.md)
