@@ -61,8 +61,6 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 ## 🧭 16 - **Fiche Réflexe Réseau de Confiance en Cas de Crise Cyber**.
 
-# 🚨 Fiche Réflexe – Réseau de Confiance en Cas de Crise Cyber.
-
 ## 📌 Objectif
 Assurer la continuité de la communication et de la coordination **sans dépendre du SI compromis**.
 
