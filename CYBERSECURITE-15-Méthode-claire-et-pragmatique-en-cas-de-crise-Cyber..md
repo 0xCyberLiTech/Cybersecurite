@@ -93,12 +93,12 @@ Communiquer, coordonner et décider hors du système compromis, en maintenant la
 
 ---
 
-### Étape 4 : Formaliser une fiche réflexe “réseau de confiance”
+### Étape 4 : Formaliser une fiche réflexe “réseau de confiance” exemple pour une administration :
 
 - **Document simple (1-2 pages)**, accessible en papier + PDF hors SI, contenant :
   - 📞 Liste contacts prioritaires (DG, DSI, prestataires, assurance, ANSSI).
   - 🔑 Phrase de vérification d’identité.
-  - 📡 Canaux alternatifs prévalidés (Signal, téléphone, salle de crise).
+  - 📡 Canaux alternatifs prévalidés (Proton Mail, téléphone, salle de crise).
   - 🗂️ Lieux de stockage des procédures et sauvegardes hors-ligne.
   - 🚦 Scénarios simples :  
    - “SI messagerie coupée → bascule sur Proton Mail - https://account.proton.me/mail“ 
