@@ -68,6 +68,13 @@ Assurer la continuité de la communication et de la coordination **sans dépendr
 
 ---
 
+### 📋 Accessibilité et diffusion
+- La fiche réflexe doit être accessible hors SI : version papier + PDF sur support externe (clé USB chiffrée, drive sécurisé).
+- Diffuser la fiche à tous les acteurs concernés et rappeler son emplacement lors des exercices.
+- Mettre à jour la fiche à chaque changement de contact ou de procédure.
+
+---
+
 ## 📞 Contacts prioritaires
 
 | Rôle / Fonction                    | Nom / Référence       | Téléphone        | Canal de secours |
@@ -117,10 +124,34 @@ Assurer la continuité de la communication et de la coordination **sans dépendr
 
 ---
 
+### 🔄 Logigramme de la gestion de crise
+
+1. **Détection de la crise**  
+  ↓  
+2. **Activation du réseau de communication hors bande**  
+  ↓  
+3. **Vérification de l’identité des interlocuteurs**  
+  ↓  
+4. **Utilisation des moyens techniques de repli**  
+  ↓  
+5. **Coordination via la fiche réflexe**  
+  ↓  
+6. **Décisions et actions selon les scénarios**  
+  ↓  
+7. **Retour d’expérience et amélioration continue**
+
+---
+
 ## 🛠️ Exercices
 - Réaliser **au moins 1 test/an** de bascule réseau de confiance.  
 - Vérifier la mise à jour des **contacts prioritaires**.  
 - Ajuster la fiche réflexe après chaque exercice.  
+
+---
+
+### 📢 Rappel important
+- La fiche réflexe doit être régulièrement relue, testée et adaptée selon les retours d’expérience.
+- Chaque acteur doit savoir où la trouver et comment l’utiliser en cas de crise.
 
 ---
 

@@ -61,84 +61,90 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 ## 🧭 15 - **Méthode claire et pragmatique en cas de crise Cyber**.
 
-Voici une méthode claire et pragmatique, adaptée au rôle de référent sécurité (non-RSSI, mais pivot opérationnel en cas de crise) :
 
-🚨 Objectif
+## 🚨 Méthode claire et pragmatique en cas de crise cyber (référent sécurité)
 
-Pouvoir communiquer, coordonner et décider hors du système compromis, tout en maintenant un niveau de confiance suffisant entre les acteurs impliqués.
+**Objectif**  
+Communiquer, coordonner et décider hors du système compromis, en maintenant la confiance entre les acteurs.
 
-1️⃣ Préparer un réseau de communication hors bande
+---
 
-Moyens personnels sécurisés :
+### Étape 1 : Préparer un réseau de communication hors bande
 
-Liste à jour des numéros de téléphone pro/perso des membres clés (Direction, DSI, RSSI, prestataires, équipes critiques).
+- **Constituer une liste à jour** des numéros pro/perso des membres clés (Direction, DSI, RSSI, prestataires, équipes critiques).
+- **Utiliser des applications chiffrées end-to-end** (Signal, Threema, WhatsApp Business en dernier recours).
+- **Prévoir des canaux alternatifs écrits** :
+  - Adresse mail de secours (Protonmail, Tutanota) partagée avec la cellule de crise.
+  - Drive externe sécurisé (Nextcloud, ProtonDrive, Tresorit) pour les documents critiques.
+- **Organiser une réunion de crise physique** si nécessaire (salle dédiée, moyens papiers/PC isolés).
 
-Utilisation d’applications chiffrées end-to-end (Signal, Threema, WhatsApp Business en dernier recours).
+---
 
-Canaux alternatifs écrits :
+### Étape 2 : Créer une chaîne de confiance humaine
 
-Une adresse mail de secours (protonmail, Tutanota) partagée avec la cellule de crise.
+- **Définir la chaîne de contact** (hiérarchique + relais techniques).
+- **Mettre en place une phrase ou mot de passe de crise** pour vérifier l’identité des interlocuteurs au téléphone.
+- **Préparer un annuaire papier** (contacts internes/externes critiques : prestataires, cyber-assureur, hébergeurs, Orange CyberDéfense, ANSSI, etc.).
 
-Un drive externe sécurisé (Nextcloud, ProtonDrive, Tresorit) pour partager les documents critiques.
+---
 
-Réunion de crise physique si nécessaire (salle dédiée avec moyens papiers/PC isolés).
+### Étape 3 : Préparer des moyens techniques de repli
 
-2️⃣ Créer une chaîne de confiance humaine
+- **PC “propres”** (non intégrés au SI) avec OS sain, dédiés à la gestion de crise.
+- **Connexion internet de secours** (clé 4G/5G, fibre externe).
+- **Coffre-fort numérique externe** pour stocker :
+  - Plans de reprise,
+  - Procédures imprimables,
+  - Accès d’urgence (mots de passe maîtres, contacts).
 
-Définir à l’avance qui contacte qui (chaîne hiérarchique + relais techniques).
+---
 
-Utiliser un mot de passe de crise ou une phrase partagée pour vérifier l’identité des interlocuteurs au téléphone → évite les usurpations.
+### Étape 4 : Formaliser une fiche réflexe “réseau de confiance”
 
-Préparer un annuaire papier (contacts internes/externes critiques : prestataires, cyber-assureur, hébergeurs, Orange CyberDéfense, ANSSI, etc.).
+- **Document simple (1-2 pages)**, accessible en papier + PDF hors SI, contenant :
+  - 📞 Liste contacts prioritaires (DG, DSI, prestataires, assurance, ANSSI).
+  - 🔑 Phrase de vérification d’identité.
+  - 📡 Canaux alternatifs prévalidés (Signal, téléphone, salle de crise).
+  - 🗂️ Lieux de stockage des procédures et sauvegardes hors-ligne.
+  - 🚦 Scénarios simples :  
+   - “SI messagerie coupée → bascule sur Signal”  
+   - “SI serveurs HS → activer poste de crise”
 
-3️⃣ Préparer des moyens techniques de repli
+---
 
-PC “propres” (non intégrés au SI) avec OS sain → utilisés uniquement pour la gestion de crise.
+### Étape 5 : Exercices de mise en situation
 
-Connexion internet de secours (clé 4G/5G, fibre externe).
+- **Test annuel** avec simulation de perte de SI.
+- **Vérification de la capacité** de tous à basculer sur le réseau de confiance.
+- **Ajustement de la fiche réflexe** selon les retours.
 
-Coffre-fort numérique externe pour stocker :
+---
 
-Plans de reprise,
+#### � Logigramme de la gestion de crise
 
-Procédures imprimables,
+1. **Détection de la crise**  
+  ↓  
+2. **Activation du réseau de communication hors bande**  
+  ↓  
+3. **Vérification de l’identité des interlocuteurs**  
+  ↓  
+4. **Utilisation des moyens techniques de repli**  
+  ↓  
+5. **Coordination via la fiche réflexe**  
+  ↓  
+6. **Décisions et actions selon les scénarios**  
+  ↓  
+7. **Retour d’expérience et amélioration continue**
 
-Accès d’urgence (mots de passe maîtres, contacts).
+---
 
-4️⃣ Formaliser une fiche réflexe “réseau de confiance”
+### 🔑 Résumé : Kit minimal à préparer avant la crise
 
-Un document simple (1 à 2 pages), accessible en papier + PDF hors SI, contenant :
-
-📞 Liste contacts prioritaires (DG, DSI, prestataires, assurance, ANSSI).
-
-🔑 Phrase de vérification d’identité.
-
-📡 Canaux alternatifs prévalidés (Signal, téléphone, salle de crise).
-
-🗂️ Lieux de stockage des procédures et sauvegardes hors-ligne.
-
-🚦 Scénarios simples : “SI messagerie coupée → bascule sur Signal”, “SI serveurs HS → activer poste de crise”.
-
-5️⃣ Exercices de mise en situation
-
-Faire un test annuel avec une simulation de perte de SI.
-
-Vérifier que tout le monde sait basculer sur le réseau de confiance.
-
-Ajuster la fiche réflexe selon les retours.
-
-🔑 Résumé :
-Tu dois préparer avant la crise un kit minimal :
-
-✅ Annuaire papier + contacts de secours,
-
-✅ Canaux alternatifs sûrs (Signal, Protonmail, téléphone),
-
-✅ Procédures et accès hors SI (clé USB chiffrée, coffre-fort externe),
-
-✅ Ordinateurs propres et connectivité indépendante,
-
-✅ Fiche réflexe claire pour basculer vite.
+- ✅ Annuaire papier + contacts de secours
+- ✅ Canaux alternatifs sûrs (Signal, Protonmail, téléphone)
+- ✅ Procédures et accès hors SI (clé USB chiffrée, coffre-fort externe)
+- ✅ Ordinateurs propres et connectivité indépendante
+- ✅ Fiche réflexe claire pour basculer vite
 
 ---
 
