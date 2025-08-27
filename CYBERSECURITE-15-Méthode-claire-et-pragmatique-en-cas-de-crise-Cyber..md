@@ -101,7 +101,7 @@ Communiquer, coordonner et décider hors du système compromis, en maintenant la
   - 📡 Canaux alternatifs prévalidés (Signal, téléphone, salle de crise).
   - 🗂️ Lieux de stockage des procédures et sauvegardes hors-ligne.
   - 🚦 Scénarios simples :  
-   - “SI messagerie coupée → bascule sur Proton Mail (https://account.proton.me/mail)”  
+   - “SI messagerie coupée → bascule sur Proton Mail - https://account.proton.me/mail”  
    - “SI serveurs HS → activer poste de crise”
 
 ---
