@@ -28,3 +28,10 @@ Toutes les modifications notables de ce projet seront consignées ici.
 - Ajout d’exemples avancés de détection d’intrusions
 - Sections sur les outils antivirus et rootkits
 - Tutoriels sur la gestion des vulnérabilités et patchs
+
+---
+
+## [v1.2] - 2025-08-27
+### Ajouté
+- CYBERSECURITE-15-Méthode-claire-et-pragmatique-en-cas-de-crise-Cyber.md
+- CYBERSECURITE-16-Fiche-Réflexe-Réseau-de-Confiance-en-Cas-de-Crise-Cyber.md
