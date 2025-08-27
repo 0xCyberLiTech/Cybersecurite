@@ -61,9 +61,6 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 ## 🧭 15 - **Méthode claire et pragmatique en cas de crise Cyber**.
 
-
-## 🚨 Méthode claire et pragmatique en cas de crise cyber (référent sécurité)
-
 **Objectif**  
 Communiquer, coordonner et décider hors du système compromis, en maintenant la confiance entre les acteurs.
 
