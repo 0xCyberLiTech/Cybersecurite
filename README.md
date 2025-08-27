@@ -96,6 +96,10 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 - `13` - [EPP, EDR, SIEM, SOAR, XDR : comparatif](CYBERSECURITE-13-EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md)
 - `14` - [EDR (Endpoint Detection and Response)](CYBERSECURITE-14-EDR.md)
 
+### 🛡️ IV. Gestion de crise
+- `15` - [Méthode claire et pragmatique en cas de crise Cyber.]()
+- `16` - [Fiche Réflexe – Réseau de Confiance en Cas de Crise Cyber.]()
+
 ---
 
 ### 🔒 Sujets abordés
