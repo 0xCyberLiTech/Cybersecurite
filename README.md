@@ -30,7 +30,9 @@
 
 </div>
 
-<!-- Optimisation SEO : mots-clés cybersécurité, sécurité informatique, Linux, Debian, administration système, réseau, IT, cryptographie, open source, pare-feu, proxy, reverse proxy, DNS, SSH, Docker, OpenVAS, SIEM, EDR, XDR, SOAR, pentest, forensic, logs, tutoriels, guides, formation, expertise, supervision, ressources techniques, étudiants, professionnels, passionnés, bonnes pratiques, protection des données, analyse de risques, cyberattaque, défense, conformité, audit, gestion de crise, sensibilisation, monitoring, cloud, virtualisation, DevSecOps. -->
+<!--
+Optimisation SEO : mots-clés cybersécurité, Linux, administration système, sécurité informatique, tutoriels, guides, expertise, formation, supervision, Docker, OpenVAS, firewall, proxy, DNS, SSH, Debian, IT, réseau, cryptographie, open source, ressources techniques, étudiants, professionnels, passionnés.
+-->
 
 <div align="center">
   <img src="https://img.icons8.com/fluency/96/000000/cyber-security.png" alt="CyberSec" width="80"/>
@@ -58,6 +60,7 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 ---
 
 ## 💡 Plan d'apprentissage
+
 ### 🧠 I. Fondamentaux de la cybersécurité
 
 - `01` - [Fiche réflexe (synthèse globale)](CYBERSECURITE-01-FICHE-REFLEX.md)
@@ -77,44 +80,21 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 ### 🛡️ III. Outils de défense & contrôle
 
 #### 🔐 A. Cryptographie
+
 - `07` - [Introduction au chiffrement](CYBERSECURITE-07-CRYPTOGRAPHIE-introduction.md)
 - `08` - [Outils de cryptographie (exemples concrets)](CYBERSECURITE-08-CRYPTOGRAPHIE-OUTILS-Mise-en-pratique-avec-des-outils-concrets.md)
 
-#### 🔥 B. Pare-feu
-- [Firewall](../Firewall/README.md)
+#### 🌐 B. Contrôle réseau
 
-#### 🧩 C. Supervision & Monitoring
-- [Zabbix](../Zabbix/README.md)
-- [Nagios](../Nagios/README.md)
-- [Graylog](../Graylog/README.md)
-
-#### 🗝️ D. Gestion des identités & accès
-- [SSH](../SSH/README.md)
-
-#### 🌐 E. Contrôle réseau
 - `09` - [Proxy sortant : introduction](CYBERSECURITE-09-PROXY-INTRODUCTION-Le-rôle-du-proxy-sortant.md)
 - `10` - [Proxy sortant : installation](CYBERSECURITE-10-PROXY-INSTALLATION-Mise-en-œuvre-pratique.md)
 - `11` - [Reverse proxy : introduction](CYBERSECURITE-11-REVERSE-PROXY-INTRODUCTION-Le-rôle-du-proxy-entrant.md)
 - `12` - [Reverse proxy : installation](CYBERSECURITE-12-REVERSE-PROXY-INSTALLATION-Mise-en-œuvre-pratique.md)
-- [Proxy](../Proxy/README.md)
-- [DNS](../DNS/README.md)
-- [NTPsec](../NTPsec/README.md)
 
-#### 🐳 F. Conteneurisation & sécurité
-- [Docker](../Docker/README.md)
+#### 🧩 C. Plateformes de sécurité
 
-#### 🕵️ G. Analyse de vulnérabilités
-- [OpenVAS](../OpenVAS/README.md)
-
-#### 🧩 H. Plateformes de sécurité
 - `13` - [EPP, EDR, SIEM, SOAR, XDR : comparatif](CYBERSECURITE-13-EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md)
 - `14` - [EDR (Endpoint Detection and Response)](CYBERSECURITE-14-EDR.md)
-
----
-
-### 🛡️ IV. Gestion de crise
-- `15` - [Méthode claire et pragmatique en cas de crise Cyber.](CYBERSECURITE-15-Méthode-claire-et-pragmatique-en-cas-de-crise-Cyber..md)
-- `16` - [Fiche Réflexe – Réseau de Confiance en Cas de Crise Cyber.](CYBERSECURITE-16-Fiche-Réflexe-Réseau-de-Confiance-en-Cas-de-Crise-Cyber..md)
 
 ---
 
@@ -138,3 +118,4 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 <div align="center">
   <b>🔒 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour des tutoriels accessibles à tous. 🔒</b>
 </div>
+
