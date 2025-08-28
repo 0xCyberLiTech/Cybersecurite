@@ -60,7 +60,6 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 ---
 
 ## 💡 Plan d'apprentissage
-
 ### 🧠 I. Fondamentaux de la cybersécurité
 
 - `01` - [Fiche réflexe (synthèse globale)](CYBERSECURITE-01-FICHE-REFLEX.md)
@@ -78,7 +77,6 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 ---
 
 ### 🛡️ III. Outils de défense & contrôle
-
 #### 🔐 A. Cryptographie
 
 - `07` - [Introduction au chiffrement](CYBERSECURITE-07-CRYPTOGRAPHIE-introduction.md)
@@ -95,6 +93,12 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 - `13` - [EPP, EDR, SIEM, SOAR, XDR : comparatif](CYBERSECURITE-13-EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md)
 - `14` - [EDR (Endpoint Detection and Response)](CYBERSECURITE-14-EDR.md)
+
+---
+
+### 🛡️ IV. Gestion de crise
+- `15` - [Méthode claire et pragmatique en cas de crise Cyber.](CYBERSECURITE-15-Méthode-claire-et-pragmatique-en-cas-de-crise-Cyber..md)
+- `16` - [Fiche Réflexe – Réseau de Confiance en Cas de Crise Cyber.](CYBERSECURITE-16-Fiche-Réflexe-Réseau-de-Confiance-en-Cas-de-Crise-Cyber..md)
 
 ---
 
