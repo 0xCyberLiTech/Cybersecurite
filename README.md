@@ -77,8 +77,8 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 ### 🛡️ III. Outils de défense & contrôle
 
 #### 🔐 A. Cryptographie
-- [Introduction au chiffrement](CYBERSECURITE-07-CRYPTOGRAPHIE-introduction.md)
-- [Outils de cryptographie (exemples concrets)](CYBERSECURITE-08-CRYPTOGRAPHIE-OUTILS-Mise-en-pratique-avec-des-outils-concrets.md)
+- `07` - [Introduction au chiffrement](CYBERSECURITE-07-CRYPTOGRAPHIE-introduction.md)
+- `08` - [Outils de cryptographie (exemples concrets)](CYBERSECURITE-08-CRYPTOGRAPHIE-OUTILS-Mise-en-pratique-avec-des-outils-concrets.md)
 
 #### 🔥 B. Pare-feu
 - [Firewall/README.md](../Firewall/README.md)
@@ -96,6 +96,10 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 - [SSH/README.md](../SSH/README.md)
 
 #### 🌐 E. Contrôle réseau
+- `09` - [Proxy sortant : introduction](CYBERSECURITE-09-PROXY-INTRODUCTION-Le-rôle-du-proxy-sortant.md)
+- `10` - [Proxy sortant : installation](CYBERSECURITE-10-PROXY-INSTALLATION-Mise-en-œuvre-pratique.md)
+- `11` - [Reverse proxy : introduction](CYBERSECURITE-11-REVERSE-PROXY-INTRODUCTION-Le-rôle-du-proxy-entrant.md)
+- `12` - [Reverse proxy : installation](CYBERSECURITE-12-REVERSE-PROXY-INSTALLATION-Mise-en-œuvre-pratique.md)
 - [Proxy/README.md](../Proxy/README.md)
 - [DNS/README.md](../DNS/README.md)
 - [NTPsec/README.md](../NTPsec/README.md)
@@ -107,8 +111,8 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 - [OpenVAS/README.md](../OpenVAS/README.md)
 
 #### 🧩 H. Plateformes de sécurité
-- [EPP, EDR, SIEM, SOAR, XDR : comparatif](CYBERSECURITE-13-EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md)
-- [EDR (Endpoint Detection and Response)](CYBERSECURITE-14-EDR.md)
+- `13` - [EPP, EDR, SIEM, SOAR, XDR : comparatif](CYBERSECURITE-13-EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md)
+- `14` - [EDR (Endpoint Detection and Response)](CYBERSECURITE-14-EDR.md)
 
 ---
 
