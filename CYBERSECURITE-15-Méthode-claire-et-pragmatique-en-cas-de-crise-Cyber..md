@@ -57,88 +57,92 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 ---
 
-## 🧭 15 - **Méthode claire et pragmatique en cas de crise Cyber**.
-### 📌 Objectif
-Communiquer, coordonner et décider hors du système compromis, en maintenant la confiance entre les acteurs.
+## 🧭 15 - **Méthode claire et pragmatique en cas de crise Cyber (version académique)**.
+## 🎯 Objectif
+Assurer la continuité de la gouvernance et la prise de décision en situation de crise, malgré la compromission potentielle du système d’information (SI).
 
 ---
 
-### Étape 1 : Préparer un réseau de communication hors bande
-
-- **Constituer une liste à jour** des numéros pro/perso des membres clés (Direction, DSI, RSSI, prestataires, équipes critiques).
-- **Utiliser des applications chiffrées end-to-end** (Signal, Threema, WhatsApp Business en dernier recours).
-- **Prévoir des canaux alternatifs écrits** :
-  - Adresse mail de secours (Protonmail, Tutanota) partagée avec la cellule de crise.
-  - Drive externe sécurisé (Nextcloud, ProtonDrive, Tresorit) pour les documents critiques.
-- **Organiser une réunion de crise physique** si nécessaire (salle dédiée, moyens papiers/PC isolés).
+## 1️⃣ Préparation des communications hors bande
+- Maintenir une **liste actualisée des contacts clés** (Direction, RSSI, DSI, prestataires, autorités).
+- Définir des **canaux de communication alternatifs** (téléphone, messageries chiffrées type Signal/Threema, adresse mail de secours).
+- Prévoir un **support papier et numérique externe sécurisé** (coffre-fort, clé USB chiffrée).
+- Disposer d’une **salle de crise équipée** (connexion indépendante, ordinateurs propres).
 
 ---
 
-### Étape 2 : Créer une chaîne de confiance humaine
-
-- **Définir la chaîne de contact** (hiérarchique + relais techniques).
-- **Mettre en place une phrase ou mot de passe de crise** pour vérifier l’identité des interlocuteurs au téléphone.
-- **Préparer un annuaire papier** (contacts internes/externes critiques : prestataires, cyber-assureur, hébergeurs, Orange CyberDéfense, ANSSI, etc.).
-
----
-
-### Étape 3 : Préparer des moyens techniques de repli
-
-- **PC “propres”** (non intégrés au SI) avec OS sain, dédiés à la gestion de crise.
-- **Connexion internet de secours** (clé 4G/5G, fibre externe).
-- **Coffre-fort numérique externe** pour stocker :
-  - Plans de reprise,
-  - Procédures imprimables,
-  - Accès d’urgence (mots de passe maîtres, contacts).
+## 2️⃣ Mise en place d’une chaîne de confiance
+- Définir une **hiérarchie claire des décisions et relais techniques**.
+- Utiliser des **mécanismes d’authentification verbale** (phrase de crise, mot de passe partagé).
+- Conserver un **annuaire papier de contacts prioritaires** (prestataires, assureur, ANSSI, forces de l’ordre).
 
 ---
 
-### Étape 4 : Formaliser une fiche réflexe “réseau de confiance” exemple pour une administration :
-
-- **Document simple (1-2 pages)**, accessible en papier + PDF hors SI, contenant :
-  - 📞 Liste contacts prioritaires (DG, DSI, prestataires, assurance, ANSSI).
-  - 🔑 Phrase de vérification d’identité.
-  - 📡 Canaux alternatifs prévalidés (Signal, Proton, téléphone, salle de crise).
-  - 🗂️ Lieux de stockage des procédures et sauvegardes hors-ligne.
-  - 🚦 Scénarios simples :  
-   - “SI messagerie coupée → bascule sur Proton Mail - https://account.proton.me/mail“ 
-   - “SI serveurs HS → activer poste de crise”
+## 3️⃣ Préparation technique du repli
+- Maintenir des **postes de gestion de crise isolés** du SI (non intégrés au domaine, OS sain).
+- Anticiper une **connexion Internet de secours** (4G/5G, fibre externe).
+- Stocker hors ligne :
+  - Plans de continuité et de reprise d’activité (PCA/PRA),
+  - Procédures critiques,
+  - Identifiants de secours (dans un coffre chiffré).
 
 ---
 
-### Étape 5 : Exercices de mise en situation
-
-- **Test annuel** avec simulation de perte de SI.
-- **Vérification de la capacité** de tous à basculer sur le réseau de confiance.
-- **Ajustement de la fiche réflexe** selon les retours.
+## 4️⃣ Documentation de crise (fiche réflexe)
+- Format **1 à 2 pages**, clair, imprimable et accessible hors SI.
+- Contenu :
+  - 📞 Contacts prioritaires
+  - 🔑 Phrase de vérification d’identité
+  - 📡 Canaux alternatifs validés
+  - 📂 Localisation des sauvegardes et procédures critiques
+  - 🚦 Arborescence des scénarios (messagerie HS, serveurs inaccessibles, SI paralysé)
 
 ---
 
-#### � Logigramme de la gestion de crise
+## 5️⃣ Exercices et amélioration continue
+- Organiser **au minimum un exercice annuel** de bascule hors bande.
+- Évaluer la **réactivité des acteurs et la robustesse des procédures**.
+- Mettre à jour la fiche réflexe et les contacts après chaque exercice ou incident réel.
+
+---
+
+## 🔄 Logigramme simplifié
 
 1. **Détection de la crise**  
-  ↓  
-2. **Activation du réseau de communication hors bande**  
-  ↓  
+   ↓  
+2. **Activation du plan de communication hors bande**  
+   ↓  
 3. **Vérification de l’identité des interlocuteurs**  
-  ↓  
-4. **Utilisation des moyens techniques de repli**  
-  ↓  
+   ↓  
+4. **Activation des moyens techniques de repli**  
+   ↓  
 5. **Coordination via la fiche réflexe**  
-  ↓  
-6. **Décisions et actions selon les scénarios**  
-  ↓  
-7. **Retour d’expérience et amélioration continue**
+   ↓  
+6. **Prise de décision et application des scénarios**  
+   ↓  
+7. **Retour d’expérience & mise à jour des procédures**
 
 ---
 
-### 🔑 Résumé : Kit minimal à préparer avant la crise
+## ✅ Kit minimal à anticiper
+- 📖 Annuaire papier + contacts externes
+- 📡 Canaux de communication sûrs (Signal, Protonmail, téléphone)
+- 🔐 Procédures hors SI (clé USB chiffrée, coffre-fort externe)
+- 💻 Postes de crise isolés + connectivité indépendante
+- 📝 Fiche réflexe accessible et à jour
 
-- ✅ Annuaire papier + contacts de secours
-- ✅ Canaux alternatifs sûrs (Signal, Protonmail, téléphone)
-- ✅ Procédures et accès hors SI (clé USB chiffrée, coffre-fort externe)
-- ✅ Ordinateurs propres et connectivité indépendante
-- ✅ Fiche réflexe claire pour basculer vite
+---
+
+Les bonnes pratiques de gestion de crise (préparation, détection, réaction, communication, continuité, retour d’expérience) sont documentées publiquement par l’ANSSI, l’ENISA, le NIST ou l’ISO.
+
+<a href="https://www.pdfprof.com/fr/exercices/gestion+de+crise/guide+anssi+%3A+gestion+de+crise+pour+la+cybers%C3%A9curit%C3%A9/7611#:~:text=Explorez%20le%20guide%20de%20l%27ANSSI%20pour%20la%20gestion,pour%20prot%C3%A9ger%20les%20syst%C3%A8mes%20informatiques%20contre%20les%20cyberattaques." 
+   target="_blank" 
+   style="display:inline-flex;align-items:center;gap:8px;padding:10px 16px;background:#24292f;color:white;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;border-radius:6px;text-decoration:none;transition:background 0.3s;">
+   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 16 16">
+     <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54..."></path>
+   </svg>
+   Guide ANSSI : Gestion de crise
+</a>
 
 ---
 
