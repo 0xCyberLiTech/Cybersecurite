@@ -79,7 +79,7 @@ Assurer la continuité de la communication et de la coordination **sans dépendr
 | Référent Sécurité                  |                       |                  |                  |
 | Prestataire clé                    |                       |                  |                  |
 | Cyber-assureur                     |                       |                  |                  |
-| ANSSI / CERT-FR                    | 0 800 130 000         |                  |                  |
+| ANSSI / CERT-FR                    |                       |                  |                  |
 | Partenaire de confiance (ex : OCD) |                       |                  |                  |
 
 *(À compléter et tenir à jour au format papier et numérique)*
