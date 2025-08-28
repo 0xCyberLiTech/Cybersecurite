@@ -98,7 +98,7 @@ Communiquer, coordonner et décider hors du système compromis, en maintenant la
 - **Document simple (1-2 pages)**, accessible en papier + PDF hors SI, contenant :
   - 📞 Liste contacts prioritaires (DG, DSI, prestataires, assurance, ANSSI).
   - 🔑 Phrase de vérification d’identité.
-  - 📡 Canaux alternatifs prévalidés (Proton Mail, téléphone, salle de crise).
+  - 📡 Canaux alternatifs prévalidés (Signal, Proton, téléphone, salle de crise).
   - 🗂️ Lieux de stockage des procédures et sauvegardes hors-ligne.
   - 🚦 Scénarios simples :  
    - “SI messagerie coupée → bascule sur Proton Mail - https://account.proton.me/mail“ 
