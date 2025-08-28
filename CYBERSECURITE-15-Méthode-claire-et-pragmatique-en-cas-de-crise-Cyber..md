@@ -135,13 +135,8 @@ Assurer la continuité de la gouvernance et la prise de décision en situation d
 
 Les bonnes pratiques de gestion de crise (préparation, détection, réaction, communication, continuité, retour d’expérience) sont documentées publiquement par l’ANSSI, l’ENISA, le NIST ou l’ISO.
 
-<a href="https://www.pdfprof.com/fr/exercices/gestion+de+crise/guide+anssi+%3A+gestion+de+crise+pour+la+cybers%C3%A9curit%C3%A9/7611#:~:text=Explorez%20le%20guide%20de%20l%27ANSSI%20pour%20la%20gestion,pour%20prot%C3%A9ger%20les%20syst%C3%A8mes%20informatiques%20contre%20les%20cyberattaques." 
-   target="_blank" 
-   style="display:inline-flex;align-items:center;gap:8px;padding:10px 16px;background:#24292f;color:white;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;border-radius:6px;text-decoration:none;transition:background 0.3s;">
-   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 16 16">
-     <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54..."></path>
-   </svg>
-   Guide ANSSI : Gestion de crise
+<a href="https://cyber.gouv.fr/anticiper-et-gerer-une-crise-cyber" target="_blank">
+  <img src="https://img.shields.io/badge/Anticiper%20&%20Gérer%20une%20Crise%20Cyber-111?style=for-the-badge&logo=apachecassandra&logoColor=00ff99&labelColor=000" alt="Anticiper & Gérer une Crise Cyber"/>
 </a>
 
 ---
