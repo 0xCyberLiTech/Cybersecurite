@@ -94,12 +94,6 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 ---
 
-### 🛡️ IV. Gestion de crise
-- `15` - [Méthode claire et pragmatique en cas de crise Cyber.](CYBERSECURITE-15-Méthode-claire-et-pragmatique-en-cas-de-crise-Cyber..md)
-- `16` - [Fiche Réflexe – Réseau de Confiance en Cas de Crise Cyber.](CYBERSECURITE-16-Fiche-Réflexe-Réseau-de-Confiance-en-Cas-de-Crise-Cyber..md)
-
----
-
 ### 🔒 Sujets abordés
 
 - ✅ Définitions & concepts fondamentaux
