@@ -57,52 +57,165 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 ---
 
-## 💡 Plan d'apprentissage
-### 🧠 I. Fondamentaux de la cybersécurité
+# 📊 Suivi et Analyse des logs Squid sous Debian 12 & 13
 
-- `01` - [Fiche réflexe (synthèse globale)](CYBERSECURITE-01-FICHE-REFLEX.md)
-- `02` - [Définition de la cybersécurité](CYBERSECURITE-02-definition.md)
-- `03` - [Acronymes clés du domaine](CYBERSECURITE-03-ACRONYMES.md)
+## 🐙 Introduction
 
----
+Squid est un proxy HTTP/HTTPS très utilisé dans les environnements réseau (entreprises, écoles, laboratoires).  
+Il génère des **fichiers de logs** permettant de suivre :
 
-### 💥 II. Menaces : comprendre l’attaque
+- Les requêtes web des utilisateurs  
+- Les performances du cache  
+- Les accès autorisés/refusés  
+- Les erreurs rencontrées  
 
-- `04` - [Kill Chain : les 7 étapes d'une attaque](CYBERSECURITE-04-KILL-CHAIN.md)
-- `05` - [Logiciels malveillants : introduction](CYBERSECURITE-05-LOGICIELS-MALVEILLANTS-introduction.md)
-- `06` - [Techniques de protection contre les malwares](CYBERSECURITE-06-LOGICIELS-MALVEILLANTS-techniques_de_protection.md)
-
----
-
-### 🛡️ III. Outils de défense & contrôle
-#### 🔐 A. Cryptographie
-
-- `07` - [Introduction au chiffrement](CYBERSECURITE-07-CRYPTOGRAPHIE-introduction.md)
-- `08` - [Outils de cryptographie (exemples concrets)](CYBERSECURITE-08-CRYPTOGRAPHIE-OUTILS-Mise-en-pratique-avec-des-outils-concrets.md)
-
-#### 🌐 B. Contrôle réseau
-
-- `09` - [Proxy sortant : introduction](CYBERSECURITE-09-PROXY-INTRODUCTION-Le-rôle-du-proxy-sortant.md)
-- `10` - [Proxy sortant : installation](CYBERSECURITE-10-PROXY-INSTALLATION-Mise-en-œuvre-pratique.md)
-- `11` - [Reverse proxy : introduction](CYBERSECURITE-11-REVERSE-PROXY-INTRODUCTION-Le-rôle-du-proxy-entrant.md)
-- `12` - [Reverse proxy : installation](CYBERSECURITE-12-REVERSE-PROXY-INSTALLATION-Mise-en-œuvre-pratique.md)
-- `12.1 ` - [Reverse proxy : installation](CYBERSECURITE-12-1-PEOXY_Suivi_et_Analyse_des_logs_Squid_sous_Debian_12_&_13.md)
-
-#### 🧩 C. Plateformes de sécurité
-
-- `13` - [EPP, EDR, SIEM, SOAR, XDR : comparatif](CYBERSECURITE-13-EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md)
-- `14` - [EDR (Endpoint Detection and Response)](CYBERSECURITE-14-EDR.md)
+👉 Ces logs se trouvent généralement dans :  
+- `/var/log/squid/access.log` → requêtes des clients  
+- `/var/log/squid/cache.log` → informations système et erreurs  
+- `/var/log/squid/store.log` → gestion du cache  
 
 ---
 
-### 🔒 Sujets abordés
+## 🎯 Pourquoi analyser les logs ?
 
-- ✅ Définitions & concepts fondamentaux
-- ✅ Menaces numériques (kill chain, malwares)
-- ✅ Cryptographie symétrique et asymétrique
-- ✅ Réseau sécurisé (proxies, pare-feux)
-- ✅ Plateformes SIEM/EDR/XDR
-- 🚧 À venir : pentest, forensic, logs avancés...
+- **Audit et sécurité** : détecter des tentatives d’accès suspectes  
+- **Optimisation** : améliorer la configuration du cache  
+- **Suivi d’usage** : savoir quels sites sont consultés et par qui  
+- **Rapports** : statistiques quotidiennes ou mensuelles  
+
+---
+
+## 🔎 Outils pour analyser les logs
+
+### 1. Analyse en temps réel (CLI)
+```bash
+tail -f /var/log/squid/access.log
+less /var/log/squid/access.log
+```
+
+Exemple pour voir les IP actives :
+```bash
+awk '{print $3}' /var/log/squid/access.log | sort | uniq -c | sort -nr | head
+```
+
+---
+
+### 2. SARG (Squid Analysis Report Generator)
+
+- Génère des **rapports HTML** (sites consultés, top utilisateurs, top sites, etc.)  
+- Idéal pour l’audit et le reporting  
+
+**Installation :**
+```bash
+sudo apt update
+sudo apt install sarg -y
+```
+
+**Configuration (/etc/sarg/sarg.conf) :**
+```ini
+access_log /var/log/squid/access.log
+output_dir /var/www/html/squid-reports
+title "Rapport Squid"
+```
+
+**Générer un rapport :**
+```bash
+sudo sarg
+```
+
+**Accéder au rapport :**
+```
+http://<ip-serveur>/squid-reports/
+```
+
+---
+
+### 3. Calamaris
+
+- Rapports texte ou HTML légers  
+- Analyse statistique (hit/miss, temps de réponse)  
+
+**Installation :**
+```bash
+sudo apt install calamaris -y
+```
+
+**Exemple d’analyse :**
+```bash
+cat /var/log/squid/access.log | calamaris -a -w -F html > rapport.html
+```
+
+---
+
+### 4. SquidAnalyzer
+
+- Rapports HTML détaillés avec graphes  
+- Plus moderne que SARG  
+
+**Installation :**
+```bash
+sudo apt install squidanalyzer -y
+```
+
+**Fichier de config :**
+`/etc/squidanalyzer/squidanalyzer.conf`
+
+**Analyse :**
+```bash
+sudo squidanalyzer
+```
+
+Rapports disponibles dans `/var/lib/squidanalyzer/www/`.
+
+---
+
+### 5. Centralisation avancée (Graylog / ELK)
+
+- Collecte via `rsyslog` → Elasticsearch  
+- Dashboards avec Kibana ou Graylog  
+- Idéal pour supervision temps réel + alertes  
+
+---
+
+## 📝 TP : Installation & Utilisation de SARG
+
+1. Installer Squid et générer des logs :  
+```bash
+sudo apt install squid -y
+```
+
+2. Installer SARG :  
+```bash
+sudo apt install sarg -y
+```
+
+3. Configurer le fichier :  
+```bash
+sudo nano /etc/sarg/sarg.conf
+```
+- Vérifier `access_log /var/log/squid/access.log`  
+- Définir `output_dir /var/www/html/squid-reports`  
+
+4. Générer un rapport :  
+```bash
+sudo sarg
+```
+
+5. Consulter dans un navigateur :  
+```
+http://<serveur>/squid-reports/
+```
+
+---
+
+## ✅ Conclusion
+
+- **Suivi rapide CLI** → tail, awk, grep  
+- **Analyse simple HTML** → SARG, Calamaris  
+- **Analyse avancée** → SquidAnalyzer  
+- **Dashboards modernes** → ELK / Graylog  
+
+👉 Recommandation : commencer par **SARG** (facile, visuel) puis évoluer vers **SquidAnalyzer** ou un SIEM (Graylog/ELK) selon les besoins.
 
 ---
 
