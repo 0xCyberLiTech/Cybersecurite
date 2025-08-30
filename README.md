@@ -86,13 +86,9 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 - `10` - [Proxy sortant : installation](CYBERSECURITE-10-PROXY-INSTALLATION-Mise-en-œuvre-pratique.md)
 - `11` - [Reverse proxy : introduction](CYBERSECURITE-11-REVERSE-PROXY-INTRODUCTION-Le-rôle-du-proxy-entrant.md)
 - `12` - [Reverse proxy : installation](CYBERSECURITE-12-REVERSE-PROXY-INSTALLATION-Mise-en-œuvre-pratique.md)
-<<<<<<< HEAD
 - `12.1 ` - [Reverse proxy / proxy : analyse des logs ](CYBERSECURITE-12-1-PROXY_Suivi_et_Analyse_des_logs_Squid_sous_Debian_12_&_13.md)
 - `12.2 ` - [Reverse proxy / proxy : installation & Utilisation de SquidAnalyzer](CYBERSECURITE-12-2-Installation-&-Utilisation-de-SquidAnalyzer-Debian-12-&-13.md)
 CYBERSECURITE-12-2-Installation-&-Utilisation-de-SquidAnalyzer-Debian-12-&-13.md
-=======
-- `12.1 ` - [Proxy / reverse proxy : suivi et Analyse des_logs](CYBERSECURITE-12-1-PEOXY_Suivi_et_Analyse_des_logs_Squid_sous_Debian_12_&_13.md)
->>>>>>> c90c4de7960a7f8f68fa073363e66d6cfb580ec6
 
 #### 🧩 C. Plateformes de sécurité
 
