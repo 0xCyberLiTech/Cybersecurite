@@ -57,20 +57,203 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 ---
 
-## 🛠️ 12 - **Reverse-Proxy, installation :**
+## 🧪 12 - **Mise en place d’un Reverse Proxy avec Apache (Debian 12 & 13) :**
 
-L’implémentation varie selon la taille de l’infrastructure et les besoins spécifiques (sécurité, performance, haute disponibilité).
+## 🎯 Objectifs pédagogiques
+- Comprendre le rôle d’un reverse proxy.  
+- Installer et configurer Apache comme reverse proxy.  
+- Mettre en place deux applications web internes et les publier via un seul serveur proxy.  
+- Sécuriser l’accès avec HTTPS (Let’s Encrypt).  
 
-### 🛠️ Étapes typiques :
+---
 
-- Choix d’une solution : Nginx (ultra flexible), HAProxy (très performant pour les architectures complexes).
-- Configuration des back-ends : définition des serveurs à interroger selon les URL ou les sessions.
-- Déploiement SSL : ajout de certificats pour chiffrer les échanges.
-- Surveillance et logs : suivi des performances, des erreurs, et des attaques potentielles.
-  
-### 🧠 En pratique :
+## 📦 Matériel requis
+- 1 VM **Debian 12/13** (servira de **reverse proxy**).  
+- 2 VM/containers applicatifs internes (exemple : serveurs web simples).  
+- Accès Internet et DNS (ou fichier `/etc/hosts` pour simuler les noms).  
 
-Sur un serveur Nginx, on peut facilement rediriger les requêtes /api vers un serveur Node.js, et les requêtes / vers un CMS hébergé ailleurs.
+---
+
+## 📝 Schéma du scénario
+
+```
+          🌍 Client (navigateur)
+                    |
+           Requête HTTP/HTTPS
+                    |
+          +-------------------+
+          |   Reverse Proxy   |  (192.168.56.100)
+          |   Apache Debian   |
+          +-------------------+
+           /               \
+          /                 \
+   app1.exemple.com     app2.exemple.com
+  (proxy → 8080)        (proxy → 5000)
+       |                     |
++---------------+     +---------------+
+| Serveur App1  |     | Serveur App2  |
+| 192.168.56.10 |     | 192.168.56.20 |
+|   Apache 8080 |     |   Flask 5000  |
++---------------+     +---------------+
+```
+
+---
+
+## 📝 Scénario concret
+- Application 1 (Apache interne) → **192.168.56.10:8080**  
+- Application 2 (Python Flask) → **192.168.56.20:5000**  
+- Reverse Proxy Debian → **192.168.56.100**  
+- Noms de domaine :  
+  - `app1.exemple.com` → redirige vers 192.168.56.10:8080  
+  - `app2.exemple.com` → redirige vers 192.168.56.20:5000  
+
+---
+
+## 🔹 Étape 1 : Préparation du Reverse Proxy
+
+Mettre à jour le système :
+
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+
+Installer Apache et modules proxy :
+
+```bash
+sudo apt install apache2 -y
+sudo a2enmod proxy proxy_http rewrite headers ssl
+sudo systemctl restart apache2
+```
+
+Vérifier que Apache est actif :
+
+```bash
+systemctl status apache2
+```
+
+---
+
+## 🔹 Étape 2 : Simuler deux applications internes
+
+### Serveur App1 (port 8080) :
+
+```bash
+sudo apt install apache2 -y
+sudo sed -i 's/Listen 80/Listen 8080/' /etc/apache2/ports.conf
+echo "<h1>Bienvenue sur App1</h1>" | sudo tee /var/www/html/index.html
+sudo systemctl restart apache2
+```
+
+Test :  
+```bash
+curl http://192.168.56.10:8080
+```
+
+---
+
+### Serveur App2 (port 5000, Flask) :
+
+```bash
+sudo apt install python3-flask -y
+cat << 'EOF' > app.py
+from flask import Flask
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "<h1>Bienvenue sur App2</h1>"
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
+EOF
+
+python3 app.py
+```
+
+Test :  
+```bash
+curl http://192.168.56.20:5000
+```
+
+---
+
+## 🔹 Étape 3 : Configuration du Reverse Proxy
+
+Créer le fichier de configuration :
+
+```bash
+sudo nano /etc/apache2/sites-available/reverseproxy.conf
+```
+
+Contenu :
+
+```apache
+<VirtualHost *:80>
+    ServerName app1.exemple.com
+
+    ProxyPreserveHost On
+    ProxyPass / http://192.168.56.10:8080/
+    ProxyPassReverse / http://192.168.56.10:8080/
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerName app2.exemple.com
+
+    ProxyPreserveHost On
+    ProxyPass / http://192.168.56.20:5000/
+    ProxyPassReverse / http://192.168.56.20:5000/
+</VirtualHost>
+```
+
+Activation :
+
+```bash
+sudo a2ensite reverseproxy.conf
+sudo systemctl reload apache2
+```
+
+---
+
+## 🔹 Étape 4 : Tests
+
+Modifier `/etc/hosts` (si pas de DNS) :
+
+```
+192.168.56.100 app1.exemple.com
+192.168.56.100 app2.exemple.com
+```
+
+Vérification :
+
+```bash
+curl http://app1.exemple.com
+curl http://app2.exemple.com
+```
+
+---
+
+## 🔹 Étape 5 : HTTPS avec Let’s Encrypt
+
+Installer Certbot :
+
+```bash
+sudo apt install certbot python3-certbot-apache -y
+```
+
+Configurer SSL :
+
+```bash
+sudo certbot --apache -d app1.exemple.com -d app2.exemple.com
+```
+
+---
+
+## 🎓 Questions / Validation
+1. Différence entre **proxy sortant** et **reverse proxy** ?  
+2. Pourquoi centraliser **SSL/TLS** au niveau du reverse proxy ?  
+3. Sous-domaines ou sous-répertoires : quel choix pour ton projet ?  
+4. Comment ajouter une **authentification** sur `app2.exemple.com` ?  
+5. À quoi sert `ProxyPreserveHost On` ?  
 
 ---
 
