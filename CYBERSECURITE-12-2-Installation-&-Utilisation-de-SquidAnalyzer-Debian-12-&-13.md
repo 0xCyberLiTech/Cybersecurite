@@ -57,8 +57,8 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 ---
 
-## 📝 TP : Installation & Utilisation de SquidAnalyzer (Debian 12 & 13)
-## 🎯 Objectifs
+## 📝 Installation & Utilisation de SquidAnalyzer (Debian 12 & 13)
+
 - Installer **SquidAnalyzer**  
 - Configurer l’outil pour analyser les logs Squid  
 - Générer et consulter un **rapport HTML**  
