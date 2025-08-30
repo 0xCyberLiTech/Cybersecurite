@@ -57,51 +57,128 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 ---
 
-# 🔐 Cryptographie, outils mise en pratiqu :
+# 📘 Cryptographie & Outils pratiques sous Debian 12 & 13
 
-## 📘 Définition
-La cryptographie est une branche des mathématiques et de l'informatique qui permet de **protéger des informations** en les rendant **inaccessibles sans autorisation**. Elle garantit :
-- **Confidentialité** : empêche les tiers de lire les données
-- **Authenticité** : vérifie l'identité de l'émetteur
-- **Intégrité** : assure que les données n'ont pas été modifiées
-- **Non-répudiation** : l'auteur ne peut nier son action
+## 1. Installation des outils de base :
 
----
+Sur Debian 12 (Bookworm) et Debian 13 (Trixie), les paquets nécessaires sont disponibles dans les dépôts officiels :
 
-## 🧰 Outils concrets de mise en pratique
+```bash
+sudo apt update
+sudo apt install gpg openssl age python3-cryptography -y
+```
 
-### 1. GPG / PGP (GNU Privacy Guard / Pretty Good Privacy)
-- Chiffrement et signature de fichiers ou d’emails
-- Utilise des **clés asymétriques** (publique/privée)
-- Exemple : chiffrer un fichier texte, signer numériquement un document
-
-### 2. VeraCrypt
-- Chiffrement de disques ou de partitions
-- Création de volumes sécurisés (conteneurs chiffrés)
-- Protection de données sur PC ou clé USB
-
-### 3. Wireshark + HTTPS
-- Analyse des communications réseau
-- Observation du chiffrement **TLS** utilisé par HTTPS pour sécuriser les échanges
-
-### 4. OpenSSL
-- Génération de clés, certificats, connexions sécurisées
-- Utilisation dans des scripts ou des projets web pour simuler des opérations cryptographiques
-
-### 5. Cryptool
-- Logiciel éducatif pour expérimenter différentes techniques de cryptographie
-- Visualisation d'algorithmes (AES, RSA, etc.) et démonstration d'attaques
+- **GnuPG (gpg)** → gestion de clés, chiffrement asymétrique, signatures.  
+- **OpenSSL** → primitives cryptographiques, certificats SSL/TLS.  
+- **age** → outil moderne de chiffrement symétrique et asymétrique, simple d’utilisation.  
+- **Python3 + cryptography** → scripts pédagogiques pour expérimenter les algorithmes.  
 
 ---
 
-## 💡 Exemples pratiques d’utilisation
+## 2. Travaux pratiques
 
-| Cas d’usage               | Outil recommandé   | Objectif                          |
-|--------------------------|--------------------|-----------------------------------|
-| Envoi sécurisé d’e-mails | GPG + Thunderbird  | Chiffrer et signer les messages   |
-| Protéger un dossier      | VeraCrypt           | Créer un conteneur chiffré       |
-| Apprendre les algorithmes| CryptoTool          | Simulation et compréhension       |
-| Générer un certificat TLS| OpenSSL             | Sécuriser un serveur web          |
+### 🔑 2.1 Chiffrement symétrique avec OpenSSL
+```bash
+echo "Message secret" > message.txt
+openssl enc -aes-256-cbc -pbkdf2 -in message.txt -out message.enc
+openssl enc -d -aes-256-cbc -pbkdf2 -in message.enc -out message_dechiffre.txt
+```
+👉 Démonstration : même clé pour chiffrer et déchiffrer.  
+
+---
+
+### 🔐 2.2 Chiffrement asymétrique avec GnuPG
+```bash
+gpg --full-generate-key
+gpg --list-keys
+gpg --armor --export <identité> > cle_pub.asc
+gpg -e -r <identité> message.txt
+gpg -d message.txt.gpg > clair.txt
+```
+👉 Démonstration : clé publique pour chiffrer, clé privée pour déchiffrer.  
+
+---
+
+### 🧩 2.3 Hachage et intégrité
+```bash
+sha256sum message.txt
+openssl dgst -sha512 message.txt
+```
+👉 Démonstration : modification du fichier → hash complètement différent.  
+
+---
+
+### ✍️ 2.4 Signature numérique avec GPG
+```bash
+gpg --sign message.txt
+gpg --verify message.txt.gpg
+```
+👉 Démonstration : prouve l’identité de l’expéditeur et l’intégrité du fichier.  
+
+---
+
+### 🔏 2.5 Certificats auto-signés avec OpenSSL
+```bash
+openssl genrsa -out serveur.key 2048
+openssl req -new -x509 -key serveur.key -out serveur.crt -days 365
+openssl x509 -in serveur.crt -text -noout
+```
+👉 Démonstration : rôle des certificats dans HTTPS et importance des autorités de certification.  
+
+---
+
+### ⚡ 2.6 Chiffrement moderne avec age
+```bash
+age-keygen -o ma_cle.txt
+cat ma_cle.txt
+age -r <cle_publique> -o secret.age message.txt
+age -d -i ma_cle.txt secret.age > message_dechiffre.txt
+```
+👉 Avantage : outil simple, moderne, très pédagogique.  
+
+---
+
+### 🐍 2.7 Cryptographie avec Python3
+Petit script pour illustrer le chiffrement symétrique (Fernet) :
+
+```python
+from cryptography.fernet import Fernet
+
+# Génération d'une clé
+key = Fernet.generate_key()
+cipher = Fernet(key)
+
+# Message
+message = b"Bonjour Debian 12 et 13"
+chiffre = cipher.encrypt(message)
+print("Chiffré :", chiffre)
+
+# Déchiffrement
+dechiffre = cipher.decrypt(chiffre)
+print("Déchiffré :", dechiffre.decode())
+```
+
+👉 Démonstration : lien entre théorie et pratique en programmation.  
+
+---
+
+## 3. TP récapitulatif (Alice & Bob)
+🎯 **Projet pédagogique complet :**  
+1. Alice génère sa paire de clés GPG.  
+2. Bob fait de même.  
+3. Ils échangent leurs clés publiques.  
+4. Bob envoie un fichier chiffré à Alice avec la clé publique d’Alice.  
+5. Alice déchiffre avec sa clé privée.  
+6. Alice renvoie un accusé de réception signé.  
+7. Bob vérifie la signature.  
+
+---
+
+## 4. Ressources pédagogiques
+- 📖 [The GNU Privacy Handbook](https://www.gnupg.org/gph/en/manual.html)  
+- 📖 [OpenSSL Cookbook](https://www.feistyduck.com/library/openssl-cookbook/)  
+- 📖 [Crypto 101](https://crypto101.io/)  
+- 📦 Paquet `python3-cryptography` : <https://cryptography.io/>  
 
 ---
 
