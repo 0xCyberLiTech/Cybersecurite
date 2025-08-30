@@ -58,8 +58,7 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 ---
 
 ## 🧭 09 - **Proxy introduction, le rôle du proxy sortant :**.
-
-# 🌐 Introduction au Proxy
+## 🌐 Introduction au Proxy
 
 Un **proxy** est comme un **intermédiaire** entre ton ordinateur et Internet.  
 Imagine : au lieu de parler directement à un site web, ton ordinateur **parle d’abord au proxy**, qui se charge ensuite de transmettre le message au site.  
