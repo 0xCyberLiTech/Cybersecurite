@@ -57,54 +57,133 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 ---
 
-## 💡 Plan d'apprentissage
-### 🧠 I. Fondamentaux de la cybersécurité
-
-- `01` - [Fiche réflexe (synthèse globale)](CYBERSECURITE-01-FICHE-REFLEX.md)
-- `02` - [Définition de la cybersécurité](CYBERSECURITE-02-definition.md)
-- `03` - [Acronymes clés du domaine](CYBERSECURITE-03-ACRONYMES.md)
-
----
-
-### 💥 II. Menaces : comprendre l’attaque
-
-- `04` - [Kill Chain : les 7 étapes d'une attaque](CYBERSECURITE-04-KILL-CHAIN.md)
-- `05` - [Logiciels malveillants : introduction](CYBERSECURITE-05-LOGICIELS-MALVEILLANTS-introduction.md)
-- `06` - [Techniques de protection contre les malwares](CYBERSECURITE-06-LOGICIELS-MALVEILLANTS-techniques_de_protection.md)
+## 📝 TP : Installation & Utilisation de SquidAnalyzer (Debian 12 & 13)
+## 🎯 Objectifs
+- Installer **SquidAnalyzer**  
+- Configurer l’outil pour analyser les logs Squid  
+- Générer et consulter un **rapport HTML**  
 
 ---
 
-### 🛡️ III. Outils de défense & contrôle
-#### 🔐 A. Cryptographie
+## 1️⃣ Installation de Squid et génération de logs
 
-- `07` - [Introduction au chiffrement](CYBERSECURITE-07-CRYPTOGRAPHIE-introduction.md)
-- `08` - [Outils de cryptographie (exemples concrets)](CYBERSECURITE-08-CRYPTOGRAPHIE-OUTILS-Mise-en-pratique-avec-des-outils-concrets.md)
+Si Squid n’est pas déjà installé :  
+```bash
+sudo apt update
+sudo apt install squid -y
+```
 
-#### 🌐 B. Contrôle réseau
+Vérification du service :  
+```bash
+systemctl status squid
+```
 
-- `09` - [Proxy sortant : introduction](CYBERSECURITE-09-PROXY-INTRODUCTION-Le-rôle-du-proxy-sortant.md)
-- `10` - [Proxy sortant : installation](CYBERSECURITE-10-PROXY-INSTALLATION-Mise-en-œuvre-pratique.md)
-- `11` - [Reverse proxy : introduction](CYBERSECURITE-11-REVERSE-PROXY-INTRODUCTION-Le-rôle-du-proxy-entrant.md)
-- `12` - [Reverse proxy : installation](CYBERSECURITE-12-REVERSE-PROXY-INSTALLATION-Mise-en-œuvre-pratique.md)
-- `12.1 ` - [Reverse proxy / proxy : analyse des logs ](CYBERSECURITE-12-1-PROXY_Suivi_et_Analyse_des_logs_Squid_sous_Debian_12_&_13.md)
-- `12.2 ` - [Reverse proxy / proxy : installation & Utilisation de SquidAnalyzer](CYBERSECURITE-12-2-Installation-&-Utilisation-de-SquidAnalyzer-Debian-12-&-13.md)
-CYBERSECURITE-12-2-Installation-&-Utilisation-de-SquidAnalyzer-Debian-12-&-13.md
-
-#### 🧩 C. Plateformes de sécurité
-
-- `13` - [EPP, EDR, SIEM, SOAR, XDR : comparatif](CYBERSECURITE-13-EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md)
-- `14` - [EDR (Endpoint Detection and Response)](CYBERSECURITE-14-EDR.md)
+👉 Les logs sont générés par défaut dans :  
+- `/var/log/squid/access.log`  
 
 ---
 
-### 🔒 Sujets abordés
+## 2️⃣ Installation de SquidAnalyzer
 
-- ✅ Définitions & concepts fondamentaux
-- ✅ Menaces numériques (kill chain, malwares)
-- ✅ Cryptographie symétrique et asymétrique
-- ✅ Réseau sécurisé (proxies, pare-feux)
-- ✅ Plateformes SIEM/EDR/XDR
-- 🚧 À venir : pentest, forensic, logs avancés...
+```bash
+sudo apt install squidanalyzer -y
+```
+
+Cela installe :  
+- le binaire `squidanalyzer`  
+- la config par défaut : `/etc/squidanalyzer/squidanalyzer.conf`  
+- le répertoire des rapports : `/var/lib/squidanalyzer/www/`  
+
+---
+
+## 3️⃣ Configuration de SquidAnalyzer
+
+Éditer le fichier de configuration :  
+```bash
+sudo nano /etc/squidanalyzer/squidanalyzer.conf
+```
+
+Paramètres importants :  
+```ini
+# Fichier de log de Squid
+LogFile /var/log/squid/access.log
+
+# Répertoire de sortie des rapports
+OutputDir /var/lib/squidanalyzer/www
+
+# Titre du rapport
+Title "Rapports SquidAnalyzer"
+```
+
+👉 Vérifier que l’utilisateur `squidanalyzer` a les droits de lecture sur `/var/log/squid/access.log` :  
+```bash
+sudo usermod -aG proxy squidanalyzer
+sudo chmod 640 /var/log/squid/access.log
+sudo chown proxy:proxy /var/log/squid/access.log
+```
+
+---
+
+## 4️⃣ Génération d’un premier rapport
+
+```bash
+sudo squidanalyzer
+```
+
+Les rapports HTML sont générés dans :  
+```
+/var/lib/squidanalyzer/www/
+```
+
+👉 Ils sont organisés par **année/mois/jour** avec statistiques détaillées.  
+
+---
+
+## 5️⃣ Automatisation avec CRON
+
+Pour générer automatiquement les rapports tous les jours à 23h :  
+```bash
+sudo crontab -e
+```
+
+Ajouter :  
+```
+0 23 * * * /usr/bin/squidanalyzer > /dev/null 2>&1
+```
+
+---
+
+## 6️⃣ Consultation du rapport
+
+Si ton serveur a un serveur web (Apache/Nginx), créer un lien symbolique :  
+```bash
+sudo ln -s /var/lib/squidanalyzer/www /var/www/html/squidanalyzer
+```
+
+Accéder ensuite via un navigateur :  
+```
+http://<ip-serveur>/squidanalyzer/
+```
+
+---
+
+## ✅ Résultats attendus
+
+- **Tableaux détaillés** : top sites, top utilisateurs, temps de réponse  
+- **Graphiques dynamiques** : répartition du trafic par heure/jour  
+- **Suivi global** : trafic entrant/sortant et utilisation du proxy  
+
+---
+
+## 🔎 Comparaison rapide
+
+| Outil          | Points forts 🚀 | Limites ⚠️ |
+|----------------|-----------------|-------------|
+| **SARG**       | Simple, rapide, HTML clair | Graphiques limités |
+| **Calamaris**  | Très léger, rapide | Peu visuel |
+| **SquidAnalyzer** | Rapports détaillés, avec graphes | Plus lourd, Perl requis |
+
+👉 Pour un usage moderne et visuel : **SquidAnalyzer est recommandé**.
 
 ---
 
