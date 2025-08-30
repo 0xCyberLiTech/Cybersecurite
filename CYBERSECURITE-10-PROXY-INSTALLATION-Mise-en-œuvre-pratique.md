@@ -57,20 +57,157 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 ---
 
-## 🔧 10 **Proxy installation, mise en oeuvre :**
+## 📘 10 **Installation et configuration d'un proxy sortant (Squid) sur Debian 12 & 13 :**
+## 📋 Prérequis
 
-L’installation d’un proxy implique le déploiement d’un logiciel ou d’un équipement dédié, sa configuration réseau, et l’application des règles d’usage.
+-   Un serveur Debian 12 (Bookworm) ou Debian 13 (Trixie) à jour
+-   Un accès administrateur (`sudo`)
+-   Un réseau local (LAN) qui utilisera ce proxy
 
-### 🛠️ Étapes typiques :
+------------------------------------------------------------------------
 
-- Choix d’un outil : Squid (très populaire pour les systèmes Linux), Varnish (plutôt pour l’optimisation HTTP).
-- Paramétrage des règles de filtrage : par adresse IP, horaire, URL, type de contenu.
-- Redirection du trafic : configuration des navigateurs ou du routeur pour que les requêtes passent par le proxy.
-- Gestion des logs : activation de la journalisation pour la traçabilité.
+## 🔹 Étape 1 : Mettre à jour le système
 
-### 💡 Astuce :
+``` bash
+sudo apt update && sudo apt upgrade -y
+```
 
-La configuration d’un proxy transparent (pas besoin de le spécifier dans le navigateur) facilite son intégration dans de grands réseaux.
+------------------------------------------------------------------------
+
+## 🔹 Étape 2 : Installer Squid
+
+``` bash
+sudo apt install squid -y
+```
+
+------------------------------------------------------------------------
+
+## 🔹 Étape 3 : Sauvegarder la configuration par défaut
+
+Avant toute modification :
+
+``` bash
+sudo cp /etc/squid/squid.conf /etc/squid/squid.conf.backup
+```
+
+------------------------------------------------------------------------
+
+## 🔹 Étape 4 : Configurer Squid
+
+Éditer le fichier principal :
+
+``` bash
+sudo nano /etc/squid/squid.conf
+```
+
+### a) Port d'écoute
+
+Vérifier ou modifier la ligne :
+
+    http_port 3128
+
+### b) Autoriser ton réseau local
+
+Ajouter, par exemple pour le réseau `192.168.1.0/24` :
+
+    acl localnet src 192.168.1.0/24
+    http_access allow localnet
+    http_access allow localhost
+
+Puis bloquer tout le reste :
+
+    http_access deny all
+
+### c) (Optionnel) Mode transparent
+
+Pour intercepter automatiquement le trafic HTTP :
+
+    http_port 3128 transparent
+
+⚠️ Nécessite aussi une règle de pare-feu (iptables/nftables).
+
+------------------------------------------------------------------------
+
+## 🔹 Étape 5 : Redémarrer Squid
+
+``` bash
+sudo systemctl restart squid
+sudo systemctl enable squid
+```
+
+Vérifier :
+
+``` bash
+systemctl status squid
+```
+
+------------------------------------------------------------------------
+
+## 🔹 Étape 6 : Configurer les clients
+
+Sur les machines clientes, définir : - IP du serveur Debian (ex :
+`192.168.1.10`) - Port `3128`
+
+Test avec `curl` :
+
+``` bash
+curl -x http://192.168.1.10:3128 http://ifconfig.me
+```
+
+------------------------------------------------------------------------
+
+## 🔹 Étape 7 : (Optionnel) Authentification par utilisateur
+
+### a) Installer l'outil d'authentification
+
+``` bash
+sudo apt install apache2-utils -y
+```
+
+### b) Créer un utilisateur
+
+``` bash
+sudo htpasswd -c /etc/squid/passwd user1
+```
+
+👉 Ajouter d'autres utilisateurs avec :
+
+``` bash
+sudo htpasswd /etc/squid/passwd user2
+```
+
+### c) Modifier `squid.conf`
+
+Ajouter :
+
+    auth_param basic program /usr/lib/squid/basic_ncsa_auth /etc/squid/passwd
+    auth_param basic realm Proxy_Auth
+    acl authenticated proxy_auth REQUIRED
+    http_access allow authenticated
+
+### d) Redémarrer
+
+``` bash
+sudo systemctl restart squid
+```
+
+------------------------------------------------------------------------
+
+## 🔹 Étape 8 : Vérification des logs
+
+Les connexions sortantes sont enregistrées dans :
+
+    /var/log/squid/access.log
+
+------------------------------------------------------------------------
+
+## ✅ Résumé
+
+-   **Port par défaut** : `3128`
+-   **Fichier de configuration** : `/etc/squid/squid.conf`
+-   **Authentification optionnelle** via `htpasswd`
+-   **Logs** : `/var/log/squid/access.log`
+-   Compatible **Debian 12 (Bookworm)** et **Debian 13 (Trixie)**
 
 ---
 
