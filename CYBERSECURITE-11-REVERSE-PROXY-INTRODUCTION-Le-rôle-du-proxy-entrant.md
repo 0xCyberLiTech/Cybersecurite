@@ -57,20 +57,46 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 ---
 
-## 🛡️ 11 - **Reverse-Proxy, introduction :**
+## 🛡️ 11 - **Introduction au Reverse Proxy :**
 
-Un reverse-proxy se place en façade d’un ou plusieurs serveurs applicatifs. Contrairement au proxy classique, il gère les flux entrants.
+Un **reverse proxy** (ou proxy inverse en français) est un **serveur intermédiaire** placé entre les clients (utilisateurs) et un ou plusieurs serveurs applicatifs (backend). Contrairement à un proxy classique (ou "forward proxy"), qui agit pour le compte du client vers Internet, le reverse proxy agit pour le compte des serveurs vers les clients.  
 
-### 🎯 Fonctions clés :
+## ⚙️ Fonctionnement général
+- Le client (navigateur, application, API, etc.) envoie une requête vers une adresse publique (par ex. `https://mon-site.fr`).
+- Cette requête arrive d’abord sur le **reverse proxy**.
+- Le reverse proxy décide ensuite vers quel serveur backend transmettre la requête (ex. `serveur-web1`, `serveur-web2`).
+- Le serveur backend répond au reverse proxy, qui transmet enfin la réponse au client.
 
-- Répartition de charge : distributeur de trafic entre plusieurs serveurs pour éviter la saturation.
-- Sécurité renforcée : inspection des requêtes et application de règles avant qu’elles n’atteignent les serveurs.
-- Anonymisation : les serveurs en arrière-plan ne sont jamais exposés directement.
-- SSL offloading : le reverse-proxy peut gérer le chiffrement, soulageant les serveurs applicatifs.
+## 🔑 Rôles principaux d’un reverse proxy
+1. **Répartition de charge (load balancing)**  
+   - Distribue le trafic entre plusieurs serveurs backend afin d’améliorer les performances et la disponibilité.
 
-### 🧪 Exemple :
+2. **Sécurité**  
+   - Masque l’adresse IP réelle des serveurs internes.  
+   - Filtre le trafic entrant (pare-feu applicatif, protection DDoS, règles de sécurité).  
+   - Gère le chiffrement SSL/TLS (terminaison HTTPS).
 
-Un site e-commerce utilise un reverse-proxy pour distribuer les requêtes entre trois serveurs web et deux serveurs d’API. Cela permet de garantir rapidité, sécurité et tolérance aux pannes.
+3. **Caching**  
+   - Peut stocker en cache certaines réponses (images, fichiers statiques, pages HTML) pour réduire la charge des serveurs backend et accélérer la réponse.
+
+4. **Compression & Optimisation**  
+   - Compresse les données avant de les envoyer au client pour réduire la bande passante.  
+   - Peut aussi réécrire les en-têtes HTTP.
+
+5. **Redirection et réécriture d’URL**  
+   - Permet de rediriger les requêtes vers des backends spécifiques en fonction des chemins ou des domaines (ex. `api.monsite.fr` → serveur API, `www.monsite.fr` → serveur web).
+
+## 🖥️ Exemples concrets
+- **NGINX** et **Apache HTTP Server** : très utilisés comme reverse proxy web.  
+- **HAProxy** : spécialisé dans la haute disponibilité et la répartition de charge.  
+- **Traefik** ou **Envoy** : reverse proxies modernes adaptés aux microservices et environnements Docker/Kubernetes.  
+
+## 📊 Différence avec un proxy classique
+| **Proxy direct (Forward Proxy)** | **Reverse Proxy** |
+|----------------------------------|-------------------|
+| Placé côté client                | Placé côté serveur |
+| Cache et filtre les requêtes **sortantes** | Gère et sécurise les requêtes **entrantes** |
+| Exemple : accès Internet d’entreprise via proxy | Exemple : NGINX devant un site web |
 
 ---
 
