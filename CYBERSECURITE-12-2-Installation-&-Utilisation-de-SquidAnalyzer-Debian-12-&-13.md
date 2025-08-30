@@ -177,10 +177,10 @@ http://<ip-serveur>/squidanalyzer/
 
 ## 🔎 Comparaison rapide
 
-| Outil          | Points forts 🚀 | Limites ⚠️ |
-|----------------|-----------------|-------------|
-| **SARG**       | Simple, rapide, HTML clair | Graphiques limités |
-| **Calamaris**  | Très léger, rapide | Peu visuel |
+| Outil             | Points forts                     | Limites                 |
+|-------------------|----------------------------------|-------------------------|
+| **SARG**          | Simple, rapide, HTML clair       | Graphiques limités      |
+| **Calamaris**     | Très léger, rapide               | Peu visuel              |
 | **SquidAnalyzer** | Rapports détaillés, avec graphes | Plus lourd, Perl requis |
 
 👉 Pour un usage moderne et visuel : **SquidAnalyzer est recommandé**.
