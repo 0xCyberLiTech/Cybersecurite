@@ -88,12 +88,13 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 - `12` - [Reverse proxy : installation](CYBERSECURITE-12-REVERSE-PROXY-INSTALLATION-Mise-en-œuvre-pratique.md)
 - `12.1 ` - [Introduction : analyse des logs ](CYBERSECURITE-12-1-PROXY_Suivi_et_Analyse_des_logs_Squid_sous_Debian_12_&_13.md)
 - `12.2 ` - [Installation & Utilisation : SquidAnalyzer](CYBERSECURITE-12-2-Installation-&-Utilisation-de-SquidAnalyzer-Debian-12-&-13.md)
-- `12.3 ` - [Installation & Utilisation : Wazuh](CYBERSECURITE-12-3-guide-Wazuh-Debian12-13.md)
+
 
 #### 🧩 C. Plateformes de sécurité
 
 - `13` - [EPP, EDR, SIEM, SOAR, XDR : comparatif](CYBERSECURITE-13-EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md)
 - `14` - [EDR (Endpoint Detection and Response)](CYBERSECURITE-14-EDR.md)
+- `15` - [Installation & Utilisation : Wazuh](CYBERSECURITE-15-TP-install-Wazuh-Debian12-13.md)
 
 ---
 
