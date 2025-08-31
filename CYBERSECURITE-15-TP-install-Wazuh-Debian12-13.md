@@ -44,6 +44,19 @@
 
 ---
 
+## 🚀 À propos & Objectifs
+
+Ce projet propose des solutions innovantes et accessibles en cybersécurité, avec une approche centrée sur la simplicité d’utilisation et l’efficacité. Il vise à accompagner les utilisateurs dans la protection de leurs données et systèmes, tout en favorisant l’apprentissage et le partage des connaissances.
+
+Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoins de :
+- 🎓 Étudiants : approfondir les connaissances
+- 👨‍💻 Professionnels IT : outils et pratiques
+- 🖥️ Administrateurs système : sécuriser l’infrastructure
+- 🛡️ Experts cybersécurité : ressources techniques
+- 🚀 Passionnés du numérique : explorer les bonnes pratiques
+
+---
+
 # 🛡️ TP — Wazuh : Installation et Tests en Lab (Debian 12 & 13)
 
 > **Licence :** Wazuh est 100% **gratuit et open-source** (GPLv2 / Apache 2.0).  
