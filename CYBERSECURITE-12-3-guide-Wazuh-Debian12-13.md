@@ -62,7 +62,8 @@
   - Réponse active (blocage IP, alertes).  
 
 **Architecture simplifiée :**  
-![Architecture Wazuh](https://documentation.wazuh.com/current/_images/architecture.png)
+
+![Architecture Wazuh](https://documentation.wazuh.com/current/_images/deployment-architecture1.png)
 
 ---
 
