@@ -94,7 +94,7 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 - `13` - [EPP, EDR, SIEM, SOAR, XDR : comparatif](CYBERSECURITE-13-EPP-EDR-SIEM-SOAR-et-XDR-comprendre-la-différence-entre-ces-acronymes.md)
 - `14` - [EDR (Endpoint Detection and Response)](CYBERSECURITE-14-EDR.md)
-- `15 ` - [Installation & Utilisation : Wazuh](CYBERSECURITE-15-TP-install-Wazuh-Debian12-13.md)
+- `15` - [Installation & Utilisation : Wazuh](CYBERSECURITE-15-TP-install-Wazuh-Debian12-13.md)
 
 ---
 
