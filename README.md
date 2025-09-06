@@ -42,7 +42,11 @@
 
 ---
 
-## 🚀 À propos & Objectifs
+<div align="center">
+  
+## À propos & Objectifs.
+
+</div>
 
 Ce projet propose des solutions innovantes et accessibles en cybersécurité, avec une approche centrée sur la simplicité d’utilisation et l’efficacité. Il vise à accompagner les utilisateurs dans la protection de leurs données et systèmes, tout en favorisant l’apprentissage et le partage des connaissances.
 
